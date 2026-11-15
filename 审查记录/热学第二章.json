@@ -1,0 +1,2734 @@
+{
+  "单元": "热学第二章",
+  "题数": 25,
+  "分章文件_SHA256": {
+    "热学第二章_学生版.pdf": "4cb16df225249cd75b909b74eb8fc38d8edc06d6d019f114d241638e0b96f0bc",
+    "热学第二章_学生版.tex": "8e57c2c1e79c9495e06944a67b0d4857a0774ff29fb9275b69679d6a7137b006",
+    "热学第二章_学生解答版.pdf": "a67dc19dac219d2e7f6b82a5983d3262240eb4672eb16ade0a8526fdfdf5b0af",
+    "热学第二章_学生解答版.tex": "9cb535c9c0a22c2aac5e71ba4fc5f6fd67e551e25850aec8cb01ef42a28a591b",
+    "热学第二章_教师版.pdf": "34212547b52a3e2b7ea7263402d2ec4b3814358ff5c7eddde23c8a5ecf512784",
+    "热学第二章_教师版.tex": "ab24c0887bf3b32bbb3ad99b5e530f44b97c6a7bfc70a070c6317c1b49d16058"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "循环过程证明比热不可能恒定",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 406,
+          "chinese_characters": 304
+        },
+        "student": {
+          "content_characters": 1097,
+          "chinese_characters": 717
+        },
+        "teacher": {
+          "content_characters": 1097,
+          "chinese_characters": 717
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读循环方向、第一定律、相同有限比热反证、自交子回路和等温极限。删同一段重复的结论句。",
+          "figures": [
+            "图 热2.1",
+            "解图 热2.1A",
+            "解图 热2.1B",
+            "变图热2.1V1",
+            "变图热2.1V2",
+            "变图热2.1V3",
+            "变图热2.1V4",
+            "变图热2.1V5",
+            "变图热2.1V6",
+            "变图热2.1V7",
+            "变图热2.1V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "平移等温线确定过程比热曲线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 928,
+          "chinese_characters": 599
+        },
+        "student": {
+          "content_characters": 1570,
+          "chinese_characters": 685
+        },
+        "teacher": {
+          "content_characters": 1570,
+          "chinese_characters": 685
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读 p-p0 的同体积关系、下确界、比热定义域、体积/温度导数与有限热量积分。",
+          "figures": [
+            "图 热2.2",
+            "解图 热2.2A",
+            "解图 热2.2B",
+            "变图热2.2V1",
+            "变图热2.2V2",
+            "变图热2.2V3",
+            "变图热2.2V4",
+            "变图热2.2V5",
+            "变图热2.2V6",
+            "变图热2.2V7",
+            "变图热2.2V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "直线过程的温度图像与比热正负",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1071,
+          "chinese_characters": 459
+        },
+        "student": {
+          "content_characters": 1653,
+          "chinese_characters": 727
+        },
+        "teacher": {
+          "content_characters": 1653,
+          "chinese_characters": 727
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读 T 极值、零热量与绝热线相切、热量分段及非贯通的 c 曲线在3/2的两支。",
+          "figures": [
+            "图 热2.3",
+            "解图 热2.3A",
+            "解图 热2.3B",
+            "变图热2.3V1",
+            "变图热2.3V2",
+            "变图热2.3V3",
+            "变图热2.3V4",
+            "变图热2.3V5",
+            "变图热2.3V6",
+            "变图热2.3V7",
+            "变图热2.3V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "单原子双原子混合理想气体的绝热指数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 882,
+          "chinese_characters": 435
+        },
+        "student": {
+          "content_characters": 1426,
+          "chinese_characters": 649
+        },
+        "teacher": {
+          "content_characters": 1426,
+          "chinese_characters": 649
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读加权热容量、非反应模型的绝热指数、3:1 反解及指数适用温区。",
+          "figures": [
+            "图 热2.4",
+            "解图 热2.4A",
+            "解图 热2.4B",
+            "变图热2.4V1",
+            "变图热2.4V2",
+            "变图热2.4V3",
+            "变图热2.4V4",
+            "变图热2.4V5",
+            "变图热2.4V6",
+            "变图热2.4V7",
+            "变图热2.4V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "热功效率恒定过程中的总功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 587,
+          "chinese_characters": 281
+        },
+        "student": {
+          "content_characters": 1416,
+          "chinese_characters": 584
+        },
+        "teacher": {
+          "content_characters": 1416,
+          "chinese_characters": 584
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "figures": [
+            "图 热2.5",
+            "解图 热2.5A",
+            "解图热2.5B",
+            "变图热2.5V1",
+            "变图热2.5V2",
+            "变图热2.5V3",
+            "变图热2.5V4",
+            "变图热2.5V5",
+            "变图热2.5V6",
+            "变图热2.5V7",
+            "变图热2.5V8"
+          ],
+          "physics": "独立复阅主解与更改段。初末条件给 n=4/3、W=6p0V0；核对恒局部热功比和只给总热功比的差别。明确循环净热与各吸热段累计的区别。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "变热容量过程的内能增量与作功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 588,
+          "chinese_characters": 256
+        },
+        "student": {
+          "content_characters": 1359,
+          "chinese_characters": 560
+        },
+        "teacher": {
+          "content_characters": 1359,
+          "chinese_characters": 560
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读过程直线 C(T)、体积关系、初温反求与分段功。准确写明梯形面积相对上下端点矩形各自的偏差。",
+          "figures": [
+            "图 热2.6",
+            "解图 热2.6A",
+            "解图 热2.6B",
+            "变图热2.6V1",
+            "变图热2.6V2",
+            "变图热2.6V3",
+            "变图热2.6V4",
+            "变图热2.6V5",
+            "变图热2.6V6",
+            "变图热2.6V7",
+            "变图热2.6V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "钢丝棉氧化反应中的热量与内能变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1047,
+          "chinese_characters": 533
+        },
+        "student": {
+          "content_characters": 1808,
+          "chinese_characters": 923
+        },
+        "teacher": {
+          "content_characters": 1808,
+          "chinese_characters": 923
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.7A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读固定系统及气相的内能归属、等温等压下功的符号、分压及氮气密度。去掉总系统放热的重复句。",
+          "figures": [
+            "图 热2.7",
+            "解图 热2.7A",
+            "变图热2.7V1",
+            "变图热2.7V2",
+            "变图热2.7V3",
+            "变图热2.7V4",
+            "变图热2.7V5",
+            "变图热2.7V6",
+            "变图热2.7V7",
+            "变图热2.7V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "双活塞气缸加热的分段末温",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1954,
+          "chinese_characters": 1012
+        },
+        "student": {
+          "content_characters": 2477,
+          "chinese_characters": 1172
+        },
+        "teacher": {
+          "content_characters": 2477,
+          "chinese_characters": 1172
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热2.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读自由活塞及碰底支承力、两段温度与三个算例，核对切换连续、斜率变大。",
+          "figures": [
+            "图 热2.8",
+            "解图 热2.8A",
+            "解图 热2.8B",
+            "解图 热2.8C",
+            "变图热2.8V1",
+            "变图热2.8V2",
+            "变图热2.8V3",
+            "变图热2.8V4",
+            "变图热2.8V5",
+            "变图热2.8V6",
+            "变图热2.8V7",
+            "变图热2.8V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "绝热压缩后缓慢扩散的终温",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 707,
+          "chinese_characters": 392
+        },
+        "student": {
+          "content_characters": 1321,
+          "chinese_characters": 597
+        },
+        "teacher": {
+          "content_characters": 1321,
+          "chinese_characters": 597
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.9A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读双容器保留体积与活塞扫量、绝热作功、末温和熵增。合并相同的摩尔分配解释。",
+          "figures": [
+            "图 热2.9",
+            "解图 热2.9A",
+            "变图热2.9V1",
+            "变图热2.9V2",
+            "变图热2.9V3",
+            "变图热2.9V4",
+            "变图热2.9V5",
+            "变图热2.9V6",
+            "变图热2.9V7",
+            "变图热2.9V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "带阀绝热活塞与电热器的能量分配",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 676,
+          "chinese_characters": 420
+        },
+        "student": {
+          "content_characters": 1526,
+          "chinese_characters": 923
+        },
+        "teacher": {
+          "content_characters": 1526,
+          "chinese_characters": 923
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读三阶段能量、右室绝热熵增和 C_V/R 的必要条件。",
+          "figures": [
+            "图 热2.10",
+            "解图 热2.10A",
+            "解图 热2.10B",
+            "变图热2.10V1",
+            "变图热2.10V2",
+            "变图热2.10V3",
+            "变图热2.10V4",
+            "变图热2.10V5",
+            "变图热2.10V6",
+            "变图热2.10V7",
+            "变图热2.10V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "绝热左筒与等温右筒的活塞平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 593,
+          "chinese_characters": 307
+        },
+        "student": {
+          "content_characters": 2151,
+          "chinese_characters": 1166
+        },
+        "teacher": {
+          "content_characters": 2151,
+          "chinese_characters": 1166
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.11A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "figures": [
+            "图 热2.11",
+            "解图 热2.11A",
+            "变图热2.11V1",
+            "变图热2.11V2",
+            "变图热2.11V3",
+            "变图热2.11V4",
+            "变图热2.11V5",
+            "变图热2.11V6",
+            "变图热2.11V7",
+            "变图热2.11V8"
+          ],
+          "physics": "独立复阅主解及熵变更改段。沿给定端点族位移越大，末态左温与左体积都下降。改正温度变化方向并写熵变对体积改变量的严格负导数。保留题面读数舍入与绝热熵条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "带阀隔板气缸的分段绝热压缩功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1078,
+          "chinese_characters": 417
+        },
+        "student": {
+          "content_characters": 2179,
+          "chinese_characters": 1062
+        },
+        "teacher": {
+          "content_characters": 2179,
+          "chinese_characters": 1062
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.12A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读右室压缩、定容混合和共同绝热压缩；题干明确到阈值后阀门保持连通，等待前后达到题解所用的平衡状态。熵积分改写为温度比。",
+          "figures": [
+            "图 热2.12",
+            "解图 热2.12A",
+            "变图热2.12V1",
+            "变图热2.12V2",
+            "变图热2.12V3",
+            "变图热2.12V4",
+            "变图热2.12V5",
+            "变图热2.12V6",
+            "变图热2.12V7",
+            "变图热2.12V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "绝热容器中推活塞后混合的终压",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1045,
+          "chinese_characters": 416
+        },
+        "student": {
+          "content_characters": 1641,
+          "chinese_characters": 832
+        },
+        "teacher": {
+          "content_characters": 1641,
+          "chinese_characters": 832
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.13A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读可逆推板、等量初始热容量与共同终压、混合的末态摩尔分配，区分推板和打开阀门的能量。",
+          "figures": [
+            "图 热2.13",
+            "解图 热2.13A",
+            "变图热2.13V1",
+            "变图热2.13V2",
+            "变图热2.13V3",
+            "变图热2.13V4",
+            "变图热2.13V5",
+            "变图热2.13V6",
+            "变图热2.13V7",
+            "变图热2.13V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "潮湿空气越山降雨的热力学估算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2199,
+          "chinese_characters": 1337
+        },
+        "student": {
+          "content_characters": 2584,
+          "chinese_characters": 1425
+        },
+        "teacher": {
+          "content_characters": 2584,
+          "chinese_characters": 1425
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读定压热容量及潜热权重、降雨厚度和背风温度，积分区间随路径标成云底至山顶，避免把减压方向误当负凝结量。",
+          "figures": [
+            "图 热2.14",
+            "解图 热2.14A",
+            "解图 热2.14B",
+            "变图热2.14V1",
+            "变图热2.14V2",
+            "变图热2.14V3",
+            "变图热2.14V4",
+            "变图热2.14V5",
+            "变图热2.14V6",
+            "变图热2.14V7",
+            "变图热2.14V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "U形管水银振动与封闭空气绝热弹性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1467,
+          "chinese_characters": 698
+        },
+        "student": {
+          "content_characters": 1983,
+          "chinese_characters": 1036
+        },
+        "teacher": {
+          "content_characters": 1983,
+          "chinese_characters": 1036
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.15B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "figures": [
+            "图 热2.15",
+            "解图 热2.15A",
+            "解图 热2.15B",
+            "变图热2.15V1",
+            "变图热2.15V2",
+            "变图热2.15V3",
+            "变图热2.15V4",
+            "变图热2.15V5",
+            "变图热2.15V6",
+            "变图热2.15V7",
+            "变图热2.15V8"
+          ],
+          "physics": "独立复阅主解及 V8 接口。恢复力、整柱惯性以及移入势能的压力作用已复算。小量展开补正确压力量纲，分清线性附加刚度及γ=1时的对数形式。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "由声速驻波判断碘蒸气分子类型",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 717,
+          "chinese_characters": 329
+        },
+        "student": {
+          "content_characters": 1459,
+          "chinese_characters": 727
+        },
+        "teacher": {
+          "content_characters": 1459,
+          "chinese_characters": 727
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.16B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读小扰动弹性、声速、候选气体自由度和两种波节。补正同相对象应为相隔整波长的波腹。",
+          "figures": [
+            "图 热2.16",
+            "解图 热2.16A",
+            "解图 热2.16B",
+            "变图热2.16V1",
+            "变图热2.16V2",
+            "变图热2.16V3",
+            "变图热2.16V4",
+            "变图热2.16V5",
+            "变图热2.16V6",
+            "变图热2.16V7",
+            "变图热2.16V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "两个三角循环效率的比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1011,
+          "chinese_characters": 459
+        },
+        "student": {
+          "content_characters": 1376,
+          "chinese_characters": 627
+        },
+        "teacher": {
+          "content_characters": 1376,
+          "chinese_characters": 627
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.17A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读两三角形净功、两个放热支和同一气体热容量对缩放的作用。",
+          "figures": [
+            "图 热2.17",
+            "解图 热2.17A",
+            "变图热2.17V1",
+            "变图热2.17V2",
+            "变图热2.17V3",
+            "变图热2.17V4",
+            "变图热2.17V5",
+            "变图热2.17V6",
+            "变图热2.17V7",
+            "变图热2.17V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "多条过程线构成循环的效率比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1391,
+          "chinese_characters": 362
+        },
+        "student": {
+          "content_characters": 1734,
+          "chinese_characters": 715
+        },
+        "teacher": {
+          "content_characters": 1734,
+          "chinese_characters": 715
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读对照三条射线的温差、绝热线闭合、效率加权及参考压强比。",
+          "figures": [
+            "图 热2.18",
+            "解图 热2.18A",
+            "解图 热2.18B",
+            "变图热2.18V1",
+            "变图热2.18V2",
+            "变图热2.18V3",
+            "变图热2.18V4",
+            "变图热2.18V5",
+            "变图热2.18V6",
+            "变图热2.18V7",
+            "变图热2.18V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "氦气三直线循环效率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1845,
+          "chinese_characters": 861
+        },
+        "student": {
+          "content_characters": 2273,
+          "chinese_characters": 1023
+        },
+        "teacher": {
+          "content_characters": 2273,
+          "chinese_characters": 1023
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.19B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读一摩尔循环功、分段吸热、绝热线相切与局部八方向。",
+          "figures": [
+            "图 热2.19",
+            "解图 热2.19A",
+            "解图 热2.19B",
+            "变图热2.19V1",
+            "变图热2.19V2",
+            "变图热2.19V3",
+            "变图热2.19V4",
+            "变图热2.19V5",
+            "变图热2.19V6",
+            "变图热2.19V7",
+            "变图热2.19V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "直线加绝热线循环的效率与极值温度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1273,
+          "chinese_characters": 414
+        },
+        "student": {
+          "content_characters": 1803,
+          "chinese_characters": 660
+        },
+        "teacher": {
+          "content_characters": 1803,
+          "chinese_characters": 660
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热2.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读回程端点自洽、局部触线和温度极值、循环保守量与放热端点。",
+          "figures": [
+            "图 热2.20",
+            "解图 热2.20A",
+            "解图 热2.20B",
+            "解图 热2.20C",
+            "变图热2.20V1",
+            "变图热2.20V2",
+            "变图热2.20V3",
+            "变图热2.20V4",
+            "变图热2.20V5",
+            "变图热2.20V6",
+            "变图热2.20V7",
+            "变图热2.20V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "圆形准静态循环的功、热量和转折点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 991,
+          "chinese_characters": 399
+        },
+        "student": {
+          "content_characters": 1749,
+          "chinese_characters": 787
+        },
+        "teacher": {
+          "content_characters": 1749,
+          "chinese_characters": 787
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.21B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读圆形循环保守量、等微分条件和两个吸放热根的唯一性。",
+          "figures": [
+            "图 热2.21",
+            "解图 热2.21A",
+            "解图 热2.21B",
+            "变图热2.21V1",
+            "变图热2.21V2",
+            "变图热2.21V3",
+            "变图热2.21V4",
+            "变图热2.21V5",
+            "变图热2.21V6",
+            "变图热2.21V7",
+            "变图热2.21V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "可逆卡诺空调的维持室温与最高外温",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1229,
+          "chinese_characters": 602
+        },
+        "student": {
+          "content_characters": 1713,
+          "chinese_characters": 723
+        },
+        "teacher": {
+          "content_characters": 1713,
+          "chinese_characters": 723
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.22B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读两个卡诺方向、占空比换算、夏冬温度极限和二次式物理解。",
+          "figures": [
+            "图 热2.22",
+            "解图 热2.22A",
+            "解图 热2.22B",
+            "变图热2.22V1",
+            "变图热2.22V2",
+            "变图热2.22V3",
+            "变图热2.22V4",
+            "变图热2.22V5",
+            "变图热2.22V6",
+            "变图热2.22V7",
+            "变图热2.22V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "绝热细棒热平衡过程的熵增",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 926,
+          "chinese_characters": 453
+        },
+        "student": {
+          "content_characters": 1331,
+          "chinese_characters": 610
+        },
+        "teacher": {
+          "content_characters": 1331,
+          "chinese_characters": 610
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.23B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "figures": [
+            "图 热2.23",
+            "解图 热2.23A",
+            "解图 热2.23B",
+            "变图热2.23V1",
+            "变图热2.23V2",
+            "变图热2.23V3",
+            "变图热2.23V4",
+            "变图热2.23V5",
+            "变图热2.23V6",
+            "变图热2.23V7",
+            "变图热2.23V8"
+          ],
+          "physics": "独立复阅完整主解与易错点的差异。两半棒的能量等量交换，熵积分 J/K 且结果为正。改写外界热与熵流，保留两个积分的作用以及局部热流与温度梯度的熵产生关系。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "氧气复合循环效率与 S-T 图像",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1269,
+          "chinese_characters": 529
+        },
+        "student": {
+          "content_characters": 2081,
+          "chinese_characters": 679
+        },
+        "teacher": {
+          "content_characters": 2081,
+          "chinese_characters": 679
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.24B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读四段内能、循环熵和交换 S/T 横纵坐标后有向面积的符号。",
+          "figures": [
+            "图 热2.24",
+            "解图 热2.24A",
+            "解图 热2.24B",
+            "变图热2.24V1",
+            "变图热2.24V2",
+            "变图热2.24V3",
+            "变图热2.24V4",
+            "变图热2.24V5",
+            "变图热2.24V6",
+            "变图热2.24V7",
+            "变图热2.24V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "由 T-S 直线导出理想气体过程方程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 642,
+          "chinese_characters": 334
+        },
+        "student": {
+          "content_characters": 1847,
+          "chinese_characters": 840
+        },
+        "teacher": {
+          "content_characters": 1847,
+          "chinese_characters": 840
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热2.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热2.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热2.25B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热2.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热2.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复读熵为状态关系与热量相等所用的可逆条件、两极值和显式压力体积。题干把可逆写成充分条件，并说明从熵状态函数直接得到轨迹。",
+          "figures": [
+            "图 热2.25",
+            "解图 热2.25A",
+            "解图 热2.25B",
+            "变图热2.25V1",
+            "变图热2.25V2",
+            "变图热2.25V3",
+            "变图热2.25V4",
+            "变图热2.25V5",
+            "变图热2.25V6",
+            "变图热2.25V7",
+            "变图热2.25V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "热2.5A",
+      "page": 28,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.8A",
+      "page": 45,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.8C",
+      "page": 47,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.9A",
+      "page": 52,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.12V8",
+      "page": 74,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.15V7",
+      "page": 93,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.21A",
+      "page": 126,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.21V8",
+      "page": 130,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.22V3",
+      "page": 135,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.23A",
+      "page": 137,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.23V6",
+      "page": 141,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.24",
+      "page": 142,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.25B",
+      "page": 152,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热2.25V7",
+      "page": 155,
+      "scope": "实际查看新版图线、标签、图注。"
+    }
+  ]
+}

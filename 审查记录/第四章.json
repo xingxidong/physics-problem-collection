@@ -1,0 +1,1585 @@
+{
+  "单元": "第四章",
+  "题数": 14,
+  "分章文件_SHA256": {
+    "第四章_学生版.pdf": "894afa41db7681219c4eb9f94ca3bf60d52f3898ff54d2fbfee20faa7ce01553",
+    "第四章_学生版.tex": "eab38e6db21ba1c4b3893cf72810119f7fbfabbc3b27ed247de7382a2eefbf56",
+    "第四章_学生解答版.pdf": "639bf83808676232ba10dbe464b31cd98ac67bb6218c515f694b1fc53a9df147",
+    "第四章_学生解答版.tex": "06d299dbedbb1d09b94501d343ec4250410d56d9662f398af361dec0f2788812",
+    "第四章_教师版.pdf": "954d8bc6393294dee848a01f0d46b4a0faf401987123286f5f554195238cfd78",
+    "第四章_教师版.tex": "cbaa1d2aa8ba10be36161ffd9a04496801c3631375182b2d44816b4cb8d29186"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "万有引力推出开普勒三定律",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2901,
+          "chinese_characters": 1265
+        },
+        "student": {
+          "content_characters": 3241,
+          "chinese_characters": 1451
+        },
+        "teacher": {
+          "content_characters": 3241,
+          "chinese_characters": 1451
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图4.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图4.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.1V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "零力矩与比能量先限定非零角动量的可行初态。复查极坐标到焦点椭圆的配方、活力公式、扫面积时间公式和近远点箭长。解图4.1D 与变图4.1V5 分用 μ/p 和 μ/(2p)，分别重算交点和水平线。",
+        "edits": [
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "直接交代径向方程与比能量对应的轨道，并给出非零角动量条件。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "将对比句改为计时的具体动作。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "以同角区间的具体比较替换三定律复述，保留时间的计算因子。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "用曲线及四条水平线实际采用的能量单位。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "图中势阱最低点画在 −1，故能量单位为 μ/(2p)。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "椭圆轨道反推平方反比引力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 612,
+          "chinese_characters": 314
+        },
+        "student": {
+          "content_characters": 1012,
+          "chinese_characters": 521
+        },
+        "teacher": {
+          "content_characters": 1012,
+          "chinese_characters": 521
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.2V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "按面积定律取 h 后复做两次链式求导和横向分量归零。比较匀偏近点角的中心力反例与题给焦点力，复求恒速变式中焦点至切线的垂足和法线方向。",
+        "edits": [
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "保留轨道形状和时间参数的作用，并点明同一角速度如何进入两次求导。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "初速度决定有心轨道类型",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 954,
+          "chinese_characters": 454
+        },
+        "student": {
+          "content_characters": 1582,
+          "chinese_characters": 737
+        },
+        "teacher": {
+          "content_characters": 1582,
+          "chinese_characters": 737
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.3A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.3V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "核对圆速和逃逸速度在图4.3A的间隔、两类椭圆从 P 出发的拱点距离、向内力与半径增大的区别。三区分为椭圆双拱点、开放轨道唯一近点、零角动量的径向分支。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "合并两次相同的距离比较，用图中圆速对应的分界组织。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "初始点与另一拱点比较的是距恒星距离，题设未给恒星表面半径。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "限定两拱点说法只适用于椭圆，并容许相反切向和零角动量。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "两质点万有引力相碰时间",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 974,
+          "chinese_characters": 649
+        },
+        "student": {
+          "content_characters": 1638,
+          "chinese_characters": 756
+        },
+        "teacher": {
+          "content_characters": 1638,
+          "chinese_characters": 756
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图4.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.4V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "用相对参数与单个质点的质心坐标复读相碰时间、非零截断距离、释放和相碰两端可积阶数，检查半距时间曲线。加入有向内初速度时，区分负能量的半周期法和始终可用的径向积分。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "从图上直接描述有限时刻和竖直切线。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "明确半周期法须有负比能量，高速情况沿用径向积分。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "横轴标明两条曲线的共同初始距离 r/r₀=1。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "绕月飞船两种登月喷气方案",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 889,
+          "chinese_characters": 400
+        },
+        "student": {
+          "content_characters": 1668,
+          "chinese_characters": 761
+        },
+        "teacher": {
+          "content_characters": 1668,
+          "chinese_characters": 761
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.5V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "核对两条月面相切轨道焦点、接触点和脉冲方向。区分余船质量与燃料微元、两种排气模型和比角动量。给定朝向的目标椭圆据同一切向飞行方向确定径向和横向分量。复算一阶、精确燃料及图中实尺速度箭头。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "飞船质量改变时，守恒量是两状态间的比角动量。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "用 e 标记喷出的燃料微元，把 m_f 专用于剩余飞船质量。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "将重复的反向脉冲说明合并，保留触地及制动的物理条件。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "用标量分量与零比较，矢量方向由图中的箭头表示。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "拆开叠印标签，保持两根长矢量和短增量的真实比例。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "固定目标椭圆的朝向和位置时，径向、横向符号不能独立任选。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "圆轨道径向脉冲后的近远地点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 498,
+          "chinese_characters": 231
+        },
+        "student": {
+          "content_characters": 1187,
+          "chinese_characters": 543
+        },
+        "teacher": {
+          "content_characters": 1187,
+          "chinese_characters": 543
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.6A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.6V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "按题设圆轨道反算 μ，复做拱点二次式、地表条件和偏心率矢量镜像。变式同图比较径向与顺向脉冲，曲线差按归一化比能量计，复查近远点、半长轴坐标。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "正面说明两根共用题设圆轨道给出的引力参数。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "写明曲线差为归一化比能量，避免与有量纲的 v₀d 混淆。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "椭圆轨道发射探测器后的轨道",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1784,
+          "chinese_characters": 631
+        },
+        "student": {
+          "content_characters": 2371,
+          "chinese_characters": 1090
+        },
+        "teacher": {
+          "content_characters": 2371,
+          "chinese_characters": 1090
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图4.7C"
+          },
+          {
+            "n": 4,
+            "caption": "解图4.7D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.7V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "分离前后的地心动量和相对速率按同向发射列式，检查圆轨道的唯一临界和三图近、远点分类；补齐任意方向发射的朝向，按等质量算例重作动量箭长，远点后向发射的曲线端点按开区间处理。",
+        "edits": [
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "补全轨道朝向的确定及圆、径向特例。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "用明确的质量比给箭头标尺，保留速度差与动量关系。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "两箭头按质量相等的物理例子 1:√2 绘制。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "α 的物理定义域为开区间，端点仅作极限。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "彗星抛物线轨道与地球轨道交点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1048,
+          "chinese_characters": 437
+        },
+        "student": {
+          "content_characters": 1455,
+          "chinese_characters": 635
+        },
+        "teacher": {
+          "content_characters": 1455,
+          "chinese_characters": 635
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.8V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "复算抛物线焦点极坐标、直角坐标等积积分、三支速度箭头、关于近日点的时序及非直径对称交点的角域。核对椭圆和双曲线变式速率同一近点下的渐近。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "用图中的焦点、顶点和距离讲清位置关系。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "排除同一点或无穷远，保留可积分的完整区间。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "用能量式中的物理量直接解释两项。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "宇航站发射飞船后的再次相遇",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1340,
+          "chinese_characters": 711
+        },
+        "student": {
+          "content_characters": 1819,
+          "chinese_characters": 848
+        },
+        "teacher": {
+          "content_characters": 1819,
+          "chinese_characters": 848
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.9V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "分别复做两个周期界限、正质量与地表条件、限制周数与唯一交点、周期为有理数的首次相遇。变式9V3此前站速会使轨道入地，改用 0.98v₀ 并重算示例、重画曲线。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "把两段重复的首次相遇说明合并为各自回到 A 的时序。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "改用满足近点在地表外的站速度，补足代回结果。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "按站新速度重新参数化曲线，并在绘图范围内标出算例。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "地火霍曼转移轨道",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 813,
+          "chinese_characters": 488
+        },
+        "student": {
+          "content_characters": 1462,
+          "chinese_characters": 735
+        },
+        "teacher": {
+          "content_characters": 1462,
+          "chinese_characters": 735
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.10A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.10V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "复做两端相切速率、半周期、模2π等待相位与示例角度。更快飞行的变式加上远点越过火星圆的条件，用同一个相交角求时刻并分解到达速度。离地段明确参考系。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "把地心能量关系和理想条件放在同一句，说明速率所用参考系。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "补出抵达火星半径的速度下限，区分切触与穿越。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "火星圆轨道径向微扰后的椭圆轨道",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1204,
+          "chinese_characters": 614
+        },
+        "student": {
+          "content_characters": 1542,
+          "chinese_characters": 691
+        },
+        "teacher": {
+          "content_characters": 1542,
+          "chinese_characters": 691
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.11V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "复核拱点重根、开方得到的一阶分裂、两个高度的量纲、周期二阶项和恰好接触的精确界。图4.11B一阶时间关系与图4.11A同一初始向内脉冲，变式核对正负脉冲和触地半径。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "余项仍具有长度量纲。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "小节标题直接指向位移公式。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "将“自洽”评价换成图中使用的实际数值。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "借助火星引力弹弓逃离太阳系",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 3917,
+          "chinese_characters": 1804
+        },
+        "student": {
+          "content_characters": 4274,
+          "chinese_characters": 2283
+        },
+        "teacher": {
+          "content_characters": 4274,
+          "chinese_characters": 2283
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图4.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.12V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "逐段跟踪地心、日心、火星系及回到日心的能量与速度，独立重算理想发射速率、节能率、余速和近点用时相位。更正静止辅助体变式的所用速度参考系，标示两门槛交点，并说明允许最近距离随候选余速进入偏转计算。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "正面说明入、出余速定义和守恒依据。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "说明两曲线的交点和上包络各段的物理意义。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "标出到达条件与逃逸条件交换主导的位置。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "更正参考系，地面速度不在本变式计算中。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "偏转能力也随余速变化，必须在同一个候选状态比较。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "弹簧有心力场中的有效势能曲线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1300,
+          "chinese_characters": 535
+        },
+        "student": {
+          "content_characters": 1817,
+          "chinese_characters": 800
+        },
+        "teacher": {
+          "content_characters": 1817,
+          "chinese_characters": 800
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图4.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.13V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "已逐项对照弹簧力、有效势、两个转折半径与中心椭圆参数。图4.13、解图4.13A分开速率与 P(m) 标签；变式分开放置三个能量标签，扩展势能曲线至小半径上升和 E₂ 的最内交点。",
+        "edits": [
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "区分角频率与每单位时间的循环次数。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "两根为正的讨论使用固定且非零的角动量。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "能量线保持数值，标签经短引线分开放置。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "把引力曲线延至小半径的上升段，使图示含有正文比较的共同趋势。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "能量 E₂ 的最小根 sqrt(2−sqrt(3))≈0.518，应落在曲线绘制区间之内。"
+          },
+          {
+            "editions": [
+              "学生版",
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "三版题图和两版解图将向外径向速度标在箭头右侧，让其与 P(m) 的下方标注分开。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "均匀宇宙尘埃中的圆形行星轨道",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1630,
+          "chinese_characters": 780
+        },
+        "student": {
+          "content_characters": 2172,
+          "chinese_characters": 991
+        },
+        "teacher": {
+          "content_characters": 2172,
+          "chinese_characters": 991
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图4.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图4.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图4.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图4.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图4.14V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮题干、学生完整解答和教师九栏、七个变式逐题实读，三版共有图和教师变图对照正稿修改前的 PDF 显示检查，图号见列表。整改后的 PDF 等待主任务统一导出复看。",
+        "notes": "区分径向坐标加速度和实际加速度，复做固定 L 的线性化、径向/角向频率比、稀薄尘埃展开和逆行近点。区分外向附加力下圆轨道存在区间与稳定区间，用近点序列对照连续轨迹。",
+        "edits": [
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "匀速圆周运动的加速度矢量指向圆心，应区分与半径坐标二阶导数。"
+          },
+          {
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "reason": "合并重复的稳定陈述，并将两频率与近点时序对应。"
+          },
+          {
+            "editions": [
+              "教师版"
+            ],
+            "reason": "区分圆轨道存在条件与径向稳定条件。"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "4.1V5",
+      "page": 10,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.3V1",
+      "page": 19,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.4C",
+      "page": 24,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.4V3",
+      "page": 26,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.5V1",
+      "page": 32,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.5V4",
+      "page": 33,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.7V5",
+      "page": 46,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.7V7",
+      "page": 46,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.8V1",
+      "page": 50,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.8V6",
+      "page": 52,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.9V3",
+      "page": 57,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.11A",
+      "page": 66,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.11V7",
+      "page": 70,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.12V2",
+      "page": 77,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.13",
+      "page": 80,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.13A",
+      "page": 81,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.13V3",
+      "page": 84,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.13V5",
+      "page": 85,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.13V6",
+      "page": 85,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "4.8V3",
+      "page": 51,
+      "scope": "实际看完整图和相邻段。"
+    }
+  ]
+}

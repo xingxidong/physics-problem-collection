@@ -1,0 +1,2338 @@
+{
+  "单元": "第六章",
+  "题数": 27,
+  "分章文件_SHA256": {
+    "第六章_学生版.pdf": "2cc6d35e1a1ebacf5d5d0fd8e7c0869f1b6ddf13231f7710e7c50573f1e665b8",
+    "第六章_学生版.tex": "019719e0f0a8b580b75e236290a290a05d9eea4009f391f4c1999158d4c84b85",
+    "第六章_学生解答版.pdf": "7f136aee891685c3670ec0360984b1eb68b8d5f77acd6929c7f162a3ba41ea91",
+    "第六章_学生解答版.tex": "7b7e4092329b2b13ddd89ac1341b39011738693afb12633c46b5c16566b5bb93",
+    "第六章_教师版.pdf": "0b15b6e4a2ca8c042eae735aafe9e950967807487accd1700752646008704ff8",
+    "第六章_教师版.tex": "d09350601dd90060b960a64249ad5b028b92c0399ec7a62f4e0cbc4a4e2dd6c9"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "汽车后轮驱动不打滑的摩擦条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 400,
+          "chinese_characters": 202
+        },
+        "student": {
+          "content_characters": 1023,
+          "chinese_characters": 534
+        },
+        "teacher": {
+          "content_characters": 1023,
+          "chinese_characters": 534
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "整车质心力矩、加速与制动载荷、非驱动轮自转惯量。V1明确质心后移减小 d 和所需摩擦系数，补接地条件；正面改写临界接触。"
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "均匀圆柱体绕斜向质心轴的转动惯量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1259,
+          "chinese_characters": 512
+        },
+        "student": {
+          "content_characters": 1705,
+          "chinese_characters": 707
+        },
+        "teacher": {
+          "content_characters": 1705,
+          "chinese_characters": 707
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "读先前主解的两处语句差异，复算 13/24；薄壁筒、平行轴和非均匀轴对称变式。合并重复的主轴论述，在V8两根斜轴分别标为 σ1、σ2。"
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "桌边细杆开始滑动的临界角",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 772,
+          "chinese_characters": 241
+        },
+        "student": {
+          "content_characters": 1355,
+          "chinese_characters": 649
+        },
+        "teacher": {
+          "content_characters": 1355,
+          "chinese_characters": 649
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "静止释放、起滑不等式、端点外伸条件。分清桌角在杆内与在杆端的区别，后者在滑动起始即失去几何接触。"
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "实心圆柱体绕桌边下滚与开始滑动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1048,
+          "chinese_characters": 553
+        },
+        "student": {
+          "content_characters": 1595,
+          "chinese_characters": 695
+        },
+        "teacher": {
+          "content_characters": 1595,
+          "chinese_characters": 695
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "补 V3 滑向、动摩擦动力学与首次零压力积分。取静摩擦0.3、动摩擦0.2，起滑0.584295501 rad、离边0.907815343 rad。重绘受力位置为45°。"
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "甲虫落到可转动麦杆后的运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1032,
+          "chinese_characters": 621
+        },
+        "student": {
+          "content_characters": 1735,
+          "chinese_characters": 843
+        },
+        "teacher": {
+          "content_characters": 1735,
+          "chinese_characters": 843
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "复算捕获惯量、角动量、到端与轨迹示例。补夸铅直前未到杆端的终止条件，并明确 θ 是转角而非空间象限，保留严格提前的开端点。"
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "圆柱滚上台阶的速度范围",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2153,
+          "chinese_characters": 1205
+        },
+        "student": {
+          "content_characters": 2415,
+          "chinese_characters": 1302
+        },
+        "teacher": {
+          "content_characters": 2415,
+          "chinese_characters": 1302
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.6C"
+          },
+          {
+            "n": 4,
+            "caption": "解图6.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮实读九栏与逐变式文字；各图按证据区分",
+        "findings": "角点冲量、地面冲量可为零、上翻速度窗口与摩擦条件。V6 改为给定离边状态，算真实首次平台接触并停止作图，xP/R=0.775891145。"
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "地月系统角动量与月球退行",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1142,
+          "chinese_characters": 449
+        },
+        "student": {
+          "content_characters": 1761,
+          "chinese_characters": 709
+        },
+        "teacher": {
+          "content_characters": 1761,
+          "chinese_characters": 709
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.7B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。转矩与功率、同步曲率、椭圆轨道微分；V7明确同向自转的参数范围并给图中归一化转移量。"
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "行星自转与卫星圆轨道的角动量转移",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 902,
+          "chinese_characters": 411
+        },
+        "student": {
+          "content_characters": 1667,
+          "chinese_characters": 724
+        },
+        "teacher": {
+          "content_characters": 1667,
+          "chinese_characters": 724
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核固定角动量、Darwin临界及稳定支；在临界点归一化三阶导数为3。"
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "线轴受拉时的滚动方向与加速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1033,
+          "chinese_characters": 578
+        },
+        "student": {
+          "content_characters": 1472,
+          "chinese_characters": 726
+        },
+        "teacher": {
+          "content_characters": 1472,
+          "chinese_characters": 726
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.9C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。复算斜向拉力、底点摩擦与质心加速度可相反的示例；V6由有符号滑速补匀加速归零时刻。"
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "斜面木块牵引实心圆柱体的滚动动力学",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1576,
+          "chinese_characters": 561
+        },
+        "student": {
+          "content_characters": 2316,
+          "chinese_characters": 838
+        },
+        "teacher": {
+          "content_characters": 2316,
+          "chinese_characters": 838
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核静止、绳紧纯滚和松弛滚滑的三个区间，检查相反初速度和两处摩擦系数分开的符号。"
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "逆向自旋乒乓球由滚滑转为纯滚",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1425,
+          "chinese_characters": 797
+        },
+        "student": {
+          "content_characters": 1699,
+          "chinese_characters": 830
+        },
+        "teacher": {
+          "content_characters": 1699,
+          "chinese_characters": 830
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核顺、逆初旋的滑速、等号终态及能量损失；薄壳和实球的零终速归一化交点为3/2和5/2。"
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "圆柱体滚下斜坡撞墙后的回升高度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1440,
+          "chinese_characters": 578
+        },
+        "student": {
+          "content_characters": 1917,
+          "chinese_characters": 794
+        },
+        "teacher": {
+          "content_characters": 1917,
+          "chinese_characters": 794
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.12B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。V5补 e<k 的墙面再接触时序和 e=0 持续接触，分界 e=k/(2+k)，并把停止端点的 h′=0 标为实点。"
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "小球沿圆柱面滚下的无滑条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 3145,
+          "chinese_characters": 975
+        },
+        "student": {
+          "content_characters": 3373,
+          "chinese_characters": 1156
+        },
+        "teacher": {
+          "content_characters": 3373,
+          "chinese_characters": 1156
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核起滑方程、内外法向区别、滑动首个压力零点与摩擦不同的续接。"
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "两相同实心球弹性碰撞后的滚动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1543,
+          "chinese_characters": 577
+        },
+        "student": {
+          "content_characters": 1923,
+          "chinese_characters": 777
+        },
+        "teacher": {
+          "content_characters": 1923,
+          "chinese_characters": 777
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.14C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。V6补追碰时间、两支时序和 e=0 的同时约束；图用虚线标早于纯滚即追碰的候选速差。"
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "两圆柱轮与轻杆连接系统的运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1588,
+          "chinese_characters": 844
+        },
+        "student": {
+          "content_characters": 2375,
+          "chinese_characters": 1040
+        },
+        "teacher": {
+          "content_characters": 2375,
+          "chinese_characters": 1040
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核两轮共同平移、不同角速度、第二阶段首轮静摩擦换向及杆受压。"
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "带初始自旋实心球碰地后的反弹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2493,
+          "chinese_characters": 1264
+        },
+        "student": {
+          "content_characters": 2917,
+          "chinese_characters": 1350
+        },
+        "teacher": {
+          "content_characters": 2917,
+          "chinese_characters": 1350
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核冲量截断、首次零滑速、反弹时间、固有自旋与侧向初速的有符号模型。"
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "圆柱体在可动斜面上无滑滚动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1525,
+          "chinese_characters": 685
+        },
+        "student": {
+          "content_characters": 2028,
+          "chinese_characters": 892
+        },
+        "teacher": {
+          "content_characters": 2028,
+          "chinese_characters": 892
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.17C"
+          },
+          {
+            "n": 4,
+            "caption": "解图6.17D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核可动斜面的动量和有效惯性，检查地面摩擦另列及两件接触点同速。"
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "实心球在水平面内的滚滑运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 892,
+          "chinese_characters": 512
+        },
+        "student": {
+          "content_characters": 2196,
+          "chinese_characters": 1012
+        },
+        "teacher": {
+          "content_characters": 2196,
+          "chinese_characters": 1012
+        },
+        "floor_met": true,
+        "variants": 9,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V8"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.18V9"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读九变式。核 α方向速度分解、μg改变时终速不变、空转轴、固定点角动量和发热数值。"
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "两均匀圆盘偏心碰撞后的速度与转动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1648,
+          "chinese_characters": 584
+        },
+        "student": {
+          "content_characters": 2602,
+          "chinese_characters": 914
+        },
+        "teacher": {
+          "content_characters": 2602,
+          "chinese_characters": 914
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.19C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。比较有、无切向冲量和一般支撑惯量；检查对称偏心时旋向以及擦边端点。"
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "细圆环在粗糙桌面上的滑动与转动衰减",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1950,
+          "chinese_characters": 662
+        },
+        "student": {
+          "content_characters": 2461,
+          "chinese_characters": 1037
+        },
+        "teacher": {
+          "content_characters": 2461,
+          "chinese_characters": 1037
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式和共同主解。V6新增 qA−B 配对积分的符号证明及 v,ω 同时停止、q趋于1 的论证。"
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "竖直均匀细杆在光滑地面上倒下",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 474,
+          "chinese_characters": 208
+        },
+        "student": {
+          "content_characters": 1384,
+          "chinese_characters": 573
+        },
+        "teacher": {
+          "content_characters": 1384,
+          "chinese_characters": 573
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.21B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。V7新推非均匀细杆在倒下过程中支持力为正，保证下端持续接触。"
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "质点撞击光滑地面上均匀细杆",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 960,
+          "chinese_characters": 338
+        },
+        "student": {
+          "content_characters": 1540,
+          "chinese_characters": 611
+        },
+        "teacher": {
+          "content_characters": 1540,
+          "chinese_characters": 611
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.22B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核黏碰或弹碰的有效逆质量、瞬心在杆上或杆外及惯量变化。"
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "细杆靠墙下滑的运动与离墙",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 967,
+          "chinese_characters": 326
+        },
+        "student": {
+          "content_characters": 1743,
+          "chinese_characters": 720
+        },
+        "teacher": {
+          "content_characters": 1743,
+          "chinese_characters": 720
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.23B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。V5补离墙后地面压力为正、墙端继续右移的证据，验证所画两条端点轨迹的接触假设。"
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "单杆与铰接双段杆受相同冲量的动能比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 718,
+          "chinese_characters": 277
+        },
+        "student": {
+          "content_characters": 1643,
+          "chinese_characters": 660
+        },
+        "teacher": {
+          "content_characters": 1643,
+          "chinese_characters": 660
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.24B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核铰链同速、内冲量的符号、作用点功积分及中点加载和有限时间加载的区别。"
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "旋转圆环中滑动细杆的平衡与稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1441,
+          "chinese_characters": 512
+        },
+        "student": {
+          "content_characters": 2190,
+          "chinese_characters": 779
+        },
+        "teacher": {
+          "content_characters": 2190,
+          "chinese_characters": 779
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.25B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核有效势能在零曲率处的四次符号，包括一般弦长 D<0 的上方不稳定临界。"
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "旋转支架上细杆的有效势能与平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1541,
+          "chinese_characters": 624
+        },
+        "student": {
+          "content_characters": 2244,
+          "chinese_characters": 917
+        },
+        "teacher": {
+          "content_characters": 2244,
+          "chinese_characters": 917
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.26B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "抽读八变式。核有效惯性的分布、有限支架臂的允许区间、时变欧拉力与科里奥利力的功和一侧周期。"
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "陀螺进动与翻转陀螺的摩擦力矩机制",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 755,
+          "chinese_characters": 481
+        },
+        "student": {
+          "content_characters": 2045,
+          "chinese_characters": 1194
+        },
+        "teacher": {
+          "content_characters": 2045,
+          "chinese_characters": 1194
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图6.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图6.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图6.27B"
+          },
+          {
+            "n": 3,
+            "caption": "解图6.27C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图6.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图6.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "抽读重点及不同处；其余逐字段引用签名相符的同文实读",
+        "findings": "读主解和八变式。区分重力进动绕支点与摩擦扶正绕质心，明确后者竖直支持力只沿方位方向给力矩。"
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "6.2V8",
+      "page": 15,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.6V6",
+      "page": 41,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.12V5",
+      "page": 81,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.14V6",
+      "page": 98,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.19V4",
+      "page": 134,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.19V8",
+      "page": 135,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.25V8",
+      "page": 176,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "6.4V3",
+      "page": 26,
+      "scope": "实际看完整图和相邻段。"
+    }
+  ]
+}

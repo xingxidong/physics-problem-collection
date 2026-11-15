@@ -1,0 +1,1148 @@
+{
+  "单元": "光学第五章",
+  "题数": 11,
+  "分章文件_SHA256": {
+    "光学第五章_学生版.pdf": "fe458f2b90df196cf3a9f84f612461b0877cf5881ff3b975993475a7eeefd44b",
+    "光学第五章_学生版.tex": "e918f42a6d79ecc8347412245f1eeb36797966afcdd4410b41009ceccf403312",
+    "光学第五章_学生解答版.pdf": "20ffa816804a281e9a88423f88ebeeab1bb455fb3e0315350f395874d52ed238",
+    "光学第五章_学生解答版.tex": "8fdbb6404f7f91112cca00996a3c09699a824a2ce96b5db1a124e0ba23e1d3f2",
+    "光学第五章_教师版.pdf": "d7e662ba4b142f3db7c2d7bb1e66c64a95208bcd90ffaee73c4a1faaba342d6d",
+    "光学第五章_教师版.tex": "643acd7c3d981a6a48bf78fc2169ba7bc4808c153318547f98d7e084bacd9960"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "玻璃中的相速与群速",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 420,
+          "chinese_characters": 182
+        },
+        "student": {
+          "content_characters": 1419,
+          "chinese_characters": 542
+        },
+        "teacher": {
+          "content_characters": 1419,
+          "chinese_characters": 542
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.1B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.1A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "从色散局部斜率得群速，589.3 nm处独立常数校准只改分母中的局部折射率。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "氢气的有效共振与振子参数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1050,
+          "chinese_characters": 427
+        },
+        "student": {
+          "content_characters": 1789,
+          "chinese_characters": 682
+        },
+        "teacher": {
+          "content_characters": 1789,
+          "chinese_characters": 682
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读长波两系数的有效共振及振子计数，绘图对应等效质量；小阻尼半高宽与共振参数区分。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "双共振色散与质量比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1228,
+          "chinese_characters": 350
+        },
+        "student": {
+          "content_characters": 1586,
+          "chinese_characters": 733
+        },
+        "teacher": {
+          "content_characters": 1586,
+          "chinese_characters": 733
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读两极点与常背景、约化坐标及远紫外项近长波常数的条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "X射线色散及速度乘积",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 806,
+          "chinese_characters": 318
+        },
+        "student": {
+          "content_characters": 1254,
+          "chinese_characters": 461
+        },
+        "teacher": {
+          "content_characters": 1254,
+          "chinese_characters": 461
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.4C"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.4A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.4B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读高频自由电子近似、介质波长改写群速，复查全外反射和能量速度的条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "金属自由电子响应与反射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1739,
+          "chinese_characters": 739
+        },
+        "student": {
+          "content_characters": 2148,
+          "chinese_characters": 872
+        },
+        "teacher": {
+          "content_characters": 2148,
+          "chinese_characters": 872
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.5B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.5A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读弱阻尼色散及半无限体的倏逝、传播和耗散，抽读复平方根、截止及沉积分数。",
+        "confirmed_fields": [
+          "题型定位",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "知识点",
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "电离层的反射与布儒斯特角",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 737,
+          "chinese_characters": 475
+        },
+        "student": {
+          "content_characters": 1362,
+          "chinese_characters": 683
+        },
+        "teacher": {
+          "content_characters": 1362,
+          "chinese_characters": 683
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.6B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.6C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.6A"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读无碰撞半无限分界及有耗反射极小、斜入射频率阈值。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "麦克斯韦方程的纵向模式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 835,
+          "chinese_characters": 503
+        },
+        "student": {
+          "content_characters": 1337,
+          "chinese_characters": 679
+        },
+        "teacher": {
+          "content_characters": 1337,
+          "chinese_characters": 679
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.7D"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.7A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.7B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读纵向零点与横向支、耗散根和冷模型的局部能量交换。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "均匀介质与涨落散射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1048,
+          "chinese_characters": 576
+        },
+        "student": {
+          "content_characters": 1445,
+          "chinese_characters": 825
+        },
+        "teacher": {
+          "content_characters": 1445,
+          "chinese_characters": 825
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.8D"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.8A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.8B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读均匀介质的确定散射和独立涨落的方差，复读空间相关矩阵及有限阵列。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "密度涨落的瑞利散射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1301,
+          "chinese_characters": 724
+        },
+        "student": {
+          "content_characters": 1899,
+          "chinese_characters": 924
+        },
+        "teacher": {
+          "content_characters": 1899,
+          "chinese_characters": 924
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.9C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.9D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读瑞利角因子、立体角归一化和q相关谱效果；区分方位角下的单输入与非偏振输入。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "射电脉冲啁啾与电子密度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 701,
+          "chinese_characters": 287
+        },
+        "student": {
+          "content_characters": 1482,
+          "chinese_characters": 651
+        },
+        "teacher": {
+          "content_characters": 1482,
+          "chinese_characters": 651
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.10B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.10A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.10C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.10D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读同发射时刻和传播条件；测得斜率反演，夹带近似误差和灵敏度。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "吸收系数测量与表面反射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 619,
+          "chinese_characters": 263
+        },
+        "student": {
+          "content_characters": 1819,
+          "chinese_characters": 947
+        },
+        "teacher": {
+          "content_characters": 1819,
+          "chinese_characters": 947
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光5.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光5.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光5.11C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光5.11B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光5.11D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光5.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光5.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "明确菲涅耳界面局部弱吸收与传播光程独立。补复折射率的首次透射界面常因子，说明两厚度消去，写清相干往返相位含反射相位。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "关键洞察",
+          "变式训练"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

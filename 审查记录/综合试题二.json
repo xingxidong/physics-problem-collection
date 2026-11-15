@@ -1,0 +1,632 @@
+{
+  "单元": "综合试题二",
+  "题数": 6,
+  "分章文件_SHA256": {
+    "综合试题二_学生版.pdf": "13d7aec50a91f4e92bb5c029367fe2b98f5aa816a4941fe3dce1f69caa34fd21",
+    "综合试题二_学生版.tex": "73da800d6c20af718d2c2218ea6efde2cd2c233a5e4846c7ffd0a81a08c27c6e",
+    "综合试题二_学生解答版.pdf": "05d24ba0cf1f94632a672d73141d98e387c4c07a77d5772854389c72f3f1bf27",
+    "综合试题二_学生解答版.tex": "b238711ac94f02c3a0554c1cd37d3308d89dbf006eab291d2a8e62d56be718a7",
+    "综合试题二_教师版.pdf": "eed4b44e146aad1cc4cd2f3a6d170796c065ff6b1a4faac3d24ce3b2fb3fb592",
+    "综合试题二_教师版.tex": "62addf66153904017a1a5d001840ead9ef49a87fd97e6f2c5905cae10c9ac67b"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "以质点运动研究曲率与正截面",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2351,
+          "chinese_characters": 1586
+        },
+        "student": {
+          "content_characters": 2618,
+          "chinese_characters": 1753
+        },
+        "teacher": {
+          "content_characters": 2618,
+          "chinese_characters": 1753
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综二.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看空间曲率由法向加速度决定，与瞬时停顿的参数极限分开。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "弹簧小球与球壳的无碰撞起落",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2985,
+          "chinese_characters": 1441
+        },
+        "student": {
+          "content_characters": 3458,
+          "chinese_characters": 1755
+        },
+        "teacher": {
+          "content_characters": 3458,
+          "chinese_characters": 1755
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综二.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看弹簧小球的地面支持向上、失去支持力和返回高度判别。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "以连续折射求最速降线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 772,
+          "chinese_characters": 325
+        },
+        "student": {
+          "content_characters": 1785,
+          "chinese_characters": 744
+        },
+        "teacher": {
+          "content_characters": 1785,
+          "chinese_characters": 744
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看摆线回到起始高度两个尖点的有限时间，以及正高度内的积分。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "线性引力下的闭合轨道与等效力心",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2143,
+          "chinese_characters": 1606
+        },
+        "student": {
+          "content_characters": 2763,
+          "chinese_characters": 1711
+        },
+        "teacher": {
+          "content_characters": 2763,
+          "chinese_characters": 1711
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综二.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看守恒量一阶系、椭圆退化及等效力心。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "采样、空气质量与带电环的三个估算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1723,
+          "chinese_characters": 940
+        },
+        "student": {
+          "content_characters": 3144,
+          "chinese_characters": 1677
+        },
+        "teacher": {
+          "content_characters": 3144,
+          "chinese_characters": 1677
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综二.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看带电环中心电场极限、群体质量估算的体积边界。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "水平磁场中带电圆环由滑动到滚动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1466,
+          "chinese_characters": 875
+        },
+        "student": {
+          "content_characters": 2298,
+          "chinese_characters": 1278
+        },
+        "teacher": {
+          "content_characters": 2298,
+          "chinese_characters": 1278
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综二.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综二.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综二.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综二.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综二.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综二.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复算到滚动的摩擦总功与支持力正性，加入逐段滑动功率积分。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": [
+          {
+            "stage": "content"
+          },
+          {
+            "stage": "humanizer-zh"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

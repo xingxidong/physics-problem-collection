@@ -1,0 +1,534 @@
+{
+  "单元": "热学试题一",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "热学试题一_学生版.pdf": "503078627f4224174878489d1a82b3cd73553058380e3c07ce579358ef89349c",
+    "热学试题一_学生版.tex": "c0d64aea1308a27f1abb5a1d7314536590dd875712bc5b194ad8318d1b2bbe5e",
+    "热学试题一_学生解答版.pdf": "1ad7ab98b984c1ceb8d89cdcde03b30b9d106e6e7265ed39439d30537d9cfb74",
+    "热学试题一_学生解答版.tex": "24ffee2e2fee09d307194774693de7103e42f466be32a7b09f44c5c04df5a80a",
+    "热学试题一_教师版.pdf": "2e8495bb66d19ddd33414285ce0c481fb41d991014202213a6a5c02205c2e136",
+    "热学试题一_教师版.tex": "aa1a24e3d0080eba1cda76578498a52e5903f84135f6646a8ff54f6fb4d73af4"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "由过程热容量反求膨胀功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 648,
+          "chinese_characters": 263
+        },
+        "student": {
+          "content_characters": 1144,
+          "chinese_characters": 375
+        },
+        "teacher": {
+          "content_characters": 1144,
+          "chinese_characters": 375
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热试1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热试1.1C"
+          },
+          {
+            "n": 2,
+            "caption": "解图热试1.1A"
+          },
+          {
+            "n": 3,
+            "caption": "解图热试1.1B"
+          },
+          {
+            "n": 4,
+            "caption": "解图热试1.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热试1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看过程热容量、作功梯形及不同参数的正温和极点条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "标准解法",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "关键洞察",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "射线与绝热线组成的循环",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1351,
+          "chinese_characters": 606
+        },
+        "student": {
+          "content_characters": 1710,
+          "chinese_characters": 668
+        },
+        "teacher": {
+          "content_characters": 1710,
+          "chinese_characters": 668
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热试1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热试1.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热试1.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热试1.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图热试1.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热试1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看两射线热量有同一过程热容量、绝热段换算和四态对应。",
+        "confirmed_fields": [
+          "题型定位",
+          "解题入口",
+          "易错点",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "知识点",
+          "物理图像",
+          "标准解法",
+          "关键洞察",
+          "课堂讲解建议"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "绝热大气分层与高速物体的碰撞阻力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1260,
+          "chinese_characters": 634
+        },
+        "student": {
+          "content_characters": 1680,
+          "chinese_characters": 649
+        },
+        "teacher": {
+          "content_characters": 1680,
+          "chinese_characters": 649
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热试1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热试1.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热试1.3D"
+          },
+          {
+            "n": 3,
+            "caption": "解图热试1.3B"
+          },
+          {
+            "n": 4,
+            "caption": "解图热试1.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热试1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看碰撞冲量方向与温度、密度幂次；两次速度因子分别来自扫过质量和动量。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察"
+        ],
+        "remaining_fields": [
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "有限热容量物体之间的温差衰减",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 713,
+          "chinese_characters": 344
+        },
+        "student": {
+          "content_characters": 1333,
+          "chinese_characters": 527
+        },
+        "teacher": {
+          "content_characters": 1333,
+          "chinese_characters": 527
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热试1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热试1.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热试1.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热试1.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图热试1.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热试1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复算差温指数，注明 W/K 的总传热系数与材料导热率的关系。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "晶体的非谐势能与热膨胀参数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1924,
+          "chinese_characters": 653
+        },
+        "student": {
+          "content_characters": 2622,
+          "chinese_characters": 1136
+        },
+        "teacher": {
+          "content_characters": 2622,
+          "chinese_characters": 1136
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热试1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热试1.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热试1.5C"
+          },
+          {
+            "n": 3,
+            "caption": "解图热试1.5B"
+          },
+          {
+            "n": 4,
+            "caption": "解图热试1.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热试1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热试1.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看热膨胀的势阱三次项、晶胞计数与密度变化固定参考温度。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

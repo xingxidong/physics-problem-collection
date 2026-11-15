@@ -1,0 +1,420 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000
+
+\newcommand{\chapterlabel}{热学第一章\quad 平衡态与理想气体状态方程}
+\hypersetup{pdftitle={热学第一章 平衡态与理想气体状态方程·学生版},pdfauthor={},pdfsubject={热学第一章第1--16题}}
+\begin{document}
+\pdfbookmark[0]{热学第一章 平衡态与理想气体状态方程}{cover}
+\thispagestyle{empty}\vspace*{20mm}
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{8mm}
+\noindent{\LARGE 热学第一章}\par\vspace{5mm}
+\noindent{\LARGE 平衡态与理想气体状态方程}\par\vspace{10mm}
+\noindent{\Large\color{accent}学生版}\par\vspace{8mm}
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{8mm}
+\noindent 第1--16题\par\vspace{5mm}
+\noindent 题目、题图与作答区。\par\vfill\clearpage
+\pdfbookmark[1]{题目目录}{contents}\section*{题目目录}
+\begin{longtable}{@{}>{\color{accent}\bfseries}r p{120mm}@{}}
+\toprule 题号 & 题目\\\midrule
+1 & 道尔顿定压温标与摄氏温度换算 \\
+2 & 热电偶非线性电动势与自定温标 \\
+3 & 多只贮气罐给真空室逐次充气 \\
+4 & U形管注入水银后的封闭气体压强 \\
+5 & 玻璃管倒置插入水银槽的双气柱变化 \\
+6 & 升温推动水银柱外溢的分阶段判断 \\
+7 & 试管倒置时两端封气长度的比较 \\
+8 & 湖底水箱充气上浮所需空气量 \\
+9 & 热气球刚好升空的内部温度 \\
+10 & 浮沉子受压下沉的速度关系 \\
+11 & 由行星大气压强曲线求探测器速度 \\
+12 & 用体积百分比求标准状态空气密度 \\
+13 & 干湿空气浮力差导致的称量差异 \\
+14 & 干空气与湿空气隔板平衡及混合压强 \\
+15 & 潮湿空气压缩凝结与降温后的压强 \\
+16 & 可分解双原子气体升温后的水银柱移动 \\\bottomrule\end{longtable}
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 道尔顿定压温标与摄氏温度换算}{q1}
+
+\section*{第 1 题\quad 道尔顿定压温标与摄氏温度换算}
+
+道尔顿定压温标以一定量理想气体的体积为测温属性：在压强恒定时，体积的相对微小增量正比于温度读数$\tau$的增量，即$\dd V/V=A\dd\tau$，$A$为常量。冰点规定为$\tau=0^\circ$，汽点规定为$\tau=100^\circ$。试用摄氏温度$t$表示$\tau$。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\fill[accent!8] (0, 0) rectangle (2,2.2);
+\node[align=center,font=\footnotesize] at (1.0,1.1) {气体 $V$\\$p$恒定};
+\fill[warm!30] (0, 2.2) rectangle (2,2.3200000000000003);
+\node[align=center,font=\footnotesize] at (1.0,2.2600000000000002) {};
+\draw[object] (0,0)--(0,2.3200000000000003);\draw[object] (2,0)--(2,2.3200000000000003);
+\draw[object] (0,0)--(2,0);
+\node[align=center] at (1.0,-.55) {气体温度计};
+
+\draw[motion] (1,2.5)--(1,2.9);
+\node at (4.6,2.3) {冰点：$V_0,\ \tau=0$};
+\node at (4.6,1.2) {汽点：$V_{100},\ \tau=100$};
+\node at (4.6,.2) {$\dd V/V=A\dd\tau$};
+\end{tikzpicture}\figcaption{图 热1.1　定压条件下用体积读数建立温标。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 2 题 热电偶非线性电动势与自定温标}{q2}
+
+\section*{第 2 题\quad 热电偶非线性电动势与自定温标}
+
+热电偶的一个触点始终保持在$0^\circ\mathrm C$，另一个触点接触待测物体。待测温度为$t\,{}^\circ\mathrm C$时，热电动势为
+\[\mathcal E=\alpha t+\beta t^2,\qquad
+\alpha=0.20\,\mathrm{mV}/{}^\circ\mathrm C,\quad
+\beta=-5.0\times10^{-4}\,\mathrm{mV}/({}^\circ\mathrm C)^2.\]
+以$\mathcal E$为测温属性，定义$t^*=a\mathcal E+b$，并规定冰点$t^*=0^\circ$、汽点$t^*=100^\circ$。求$t^*(t)$，画出曲线，并讨论这一温标能否在整个温区唯一确定温度。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\fill[warm!7] (-.35,.65) rectangle (.35,1.35);
+\fill[accent!7] (2.05,.65) rectangle (2.75,1.35);
+\draw[object] (0,1)--(0,2.2)--(4,2.2)--(4,1.4);
+\draw[object] (4,.6)--(4,0)--(2.4,0)--(2.4,1);
+\draw[very thick,warm] (0,1)--(2.4,1);
+\fill (0,1) circle(2pt);\fill (2.4,1) circle(2pt);
+\draw[object] (4,1) circle(.4);\node at (4,1) {$\mathcal E$};
+\node[above] at (1.7,2.2) {金属$A$};
+\node[above] at (1.2,1) {金属$B$};
+\node[left,align=right] at (-.4,1) {$H$热端\\$t\,{}^\circ\mathrm C$};
+\node[above,align=center] at (2.4,1.35) {$C$冷端\\$0^\circ\mathrm C$};
+\node[below] at (2,-.35) {$\mathcal E=\alpha t+\beta t^2,\quad t^*=a\mathcal E+b$};
+\end{tikzpicture}\figcaption{图 热1.2　热电动势与温标读数之间规定线性对应。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 3 题 多只贮气罐给真空室逐次充气}{q3}
+
+\section*{第 3 题\quad 多只贮气罐给真空室逐次充气}
+
+每个贮气罐体积为$V$，初始压强为$p$。将一罐接到体积为$V_0$的真空室，开阀达到平衡后关阀，再换一只新的同样的罐继续充气，如此反复。全程温度不变。要使室内压强达到或超过$p_0$（$0<p_0<p$），至少需要多少罐？若最后一次允许提前关阀，说明怎样恰好达到$p_0$。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[object,fill=accent!7] (0,0) rectangle (2,2);\node[align=center] at (1,1) {新罐\\$V,p$};
+\draw[object] (2,1)--(3,1);\draw[object] (2.45,.8)--(2.55,1.2);\node[above] at (2.5,1.25) {阀};
+\draw[object,fill=accent!7] (3,0) rectangle (6,2);\node[align=center] at (4.5,1) {气室\\$V_0,p_{k-1}$};
+\draw[motion] (2.1,.5)--(2.9,.5);
+\end{tikzpicture}\figcaption{图 热1.3　每次接入新罐，关阀后保留气室中的气体。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 4 题 U形管注入水银后的封闭气体压强}{q4}
+
+\section*{第 4 题\quad U形管注入水银后的封闭气体压强}
+
+截面均匀、两端等高的U形管竖直放置，内盛水。左端封闭，右端开口；初始左、右水面到管顶的距离分别为$h_1=30\,\mathrm{cm}$、$h_2=20\,\mathrm{cm}$。右水面上有质量可忽略、无摩擦且不漏气的薄活塞。在活塞上缓慢加入高$H=7.5\,\mathrm{cm}$的水银柱，其上表面恰与左水面等高。温度和外界压强$p_0$不变，水银密度为水的13.6倍。求$p_0$。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\fill[accent!16] (0,0) rectangle(.7,1.2);\fill[accent!16] (2,0) rectangle(2.7,2.2);
+\fill[accent!16] (0,0) rectangle(2.7,.4);
+\draw[object] (0,4.2)--(0,0)--(2.7,0)--(2.7,4.2);
+\draw[object] (.7,4.2)--(.7,.4)--(2,.4)--(2,4.2);\draw[object] (0,4.2)--(.7,4.2);
+\draw[object,line width=2pt] (2,2.2)--(2.7,2.2);
+\draw[guide] (0,4.2)--(3.1,4.2);
+\draw[<->] (-.35,1.2)--(-.35,4.2) node[midway,left]{$h_1$};
+\draw[<->] (3.1,2.2)--(3.1,4.2) node[midway,right]{$h_2$};
+\node at (.35,2.7) {气};\node at (1.4,.15) {水};\node at (2.35,3.1) {$p_0$};
+\node[below,align=center] at (1.35,-.25) {同一长度比例：$h_1:h_2=30:20$};
+\end{tikzpicture}\figcaption{图 热1.4　初始两水面的高度差决定封闭气体的初压。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 5 题 玻璃管倒置插入水银槽的双气柱变化}{q5}
+
+\section*{第 5 题\quad 玻璃管倒置插入水银槽的双气柱变化}
+
+均匀直玻璃管一端A封闭、另一端B开口，中间有长$60\,\mathrm{mm}$的水银柱。水平放置时，A、B两侧空气柱均长$140\,\mathrm{mm}$。将管轻轻转为开口向下，再竖直插入水银槽；平衡后A端空气柱长$133\,\mathrm{mm}$。大气压强为$760\,\mathrm{mmHg}$，温度不变。求槽中水银进入管中的高度$H$，即从管口到管内槽水银面的距离。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[object] (0,0)--(0,.9)--(6.8,.9);\draw[object] (0,0)--(6.8,0);
+\fill[warm!35] (2.8,0) rectangle(4,.9);
+\draw[object] (2.8,0)--(2.8,.9);\draw[object] (4,0)--(4,.9);
+\node at (1.4,.45) {A：140 mm};\node at (3.4,.45) {60 mm};\node at (5.4,.45) {B：140 mm};
+\node[above] at (6.8,1) {开口};
+\end{tikzpicture}\figcaption{图 热1.5　水平管中的两段气体均与760 mmHg相平衡。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 6 题 升温推动水银柱外溢的分阶段判断}{q6}
+
+\section*{第 6 题\quad 升温推动水银柱外溢的分阶段判断}
+
+均匀玻璃管长$96\,\mathrm{cm}$，下端封闭，上端开口。管内有长$20\,\mathrm{cm}$的水银柱；$27^\circ\mathrm C$时，其下封闭空气柱长$60\,\mathrm{cm}$。外界压强为$76\,\mathrm{cmHg}$。缓慢升温，求导致水银全部溢出的临界温度。忽略管和水银的热膨胀，空气视为理想气体。须区分水银刚到管口、稳定部分外溢和失稳后迅速排出的阶段。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\fill[accent!8] (0, 0) rectangle (1.7,2.4);
+\node[align=center,font=\footnotesize] at (0.85,1.2) {空气\\60 cm};
+\fill[warm!35] (0, 2.4) rectangle (1.7,3.2);
+\node[align=center,font=\footnotesize] at (0.85,2.8) {汞\\20 cm};
+\node[align=center,font=\footnotesize] at (0.85,3.52) {空隙\\16 cm};
+\draw[object] (0,0)--(0,3.8400000000000003);\draw[object] (1.7,0)--(1.7,3.8400000000000003);
+\draw[object] (0,0)--(1.7,0);
+\node[align=center] at (0.85,-.55) {27℃};
+\node at (4,3.6) {$p_a=76\,\mathrm{cmHg}$};\draw[motion] (3,.7)--(3,2) node[right,midway]{升温};
+\end{tikzpicture}\figcaption{图 热1.6　水银尚未到管口，完整水银柱使封闭空气压强保持96 cmHg。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 7 题 试管倒置时两端封气长度的比较}{q7}
+
+\section*{第 7 题\quad 试管倒置时两端封气长度的比较}
+
+均匀细长试管AB初始竖直放置，下端A封闭，上端B开口。A、B内空气柱各长$L_0$，中间水银柱长$L=4L_0$，大气压强$p_0=2\rho gL$，$\rho$为水银密度。温度保持不变。
+\begin{enumerate}
+\item 先封闭B端，再缓慢倒转$180^\circ$。求$L_A$、$L_B$。
+\item B端始终开口，先缓慢倒转$180^\circ$，再回转$180^\circ$复原。求最后的$L_A'$、$L_B'$。
+\end{enumerate}
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\fill[accent!8] (0, 0) rectangle (1.8,0.7);
+\node[align=center,font=\footnotesize] at (0.9,0.35) {A：$L_0$};
+\fill[warm!35] (0, 0.7) rectangle (1.8,3.5);
+\node[align=center,font=\footnotesize] at (0.9,2.0999999999999996) {汞：$4L_0$};
+\fill[accent!8] (0, 3.5) rectangle (1.8,4.2);
+\node[align=center,font=\footnotesize] at (0.9,3.85) {B：$L_0$};
+\draw[object] (0,0)--(0,4.2);\draw[object] (1.8,0)--(1.8,4.2);
+\draw[object] (0,0)--(1.8,0);
+\node[align=center] at (0.9,-.55) {初始};
+\node at (4.5,3.8) {$p_0=8\rho gL_0$};\draw[motion] (3.5,1.7) arc(200:20:.8);\node at (5,1.7) {倒转180°};
+\end{tikzpicture}\figcaption{图 热1.7　A、B 是固定在管上的端点标号。倒转后 A 在上、B 在下。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 8 题 湖底水箱充气上浮所需空气量}{q8}
+
+\section*{第 8 题\quad 湖底水箱充气上浮所需空气量}
+
+铁制水箱质量$840\,\mathrm{kg}$、容积$1\,\mathrm{m^3}$，有进水孔a和排水孔b。箱子沉入湖底并充满水，排水孔b距湖面$10\,\mathrm m$。将压气管接到a，注入空气并从b排水。需要送入多少按$1\,\mathrm{atm}$、$27^\circ\mathrm C$计量的空气，箱子才开始上浮？湖底水温$7^\circ\mathrm C$，水密度$1000\,\mathrm{kg/m^3}$；忽略空气重量和铁壳体积，水箱高度相对于水深很小，箱内气压按b处水压计算。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\fill[accent!7] (-.7,-.4) rectangle(6,4);\draw[object] (-.7,3.7)--(6,3.7) node[right]{湖面};
+\draw[object,fill=white] (1,0) rectangle(4,1.9);\fill[accent!22] (1,.05) rectangle(4,.7);\node at (2.5,1.3) {空气};\node at (2.5,.35) {水};
+\draw[object] (1.6,1.9)--(1.6,4.3) node[above]{a，进气};\draw[motion] (1.6,3.1)--(1.6,2.3);
+\draw[motion] (4,.2)--(4.9,.2) node[right]{b};\draw[<->] (.2,.2)--(.2,3.7) node[left,midway]{10 m};
+\end{tikzpicture}\figcaption{图 热1.8　空气占据上部，水从b排出；气压按b处水压近似。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 9 题 热气球刚好升空的内部温度}{q9}
+
+\section*{第 9 题\quad 热气球刚好升空的内部温度}
+
+球形热气球的球皮、吊篮和装载总质量为 $300\,\mathrm{kg}$（不含球内空气）。受热膨胀至最大直径$18\,\mathrm m$。球内外空气成分相同；内部压强稍高于大气压，计算时忽略该微小差值。大气温度为$27^\circ\mathrm C$，压强$1\,\mathrm{atm}$；标准状态（$0^\circ\mathrm C$、$1\,\mathrm{atm}$）空气密度为$1.3\,\mathrm{kg/m^3}$。求刚好升空时球内温度。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\draw[object,fill=accent!8] (2,2.2) circle(1.4);\draw[object] (1.1,1.1)--(1.6,0);\draw[object] (2.9,1.1)--(2.4,0);\draw[object] (1.6,0) rectangle(2.4,.4);\node at (2,2.4) {$\rho_{\rm in},T_{\rm in}$};\node at (4.6,2.3) {$\rho_{\rm out},T_{\rm out}$};\draw[<->] (.6,4)--(3.4,4) node[midway,above]{18 m};\node at (2,-.4) {球皮及载荷300 kg};
+\end{tikzpicture}\figcaption{图 热1.9　最大直径决定排开空气的体积；300 kg不包含内气质量。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 10 题 浮沉子受压下沉的速度关系}{q10}
+
+\section*{第 10 题\quad 浮沉子受压下沉的速度关系}
+
+薄壁圆柱形浮沉子一端封闭、一端开口，开口向下插入密度为$\rho$的液体。液面上方压强为$p_0$时，闭端刚与液面齐平，装置静止。突然将液面上方压强增为$2p_0$。证明下沉深度$x$与速度$v$满足
+\[v^2=2gx-\frac{2p_0}{\rho}\ln\left(1+\frac{\rho gx}{2p_0}\right).\]
+空气为理想气体，重量可忽略；液体温度均匀，气体压缩按等温过程处理。采用短气柱近似，忽略气柱高度引起的静水压修正，以$\rho gx$表示附加液压；忽略粘滞阻力及液体附加惯性。压强突变后的体积调整很快，取下沉运动开始时$x=0$、$v=0$。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\fill[accent!7] (-.7,-.4) rectangle(6,3.6);\draw[object] (-.7,3.2)--(6,3.2) node[right]{液面};\draw[object] (1.5,1.4000000000000001)--(1.5,3.2)--(3,3.2)--(3,1.4000000000000001);\fill[white] (1.52,2.3000000000000003) rectangle(2.98,3.18);\node at (2.25,2.75) {$V$};
+\node at (4.5,3.8) {$p_0$};\node at (4.3,1.9) {初始悬浮};
+\end{tikzpicture}\figcaption{图 热1.10　闭端初始与液面齐平；短气柱近似中取初压为$p_0$。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 11 题 由行星大气压强曲线求探测器速度}{q11}
+
+\section*{第 11 题\quad 由行星大气压强曲线求探测器速度}
+
+仪器以恒定速度竖直下降，接近并到达某行星表面，记录压强$p$随时间$t$的曲线（图中压强采用同一约定单位）。到达表面A点时，测得温度$700\,\mathrm K$，重力加速度$10\,\mathrm{m/s^2}$。大气由二氧化碳组成，可视为静止的理想气体，摩尔质量$44\times10^{-3}\,\mathrm{kg/mol}$。由曲线求下降速度。请在图中作A点切线，自行读取所需的压强与时间关系，并说明作图读数对结果精度的限制。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\draw[axis] (0,0)--(6.2,0) node[right] {$t/\mathrm s$};\draw[axis] (0,0)--(0,3.9) node[above] {$p$/约定单位};
+
+\foreach \x/\v in {1.35/1000,2.7/2000,4.05/3000,5.4/4000}{\draw (\x,0)--(\x,-.07) node[below]{\v};}
+\foreach \y/\v in {1.15/20,2.3/40,3.45/60}{\draw (0,\y)--(-.07,\y) node[left]{\v};}
+\draw[traj] plot[smooth] coordinates{(0,.015)(1.35,.05)(2.025,.12)(2.7,.32)(3.375,.87)};
+\draw[traj] (3.375,.87) .. controls (4,1.45) and (4.35,1.83503) .. (4.86,3.1625);
+\fill[accent] (4.86,3.1625) circle(1.5pt);\node[above] at (4.86,3.1625){A};
+\end{tikzpicture}\figcaption{图 热1.11　端点 A 对应行星表面。由 A 点的切线读取当地压强变化率。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 12 题 用体积百分比求标准状态空气密度}{q12}
+
+\section*{第 12 题\quad 用体积百分比求标准状态空气密度}
+
+混合理想气体中某组分的体积百分比，指将该组分单独置于与混合气体相同的温度、压强时，其体积与混合气体总体积之比。空气中氮气、氧气、氩气的体积百分比分别为78\%、21\%、1\%，相对分子质量分别为28.0、32.0、39.9。求标准状态（$1\,\mathrm{atm}$、$0^\circ\mathrm C$）的空气密度。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\draw[object] (0,0) rectangle(6,1.2);\fill[accent!15] (0,0) rectangle(4.68,1.2);\fill[warm!15] (4.68,0) rectangle(5.94,1.2);\node at (2.34,.6){氮78\%};\node[font=\footnotesize] at (5.28,.6){氧21\%};\draw[guide] (5.97,1.2)--(6.5,1.8) node[right]{氩1\%};\node at (3,-.5){各组分单独置于相同$p,T$时的等效体积};
+\end{tikzpicture}\figcaption{图 热1.12　各组分在共同压强和温度下的等效体积给出气体组成，混合后各组分均充满容器。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 13 题 干湿空气浮力差导致的称量差异}{q13}
+
+\section*{第 13 题\quad 干湿空气浮力差导致的称量差异}
+
+同一铝片分别在干空气和湿空气中用铜砝码称量。总压均为$760\,\mathrm{mmHg}$、温度均为$20^\circ\mathrm C$，湿空气的水蒸气分压为$15.2\,\mathrm{mmHg}$。天平能察觉的最小称量差为$0.1\,\mathrm{mg}$。求铝片至少应有的质量。铝、铜密度分别为$2.7$、$8.5\,\mathrm{g/cm^3}$；同温下、压强$760\,\mathrm{mmHg}$的干空气和纯水蒸气密度分别为$0.0012$、$0.00075\,\mathrm{g/cm^3}$。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\draw[object] (0,2.2)--(6,2.2);\draw[object] (3,2.2)--(3,.3);\draw[object] (2.4,.3)--(3,1.3)--(3.6,.3);\draw[object] (.5,2.2)--(.5,.8)--(1.8,.8)--(1.8,2.2);\draw[object] (4.2,2.2)--(4.2,.8)--(5.5,.8)--(5.5,2.2);\draw[object,fill=accent!10] (.65,.8) rectangle(1.65,1.2);\draw[object,fill=warm!25] (4.6,.8) rectangle(5.1,1.45);\node at (1.15,.1){铝片};\node at (4.85,.1){铜砝码};\node at (3,3){同温同总压，改变水汽分压};
+\end{tikzpicture}\figcaption{图 热1.13　两盘都受空气浮力；天平比较的是物体的有效重力。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 14 题 干空气与湿空气隔板平衡及混合压强}{q14}
+
+\section*{第 14 题\quad 干空气与湿空气隔板平衡及混合压强}
+
+导热长方体容器用不漏气隔板分成两室，分别装有相等质量的干空气和湿空气；湿空气中水蒸气质量占2\%。取干空气、水蒸气摩尔质量分别为$28.8$、$18.0\,\mathrm{g/mol}$。两室与环境等温，不发生凝结。
+\begin{enumerate}
+\item 隔板可沿器壁自由无摩擦地滑动，求平衡后干空气、湿空气体积比。
+\item 另从两室初始体积相等的状态开始，抽出隔板而不漏气，求最终压强与初始干空气压强、湿空气压强三者之比。
+\end{enumerate}
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\draw[object] (0,0) rectangle(6,2);\draw[object,line width=1.2pt] (3,0)--(3,2);\node[align=center,text width=2.7cm,font=\footnotesize] at (1.5,1){干空气\quad$M$};\node[align=center,text width=2.7cm,font=\footnotesize] at (4.5,1){湿空气\quad$M$\\干气$0.98M$\\水汽$0.02M$};
+\end{tikzpicture}\figcaption{图 热1.14　同质量不等于同摩尔数；两问分别采用可动隔板和初始等体积抽板条件。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 15 题 潮湿空气压缩凝结与降温后的压强}{q15}
+
+\section*{第 15 题\quad 潮湿空气压缩凝结与降温后的压强}
+
+均匀导热长圆管下端封闭、上端开口，竖直放置。初始$27^\circ\mathrm C$、$760\,\mathrm{mmHg}$、相对湿度75\%的空气充满全管，管口用无摩擦、质量可忽略的薄活塞封住。$27^\circ\mathrm C$、$0^\circ\mathrm C$的饱和水蒸气压分别为$26.7$、$4.58\,\mathrm{mmHg}$。
+\begin{enumerate}
+\item 等温地向活塞上方注入水银，使管内开始出现水珠，管至少须多长？
+\item 水蒸气刚开始凝结时固定活塞，再降温至$0^\circ\mathrm C$，求管内总压强。
+\end{enumerate}
+忽略凝结水所占体积、活塞厚度及热膨胀；相对湿度为实际水汽分压与同温饱和压之比。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]
+\fill[accent!8] (0,0) rectangle(2,3);
+\draw[object] (0,3)--(0,0)--(2,0)--(2,3);
+\draw[object,line width=2pt] (0,3)--(2,3);
+\node[align=center] at (1,1.5) {湿空气\\$L_0$};
+\node[above] at (1,3.15) {$p_0$};
+\node[align=left] at (4.4,2.4) {$\varphi=75\%$\\$T=27^\circ\mathrm C$};
+\draw[motion] (3.3,.8)--(3.3,1.8) node[right,midway] {加汞增压};
+\end{tikzpicture}\figcaption{图 热1.15　等温压缩前两种气体分压都按固定摩尔数变化。}\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 16 题 可分解双原子气体升温后的水银柱移动}{q16}
+
+\section*{第 16 题\quad 可分解双原子气体升温后的水银柱移动}
+
+两端封闭的均匀石英管竖直放置，中间水银柱将下方空气和上方可分解双原子气体隔开。初始温度$T_0$，下、上气柱长分别为$2l_0$、$l_0$。水银柱重力对应的压强为下方初始压强$p_0$的$\alpha$倍（$0<\alpha<1$）。温度超过$T_0$后，上方有$\Delta n$个双原子分子分解为$2\Delta n$个单原子粒子；小温升满足
+\[\frac{\Delta n}{n_0}=\frac{\Delta T}{T_0}=\varepsilon\ll1,\]
+其中$n_0$为初始双原子分子数。上下气体温升相同，忽略管和水银热膨胀。判断水银柱上升还是下降，并说明临界情形。
+
+\begin{center}\begin{minipage}{0.96\linewidth}\centering
+\begin{tikzpicture}[x=1cm,y=1cm]\fill[accent!8] (0, 0) rectangle (2,2);
+\node[align=center,font=\footnotesize] at (1.0,1.0) {空气\\$2l_0,p_0$};
+\fill[warm!35] (0, 2) rectangle (2,2.5);
+\node[align=center,font=\footnotesize] at (1.0,2.25) {汞};
+\fill[accent!8] (0, 2.5) rectangle (2,3.5);
+\node[align=center,font=\footnotesize] at (1.0,3.0) {双原子气\\$l_0$};
+\draw[object] (0,0)--(0,3.5);\draw[object] (2,0)--(2,3.5);
+\draw[object] (0,0)--(2,0);
+\draw[object] (0,3.5)--(2,3.5);
+\node[align=center] at (1.0,-.55) {初始$T_0$};
+\node[align=center] at (5,2.2){水银重力/截面积\\$=\alpha p_0$};
+\end{tikzpicture}\figcaption{图 热1.16　初始上方压强为$(1-\alpha)p_0$；上方分解会改变粒子总数。}\end{minipage}\end{center}
+
+\workarea
+
+\end{document}

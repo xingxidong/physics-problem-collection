@@ -1,0 +1,1393 @@
+{
+  "单元": "热学第四章",
+  "题数": 17,
+  "分章文件_SHA256": {
+    "热学第四章_学生版.pdf": "0f0837309d71d052fc2621d2b788471b1e3c2efb988d07f11ed64bd5b863ef6c",
+    "热学第四章_学生版.tex": "a0170d83a2359b2551d875b72f8120a4ea5bf6b29ae5107903fda31e70795145",
+    "热学第四章_学生解答版.pdf": "c2805e8db98f7736c80be2ebaf14712c2a576abb1cb6fe8c473d03a6485635e2",
+    "热学第四章_学生解答版.tex": "74a0f90a16826b204f8bd34aed8157b89b57006fab44fa5b90b7fdecd6efeb89",
+    "热学第四章_教师版.pdf": "aa76327c7af269316df7530081b2b6656554ee264261a082c7301478fa79b083",
+    "热学第四章_教师版.tex": "518a2f5ee96a82d11c1604cc1e2cd1bc7aff07bfbc909f578c040b6fdc289ce3"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "范德瓦耳斯气体自由膨胀的熵增",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1183,
+          "chinese_characters": 621
+        },
+        "student": {
+          "content_characters": 1840,
+          "chinese_characters": 908
+        },
+        "teacher": {
+          "content_characters": 1840,
+          "chinese_characters": 908
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮九栏文字逐段实读",
+        "findings": "沿临界温度以上的等温线连接两容积，两段定容熵变相加，积分无须经过两相区。用同体积的熵温单调性说明变图两曲线的有限区间次序。保留原有等内能路径。"
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "范德瓦耳斯氧气节流过程温度变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 908,
+          "chinese_characters": 407
+        },
+        "student": {
+          "content_characters": 2022,
+          "chinese_characters": 1019
+        },
+        "teacher": {
+          "content_characters": 2022,
+          "chinese_characters": 1019
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮九栏文字逐段实读",
+        "findings": "用具体的两份流动能量说明节流分子与热容量，再和封闭气体自由膨胀比较。保留有限压降、微分反转的区别及各数值。"
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "乙醚临界现象中气液质量比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1270,
+          "chinese_characters": 396
+        },
+        "student": {
+          "content_characters": 2593,
+          "chinese_characters": 1063
+        },
+        "teacher": {
+          "content_characters": 2593,
+          "chinese_characters": 1063
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮九栏文字逐段实读",
+        "findings": "等面积消元及20℃两组体积分数可复算。二次根判别式非负与严格机械稳定分开；重根V=2b的等温斜率为零，Vg≫Vl 仍是低压近似所需条件。"
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "毛细现象永动机方案的热力学破绽",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 541,
+          "chinese_characters": 343
+        },
+        "student": {
+          "content_characters": 1959,
+          "chinese_characters": 1210
+        },
+        "teacher": {
+          "content_characters": 1959,
+          "chinese_characters": 1210
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.4B、C"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.4A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "两阶段B、C是同一幅双图。按图的同高度蒸汽压和毛细液侧静压复读。变式7补单调性、唯一正根及相对于常密度的高度方向，并把横坐标0.8的位置标成刻度。"
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "毛细管中不同长度水柱的液面形状",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 776,
+          "chinese_characters": 443
+        },
+        "student": {
+          "content_characters": 1182,
+          "chinese_characters": 714
+        },
+        "teacher": {
+          "content_characters": 1182,
+          "chinese_characters": 714
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "重算有符号曲率，2.00 cm、4.00 cm及近似平面2.98 cm的符号与方向一致；球冠能跨过半径与接触线钉扎的条件已写清。"
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "双液体U形毛细管表面张力比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 495,
+          "chinese_characters": 229
+        },
+        "student": {
+          "content_characters": 1295,
+          "chinese_characters": 739
+        },
+        "teacher": {
+          "content_characters": 1295,
+          "chinese_characters": 739
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "点明连续气柱的两个液面高度不同，将气体自身静压差作为共同气压近似的条件；两边的静水压项仍用各自液体密度。"
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "微小水滴的曲率压强与密度变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 364,
+          "chinese_characters": 191
+        },
+        "student": {
+          "content_characters": 1263,
+          "chinese_characters": 647
+        },
+        "teacher": {
+          "content_characters": 1263,
+          "chinese_characters": 647
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.7A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "题图箭头换成贴在面元上向内的张力合力，解答直接解释合力来自切向张力及曲率。变式8给双代数根的区间和密度尺度，明确图上为何选右支。"
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "相通肥皂泡的稳定与不稳定平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 847,
+          "chinese_characters": 547
+        },
+        "student": {
+          "content_characters": 2337,
+          "chinese_characters": 1124
+        },
+        "teacher": {
+          "content_characters": 2337,
+          "chinese_characters": 1124
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "题图和变图2在管口留气体通路，并画出连通管两壁。变式3增同温压缩条件下的绝对压力—体积守恒式；两初冠都超半球且忽略管容积时，压缩模型的末半径大于固定体积估计。"
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "润湿浮球温度变化时浸入体积不变条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1096,
+          "chinese_characters": 481
+        },
+        "student": {
+          "content_characters": 1768,
+          "chinese_characters": 877
+        },
+        "teacher": {
+          "content_characters": 1768,
+          "chinese_characters": 877
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "明确接触平面与远处液面等高的几何近似。圆盘补面推得实际高度带来−ρ_l g z_c πr_c²，给出原压力合力近似的量级条件。复算变式5热膨胀的两项导数。"
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "对称连体液膜中环形细线张力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 524,
+          "chinese_characters": 325
+        },
+        "student": {
+          "content_characters": 1222,
+          "chinese_characters": 795
+        },
+        "teacher": {
+          "content_characters": 1222,
+          "chinese_characters": 795
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "复读有限张力的几何约束；用2σ的双面圆膜张力及两外膜的径向投影，虚位移只取瞬时切向分量。"
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "润湿竖直平板上的毛细上升高度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 931,
+          "chinese_characters": 453
+        },
+        "student": {
+          "content_characters": 1722,
+          "chinese_characters": 857
+        },
+        "teacher": {
+          "content_characters": 1722,
+          "chinese_characters": 857
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.11A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "变式2读圆弧弓高并画Δh，算出与毛细上升高度之比为d²/[4ℓ_c²(1+sinθ)]。原单壁曲率第一积分及接触角两端保留。"
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "一维晶体作用势、弹性和断裂形变",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 859,
+          "chinese_characters": 315
+        },
+        "student": {
+          "content_characters": 1763,
+          "chinese_characters": 839
+        },
+        "teacher": {
+          "content_characters": 1763,
+          "chinese_characters": 839
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.12B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "变式7在峰值的二阶系数为零，二键交换的四阶项为正，三键取−δ、−δ、2δ则三阶项为负。用 Lennard-Jones 势的高阶导数分清长度控制和外力控制。"
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "NaCl晶体结合能的估算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1363,
+          "chinese_characters": 377
+        },
+        "student": {
+          "content_characters": 1677,
+          "chinese_characters": 696
+        },
+        "teacher": {
+          "content_characters": 1677,
+          "chinese_characters": 696
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.13B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "复读NaCl常规晶胞四对、体积链式求导、零压才消去一阶力项；变式8的归一化压强在v=1处斜率为−1。"
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "等温压缩氟利昂的液化质量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 620,
+          "chinese_characters": 358
+        },
+        "student": {
+          "content_characters": 1380,
+          "chinese_characters": 686
+        },
+        "teacher": {
+          "content_characters": 1380,
+          "chinese_characters": 686
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "重验等温压缩三段、饱和初始体积、液态有限体积和变式8外功，气、液相态判定与图一致。"
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "互不相溶液体共沸温度与蒸汽组成",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2216,
+          "chinese_characters": 990
+        },
+        "student": {
+          "content_characters": 2442,
+          "chinese_characters": 1255
+        },
+        "teacher": {
+          "content_characters": 2442,
+          "chinese_characters": 1255
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热4.15B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "用绝对温标倒数拟合、分压和与质量气相比复算两平台条件，并读变式5图的纵横轴确认耗尽次序。"
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "冰水水蒸气三相定容加热后的质量分配",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 960,
+          "chinese_characters": 625
+        },
+        "student": {
+          "content_characters": 1678,
+          "chinese_characters": 812
+        },
+        "teacher": {
+          "content_characters": 1678,
+          "chinese_characters": 812
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.16A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "复验冰水相容积差符号、剩余冰质量和刚性容器H、U增量相等的条件；第7变式的单项pΔv不能从总定容直接略去。"
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "地幔硅酸盐熔点随深度变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 880,
+          "chinese_characters": 543
+        },
+        "student": {
+          "content_characters": 1746,
+          "chinese_characters": 861
+        },
+        "teacher": {
+          "content_characters": 1746,
+          "chinese_characters": 861
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热4.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热4.17A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热4.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热4.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题干、重点主解和八个变式文字，其他同文栏目引用既有签署证据",
+        "findings": "复验坐标换向、薄层径向压力、ℓ比体积差以及上部近似或变式中的有限积分；变式8宿主与矿物密度不同时保留比值。"
+      }
+    }
+  ],
+  "实际目视登记": []
+}

@@ -1,0 +1,3053 @@
+{
+  "单元": "电磁学第四章",
+  "题数": 35,
+  "分章文件_SHA256": {
+    "电磁学第四章_学生版.pdf": "2181be444543de122f7ee193e780add24d15e36eabb0924178bcd0675a71141d",
+    "电磁学第四章_学生版.tex": "e923e1e45950fc111ead21adbd1832763c057fd86bd93d9ad93d88ecfe0eadf3",
+    "电磁学第四章_学生解答版.pdf": "575eba1ecdf6b85d0ed7053e11cd823682964f9aa73ce96d68e0c4039e258a22",
+    "电磁学第四章_学生解答版.tex": "d1c7990ff895433414614e157e15ab00640c5cfb887836cab346f3735f9704fe",
+    "电磁学第四章_教师版.pdf": "754334fd0b6126e0067db11f2f22db22446af01a2b023848578df146493da18d",
+    "电磁学第四章_教师版.tex": "83b34950e110a3803a6a08c2a263aff8b27eaff4c9945f69c1583dcdb9cc0b33"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "导体表面充电与电荷弛豫",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 551,
+          "chinese_characters": 268
+        },
+        "student": {
+          "content_characters": 1071,
+          "chinese_characters": 668
+        },
+        "teacher": {
+          "content_characters": 1071,
+          "chinese_characters": 668
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "端面积累及欧姆弛豫；误差阈值、交流相位、剩余焦耳热按平方指数衰减。"
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "分段非均匀电导率中的体电荷和界面电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 989,
+          "chinese_characters": 318
+        },
+        "student": {
+          "content_characters": 1221,
+          "chinese_characters": 590
+        },
+        "teacher": {
+          "content_characters": 1221,
+          "chinese_characters": 590
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "段内场与界面跳变分开，复读截面积改变、电势分配、耗散。"
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "球对称大气导电与地面电势",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 820,
+          "chinese_characters": 179
+        },
+        "student": {
+          "content_characters": 1376,
+          "chinese_characters": 507
+        },
+        "teacher": {
+          "content_characters": 1376,
+          "chinese_characters": 507
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "径向电流及地面电荷符号，有限层的反正切电压与累计功率。正稿变图2的中文字下标用文本字体。"
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "双层漏电介质球的界面电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1708,
+          "chinese_characters": 606
+        },
+        "student": {
+          "content_characters": 2044,
+          "chinese_characters": 1009
+        },
+        "teacher": {
+          "content_characters": 2044,
+          "chinese_characters": 1009
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "内表面可能暂带负电，体电荷、面电荷总和守恒。两版主解差异为分页命令。变图8的对数刻度改为−2、0，图注其物理时刻。"
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "无碰撞双组分载流子的纵向小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 875,
+          "chinese_characters": 443
+        },
+        "student": {
+          "content_characters": 1778,
+          "chinese_characters": 938
+        },
+        "teacher": {
+          "content_characters": 1778,
+          "chinese_characters": 938
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "补均匀位移产生两端面自由电荷及恢复场的依据，复读局部振动的连续性与高斯定律。抽读固定背景、介电常量及阻尼。"
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "增加两个相同电阻能否保持端口电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 630,
+          "chinese_characters": 270
+        },
+        "student": {
+          "content_characters": 1115,
+          "chinese_characters": 691
+        },
+        "teacher": {
+          "content_characters": 1115,
+          "chinese_characters": 691
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "验证两种混合拓扑的增量及正根。变式3将新展示式接回图中柱高；根交换用参数倒数直接说明。"
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "由三个端口测量反推六只电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 901,
+          "chinese_characters": 287
+        },
+        "student": {
+          "content_characters": 1459,
+          "chinese_characters": 674
+        },
+        "teacher": {
+          "content_characters": 1459,
+          "chinese_characters": 674
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "悬空测量决定总星臂，离散集合决定排列。复读绕行流和功率；两版主解差异为分页命令。"
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "三次测量识别八只电阻中的异值者",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 957,
+          "chinese_characters": 386
+        },
+        "student": {
+          "content_characters": 1716,
+          "chinese_characters": 831
+        },
+        "teacher": {
+          "content_characters": 1716,
+          "chinese_characters": 831
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.8B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.8A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "六候选严格顺序，抽读有限精度的阈值与单模块偏导。"
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "细分正四面体电阻网的两类端口",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 682,
+          "chinese_characters": 427
+        },
+        "student": {
+          "content_characters": 1593,
+          "chinese_characters": 852
+        },
+        "teacher": {
+          "content_characters": 1593,
+          "chinese_characters": 852
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.9C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "按不同激励核对等势条件、相邻棱中点计算、定流定压功率比。"
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "三个互相垂直圆环的等效电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 544,
+          "chinese_characters": 331
+        },
+        "student": {
+          "content_characters": 1319,
+          "chinese_characters": 704
+        },
+        "teacher": {
+          "content_characters": 1319,
+          "chinese_characters": 704
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "三环端口对称与拆点守恒；此前主解重排四段压降及功率求和，数学值一致。抽读两环和不同弧阻。"
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "无限梯形网络的收敛与有限阶通式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1446,
+          "chinese_characters": 442
+        },
+        "student": {
+          "content_characters": 1691,
+          "chinese_characters": 777
+        },
+        "teacher": {
+          "content_characters": 1691,
+          "chinese_characters": 777
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读两种阻值的递推、截断误差和有限阶有理数。"
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "无限三角柱电阻网的对称折叠",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 543,
+          "chinese_characters": 277
+        },
+        "student": {
+          "content_characters": 1223,
+          "chinese_characters": 687
+        },
+        "teacher": {
+          "content_characters": 1223,
+          "chinese_characters": 687
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读折叠后首两节及空间衰减系数。"
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "七电阻单元串接成的无限网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 583,
+          "chinese_characters": 204
+        },
+        "student": {
+          "content_characters": 1508,
+          "chinese_characters": 690
+        },
+        "teacher": {
+          "content_characters": 1508,
+          "chinese_characters": 690
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读开路短路夹逼、中桥改阻、流向、真实尾流的功率平方。"
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "逐级折半的三角形导线网",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 471,
+          "chinese_characters": 246
+        },
+        "student": {
+          "content_characters": 1462,
+          "chinese_characters": 826
+        },
+        "teacher": {
+          "content_characters": 1462,
+          "chinese_characters": 826
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.14C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "尺度缩放、零势点拆开、总导线长度有限；此前用文本字体表示变图7的中文下标。"
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "三个方格的对角端口电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 352,
+          "chinese_characters": 154
+        },
+        "student": {
+          "content_characters": 964,
+          "chinese_characters": 508
+        },
+        "teacher": {
+          "content_characters": 964,
+          "chinese_characters": 508
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "一格极限、改单支路的互易关系和导数与支流平方。"
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "任意多个方格的对角端口电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1092,
+          "chinese_characters": 269
+        },
+        "student": {
+          "content_characters": 1957,
+          "chinese_characters": 776
+        },
+        "teacher": {
+          "content_characters": 1957,
+          "chinese_characters": 776
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "新增格距的端部修正与近极限误差率。"
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "四个方格网络的非对称端口",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 402,
+          "chinese_characters": 205
+        },
+        "student": {
+          "content_characters": 1311,
+          "chinese_characters": 661
+        },
+        "teacher": {
+          "content_characters": 1311,
+          "chinese_characters": 661
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.17C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "定端压路径的三段实际压降和断开OT的电流补偿与互易性。"
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "双圆环等分电阻网的相邻异层端口",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1405,
+          "chinese_characters": 345
+        },
+        "student": {
+          "content_characters": 2277,
+          "chinese_characters": 860
+        },
+        "teacher": {
+          "content_characters": 2277,
+          "chinese_characters": 860
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.18B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.18C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电4.18D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读n=2径向与同层情形对应的独立端点，核对周期响应。"
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "无限点阵任意两节点间的电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 4288,
+          "chinese_characters": 1697
+        },
+        "student": {
+          "content_characters": 5876,
+          "chinese_characters": 2714
+        },
+        "teacher": {
+          "content_characters": 5876,
+          "chinese_characters": 2714
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.19G"
+          },
+          {
+            "n": 4,
+            "caption": "解图电4.19C"
+          },
+          {
+            "n": 5,
+            "caption": "解图电4.19D"
+          },
+          {
+            "n": 6,
+            "caption": "解图电4.19E"
+          },
+          {
+            "n": 7,
+            "caption": "解图电4.19F"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "补题定开边有限方格网极限与泄漏傅里叶极限一致的证明，新增G以固定路径和单格说明两类方程，变图5补齐接地点。核此前变图1排版。"
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "星形与三角形的端口等效及应用",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 870,
+          "chinese_characters": 372
+        },
+        "student": {
+          "content_characters": 1519,
+          "chinese_characters": 662
+        },
+        "teacher": {
+          "content_characters": 1519,
+          "chinese_characters": 662
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "去外底边后保持桥平衡，换TP端口会出现中桥电流。实际激励与一般等效分清。"
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "四乘四方格网的对角电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 645,
+          "chinese_characters": 322
+        },
+        "student": {
+          "content_characters": 1539,
+          "chinese_characters": 769
+        },
+        "teacher": {
+          "content_characters": 1539,
+          "chinese_characters": 769
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.21B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.21C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "第三星臂及定压入口尺度；比较2×2与4×4归并。"
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "立方体表面细分网络的相邻面心端口",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 682,
+          "chinese_characters": 283
+        },
+        "student": {
+          "content_characters": 1666,
+          "chinese_characters": 794
+        },
+        "teacher": {
+          "content_characters": 1666,
+          "chinese_characters": 794
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.22B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.22C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电4.22D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "复读星三角、26点48边、四条零流边连通性和半网功率。检查此前变图7、8线型及标签位。"
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "灯泡分压供电的效率与变阻器额定值",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 604,
+          "chinese_characters": 230
+        },
+        "student": {
+          "content_characters": 1165,
+          "chinese_characters": 530
+        },
+        "teacher": {
+          "content_characters": 1165,
+          "chinese_characters": 530
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.23B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.23C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "效率上界、冷态灯丝估算及给定总阻时滑片。"
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "随机断路电桥的平均功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 469,
+          "chinese_characters": 168
+        },
+        "student": {
+          "content_characters": 1156,
+          "chinese_characters": 536
+        },
+        "teacher": {
+          "content_characters": 1156,
+          "chinese_characters": 536
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.24B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.24C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "概率平均多项式、中桥常通条件和功率方差。"
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "并联电源组的等效电动势与内阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 508,
+          "chinese_characters": 147
+        },
+        "student": {
+          "content_characters": 1368,
+          "chinese_characters": 638
+        },
+        "teacher": {
+          "content_characters": 1368,
+          "chinese_characters": 638
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.25B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.25C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "反向源、环流焦耳耗散及内阻同时趋零的缩放，实读变图8插值。"
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "惠斯通电桥的平衡与微小失衡电流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 589,
+          "chinese_characters": 136
+        },
+        "student": {
+          "content_characters": 1906,
+          "chinese_characters": 672
+        },
+        "teacher": {
+          "content_characters": 1906,
+          "chinese_characters": 672
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.26B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.26C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "修正变式3把带符号变化和降阻正幅度都写成δ，明确横轴并加相同改阻幅度的精确电流差。"
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "含对角支路的广义电桥平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 569,
+          "chinese_characters": 106
+        },
+        "student": {
+          "content_characters": 1520,
+          "chinese_characters": 612
+        },
+        "teacher": {
+          "content_characters": 1520,
+          "chinese_characters": 612
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.27B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.27C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "复读一般调平、非平凡数值、断开电流计的戴维南参数，分清BF、BE。"
+      }
+    },
+    {
+      "题号": 28,
+      "题名": "保留精密分流器修复三量程电流表",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 686,
+          "chinese_characters": 222
+        },
+        "student": {
+          "content_characters": 1741,
+          "chinese_characters": 803
+        },
+        "teacher": {
+          "content_characters": 1741,
+          "chinese_characters": 803
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.28A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.28B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.28C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.28V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读兼容正电阻、误用A后示值斜率及两种接法的公差；对照此前中文字排版。"
+      }
+    },
+    {
+      "题号": 29,
+      "题名": "二值输入电阻梯的最大输出电压",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 611,
+          "chinese_characters": 289
+        },
+        "student": {
+          "content_characters": 1308,
+          "chinese_characters": 756
+        },
+        "teacher": {
+          "content_characters": 1308,
+          "chinese_characters": 756
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.29A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.29B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.29C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.29V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "全组同比、定负载和三位权值；n=1仍有三条关源支路。"
+      }
+    },
+    {
+      "题号": 30,
+      "题名": "十电容对称网络的等效电容",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 316,
+          "chinese_characters": 135
+        },
+        "student": {
+          "content_characters": 1446,
+          "chinese_characters": 703
+        },
+        "teacher": {
+          "content_characters": 1446,
+          "chinese_characters": 703
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.30A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.30B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.30C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.30V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读轴电容无增量影响、统一放大及给孤立导体预充；斜率与截距分开。"
+      }
+    },
+    {
+      "题号": 31,
+      "题名": "电容星三角变换及九电容网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 829,
+          "chinese_characters": 207
+        },
+        "student": {
+          "content_characters": 1700,
+          "chinese_characters": 757
+        },
+        "teacher": {
+          "content_characters": 1700,
+          "chinese_characters": 757
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.31"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.31B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.31A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.31C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电4.31D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.31V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.31V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读断边后平衡、星三角、多端口读数反例。此前AP方程改下标字体。"
+      }
+    },
+    {
+      "题号": 32,
+      "题名": "一步与逐级充电的能量损耗",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 691,
+          "chinese_characters": 264
+        },
+        "student": {
+          "content_characters": 1479,
+          "chinese_characters": 677
+        },
+        "teacher": {
+          "content_characters": 1479,
+          "chinese_characters": 677
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.32"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.32A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.32B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.32C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.32V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.32V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "抽读一般步长最小热量、固定末电压和固定单节电压、内外电阻分热。"
+      }
+    },
+    {
+      "题号": 33,
+      "题名": "三只预充电容的部分放电",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 716,
+          "chinese_characters": 227
+        },
+        "student": {
+          "content_characters": 1571,
+          "chinese_characters": 660
+        },
+        "teacher": {
+          "content_characters": 1571,
+          "chinese_characters": 660
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.33"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.33A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.33B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.33C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.33V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.33V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "复读整题放电，直接写出两浮置导体的末态电势仍维持电场；抽读热量比例、反极性及能量去向、变图7左板标签。"
+      }
+    },
+    {
+      "题号": 34,
+      "题名": "匹配电容梯的能量及截断后的重分布",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 655,
+          "chinese_characters": 303
+        },
+        "student": {
+          "content_characters": 1873,
+          "chinese_characters": 943
+        },
+        "teacher": {
+          "content_characters": 1873,
+          "chinese_characters": 943
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.34"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.34A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.34B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.34C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.34V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.34V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "变式7改为电场能差由初末平衡态决定、机械功及热由调节过程分担。抽读非匹配递推及接通后的时间尺度。"
+      }
+    },
+    {
+      "题号": 35,
+      "题名": "含电源与电容的立方体稳态网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 631,
+          "chinese_characters": 363
+        },
+        "student": {
+          "content_characters": 1794,
+          "chinese_characters": 882
+        },
+        "teacher": {
+          "content_characters": 1794,
+          "chinese_characters": 882
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电4.35"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电4.35A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电4.35B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电4.35C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电4.35V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电4.35V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读重点并按字段复用签署证据",
+        "findings": "区分源棱端压确定的浮置点差、边界电势平均值确定的浮置点绝对值；补两端同移公式。抽读预充、变中央及改单支路电容。"
+      }
+    }
+  ],
+  "实际目视登记": []
+}

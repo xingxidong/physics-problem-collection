@@ -1,0 +1,637 @@
+{
+  "单元": "力学试题一",
+  "题数": 6,
+  "分章文件_SHA256": {
+    "力学试题一_学生版.pdf": "0eb9a374415acc96348e15a7f27c33129333e8ccd33c70aaffc906d55dd91412",
+    "力学试题一_学生版.tex": "21b672afcee5d2a940cdbfedcd1cdc822c0f52524b08051ff18c78a47d388db0",
+    "力学试题一_学生解答版.pdf": "a8959bcc1d6fd61b9ef82e2e34042dae37bd955d5efa18c3b686e0cdd5e21464",
+    "力学试题一_学生解答版.tex": "5faca82537148f020bb3bb242b21e3bb1072ae8e85ab91518ca1b3a4048f948d",
+    "力学试题一_教师版.pdf": "21d194be2691bd3b9dde67c807a6f64daeb7be26ea5439d5e6f23efb7486f2c6",
+    "力学试题一_教师版.tex": "96a7a638813f3283082287ccdaf7261a060ecb2c4060091245a796e86dde11b5"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "飞行中拦截与最小发射速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 873,
+          "chinese_characters": 335
+        },
+        "student": {
+          "content_characters": 1892,
+          "chinese_characters": 905
+        },
+        "teacher": {
+          "content_characters": 1892,
+          "chinese_characters": 905
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复读无量纲图例、速度射线的正时间区间；跨末端仅有下确界。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "可移动圆环内小球的轨迹与曲率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1397,
+          "chinese_characters": 789
+        },
+        "student": {
+          "content_characters": 1688,
+          "chinese_characters": 993
+        },
+        "teacher": {
+          "content_characters": 1688,
+          "chinese_characters": 993
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看水平质心对应椭圆与两个轴端的曲率，较低初位的角区。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "螺旋槽内下滑与圆筒的平移、自转",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1025,
+          "chinese_characters": 559
+        },
+        "student": {
+          "content_characters": 1469,
+          "chinese_characters": 855
+        },
+        "teacher": {
+          "content_characters": 1469,
+          "chinese_characters": 855
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看相对角和筒转角同向约定及平移项。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "弹出小球与自由细杆端点再次相遇",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 666,
+          "chinese_characters": 322
+        },
+        "student": {
+          "content_characters": 1212,
+          "chinese_characters": 569
+        },
+        "teacher": {
+          "content_characters": 1212,
+          "chinese_characters": 569
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复读弦运动的正间隙推导，用移相式核最大值发生在中时刻。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "切向减速后的陨石近地点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 454,
+          "chinese_characters": 203
+        },
+        "student": {
+          "content_characters": 1004,
+          "chinese_characters": 450
+        },
+        "teacher": {
+          "content_characters": 1004,
+          "chinese_characters": 450
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复算动能损失后由远点出发的轨道近距和地表可达判断。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "绳杆受冲量后的初动与摆角条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 741,
+          "chinese_characters": 343
+        },
+        "student": {
+          "content_characters": 1655,
+          "chinese_characters": 789
+        },
+        "teacher": {
+          "content_characters": 1655,
+          "chinese_characters": 789
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图力试1.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图力试1.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图力试1.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图力试1.6C"
+          },
+          {
+            "n": 4,
+            "caption": "解图力试1.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图力试1.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图力试1.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看两个模态速度和初值展开，确认有限正时间同停需奇整数频率比。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

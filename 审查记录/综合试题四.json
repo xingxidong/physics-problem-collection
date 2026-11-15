@@ -1,0 +1,652 @@
+{
+  "单元": "综合试题四",
+  "题数": 6,
+  "分章文件_SHA256": {
+    "综合试题四_学生版.pdf": "217be96944e21c4ff120a84e68be109a85e51798807f32836bd07eadc7ebc0a9",
+    "综合试题四_学生版.tex": "e3a3bde45d338d4a6bd324b604e8c7091f3b6be56c3072d7ae364cc86d46f82f",
+    "综合试题四_学生解答版.pdf": "d9ac6912a4c9ced366f1be11959eaf686405273060c1badfd0f02147a3492a92",
+    "综合试题四_学生解答版.tex": "c3368f7e4a1b1689d2a42e5b25b500b541dc2d34ad3e4a66fc896dbd3a8f3f60",
+    "综合试题四_教师版.pdf": "7883e67e983e32725635c2d38c64081b1ad8c39c1d43921af46dc9cc2540d990",
+    "综合试题四_教师版.tex": "87d2bf6d7a9f588c600ad5731f944f4d18e994041ac93bfc6d7dab2f448311fb"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "由几何约束与自相似计算转动惯量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1448,
+          "chinese_characters": 719
+        },
+        "student": {
+          "content_characters": 1835,
+          "chinese_characters": 860
+        },
+        "teacher": {
+          "content_characters": 1835,
+          "chinese_characters": 860
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看几何恒等式与质量加权的适用区别，检查八小块的对轴距离。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "方截面浮木的平衡与临界稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2124,
+          "chinese_characters": 1280
+        },
+        "student": {
+          "content_characters": 2533,
+          "chinese_characters": 1383
+        },
+        "teacher": {
+          "content_characters": 2533,
+          "chinese_characters": 1383
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.2D"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复算临界倾角的三次力矩，写出对应的四阶势能首项。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议"
+        ],
+        "edits": [
+          {
+            "stage": "content"
+          },
+          {
+            "stage": "humanizer-zh"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "滑动悬点细杆的周期与整体落地",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2328,
+          "chinese_characters": 1334
+        },
+        "student": {
+          "content_characters": 2555,
+          "chinese_characters": 1389
+        },
+        "teacher": {
+          "content_characters": 2555,
+          "chinese_characters": 1389
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.3D"
+          },
+          {
+            "n": 5,
+            "caption": "解图综四.3E"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看滑动梁与脱离后另起初值，先接触的最低端。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "课堂讲解建议"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "环形轨道上的连续喷珠与回收",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1846,
+          "chinese_characters": 1021
+        },
+        "student": {
+          "content_characters": 2215,
+          "chinese_characters": 1320
+        },
+        "teacher": {
+          "content_characters": 2215,
+          "chinese_characters": 1320
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看连续流角动量以及各时刻放珠速度的含义。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "二维静电场的通量、场能与带电圆环",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 3848,
+          "chinese_characters": 2383
+        },
+        "student": {
+          "content_characters": 4094,
+          "chinese_characters": 2410
+        },
+        "teacher": {
+          "content_characters": 4094,
+          "chinese_characters": 2410
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.5F"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.5B"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.5C"
+          },
+          {
+            "n": 5,
+            "caption": "解图综四.5D"
+          },
+          {
+            "n": 6,
+            "caption": "解图综四.5E"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看二维电通量与切向势差，外点绕数为零。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "相对论库仑轨道的近日点进动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2133,
+          "chinese_characters": 753
+        },
+        "student": {
+          "content_characters": 2553,
+          "chinese_characters": 1157
+        },
+        "teacher": {
+          "content_characters": 2553,
+          "chinese_characters": 1157
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综四.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综四.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综四.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综四.6C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综四.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图综四.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图综四.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看相对论角动量、近拱角与椭圆中心不同于力心。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

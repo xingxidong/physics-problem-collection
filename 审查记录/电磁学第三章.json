@@ -1,0 +1,2463 @@
+{
+  "单元": "电磁学第三章",
+  "题数": 22,
+  "分章文件_SHA256": {
+    "电磁学第三章_学生版.pdf": "99fe5cc8388aba8e945c5ea29521305b1ab54d2529072a9ac1272f7d87054f9a",
+    "电磁学第三章_学生版.tex": "b678d95d1af799e96e6256c47bdf9f59c534c606880c66b343933bb3bc423577",
+    "电磁学第三章_学生解答版.pdf": "aa7bfd494e20bac753057e795112fa7f756ab7a8ee146f9a96d0663ec946d0f3",
+    "电磁学第三章_学生解答版.tex": "1fb6679cc8ba1142a7a8ec5aaae9043e213cc139a9d9fd32473468f1d85ec2b8",
+    "电磁学第三章_教师版.pdf": "6f37c5ad778e452d5cff137a8ad0b033ef9bb27b53e4233538f21fda467820dc",
+    "电磁学第三章_教师版.tex": "bd0159624515dc07b282422389d056ba2545fcd4a5f84716704316ff8b8b18fa"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "三角形线框旋转时的平均电流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 650,
+          "chinese_characters": 325
+        },
+        "student": {
+          "content_characters": 1254,
+          "chinese_characters": 719
+        },
+        "teacher": {
+          "content_characters": 1254,
+          "chinese_characters": 719
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [
+          "易错点"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.1A",
+          "解图电3.1B",
+          "解图电3.1C",
+          "变图电3.1V1",
+          "变图电3.1V2",
+          "变图电3.1V3",
+          "变图电3.1V4",
+          "变图电3.1V5",
+          "变图电3.1V6",
+          "变图电3.1V7",
+          "变图电3.1V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "补出净电量与累计量的共同积分区域，和变图时间刻度对齐。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "恒力收缩导线圆圈的闭合时间",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 418,
+          "chinese_characters": 190
+        },
+        "student": {
+          "content_characters": 1127,
+          "chinese_characters": 535
+        },
+        "teacher": {
+          "content_characters": 1127,
+          "chinese_characters": 535
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.2A",
+          "解图电3.2B",
+          "解图电3.2C",
+          "变图电3.2V1",
+          "变图电3.2V2",
+          "变图电3.2V3",
+          "变图电3.2V4",
+          "变图电3.2V5",
+          "变图电3.2V6",
+          "变图电3.2V7",
+          "变图电3.2V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "铜环倾倒时的磁阻尼与能量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1420,
+          "chinese_characters": 626
+        },
+        "student": {
+          "content_characters": 1984,
+          "chinese_characters": 839
+        },
+        "teacher": {
+          "content_characters": 1984,
+          "chinese_characters": 839
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [
+          "易错点"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.3A",
+          "解图电3.3B",
+          "解图电3.3C",
+          "变图电3.3V1",
+          "变图电3.3V2",
+          "变图电3.3V3",
+          "变图电3.3V4",
+          "变图电3.3V5",
+          "变图电3.3V6",
+          "变图电3.3V7",
+          "变图电3.3V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "把惯性和准静态两个角速度说明对应到实际放手时刻及运动阶段。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "翻转线圈测地磁场的分支判断",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 842,
+          "chinese_characters": 360
+        },
+        "student": {
+          "content_characters": 1460,
+          "chinese_characters": 838
+        },
+        "teacher": {
+          "content_characters": 1460,
+          "chinese_characters": 838
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.4A",
+          "解图电3.4B",
+          "解图电3.4C"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "双格线框移出磁场的外力功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 770,
+          "chinese_characters": 481
+        },
+        "student": {
+          "content_characters": 1380,
+          "chinese_characters": 681
+        },
+        "teacher": {
+          "content_characters": 1380,
+          "chinese_characters": 681
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.5A",
+          "解图电3.5B",
+          "解图电3.5C",
+          "变图电3.5V1",
+          "变图电3.5V2",
+          "变图电3.5V3",
+          "变图电3.5V4",
+          "变图电3.5V5",
+          "变图电3.5V6",
+          "变图电3.5V7",
+          "变图电3.5V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "双导体棒的速度趋同与间距上限",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1249,
+          "chinese_characters": 656
+        },
+        "student": {
+          "content_characters": 1507,
+          "chinese_characters": 747
+        },
+        "teacher": {
+          "content_characters": 1507,
+          "chinese_characters": 747
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.6A",
+          "解图电3.6B",
+          "解图电3.6C",
+          "变图电3.6V1",
+          "变图电3.6V2",
+          "变图电3.6V3",
+          "变图电3.6V4",
+          "变图电3.6V5",
+          "变图电3.6V6",
+          "变图电3.6V7",
+          "变图电3.6V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "强磁场中下落薄圆盘的电磁惯性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 776,
+          "chinese_characters": 479
+        },
+        "student": {
+          "content_characters": 1267,
+          "chinese_characters": 746
+        },
+        "teacher": {
+          "content_characters": 1267,
+          "chinese_characters": 746
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.7A",
+          "解图电3.7B",
+          "解图电3.7C",
+          "变图电3.7V1",
+          "变图电3.7V2",
+          "变图电3.7V3",
+          "变图电3.7V4",
+          "变图电3.7V5",
+          "变图电3.7V6",
+          "变图电3.7V7",
+          "变图电3.7V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "按剖面说明正电荷、充电电流、静电场的方向。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "随动电压表与圆弧导体的端点电势",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 742,
+          "chinese_characters": 331
+        },
+        "student": {
+          "content_characters": 1488,
+          "chinese_characters": 742
+        },
+        "teacher": {
+          "content_characters": 1488,
+          "chinese_characters": 742
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.8A",
+          "解图电3.8B",
+          "解图电3.8C",
+          "变图电3.8V1",
+          "变图电3.8V2",
+          "变图电3.8V3",
+          "变图电3.8V4",
+          "变图电3.8V5",
+          "变图电3.8V6",
+          "变图电3.8V7",
+          "变图电3.8V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "直接标明表头读数对应 b、c，和另问的 e、f 不混称。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "磁流体发电机的流速反馈",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 368,
+          "chinese_characters": 129
+        },
+        "student": {
+          "content_characters": 1222,
+          "chinese_characters": 588
+        },
+        "teacher": {
+          "content_characters": 1222,
+          "chinese_characters": 588
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.10A",
+          "解图电3.10B",
+          "解图电3.10C",
+          "变图电3.10V1",
+          "变图电3.10V2",
+          "变图电3.10V3",
+          "变图电3.10V4",
+          "变图电3.10V5",
+          "变图电3.10V6",
+          "变图电3.10V7",
+          "变图电3.10V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "双辐条轮的电磁传动与效率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 906,
+          "chinese_characters": 596
+        },
+        "student": {
+          "content_characters": 1397,
+          "chinese_characters": 762
+        },
+        "teacher": {
+          "content_characters": 1397,
+          "chinese_characters": 762
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.11A",
+          "解图电3.11B",
+          "解图电3.11C",
+          "变图电3.11V1",
+          "变图电3.11V2",
+          "变图电3.11V3",
+          "变图电3.11V4",
+          "变图电3.11V5",
+          "变图电3.11V6",
+          "变图电3.11V7",
+          "变图电3.11V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "感生电场中的圆弧与三角形混合电路",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 713,
+          "chinese_characters": 273
+        },
+        "student": {
+          "content_characters": 1527,
+          "chinese_characters": 673
+        },
+        "teacher": {
+          "content_characters": 1527,
+          "chinese_characters": 673
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.12A",
+          "解图电3.12B",
+          "解图电3.12C"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "交变磁场中圆柱的涡流热功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 751,
+          "chinese_characters": 360
+        },
+        "student": {
+          "content_characters": 1194,
+          "chinese_characters": 643
+        },
+        "teacher": {
+          "content_characters": 1194,
+          "chinese_characters": 643
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.13A",
+          "解图电3.13B",
+          "解图电3.13C",
+          "变图电3.13V1",
+          "变图电3.13V2",
+          "变图电3.13V3",
+          "变图电3.13V4",
+          "变图电3.13V5",
+          "变图电3.13V6",
+          "变图电3.13V7",
+          "变图电3.13V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "电压表引线路径与感生电压",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 884,
+          "chinese_characters": 488
+        },
+        "student": {
+          "content_characters": 1425,
+          "chinese_characters": 801
+        },
+        "teacher": {
+          "content_characters": 1425,
+          "chinese_characters": 801
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.14C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.14A",
+          "解图电3.14B",
+          "解图电3.14C"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "增长磁场中圆形导轨上的带电珠",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1164,
+          "chinese_characters": 739
+        },
+        "student": {
+          "content_characters": 1504,
+          "chinese_characters": 883
+        },
+        "teacher": {
+          "content_characters": 1504,
+          "chinese_characters": 883
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.15A",
+          "解图电3.15B",
+          "解图电3.15C",
+          "变图电3.15V1",
+          "变图电3.15V2",
+          "变图电3.15V3",
+          "变图电3.15V4",
+          "变图电3.15V5",
+          "变图电3.15V6",
+          "变图电3.15V7",
+          "变图电3.15V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "螺线管断电时带电圆盘的转动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 699,
+          "chinese_characters": 324
+        },
+        "student": {
+          "content_characters": 1127,
+          "chinese_characters": 639
+        },
+        "teacher": {
+          "content_characters": 1127,
+          "chinese_characters": 639
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.16A",
+          "解图电3.16B",
+          "解图电3.16C",
+          "变图电3.16V1",
+          "变图电3.16V2",
+          "变图电3.16V3",
+          "变图电3.16V4",
+          "变图电3.16V5",
+          "变图电3.16V6",
+          "变图电3.16V7",
+          "变图电3.16V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "偏心感生电场驱动细管中的简谐运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1009,
+          "chinese_characters": 416
+        },
+        "student": {
+          "content_characters": 1245,
+          "chinese_characters": 660
+        },
+        "teacher": {
+          "content_characters": 1245,
+          "chinese_characters": 660
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.17C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.17A",
+          "解图电3.17B",
+          "解图电3.17C",
+          "变图电3.17V1",
+          "变图电3.17V2",
+          "变图电3.17V3",
+          "变图电3.17V4",
+          "变图电3.17V5",
+          "变图电3.17V6",
+          "变图电3.17V7",
+          "变图电3.17V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "无电阻线框穿越窄磁场带的分段运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1021,
+          "chinese_characters": 480
+        },
+        "student": {
+          "content_characters": 1452,
+          "chinese_characters": 716
+        },
+        "teacher": {
+          "content_characters": 1452,
+          "chinese_characters": 716
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.18B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.18C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.18A",
+          "解图电3.18B",
+          "解图电3.18C"
+        ],
+        "edits": [
+          {
+            "stage": "content-and-tikz",
+            "description": "补临界到达时刻与平滑过渡的时间积分；在能量图上标出平台起点。"
+          },
+          {
+            "stage": "tikz",
+            "description": "平台点的坐标和临界初动能分开标注。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "由持久电流衰减估计电阻率上限",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 682,
+          "chinese_characters": 386
+        },
+        "student": {
+          "content_characters": 1233,
+          "chinese_characters": 683
+        },
+        "teacher": {
+          "content_characters": 1233,
+          "chinese_characters": 683
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.19C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.19A",
+          "解图电3.19B",
+          "解图电3.19C",
+          "变图电3.19V1",
+          "变图电3.19V2",
+          "变图电3.19V3",
+          "变图电3.19V4",
+          "变图电3.19V5",
+          "变图电3.19V6",
+          "变图电3.19V7",
+          "变图电3.19V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "恒流双线分离时的磁能与机械功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1070,
+          "chinese_characters": 561
+        },
+        "student": {
+          "content_characters": 1377,
+          "chinese_characters": 714
+        },
+        "teacher": {
+          "content_characters": 1377,
+          "chinese_characters": 714
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.20A",
+          "解图电3.20B",
+          "解图电3.20C"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "把重复的位移说明改为能量式中的有向广义位移。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "柔性线圈测量磁场线积分",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 716,
+          "chinese_characters": 269
+        },
+        "student": {
+          "content_characters": 1050,
+          "chinese_characters": 601
+        },
+        "teacher": {
+          "content_characters": 1050,
+          "chinese_characters": 601
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.21B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.21C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.21A",
+          "解图电3.21B",
+          "解图电3.21C",
+          "变图电3.21V1",
+          "变图电3.21V2",
+          "变图电3.21V3",
+          "变图电3.21V4",
+          "变图电3.21V5",
+          "变图电3.21V6",
+          "变图电3.21V7",
+          "变图电3.21V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "相切圆环与反向双直线电流的互感",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 320,
+          "chinese_characters": 195
+        },
+        "student": {
+          "content_characters": 1019,
+          "chinese_characters": 531
+        },
+        "teacher": {
+          "content_characters": 1019,
+          "chinese_characters": 531
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.22B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.22C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电3.22A",
+          "解图电3.22B",
+          "解图电3.22C",
+          "变图电3.22V1",
+          "变图电3.22V2",
+          "变图电3.22V3",
+          "变图电3.22V4",
+          "变图电3.22V5",
+          "变图电3.22V6",
+          "变图电3.22V7",
+          "变图电3.22V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "互感线圈的短接、串联与并联",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1015,
+          "chinese_characters": 430
+        },
+        "student": {
+          "content_characters": 1771,
+          "chinese_characters": 938
+        },
+        "teacher": {
+          "content_characters": 1771,
+          "chinese_characters": 938
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电3.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电3.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电3.23B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电3.23C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电3.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电3.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电3.23A",
+          "解图电3.23B",
+          "解图电3.23C"
+        ],
+        "edits": [
+          {
+            "stage": "content",
+            "description": "从共同端电压导出完全耦合并联的可观测总电流及零磁链方向。"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "电3.18V1",
+      "page": 103,
+      "scope": "实际查看新版图线、标签、图注。"
+    }
+  ]
+}

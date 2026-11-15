@@ -1,0 +1,636 @@
+{
+  "单元": "综合试题一",
+  "题数": 6,
+  "分章文件_SHA256": {
+    "综合试题一_学生版.pdf": "145c010d912118d68ce7334677f86e0009dc89c7c3a495ae9be16bf4c129f479",
+    "综合试题一_学生版.tex": "ef7d73ae317ba14c53b2381edb3dd859b9cb64d0d9695a2646d32386c46c566b",
+    "综合试题一_学生解答版.pdf": "ff16bbc87f9d17bc7ada5b93e961d036690e458c3acdd5e515d9a468875b3d6c",
+    "综合试题一_学生解答版.tex": "65b68198aea25193eed816d22fa9eabac4ebed511bff015b8f30f94239f428d3",
+    "综合试题一_教师版.pdf": "1ccd785085892fdddc3ae4adb24e1ae1d013805b8190934bc08c0b42c6f7caac",
+    "综合试题一_教师版.tex": "d520c94657192539eae1529f867d192c10e29de08813bb4dce3aa6461c1751b2"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "内盘与外环的两阶段摩擦运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2120,
+          "chinese_characters": 1178
+        },
+        "student": {
+          "content_characters": 3140,
+          "chinese_characters": 1582
+        },
+        "teacher": {
+          "content_characters": 3140,
+          "chinese_characters": 1582
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综一.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综一.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "比较内盘、外环与整盘惯量，复看两种滑速与切换顺序。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "椭圆轨道的引力规律与彗星速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1911,
+          "chinese_characters": 1025
+        },
+        "student": {
+          "content_characters": 2730,
+          "chinese_characters": 1395
+        },
+        "teacher": {
+          "content_characters": 2730,
+          "chinese_characters": 1395
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综一.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综一.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看中心力与焦点力的两套几何及近远点速度。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "四维理想气体的统计规律和热过程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1867,
+          "chinese_characters": 867
+        },
+        "student": {
+          "content_characters": 2601,
+          "chinese_characters": 1271
+        },
+        "teacher": {
+          "content_characters": 2601,
+          "chinese_characters": 1271
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综一.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图综一.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图综一.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看四维外壳积分、能量变量的雅可比与等熵指数。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "三个频率电源的稳态电流与平均功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1529,
+          "chinese_characters": 337
+        },
+        "student": {
+          "content_characters": 1914,
+          "chinese_characters": 717
+        },
+        "teacher": {
+          "content_characters": 1914,
+          "chinese_characters": 717
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综一.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变式图综一.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看三个频率各自相量网与共同周期均方。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "幂律径向电场中的粒子束聚焦",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2390,
+          "chinese_characters": 1115
+        },
+        "student": {
+          "content_characters": 3098,
+          "chinese_characters": 1463
+        },
+        "teacher": {
+          "content_characters": 3098,
+          "chinese_characters": 1463
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图综一.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变式图综一.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复算一阶径向形状至飞行时间积分，确认空间共点与时间差。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": [
+          {
+            "stage": "content"
+          },
+          {
+            "stage": "humanizer-zh"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "列车入隧道与机械扰动的传播",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 701,
+          "chinese_characters": 319
+        },
+        "student": {
+          "content_characters": 1487,
+          "chinese_characters": 803
+        },
+        "teacher": {
+          "content_characters": 1487,
+          "chinese_characters": 803
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图综一.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图综一.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图综一.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图综一.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变式图综一.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变式图综一.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "read_note": "复看地面系到列车系的同时性、信号前的后端世界线及所用速度区间。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ],
+        "edits": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

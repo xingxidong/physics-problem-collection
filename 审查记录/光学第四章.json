@@ -1,0 +1,3606 @@
+{
+  "单元": "光学第四章",
+  "题数": 35,
+  "分章文件_SHA256": {
+    "光学第四章_学生版.pdf": "b8bf96c121ba1af55208470309b082efd44b7d999f01d14490218c497e13c0d3",
+    "光学第四章_学生版.tex": "ed09d9c21c61c213a6ebd1e01f4e8d38b37e3c6db8373a8dd4572742b7976365",
+    "光学第四章_学生解答版.pdf": "ea4ac328dde90db6684159b6a87be8b917bf7d4db1ee4a0b1c993b5b0d245328",
+    "光学第四章_学生解答版.tex": "fbd12b599766e3ec5900a278e4437075e047590cc6750cff77df1a6b3b47b5ce",
+    "光学第四章_教师版.pdf": "3937a803604649f06c5e9c53a72837affe88030eb519382431e16614c1aebbeb",
+    "光学第四章_教师版.tex": "174b06a1a9adb33e0467f963d388f24446a46be0f2d1e8ba45fcb85d271e4691"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "自然光通过理想偏振片",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 557,
+          "chinese_characters": 368
+        },
+        "student": {
+          "content_characters": 1737,
+          "chinese_characters": 1114
+        },
+        "teacher": {
+          "content_characters": 1737,
+          "chinese_characters": 1114
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "自然光和圆偏光的恒强线检偏曲线无法区分，增四分之一波片矩阵及两态逐步结果；解题入口改为投影与角积分两个具体起点。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "关键洞察",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "旋转检偏器与部分偏振光",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 938,
+          "chinese_characters": 389
+        },
+        "student": {
+          "content_characters": 2016,
+          "chinese_characters": 1132
+        },
+        "teacher": {
+          "content_characters": 2016,
+          "chinese_characters": 1132
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "区分线检偏等效背景和相干矩阵本征值给实际自然分量；明确漏光校准和时均。",
+        "confirmed_fields": [
+          "题型定位",
+          "物理图像",
+          "解题入口",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "知识点",
+          "标准解法",
+          "关键洞察"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "多层膜偏振分束棱镜",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 767,
+          "chinese_characters": 374
+        },
+        "student": {
+          "content_characters": 2262,
+          "chinese_characters": 1257
+        },
+        "teacher": {
+          "content_characters": 2262,
+          "chinese_characters": 1257
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "给两层相位相同下膜厚与法向波矢的反比。图B按两系列重新画颜色、线型和标记；关键节点数值与功率公式对齐。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "反射与折射后的偏振方向",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 794,
+          "chinese_characters": 399
+        },
+        "student": {
+          "content_characters": 1858,
+          "chinese_characters": 820
+        },
+        "teacher": {
+          "content_characters": 1858,
+          "chinese_characters": 820
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "将反射分量比的分母零点与布儒斯特角、定向基矢和全反射相位分开读。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "斜反射自然光的偏振度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 628,
+          "chinese_characters": 251
+        },
+        "student": {
+          "content_characters": 1104,
+          "chinese_characters": 541
+        },
+        "teacher": {
+          "content_characters": 1104,
+          "chinese_characters": 541
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "自然光互相关为零与线偏振的互相关不为零，区分反射份额和反射束自身偏振度。",
+        "confirmed_fields": [
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "题型定位",
+          "标准解法",
+          "关键洞察",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "布儒斯特入射的振幅、强度与功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1443,
+          "chinese_characters": 579
+        },
+        "student": {
+          "content_characters": 1524,
+          "chinese_characters": 723
+        },
+        "teacher": {
+          "content_characters": 1524,
+          "chinese_characters": 723
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.6C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "区分坡印廷强度与整束功率，布儒斯特角的截面积关系与观察投影一致。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "关键洞察",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "玻璃片堆的偏振选择",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1145,
+          "chinese_characters": 389
+        },
+        "student": {
+          "content_characters": 1388,
+          "chinese_characters": 633
+        },
+        "teacher": {
+          "content_characters": 1388,
+          "chinese_characters": 633
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.7C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.7D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读取片堆界面数、阈值取整、主透射模型和能量分配。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "全反射引入的相位差",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1316,
+          "chinese_characters": 427
+        },
+        "student": {
+          "content_characters": 1354,
+          "chinese_characters": 564
+        },
+        "teacher": {
+          "content_characters": 1354,
+          "chinese_characters": 564
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.8C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.8D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "检查复波数向内衰减、两个复振幅相位差及共线特例。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "由椭偏反射比求折射率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 579,
+          "chinese_characters": 148
+        },
+        "student": {
+          "content_characters": 1506,
+          "chinese_characters": 674
+        },
+        "teacher": {
+          "content_characters": 1506,
+          "chinese_characters": 674
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.9C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.9D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "核实椭偏比先按约定交叉相乘再平方，物理平方根及多介质例外。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "石英棱镜的双折射分离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 407,
+          "chinese_characters": 185
+        },
+        "student": {
+          "content_characters": 1271,
+          "chinese_characters": 596
+        },
+        "teacher": {
+          "content_characters": 1271,
+          "chinese_characters": 596
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.10C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.10D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "同一固定入射角下分别追踪两本征光线，最小偏向用于设置平均入射角。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "用已知波片识别未知波片的快轴",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 971,
+          "chinese_characters": 711
+        },
+        "student": {
+          "content_characters": 1695,
+          "chinese_characters": 1051
+        },
+        "teacher": {
+          "content_characters": 1695,
+          "chinese_characters": 1051
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.11B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.11A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.11C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.11D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "同波长已知片的快慢相位及双片合成，辨认参考片的45度转向。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "用圆偏振光标定方解石快轴",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 294,
+          "chinese_characters": 227
+        },
+        "student": {
+          "content_characters": 1311,
+          "chinese_characters": 745
+        },
+        "teacher": {
+          "content_characters": 1311,
+          "chinese_characters": 745
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.12B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.12A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.12C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.12D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "从消光到快轴的有向角和左、右旋约定，易错点含非准确延迟的有限最小值。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "易错点",
+          "课堂讲解建议"
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "两次检偏强度与偏振度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 235,
+          "chinese_characters": 130
+        },
+        "student": {
+          "content_characters": 1345,
+          "chinese_characters": 693
+        },
+        "teacher": {
+          "content_characters": 1345,
+          "chinese_characters": 693
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.13D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读入射总偏振度范围、半正定限制和圆偏统计量转换为线偏；角误差与强度比段。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "圆偏振经波片后的检偏强度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 290,
+          "chinese_characters": 165
+        },
+        "student": {
+          "content_characters": 944,
+          "chinese_characters": 471
+        },
+        "teacher": {
+          "content_characters": 944,
+          "chinese_characters": 471
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.14B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.14A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.14C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.14D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "对照75度实际检偏和135度线轴，360度/180度的轴向含义一致。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "两只圆偏振器的排列与轴向",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 292,
+          "chinese_characters": 180
+        },
+        "student": {
+          "content_characters": 1287,
+          "chinese_characters": 619
+        },
+        "teacher": {
+          "content_characters": 1287,
+          "chinese_characters": 619
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.15B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.15A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.15C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.15D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "两排列顺序、两种45度相对方向与一般延迟的变化分别检查。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "偏振片与波片抑制镜面回光",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 442,
+          "chinese_characters": 340
+        },
+        "student": {
+          "content_characters": 1422,
+          "chinese_characters": 897
+        },
+        "teacher": {
+          "content_characters": 1422,
+          "chinese_characters": 897
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.16B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.16A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.16C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.16D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "固定横向基底双程等于波片平方，镜面方向与反向端口区别归入真实输入。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "椭圆偏振光的检偏极值与主轴",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1244,
+          "chinese_characters": 418
+        },
+        "student": {
+          "content_characters": 1518,
+          "chinese_characters": 716
+        },
+        "teacher": {
+          "content_characters": 1518,
+          "chinese_characters": 716
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.17C"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.17D"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.17A"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.17B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读二倍角的辅助角与二阶导数判据，条件D=0单列，实矩阵轨迹解释一致。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "旋向不同的椭偏光通过延迟片",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1296,
+          "chinese_characters": 515
+        },
+        "student": {
+          "content_characters": 1799,
+          "chinese_characters": 831
+        },
+        "teacher": {
+          "content_characters": 1799,
+          "chinese_characters": 831
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.18B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.18A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.18C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.18D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读变后主轴矩阵、迹和行列式，指出片轴振幅比与几何轴比各自用处。",
+        "confirmed_fields": [
+          "知识点",
+          "物理图像",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "题型定位",
+          "解题入口",
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "部分椭偏光的自然分量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1220,
+          "chinese_characters": 662
+        },
+        "student": {
+          "content_characters": 1503,
+          "chinese_characters": 757
+        },
+        "teacher": {
+          "content_characters": 1503,
+          "chinese_characters": 757
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.19B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.19A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.19C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.19D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "马吕斯背景分量和自然总强度因子2，虚互相关及波片相位正负；读当前改动。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法",
+          "易错点",
+          "课堂讲解建议"
+        ]
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "波片产生椭圆偏振的主轴与轴比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2135,
+          "chinese_characters": 724
+        },
+        "student": {
+          "content_characters": 2162,
+          "chinese_characters": 823
+        },
+        "teacher": {
+          "content_characters": 2162,
+          "chinese_characters": 823
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.20C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.20D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "实场系数矩阵对应几何半轴，线偏振与圆偏振须各自处理。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "双孔干涉中的偏振标记与检偏",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 861,
+          "chinese_characters": 628
+        },
+        "student": {
+          "content_characters": 1782,
+          "chinese_characters": 1016
+        },
+        "teacher": {
+          "content_characters": 1782,
+          "chinese_characters": 1016
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.21B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.21C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.21D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "自然光及同一前置通道的不同统计相干；一致读取末检偏轴的带符号投影。",
+        "confirmed_fields": [
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "题型定位",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "正交晶轴双片改变双孔条纹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 500,
+          "chinese_characters": 391
+        },
+        "student": {
+          "content_characters": 1178,
+          "chinese_characters": 671
+        },
+        "teacher": {
+          "content_characters": 1178,
+          "chinese_characters": 671
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.22B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.22A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.22C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.22D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "变式8按两实际波长分别写几何相位，第一色为常量，第二色决定近轴纹距；重画曲线标出真刻度、峰谷和相位。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "两片串联产生可调线偏方向",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 981,
+          "chinese_characters": 460
+        },
+        "student": {
+          "content_characters": 1412,
+          "chinese_characters": 782
+        },
+        "teacher": {
+          "content_characters": 1412,
+          "chinese_characters": 782
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.23B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.23A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.23C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.23D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "第一片相位随厚度，第二片本征轴换基后把复系数变实，读角时用带符号系数。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "白光波片的消光波长",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 847,
+          "chinese_characters": 461
+        },
+        "student": {
+          "content_characters": 1420,
+          "chinese_characters": 713
+        },
+        "teacher": {
+          "content_characters": 1420,
+          "chinese_characters": 713
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.24B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.24A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.24C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.24D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光4.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光4.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "消光限于实际窗口，检查整数、半整数及窗口端点，平行端与交叉端互补。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "双折射劈尖的偏振干涉条纹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 761,
+          "chinese_characters": 400
+        },
+        "student": {
+          "content_characters": 1393,
+          "chinese_characters": 618
+        },
+        "teacher": {
+          "content_characters": 1393,
+          "chinese_characters": 618
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.25B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.25C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.25D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读劈尖初始厚度、有限带宽的sinc及两反向劈尖的补偿和加倍相位梯度。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "非共线异旋圆偏振的电场干涉",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1733,
+          "chinese_characters": 675
+        },
+        "student": {
+          "content_characters": 1877,
+          "chinese_characters": 722
+        },
+        "teacher": {
+          "content_characters": 1877,
+          "chinese_characters": 722
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.26B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.26C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.26D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读非共线异旋三维电场和探测张量，区分屏面内与三维响应、自由场法向能流。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "单臂晶片对圆偏双孔条纹的作用",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 893,
+          "chinese_characters": 618
+        },
+        "student": {
+          "content_characters": 1709,
+          "chinese_characters": 982
+        },
+        "teacher": {
+          "content_characters": 1709,
+          "chinese_characters": 982
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.27B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.27C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.27D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "一臂平均相位不能从相对相位提掉；读两臂主轴互转、整波时纹移和涨落平均。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 28,
+      "题名": "克尔盒的电压调制与条纹可见度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1070,
+          "chinese_characters": 565
+        },
+        "student": {
+          "content_characters": 1424,
+          "chinese_characters": 683
+        },
+        "teacher": {
+          "content_characters": 1424,
+          "chinese_characters": 683
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.28B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.28A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.28C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.28D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.28V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "克尔差延迟的强度、干涉可见度和可能的平均相位分别读取。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 29,
+      "题名": "旋光石英棱镜的圆双折射角分离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 553,
+          "chinese_characters": 251
+        },
+        "student": {
+          "content_characters": 1163,
+          "chinese_characters": 547
+        },
+        "teacher": {
+          "content_characters": 1163,
+          "chinese_characters": 547
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.29A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.29B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.29C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.29V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "分开入口和出口的折射率导数，固定平均入射条件下两本征光的实际分离。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 30,
+      "题名": "尼科耳棱镜的角视场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1665,
+          "chinese_characters": 755
+        },
+        "student": {
+          "content_characters": 2099,
+          "chinese_characters": 907
+        },
+        "teacher": {
+          "content_characters": 2099,
+          "chinese_characters": 907
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.30A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.30B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.30C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.30D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.30V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "两种胶面切向波矢条件、连通中央视场、负角额外区间，区分波法线与能流。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 31,
+      "题名": "波法线与能流方向的最大走离角",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 817,
+          "chinese_characters": 229
+        },
+        "student": {
+          "content_characters": 1347,
+          "chinese_characters": 679
+        },
+        "teacher": {
+          "content_characters": 1347,
+          "chinese_characters": 679
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.31"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.31B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.31A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.31C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.31D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.31V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.31V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "读最大走离的驻点、二阶展开和双片补偿条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    },
+    {
+      "题号": 32,
+      "题名": "各向同性介质向晶体的全反射条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2290,
+          "chinese_characters": 901
+        },
+        "student": {
+          "content_characters": 2710,
+          "chinese_characters": 1029
+        },
+        "teacher": {
+          "content_characters": 2710,
+          "chinese_characters": 1029
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.32"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.32A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.32C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.32B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.32D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.32V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.32V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读透射切点、临界相位根符号及费马法，核对两处二次型与切向阈值。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 33,
+      "题名": "晶体内反射的光线角关系",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2475,
+          "chinese_characters": 950
+        },
+        "student": {
+          "content_characters": 2621,
+          "chinese_characters": 1037
+        },
+        "teacher": {
+          "content_characters": 2621,
+          "chinese_characters": 1037
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.33"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.33A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.33C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.33D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.33B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.33V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.33V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "实际反射由能流方向选根，转轴平方角式的分支及q=0返回条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 34,
+      "题名": "晶体界面的振幅反射与透射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2637,
+          "chinese_characters": 1143
+        },
+        "student": {
+          "content_characters": 3170,
+          "chinese_characters": 1314
+        },
+        "teacher": {
+          "content_characters": 3170,
+          "chinese_characters": 1314
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.34"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.34A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.34B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.34C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.34D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.34V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.34V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读切向E和H、正法向能流、法向入射两余弦，检查张量与通量式。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "物理图像",
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 35,
+      "题名": "晶体界面的可逆路径与斯托克斯关系",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1730,
+          "chinese_characters": 987
+        },
+        "student": {
+          "content_characters": 2415,
+          "chinese_characters": 1250
+        },
+        "teacher": {
+          "content_characters": 2415,
+          "chinese_characters": 1250
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光4.35"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光4.35A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光4.35C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光4.35D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光4.35B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光4.35V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光4.35V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读题目与方法、关键段，签署同文部分使用既审证据",
+        "findings": "复读正反三种几何的q与−q、投影余弦以及总电场与功率归一化的斯托克斯关系。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

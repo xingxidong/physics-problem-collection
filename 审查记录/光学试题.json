@@ -1,0 +1,682 @@
+{
+  "单元": "光学试题",
+  "题数": 6,
+  "分章文件_SHA256": {
+    "光学试题_学生版.pdf": "e06eb9adc51c29abcef01e86539ea58ec57f3c3429a7b77d0ba1ad5a307b5836",
+    "光学试题_学生版.tex": "292c26706a6d1d1f5fdc77527d70e6fd7df1d3e22e811647ff77801085aae8a0",
+    "光学试题_学生解答版.pdf": "3514ed0c42646bd4196aa9efae64c53ba13ffa434837ec15852a7e149070f9f8",
+    "光学试题_学生解答版.tex": "ca0af2418a3e071fb151b6b880ae2af39273670fbdb1e8db7f484d96d31a8c56",
+    "光学试题_教师版.pdf": "de979cb9889ce406f081efe04f81497af6a4543ca66669b296b1ac6330b8d79e",
+    "光学试题_教师版.tex": "5d26758f002d22fd84f50805e2c9e77781f64d96bade2116b802685284f9e823"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "有限共轭点的无像差凹面反射镜",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 713,
+          "chinese_characters": 175
+        },
+        "student": {
+          "content_characters": 1141,
+          "chinese_characters": 455
+        },
+        "teacher": {
+          "content_characters": 1141,
+          "chinese_characters": 455
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读费马驻值、椭圆两次平方、方向法向和同焦特例。复读V8标签锚点与焦点实际坐标。",
+          "figures": [
+            "图光试.1",
+            "解图光试.1A",
+            "解图光试.1B",
+            "解图光试.1V1",
+            "解图光试.1V2",
+            "解图光试.1V3",
+            "解图光试.1V4",
+            "解图光试.1V5",
+            "解图光试.1V6",
+            "解图光试.1V7",
+            "解图光试.1V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "双透镜成像与中间像处的场镜",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 564,
+          "chinese_characters": 312
+        },
+        "student": {
+          "content_characters": 1450,
+          "chinese_characters": 681
+        },
+        "teacher": {
+          "content_characters": 1450,
+          "chinese_characters": 681
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光试.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读两次高斯成像及矩阵唯一性。按解图B场镜前后的束边给出三个孔径全通光不等式，复看C的P、M、N及斜率。",
+          "figures": [
+            "图光试.2",
+            "解图光试.2A",
+            "解图光试.2B",
+            "解图光试.2C",
+            "解图光试.2V1",
+            "解图光试.2V2",
+            "解图光试.2V3",
+            "解图光试.2V4",
+            "解图光试.2V5",
+            "解图光试.2V6",
+            "解图光试.2V7",
+            "解图光试.2V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "惠更斯与冉斯登目镜的主点和焦点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 641,
+          "chinese_characters": 307
+        },
+        "student": {
+          "content_characters": 1181,
+          "chinese_characters": 630
+        },
+        "teacher": {
+          "content_characters": 1181,
+          "chinese_characters": 630
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光试.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读两组合主面矩阵及焦点位置，补由物方主面距离判断普通放大镜的虚实。",
+          "figures": [
+            "图光试.3",
+            "解图光试.3A",
+            "解图光试.3B",
+            "解图光试.3C",
+            "解图光试.3V1",
+            "解图光试.3V2",
+            "解图光试.3V3",
+            "解图光试.3V4",
+            "解图光试.3V5",
+            "解图光试.3V6",
+            "解图光试.3V7",
+            "解图光试.3V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "切接透镜的干涉条纹与有限重叠区",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 560,
+          "chinese_characters": 300
+        },
+        "student": {
+          "content_characters": 1373,
+          "chinese_characters": 702
+        },
+        "teacher": {
+          "content_characters": 1373,
+          "chinese_characters": 702
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光试.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读切接光轴、恒定条纹距及实际束边；补进开放区间的准确整数计数，明确同相且不计边界是49条。",
+          "figures": [
+            "图光试.4",
+            "解图光试.4A",
+            "解图光试.4B",
+            "解图光试.4C",
+            "解图光试.4V1",
+            "解图光试.4V2",
+            "解图光试.4V3",
+            "解图光试.4V4",
+            "解图光试.4V5",
+            "解图光试.4V6",
+            "解图光试.4V7",
+            "解图光试.4V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "双层膜三束反射光的相消与最薄组合",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 401,
+          "chinese_characters": 203
+        },
+        "student": {
+          "content_characters": 1199,
+          "chinese_characters": 539
+        },
+        "teacher": {
+          "content_characters": 1199,
+          "chinese_characters": 539
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光试.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读相对反射相位和两族正厚度；联立两组相位并比较两组总厚度，复读C与V8的数学标签。",
+          "figures": [
+            "图光试.5",
+            "解图光试.5A",
+            "解图光试.5B",
+            "解图光试.5C",
+            "解图光试.5V1",
+            "解图光试.5V2",
+            "解图光试.5V3",
+            "解图光试.5V4",
+            "解图光试.5V5",
+            "解图光试.5V6",
+            "解图光试.5V7",
+            "解图光试.5V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "棱镜色散与衍射限制的分辨本领",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 465,
+          "chinese_characters": 171
+        },
+        "student": {
+          "content_characters": 1205,
+          "chinese_characters": 615
+        },
+        "teacher": {
+          "content_characters": 1205,
+          "chinese_characters": 615
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光试.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光试.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光试.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光试.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光试.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光试.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读最小偏向与固定棱镜的色散导数、有效投影孔径以及两个首暗点和瑞利距离的因子，说明正的有限投影和小角宽条件。",
+          "figures": [
+            "图光试.6",
+            "解图光试.6A",
+            "解图光试.6B",
+            "解图光试.6C",
+            "解图光试.6V1",
+            "解图光试.6V2",
+            "解图光试.6V3",
+            "解图光试.6V4",
+            "解图光试.6V5",
+            "解图光试.6V6",
+            "解图光试.6V7",
+            "解图光试.6V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

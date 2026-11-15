@@ -1,0 +1,1815 @@
+{
+  "单元": "第一章",
+  "题数": 15,
+  "分章文件_SHA256": {
+    "第一章_学生版.pdf": "ac6b391da8c6d65dfa854e94250ad5555c37bb84957c9e28507dc00cb272266c",
+    "第一章_学生版.tex": "a8570d7c4d12a4c23a9ce2bb8a32143b84ceef14839d9ecc3cd5b993fd562c42",
+    "第一章_学生解答版.pdf": "1053c9cc7ccab5808d72d7de6f1086e242c1d03736cc8783774285ba3e7ae767",
+    "第一章_学生解答版.tex": "c28092b0afa69fb972efb18cf29423ef84aca34783ac4b0fe0bfb1367ddd99cb",
+    "第一章_教师版.pdf": "46f91833eb287b73f7874689f0de1f813fcd93125657158d06bb0d358bf229ed",
+    "第一章_教师版.tex": "a532051d09b34f00d264cd4007a2c322cc33910a6e6181149330b1fd3b72def1"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "分段运动时间比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1182,
+          "chinese_characters": 645
+        },
+        "student": {
+          "content_characters": 1546,
+          "chinese_characters": 796
+        },
+        "teacher": {
+          "content_characters": 1546,
+          "chinese_characters": 796
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "分段初值、保速转弯与速率随高度变化，重算 t1/t3、t2/t3 和 7/5。分别核查阶梯上确界、摩擦后的能量式、变重力起始积分、圆弧段、非零初速以及矩形可走区域。",
+        "figure_source_reads": [
+          "图 1.1",
+          "解图 1.1A",
+          "解图 1.1B",
+          "变图1.1V1",
+          "变图1.1V2",
+          "变图1.1V3",
+          "变图1.1V4",
+          "变图1.1V5",
+          "变图1.1V6",
+          "变图1.1V7",
+          "变图1.1V8"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "本轮读已存原书正文",
+        "edits": [
+          {
+            "area": "1.1V1",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "最短性证明以每个水平段前都有一次直角拐折为前提，变式题干明示这一条件。"
+          },
+          {
+            "area": "1.1V3",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "给出起点收敛的原因和发散时的物理意义。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "删概括式收尾，保留负号和对应物理量。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "线性阻力下的剩余路程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 704,
+          "chinese_characters": 317
+        },
+        "student": {
+          "content_characters": 940,
+          "chinese_characters": 425
+        },
+        "teacher": {
+          "content_characters": 940,
+          "chinese_characters": 425
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "从阻力方程重积分速度及位置，比较时间、剩余面积及速度—位置截距。两张解图统一到 n=3，并核查阻力加倍、耗散、恒力和等间隔反演。",
+        "figure_source_reads": [
+          "图 1.2",
+          "解图 1.2A",
+          "解图 1.2B",
+          "变图1.2V1",
+          "变图1.2V2",
+          "变图1.2V3",
+          "变图1.2V4",
+          "变图1.2V5",
+          "变图1.2V6",
+          "变图1.2V7",
+          "变图1.2V8"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "本轮读已存原书正文",
+        "edits": [
+          {
+            "area": "解图 1.2A",
+            "editions": [
+              "学生解答版"
+            ],
+            "stage": "内容与图",
+            "reason": "在速度时间图用 kt_n=ln(3)，并使引线指向阴影。"
+          },
+          {
+            "area": "解图 1.2B",
+            "editions": [
+              "学生解答版"
+            ],
+            "stage": "内容与图",
+            "reason": "在速度位置图统一为 (2/3,1/3)，与解图 1.2A 表示同一时刻。"
+          },
+          {
+            "area": "解图 1.2A",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "在速度时间图用 kt_n=ln(3)，并使引线指向阴影。"
+          },
+          {
+            "area": "解图 1.2B",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "在速度位置图统一为 (2/3,1/3)，与解图 1.2A 表示同一时刻。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "说明两图共享的具体读数，并保留一般的截距关系。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "把审校口吻改为解释定积分的两个作用。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "三次阻力运动规律",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 585,
+          "chinese_characters": 149
+        },
+        "student": {
+          "content_characters": 839,
+          "chinese_characters": 287
+        },
+        "teacher": {
+          "content_characters": 839,
+          "chinese_characters": 287
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.3A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "积分 v^-3 与位置参数，比较不同幂次的两积分。核查 p=1 与 p=2 的归属、3/2 情形、尾部发散、函数图刻度及倒数斜率。",
+        "figure_source_reads": [
+          "图 1.3",
+          "解图 1.3A",
+          "变图1.3V1",
+          "变图1.3V2",
+          "变图1.3V3",
+          "变图1.3V4",
+          "变图1.3V5",
+          "变图1.3V6",
+          "变图1.3V7",
+          "变图1.3V8"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "本轮读已存原书正文",
+        "edits": [
+          {
+            "area": "易错点",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "分离变量从正初始速度开始，并由随后所得解确认有限时刻内速度为正。"
+          },
+          {
+            "area": "变图 1.3V2",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "图内直接标出临界指数归属，含 p=1 和 p=2。"
+          },
+          {
+            "area": "关键洞察",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "直接指出图中的对象、量与计算关系。"
+          },
+          {
+            "stage": "pdf-layout"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "斜坡上的最大射程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 857,
+          "chinese_characters": 272
+        },
+        "student": {
+          "content_characters": 1051,
+          "chinese_characters": 421
+        },
+        "teacher": {
+          "content_characters": 1051,
+          "chinese_characters": 421
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.4V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "在水平坐标和斜坡坐标独立代入同一非零交点。核准最优角与水平投影，补下坡变式的角度区间。",
+        "figure_source_reads": [
+          "图 1.4",
+          "解图 1.4A",
+          "解图 1.4B",
+          "变图1.4V1",
+          "变图1.4V2",
+          "变图1.4V3",
+          "变图1.4V4",
+          "变图1.4V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "1.4V1",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "把向右、在坡面上方的两个物理条件落实到优化角度区间。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "指出第二种方法独有的教学作用。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "等射程抛体的飞行时间乘积",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 560,
+          "chinese_characters": 270
+        },
+        "student": {
+          "content_characters": 797,
+          "chinese_characters": 406
+        },
+        "teacher": {
+          "content_characters": 797,
+          "chinese_characters": 406
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.5A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.5V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "由等高时的二次运动解和差化积复算互余时间积。图内区分共同射程与唯一最大射程，标出变式4两个高度峰值。",
+        "figure_source_reads": [
+          "图 1.5",
+          "解图 1.5A",
+          "变图1.5V1",
+          "变图1.5V2",
+          "变图1.5V3",
+          "变图1.5V4",
+          "变图1.5V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "解图 1.5A",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "共同射程与射程曲线最大值分别标读，直接对应正文的两交点合一。"
+          },
+          {
+            "area": "变图 1.5V4",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "由 y_max/g 的速度平方关系核准两个无量纲峰值 gy_max/v0²=1/8、3/8。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "把等时积的概括表述落实到速度分量和同高条件。"
+          },
+          {
+            "stage": "pdf-layout"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "水枪越墙的最小初速",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 684,
+          "chinese_characters": 290
+        },
+        "student": {
+          "content_characters": 1030,
+          "chinese_characters": 363
+        },
+        "teacher": {
+          "content_characters": 1030,
+          "chinese_characters": 363
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.6V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "按固定点包络与商求导复核最小初速和墙顶速度。补较低目标的可行空间，以及定落点时约束使 p* 取 1 或 p_h 的导数论证。",
+        "figure_source_reads": [
+          "图 1.6",
+          "解图 1.6A",
+          "解图 1.6B",
+          "变图1.6V1",
+          "变图1.6V2",
+          "变图1.6V3",
+          "变图1.6V4",
+          "变图1.6V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "1.6V2",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "原情境枪口在地面，较低目标需要改为可到达的空间。"
+          },
+          {
+            "area": "1.6V4",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "直接展示受限最小值的两个分支与等高条件。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "用轨迹与切线的几何关系解释角度的允许范围。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "反弹平抛与公共越杆点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1052,
+          "chinese_characters": 557
+        },
+        "student": {
+          "content_characters": 1336,
+          "chinese_characters": 636
+        },
+        "teacher": {
+          "content_characters": 1336,
+          "chinese_characters": 636
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.7B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.7V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "重算多次反弹的时间与恢复系数的交点，确认正高度根要求 e>1/2。变式明示改变水平速度所用冲量。",
+        "figure_source_reads": [
+          "图 1.7",
+          "解图 1.7A",
+          "解图 1.7B",
+          "变图1.7V1",
+          "变图1.7V2",
+          "变图1.7V3",
+          "变图1.7V4",
+          "变图1.7V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变式四",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "说明水平速度改变所需的冲量，使变式条件与此前光滑碰撞模型衔接。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "重复结论改为图中两条轴的读法，保留等时对应等距。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "导弹追踪匀速上升飞行物",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1570,
+          "chinese_characters": 628
+        },
+        "student": {
+          "content_characters": 1794,
+          "chinese_characters": 664
+        },
+        "teacher": {
+          "content_characters": 1794,
+          "chinese_characters": 664
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.8A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.8V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "复核理想追踪曲线使用的斜率微分、积分常数与有限到达条件。图中用两状态的有限差分，正文取极限衔接微元。",
+        "figure_source_reads": [
+          "图 1.8",
+          "解图 1.8A",
+          "变图1.8V1",
+          "变图1.8V2",
+          "变图1.8V3",
+          "变图1.8V4",
+          "变图1.8V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "解图 1.8A",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "示意图画的是两有限位置；差分的极限才对应方程的微分。"
+          },
+          {
+            "area": "解图 1.8A 图注",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "明确图内差分的对应时刻。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "把图内有限差分与极限计算明确接起。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "删除标题中无物理信息的语气词。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "圆柱解线与渐开线轨迹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 922,
+          "chinese_characters": 435
+        },
+        "student": {
+          "content_characters": 1134,
+          "chinese_characters": 495
+        },
+        "teacher": {
+          "content_characters": 1134,
+          "chinese_characters": 495
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.9V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "由曲线位置对转角求导，核对轨迹切线、张力方向、曲率和初始奇点。比较起始外露线段与有限解线长度条件。",
+        "figure_source_reads": [
+          "图 1.9",
+          "解图 1.9A",
+          "解图 1.9B",
+          "变图1.9V1",
+          "变图1.9V2",
+          "变图1.9V3",
+          "变图1.9V4",
+          "变图1.9V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "直接写出两投影和图中点的关系。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "旋转杆上小环的阿基米德螺线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 854,
+          "chinese_characters": 528
+        },
+        "student": {
+          "content_characters": 1282,
+          "chinese_characters": 590
+        },
+        "teacher": {
+          "content_characters": 1282,
+          "chinese_characters": 590
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图1.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.10V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对极坐标基矢、两项横向贡献、自然分量与曲率圆圆心，以及转动杆角加速度变式的逆时针区间。",
+        "figure_source_reads": [
+          "图 1.10",
+          "解图 1.10A",
+          "解图 1.10B",
+          "解图1.10C",
+          "变图1.10V1",
+          "变图1.10V2",
+          "变图1.10V3",
+          "变图1.10V4",
+          "变图1.10V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变式二",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "给出图中只画逆时针阶段和所用参考尺度的条件。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "缩短重复图注的标题。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "相对运动中的最短距离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1006,
+          "chinese_characters": 508
+        },
+        "student": {
+          "content_characters": 1467,
+          "chinese_characters": 696
+        },
+        "teacher": {
+          "content_characters": 1467,
+          "chinese_characters": 696
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.11V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对最近距离的 t≥0 约束与两个垂足，补叉乘面积图及速度三角形缺失的端点 D、C。",
+        "figure_source_reads": [
+          "图 1.11",
+          "解图 1.11A",
+          "解图 1.11B",
+          "变图1.11V1",
+          "变图1.11V2",
+          "变图1.11V3",
+          "变图1.11V4",
+          "变图1.11V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变图1.11V3",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "图注所说的底 B_0D 缺少端点 D。"
+          },
+          {
+            "area": "变图1.11V4",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "标出正文用于分量首尾相接的 C、D。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "移去编辑过程用语。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "非均匀河流中的往返轨迹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 927,
+          "chinese_characters": 464
+        },
+        "student": {
+          "content_characters": 1257,
+          "chinese_characters": 515
+        },
+        "teacher": {
+          "content_characters": 1257,
+          "chinese_characters": 515
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.12A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.12V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对去返差分方程、掉头连续性与两段漂移。变图1补出两条归一化横坐标。",
+        "figure_source_reads": [
+          "图 1.12",
+          "解图 1.12A",
+          "变图1.12V1",
+          "变图1.12V2",
+          "变图1.12V3",
+          "变图1.12V4",
+          "变图1.12V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变图1.12V1",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "正文说从图读得两点的横坐标，补确切刻度和投影。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "标题直接说清初值的物理含义。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "小船始终指向目标的河流轨迹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 870,
+          "chinese_characters": 400
+        },
+        "student": {
+          "content_characters": 1240,
+          "chinese_characters": 485
+        },
+        "teacher": {
+          "content_characters": 1240,
+          "chinese_characters": 485
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.13B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.13V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对速度投影、半角积分、有限到达的相对运动不变量；补较慢小船的横向坐标、下游漂移与无限时间。",
+        "figure_source_reads": [
+          "图 1.13",
+          "解图 1.13A",
+          "解图 1.13B",
+          "变图1.13V1",
+          "变图1.13V2",
+          "变图1.13V3",
+          "变图1.13V4",
+          "变图1.13V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变式五",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "补足水流较快时两坐标不同行为的推导，并明确逼近时间。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "删去无实质的强调，将到达性质与时间估计分开。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "纯滚动轮缘点速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 334,
+          "chinese_characters": 151
+        },
+        "student": {
+          "content_characters": 967,
+          "chinese_characters": 492
+        },
+        "teacher": {
+          "content_characters": 967,
+          "chinese_characters": 492
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图1.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.14V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对逆时针位置角、顺时针材料点轨迹、速度方向和接地点的极限。合并对两张解图的重复解释。",
+        "figure_source_reads": [
+          "图 1.14",
+          "解图 1.14A",
+          "解图1.14B",
+          "变图1.14V1",
+          "变图1.14V2",
+          "变图1.14V3",
+          "变图1.14V4",
+          "变图1.14V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "合并两段实质重复的图文比较，保留接地点变化与加速度的求法。"
+          },
+          {
+            "stage": "pdf-layout"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "内滚圆盘接触点加速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 738,
+          "chinese_characters": 462
+        },
+        "student": {
+          "content_characters": 886,
+          "chinese_characters": 548
+        },
+        "teacher": {
+          "content_characters": 886,
+          "chinese_characters": 548
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图1.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图1.15A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图1.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图1.15V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式 TikZ 源码"
+        ],
+        "findings": "核对滚动自转号、内外向心贡献向量、外环转动的切向条件。任意材料点须以实际 CP 作绕心半径。",
+        "figure_source_reads": [
+          "图 1.15",
+          "解图 1.15A",
+          "变图1.15V1",
+          "变图1.15V2",
+          "变图1.15V3",
+          "变图1.15V4",
+          "变图1.15V5"
+        ],
+        "figure_visual_status": "待新版目视",
+        "original_reference_reading": "沿用既审参考依据并检查当前推导与双底线",
+        "edits": [
+          {
+            "area": "变式四",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "题问是任意材料点，绕心项的半径须用 CP，而非固定用盘半径 r。具体检查盘心、接触点和对侧点。"
+          },
+          {
+            "area": "变图 1.15V4 图注",
+            "editions": [
+              "教师版"
+            ],
+            "stage": "内容与图",
+            "reason": "把画出的轮缘实例与一般材料点公式区分开。"
+          },
+          {
+            "area": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "stage": "humanizer-zh",
+            "reason": "将抽象收尾改成两个具体轨迹的区分，保留零速度不妨碍加速度的教学类比。"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "1.2A",
+      "page": 13,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.2B",
+      "page": 14,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.3V2",
+      "page": 22,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.5A",
+      "page": 33,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.5V4",
+      "page": 35,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.8A",
+      "page": 48,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.11V3",
+      "page": 67,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.11V4",
+      "page": 68,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.12V1",
+      "page": 72,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "1.15V4",
+      "page": 88,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    }
+  ]
+}

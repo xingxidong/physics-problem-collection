@@ -1,0 +1,1685 @@
+{
+  "单元": "热学第一章",
+  "题数": 16,
+  "分章文件_SHA256": {
+    "热学第一章_学生版.pdf": "c8b8b6fb2345199237cca8a17dc751638ade7ff03ea8d4b437d877c2c9bc59cf",
+    "热学第一章_学生版.tex": "d6865774cc76ec2dc476b2783c3987a0c2423077f6e19e47a3fdb51863b77661",
+    "热学第一章_学生解答版.pdf": "9751082b1a4d9f01ea1a183b67067421122d5c2cc0f091ba99e4a34088aff0af",
+    "热学第一章_学生解答版.tex": "cce1d12e6012d40eee0b648856f9b59a7ee61f2e368255d2dab5b7561e3d83fa",
+    "热学第一章_教师版.pdf": "c0dad6a4bb4f239d7e4fb3137adea6ee21c5f4edab481e3d354221456110c831",
+    "热学第一章_教师版.tex": "2b9ca9a8af3b6a7f1a191fb4b82b64be2cf19ab1e8855ab89ea3453e66ecb095"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "道尔顿定压温标与摄氏温度换算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 659,
+          "chinese_characters": 368
+        },
+        "student": {
+          "content_characters": 1348,
+          "chinese_characters": 605
+        },
+        "teacher": {
+          "content_characters": 1348,
+          "chinese_characters": 605
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.1V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.1",
+            "解图热1.1A–B",
+            "变图热1.1V1–V7"
+          ],
+          "physics": "对数换算、两次有限温差和两种50度读数逐项复算。校正文中横读和竖读的方向及图号，删去已讲明的重复温标定义。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "热电偶非线性电动势与自定温标",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 314,
+          "chinese_characters": 119
+        },
+        "student": {
+          "content_characters": 1351,
+          "chinese_characters": 626
+        },
+        "teacher": {
+          "content_characters": 1351,
+          "chinese_characters": 626
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.2A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.2V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.2",
+            "解图热1.2A",
+            "变图热1.2V1–V7"
+          ],
+          "physics": "复算极大值和两定标点、反函数双根、两个极值及冷端补偿。补一阶误差传播的适用条件，并用精确平方根给出199℃附近的误差结果。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "多只贮气罐给真空室逐次充气",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 920,
+          "chinese_characters": 375
+        },
+        "student": {
+          "content_characters": 1428,
+          "chinese_characters": 658
+        },
+        "teacher": {
+          "content_characters": 1428,
+          "chinese_characters": 658
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.3A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.3V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.3",
+            "解图热1.3A",
+            "变图热1.3V1–V7"
+          ],
+          "physics": "复算等比罐数、末轮余压、累计余气和旧罐回流；压强图补离散 k 刻度及台阶的开闭端点。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "U形管注入水银后的封闭气体压强",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 693,
+          "chinese_characters": 365
+        },
+        "student": {
+          "content_characters": 1337,
+          "chinese_characters": 608
+        },
+        "teacher": {
+          "content_characters": 1337,
+          "chinese_characters": 608
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.4A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.4V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.4",
+            "解图热1.4A",
+            "变图热1.4V1–V7"
+          ],
+          "physics": "连通水中的两个同高压力、汞面深度和等温方程联立。反求 H 的双根、反求 h1 的负根及密度变化斜率已对照各图。修正图号指代，合并已经给出的换算提醒。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "玻璃管倒置插入水银槽的双气柱变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 776,
+          "chinese_characters": 408
+        },
+        "student": {
+          "content_characters": 1619,
+          "chinese_characters": 753
+        },
+        "teacher": {
+          "content_characters": 1619,
+          "chinese_characters": 753
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.5A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.5V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.5",
+            "解图热1.5A",
+            "变图热1.5V1–V7"
+          ],
+          "physics": "复算 A、B 封口先后及 l、q、d 间的三段关系、初汞过高临界、绕另向转管和浸深导数。说明图中三组距离的具体量点，并分清正气长终点与全排气临界。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "升温推动水银柱外溢的分阶段判断",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1152,
+          "chinese_characters": 681
+        },
+        "student": {
+          "content_characters": 1705,
+          "chinese_characters": 869
+        },
+        "teacher": {
+          "content_characters": 1705,
+          "chinese_characters": 869
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.6V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.6",
+            "解图热1.6A–B",
+            "变图热1.6V1–V7"
+          ],
+          "physics": "复算刚到口温度、转折判别式、连续升温支、定温下降外压与临界单向流失。部分外溢状态画成 x=15 cm，与解图右支区间对应。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "试管倒置时两端封气长度的比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 704,
+          "chinese_characters": 261
+        },
+        "student": {
+          "content_characters": 1520,
+          "chinese_characters": 641
+        },
+        "teacher": {
+          "content_characters": 1520,
+          "chinese_characters": 641
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.7A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.7V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.7",
+            "解图热1.7A",
+            "变图热1.7V1–V7"
+          ],
+          "physics": "复算两份定量气柱长度、开口余汞、回转吸入新空气、倾斜投影及等温和绝热曲线。明确 A、B 是固定管端标号，写明绝热缓慢过程所用的可逆压缩条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "湖底水箱充气上浮所需空气量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 585,
+          "chinese_characters": 346
+        },
+        "student": {
+          "content_characters": 1378,
+          "chinese_characters": 780
+        },
+        "teacher": {
+          "content_characters": 1378,
+          "chinese_characters": 780
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.8A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.8V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.8",
+            "解图热1.8A",
+            "变图热1.8V1–V7"
+          ],
+          "physics": "复算三个竖直力、等摩尔数换算、界面深度修正、计入气体重量及分次送达。修正起浮图三力长度为 100:84:16，容量图在等容积处标明中性。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "热气球刚好升空的内部温度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 446,
+          "chinese_characters": 190
+        },
+        "student": {
+          "content_characters": 1285,
+          "chinese_characters": 637
+        },
+        "teacher": {
+          "content_characters": 1285,
+          "chinese_characters": 637
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.9A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.9V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.9",
+            "解图热1.9A",
+            "变图热1.9V1–V7"
+          ],
+          "physics": "复算等压起飞、载荷差、超压修正及最高温、球径和外压各分支。修正变式外温变量的断裂下标并标明温度图的截断轴。"
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "浮沉子受压下沉的速度关系",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 564,
+          "chinese_characters": 318
+        },
+        "student": {
+          "content_characters": 1390,
+          "chinese_characters": 669
+        },
+        "teacher": {
+          "content_characters": 1390,
+          "chinese_characters": 669
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.10V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.10",
+            "解图热1.10A–B",
+            "变图热1.10V1–V7"
+          ],
+          "physics": "复算短气柱、有限气柱的等温式和有理化根、加速度和速度关系，比较图中三态与气量变化。积分保留无量纲对数，下降受力图用气柱长度比给两箭头比例。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "由行星大气压强曲线求探测器速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 680,
+          "chinese_characters": 412
+        },
+        "student": {
+          "content_characters": 1224,
+          "chinese_characters": 614
+        },
+        "teacher": {
+          "content_characters": 1224,
+          "chinese_characters": 614
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.11B"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.11A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.11V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.11",
+            "解图热1.11A–B",
+            "变图热1.11V1–V7"
+          ],
+          "physics": "复算A点贝塞尔端部切线与900秒、当地标高、相对斜率、仪表零偏及非等温积分。变速例明确相对增长率在何处转折，并给两条无量纲曲线统一纵轴。"
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "用体积百分比求标准状态空气密度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 559,
+          "chinese_characters": 230
+        },
+        "student": {
+          "content_characters": 1404,
+          "chinese_characters": 567
+        },
+        "teacher": {
+          "content_characters": 1404,
+          "chinese_characters": 567
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.12B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.12V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.12",
+            "解图热1.12A–B",
+            "变图热1.12V1–V7"
+          ],
+          "physics": "复算三个分密度与质量份额、湿空气4%上限、组成可行线段和二元替换差。明确饱和先达到的条件并核对质量与摩尔份额图各段宽度。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "干湿空气浮力差导致的称量差异",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 637,
+          "chinese_characters": 313
+        },
+        "student": {
+          "content_characters": 1311,
+          "chinese_characters": 624
+        },
+        "teacher": {
+          "content_characters": 1311,
+          "chinese_characters": 624
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.13A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.13V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.13",
+            "解图热1.13A",
+            "变图热1.13V1–V7"
+          ],
+          "physics": "复算分密度差、两盘支持力、砝码读数的差商、各材料阈值及倒比体积极限。明确力图空气浮力的放大与比体积差，改进相对舍入说明。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "干空气与湿空气隔板平衡及混合压强",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 898,
+          "chinese_characters": 448
+        },
+        "student": {
+          "content_characters": 1411,
+          "chinese_characters": 602
+        },
+        "teacher": {
+          "content_characters": 1411,
+          "chinese_characters": 602
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.14V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.14",
+            "解图热1.14A–B",
+            "变图热1.14V1–V7"
+          ],
+          "physics": "复算可动隔板毫米级位移、初始等容与相同初压抽板的两状态、湿气分压比及绝热混合温度。含凝结的变式补可直接求总压的单调方程、终态水量条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "潮湿空气压缩凝结与降温后的压强",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 918,
+          "chinese_characters": 587
+        },
+        "student": {
+          "content_characters": 1711,
+          "chinese_characters": 921
+        },
+        "teacher": {
+          "content_characters": 1711,
+          "chinese_characters": 921
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热1.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.15V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.15",
+            "解图热1.15A–C",
+            "变图热1.15V1–V7"
+          ],
+          "physics": "复算临界管长、锁定方向、任意终温的干气与饱和分压及湿度端点。区分达到饱和时正好把容汞空间用完和继续加汞析水所需的空间，图中相平衡水平段说明是继续压缩析出液态水。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "可分解双原子气体升温后的水银柱移动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1082,
+          "chinese_characters": 537
+        },
+        "student": {
+          "content_characters": 1691,
+          "chinese_characters": 777
+        },
+        "teacher": {
+          "content_characters": 1691,
+          "chinese_characters": 777
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热1.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热1.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热1.16B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热1.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热1.16V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图热1.16",
+            "解图热1.16A–B",
+            "变图热1.16V1–V7"
+          ],
+          "physics": "复算压力虚设、近临界方向、一阶及二阶根和以压强决定粒子数的变式。补 V7 所选分解律解的唯一性、实际位移和初始推力的数值。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

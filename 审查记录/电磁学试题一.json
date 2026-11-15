@@ -1,0 +1,529 @@
+{
+  "单元": "电磁学试题一",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "电磁学试题一_学生版.pdf": "0bbc022b96417cebe744a62271d4ac260b30c9686aa59719e7d4b421e75b0c3f",
+    "电磁学试题一_学生版.tex": "6e21e3206a2fcfabdd2b371a147b2b0dc28e08cd33e0764167fba11d33b6bcc8",
+    "电磁学试题一_学生解答版.pdf": "9194f204354f9fb72ee8a58d3959b8a32dcd21d977788f2f8ea326365a20d291",
+    "电磁学试题一_学生解答版.tex": "f05bd8c69744ae863c2685e8617b84bc6955240e46ef936c3ed4da042742b8af",
+    "电磁学试题一_教师版.pdf": "dd3758ca55fcd5b8eca20596ee92cdcc0117e6b462bf89656182ccbe791edd7b",
+    "电磁学试题一_教师版.tex": "0fcf8dd9b27bf7b96d9225146258f0027a8937bac1ec7b153002d9cb34c98ef7"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "均匀电场中弹簧两端的带电小球",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1541,
+          "chinese_characters": 648
+        },
+        "student": {
+          "content_characters": 1914,
+          "chinese_characters": 825
+        },
+        "teacher": {
+          "content_characters": 1914,
+          "chinese_characters": 825
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试1.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试1.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试1.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试1.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读质心与相对坐标，抽读转点反向的继承条件和两球同加质量比例力；当前正稿差异在解图排版。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": [
+          "标准解法"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "半无限导线向平面径向分流的磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1454,
+          "chinese_characters": 943
+        },
+        "student": {
+          "content_characters": 1974,
+          "chinese_characters": 1164
+        },
+        "teacher": {
+          "content_characters": 1974,
+          "chinese_characters": 1164
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试1.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试1.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试1.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试1.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读安培回路和对称主值，抽读反转及非对称薄层。重画变图1两个单侧极限空心点和主值实心点，注明I为正的大小。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "水平磁场中下落带电球的临界轨迹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1596,
+          "chinese_characters": 1030
+        },
+        "student": {
+          "content_characters": 2120,
+          "chinese_characters": 1138
+        },
+        "teacher": {
+          "content_characters": 2120,
+          "chinese_characters": 1138
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试1.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试1.3C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试1.3B"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试1.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读磁力与重力摆线符号，抽读第一次相切，以及尖点时距和空距确定物理量。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "弱磁场中异号带电双体的质心摆线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1604,
+          "chinese_characters": 925
+        },
+        "student": {
+          "content_characters": 2014,
+          "chinese_characters": 1013
+        },
+        "teacher": {
+          "content_characters": 2014,
+          "chinese_characters": 1013
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试1.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试1.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试1.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试1.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读精确的质心和相对耦合主解；给出固定时间区间的三阶质心速度余项，并把动能定量写为内部圆轨迹从起点量出的弦长平方。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "带电容滑动双棒的充电与最终速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2548,
+          "chinese_characters": 1256
+        },
+        "student": {
+          "content_characters": 2742,
+          "chinese_characters": 1361
+        },
+        "teacher": {
+          "content_characters": 2742,
+          "chinese_characters": 1361
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试1.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试1.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试1.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试1.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试1.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读有、无电容两支路的终态与分离行为，抽读去电容的焦耳能和反向磁场极性。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "remaining_fields": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

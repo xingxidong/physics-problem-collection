@@ -1,0 +1,2583 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}
+
+\newcommand{\edition}{学生解答版}
+\newcommand{\chapterlabel}{第二章\quad 牛顿运动定律}
+\hypersetup{pdftitle={第二章 牛顿运动定律·学生解答版},pdfauthor={},pdfsubject={第二章第1--20题}}
+\begin{document}
+\pdfbookmark[0]{第二章 牛顿运动定律}{cover}
+\thispagestyle{empty}
+\vspace*{20mm}
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{8mm}
+\noindent{\LARGE 第二章\quad 牛顿运动定律}\par\vspace{10mm}
+\noindent{\Large\color{accent}学生解答版}\par\vspace{8mm}
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{8mm}
+\noindent 第 1--20 题\par\vspace{5mm}
+\noindent 完整推导、图示分析与条件讨论。\par
+\vfill\clearpage
+\pdfbookmark[1]{题目目录}{contents}
+\section*{题目目录}
+\begin{longtable}{@{}>{\color{accent}\bfseries}r p{120mm}@{}}
+\toprule 题号 & 题目\\\midrule
+1 & 圆柱绕绳与欧拉摩擦公式 \\
+2 & 旋转斜杆上小环的稳定位置 \\
+3 & 球壳内壁水平圆周运动的速度范围 \\
+4 & 光滑斜面体与滑块的约束加速度 \\
+5 & 旋转球壳中木块的摩擦条件与稳定性 \\
+6 & 反向滚轴上的钢件匀速推动 \\
+7 & 粗糙地面上斜面接触木块的共同加速 \\
+8 & 滑块、绳和悬挂重物的相对静止条件 \\
+9 & 旋转平台沟槽中双球的稳定位置 \\
+10 & 平方阻力竖直上抛的高度与返回速度 \\
+11 & 线性阻力下两竖直质点的相遇 \\
+12 & 线性阻力抛体的轨迹方程 \\
+13 & 飞机着陆滑行距离 \\
+14 & 两根弹簧同时拉断的条件 \\
+15 & 加速斜面上木块相对静止的推力范围 \\
+16 & 双斜面体上两木块相对加速度 \\
+17 & 航天飞机伸杆卫星的潮汐稳定位置 \\
+18 & 旋转圆盘上射手的科里奥利瞄准 \\
+19 & 自由落体的科里奥利偏离 \\
+20 & 傅科摆摆动平面的旋转周期 \\
+\bottomrule\end{longtable}
+
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 圆柱绕绳与欧拉摩擦公式}{q1}
+
+\section*{第 1 题\quad 圆柱绕绳与欧拉摩擦公式}
+
+\tagline{M-02-01}
+
+一根质量可忽略的绳绕在固定圆柱上，两端悬挂质量分别为 $M=1000\,\mathrm{kg}$、$m=10\,\mathrm{kg}$ 的桶。绳与圆柱的静摩擦系数为 $\mu=0.050$。按绕线模型，总接触角取 $2\pi n$，$n$ 为完整圈数。要使两桶保持静止，至少需要多少圈？
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object,fill=rulegray!30] (0,.5) rectangle (5,1.9);
+\draw[object] (0,1.2) ellipse(.25 and .7);\draw[object] (5,1.2) ellipse(.25 and .7);
+\draw[traj,domain=0:5,samples=150] plot(\x,{1.2+.66*sin(216*\x)});
+\draw[object] (0,1.2)--(0,-.8);\draw[object] (5,1.2)--(5,-.8);
+\draw[object,fill=accent!10] (-.45,-.8) rectangle (.45,-1.45);\node at (0,-1.12) {$m$};
+\draw[object,fill=accent!10] (4.3,-.8) rectangle (5.7,-1.8);\node at (5,-1.3) {$M$};
+\node[above] at (2.5,2.2) {固定圆柱，绳绕 $n$ 圈};
+
+\end{tikzpicture}
+\figcaption{图 2.1\quad 绳绕圆筒连接两端悬桶；所求圈数由绳、筒间的摩擦条件确定。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+两桶静止时，各自的加速度为零，故轻绳两端的张力分别为 $T_{\mathrm s}=mg$、$T_{\mathrm b}=Mg$。两段离开圆柱的轻绳沿线没有分布切向力，因此各段的张力等于所连桶的重力。接触圆柱的部分由分布静摩擦承担两端的张力差。沿圆弧的临界分布从 $T_{\mathrm s}$ 单调增至 $T_{\mathrm b}$。
+
+从小桶端向大桶端量接触角 $\theta$。解图 2.1A 中取一段张角 $\dd\theta$ 的绳元，两端张力为 $T$ 与 $T+\dd T$。图中张角已放大，实际计算取 $\dd\theta\to0$。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[guide] (0,0) circle(1.6);\draw[traj,line width=1.8pt] (110:1.6) arc(110:70:1.6);
+\draw[guide] (0,0)--(110:1.6);\draw[guide] (0,0)--(70:1.6);
+\draw[force] (110:1.6)--(-1.68,1.09) node[left] {$T$};
+\draw[force] (70:1.6)--(1.81,1.04) node[right] {$T+\dd T$};
+\draw[force] (0,1.6)--(0,2.7) node[above] {$\dd N$};
+\draw[force] (0,1.36)--(-.9,1.36) node[below left] {$\dd f$};
+\draw (70:.6) arc(70:110:.6);\node at (0,.9) {$\dd\theta$};
+\node[align=left] at (5.5,1.2) {两端张力的法向合力向内，\\圆柱支持力向外；\\摩擦阻止绳向高张力端滑动。};
+
+\end{tikzpicture}
+\figcaption{解图 2.1A\quad 绳元受力图；小角度作放大示意。}
+\end{minipage}\end{center}
+\subsubsection*{绳元平衡与静摩擦限制}
+两端张力的法向合力指向圆柱，大小为
+\[
+(2T+\dd T)\sin\frac{\dd\theta}{2}
+=T\dd\theta+O((\dd\theta)^2).
+\]
+所以圆柱的向外支持力为 $\dd N=T\dd\theta$。切向上，两端张力差由静摩擦承担。沿从小桶端到大桶端张力单调增加的分布，$\dd f=\dd T$，摩擦朝小桶端。大桶将向下滑动的临界分布正是这样，且
+\[
+0\leq\dd T\leq\mu\dd N=\mu T\dd\theta.
+\]
+一般静止分布满足 $|\dd T|\leq\mu T\dd\theta$，因而每个微元仍有 $\dd T/T\leq\mu\dd\theta$。在图2.1A 的接触弧上从小桶端积分到大桶端，得到
+\[
+\int_{mg}^{Mg}\frac{\dd T}{T}
+\leq\mu\int_0^\Theta\dd\theta,
+\qquad \ln\frac Mm\leq\mu\Theta.
+\]
+于是总接触角必须满足 $\Theta\geq\ln(M/m)/\mu$。在恰将滑动的临界状态，各绳元均达到摩擦极限，积分取等号，张力分布为
+\[
+T(\theta)=mg\,e^{\mu\theta}.
+\]
+\subsubsection*{接触角换算为圈数}
+每个完整绕圈提供接触角 $2\pi$，故 $\Theta=2\pi n$，并有
+\[
+n\geq\frac{\ln(M/m)}{2\pi\mu}
+=\frac{\ln100}{2\pi\times0.050}=14.6587\cdots.
+\]
+圈数须取整数，因此 $\boxed{n_{\min}=15\text{ 圈}}$。14 圈时可维持的最大张力比为 $e^{1.4\pi}\approx81.3<100$，15 圈时为 $e^{1.5\pi}\approx111.3>100$。
+
+结果与 $g$ 和圆柱半径无关：前者在两端张力比中消去，后者在绳元法向关系中消去。若实际接触还有入绳、出绳的额外圆弧，应先计入总接触角，再换算完整圈数。
+\subsubsection*{取整后的圈数为何仍有摩擦余量}
+绳元的切向平衡在取极限前为
+$\dd T\cos(\dd\theta/2)=\dd f$；
+因为$\cos(\dd\theta/2)=1+O(\dd\theta^2)$，
+取一阶微量才得到$\dd f=\dd T$。
+连续角度的最小值$\Theta_*=\ln100/\mu$对应处处临界，
+整数圈数却将接触角增加到$30\pi>\Theta_*$。
+在15圈时，可取下列满足两端桶重的张力分布：
+\[
+T(\theta)=mg\,e^{\kappa\theta},\qquad
+\kappa=\frac{\ln100}{30\pi}=0.04886\cdots<\mu,
+\quad0\leq\theta\leq30\pi.
+\]
+沿解图2.1A的每个绳元都有
+$\dd f/\dd N=\dd T/(T\dd\theta)=\kappa<\mu$。
+这给出15圈时的一条实际可行分布。绳的张力由小桶端连续增至大桶端，每一段所需摩擦都小于该段所能提供的最大静摩擦。把15圈的总接触角与连续临界角相比，多出的接触弧分担了张力的增长。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 2 题 旋转斜杆上小环的稳定位置}{q2}
+
+\section*{第 2 题\quad 旋转斜杆上小环的稳定位置}
+
+\tagline{M-02-02}
+
+细杆的一端支于地面，以恒定角速度 $\omega>0$ 绕过支点的竖直轴旋转。杆与水平地面的夹角为 $\alpha$，$0<\alpha<\pi/2$。质量 $m$ 的小环套在杆上，静摩擦系数为 $\mu\geq0$。求小环能相对杆保持静止、随杆转动的位置范围，位置以距支点的长度 $L\geq0$ 表示。杆长若有限，取所得范围与实际杆长的交集。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.5,0)--(5,0);\draw[axis] (0,-.2)--(0,3.6) node[above] {转轴};
+\draw[object,line width=1.2pt] (0,0)--(4,3);\draw[object,fill=accent!15] (2.4,1.8) circle(.15);
+\draw[guide] (0,1.8)--(2.4,1.8) node[midway,above] {$L\cos\alpha$};
+\draw[thin,<->] (.27,-.36)--(2.67,1.44) node[midway,below right] {$L$};
+\draw (.8,0) arc(0:36.87:.8);\node at (1.03,.32) {$\alpha$};
+\node[above right] at (2.4,1.8) {$m$};\node[below] at (0,0) {$O$};
+\draw[motion] (-.45,3.1) arc(150:-120:.5 and .18) node[left] {$\omega$};
+
+\end{tikzpicture}
+\figcaption{图 2.2\quad 小环相对杆静止时，对地作半径 $L\cos\alpha$ 的水平圆周运动。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+设小环距支点为 $L$，其水平圆周半径为 $r=L\cos\alpha$。小环保持 $L$ 不变时，随杆沿半径 $r$ 作水平圆周运动，地面系中的加速度为 $\omega^2r$，指向转轴。取水平向外为 $x$ 正向，竖直向上为 $z$ 正向，摩擦 $f$ 沿杆向上为正。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[guide] (-1,-.75)--(1.6,1.2);\fill (0,0) circle(2pt);
+\draw[force] (0,0)--(-.9,1.2) node[above left] {$N$};
+\draw[force] (0,0)--(.4,.3) node[above right] {$f$};
+\draw[force] (0,0)--(0,-1.5) node[below] {$mg$};
+\draw[motion] (0,-.35)--(-1.4,-.35) node[below left] {$\vect a$};
+\node[align=left] at (4.8,.9) {水平向左的$\vect a$指向转轴\\摩擦的正方向沿杆向上\\$f<0$对应摩擦沿杆向下};
+
+\end{tikzpicture}
+\figcaption{解图 2.2A\quad 小环的重力、支持力、摩擦与向心加速度。}
+\end{minipage}\end{center}
+解图 2.2A 画出重力、支持力与摩擦力。支持力垂直杆、朝斜上方，两个方向的运动方程为
+\[
+-N\sin\alpha+f\cos\alpha=-m\omega^2L\cos\alpha,
+\qquad N\cos\alpha+f\sin\alpha=mg.
+\]
+将第一式乘 $\cos\alpha$、第二式乘 $\sin\alpha$ 后相加，消去 $N$；用另一组投影消去 $f$，得到
+\[
+f=m(g\sin\alpha-\omega^2L\cos^2\alpha),\qquad
+N=m\cos\alpha(g+\omega^2L\sin\alpha)>0.
+\]
+\subsubsection*{摩擦方向随位置改变}
+令
+\[
+L_0=\frac{g\sin\alpha}{\omega^2\cos^2\alpha},
+\qquad f=m\omega^2\cos^2\alpha(L_0-L).
+\]
+$L<L_0$ 时，重力沿杆的下滑作用较强，摩擦向上；$L>L_0$ 时，维持圆周运动所需的接触合力要求摩擦向下；$L=L_0$ 时无须摩擦。图2.2A 的摩擦箭头沿杆向上，用来规定 $f$ 的正方向；若求得 $f<0$，实际摩擦沿杆向下。
+
+\subsubsection*{分别求两端限制}
+记 $s=\sin\alpha$、$c=\cos\alpha$。由 $f\leq\mu N$，整理得
+\[
+g(s-\mu c)\leq\omega^2Lc(c+\mu s).
+\]
+右边的系数严格为正，再结合 $L\geq0$，下限为
+\[
+\boxed{L_-=\max\left(0,\frac{g(s-\mu c)}{\omega^2c(c+\mu s)}\right)}.
+\]
+因此 $\mu\geq\tan\alpha$ 时，小环可以一直放到支点附近。
+另一侧 $f\geq-\mu N$ 给出
+\[
+\omega^2Lc(c-\mu s)\leq g(s+\mu c).
+\]
+若 $c-\mu s>0$，可除以正系数，得到有限上限；若 $c-\mu s\leq0$，对任何 $L\geq0$ 左边都不大于零，该条件自动满足。因此
+\[
+\boxed{L\in\begin{cases}
+[L_-,L_+],&\mu<\cot\alpha,\\
+[L_-,\infty),&\mu\geq\cot\alpha,
+\end{cases}\quad
+L_+=\frac{g(s+\mu c)}{\omega^2c(c-\mu s)}}.
+\]
+若杆的实际长度为 $\ell$，还要与 $[0,\ell]$ 取交集。两个代数端点均为正且有限时，即 $\mu<\min(\tan\alpha,\cot\alpha)$，区间宽度为
+\[
+L_+-L_-=\frac{2\mu g}{\omega^2c^3(1-\mu^2\tan^2\alpha)}.
+\]
+\subsubsection*{可维持位置与动力学稳定性}
+$\mu=0$ 时区间缩为 $L_0$。若环离开该点，沿杆的净驱动力为 $m\omega^2c^2(L-L_0)$，与偏离同向，故该无摩擦平衡不稳定。有静摩擦时，允许区间中的每个位置各有一个所需的 $f$。若小环在区间内的另一位置以相对杆静止的状态释放，静摩擦可在该位置维持共转。回到某一固定位置的动力学问题则要由运动后的受力决定。
+\subsubsection*{受力消元、区间宽度与摩擦曲线}
+为看清支持力和摩擦怎样分工，将水平运动方程乘$\cos\alpha$、
+竖直方程乘$\sin\alpha$相加，得到
+\[
+f(\cos^2\alpha+\sin^2\alpha)
+=mg\sin\alpha-m\omega^2L\cos^2\alpha.
+\]
+改将水平式乘$-\sin\alpha$、竖直式乘$\cos\alpha$相加，
+则$N=mg\cos\alpha+m\omega^2L\sin\alpha\cos\alpha$。
+竖直方向的加速度为零，所以图2.2A 中支持力与摩擦力的竖直分量之和等于重力。当 $f$ 变号时，摩擦的竖直分量也随之改变。
+
+在两个端点均正且有限的情形，通分可把宽度展开为
+\[
+\begin{aligned}
+L_+-L_-&=\frac g{\omega^2c}
+\frac{(s+\mu c)(c+\mu s)-(s-\mu c)(c-\mu s)}
+{c^2-\mu^2s^2}\\
+&=\frac g{\omega^2c}
+\frac{2\mu(s^2+c^2)}{c^2-\mu^2s^2}
+=\frac{2\mu g}{\omega^2c^3(1-\mu^2\tan^2\alpha)}.
+\end{aligned}
+\]
+这条宽度式适用于两端都由摩擦等式确定的有限区间。若下限取 $0$，宽度改为 $L_+$；若上限不限，则还要按实际杆长决定可用区间。
+
+解图2.2B取$\alpha=45^\circ,\mu=0.20$作例子。
+实线是维持共转所需的$f$，两虚线是材料可提供的$\pm\mu N$。
+在实线位于两虚线之间的区段，静摩擦能维持小环共转。
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}[x=1.6cm,y=2cm]
+\fill[accent!8] (.94281,-.78) rectangle (2.12132,.83);
+\draw[axis] (-.12,0)--(3.05,0) node[right] {$\lambda=\omega^2L/g$};
+\draw[axis] (0,-.82)--(0,.92) node[above] {$f/(mg)$};
+\draw[guide,domain=0:2.8] plot(\x,{.141421+.1*\x});
+\draw[guide,domain=0:2.8] plot(\x,{-.141421-.1*\x});
+\draw[thin,domain=0:2.8] plot(\x,{.707107-.5*\x});
+\draw[traj,line width=1.3pt,domain=.94281:2.12132] plot(\x,{.707107-.5*\x});
+\draw[guide] (.94281,0)--(.94281,.2357);
+\draw[guide] (2.12132,0)--(2.12132,-.35355);
+\fill (.94281,.2357) circle(1pt); \fill (2.12132,-.35355) circle(1pt);
+\node[below] at (.94281,0) {$L_-$};
+\node[above] at (1.41421,0) {$L_0$};
+\node[above] at (2.12132,0) {$L_+$};
+\node[right] at (2.8,.42142) {$+\mu N/(mg)$};
+\node[right] at (2.8,-.42142) {$-\mu N/(mg)$};
+\node[above right] at (.1,.6571) {所需摩擦};
+\end{tikzpicture}
+\figcaption{解图2.2B\quad 接触力可实现的区间；三个标记表示相应$L$在无量纲横轴上的位置。}
+\end{minipage}\end{center}
+$L$减小到$L_-$以下，所需向上摩擦超出上界，小环出现下滑趋势；
+$L$增大到有限的$L_+$以上，所需向下摩擦超出下界，小环出现上滑趋势。
+在$L_0$处支持力独自平衡竖直重力并提供向心力，摩擦恰为零。
+图2.2B 的交点给出允许共转的端点。区间内实线到两条虚线都有余量，各处可分别以所需的静摩擦保持位置。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 3 题 球壳内壁水平圆周运动的速度范围}{q3}
+
+\section*{第 3 题\quad 球壳内壁水平圆周运动的速度范围}
+
+\tagline{M-02-03}
+
+半径 $R$ 的空心球壳绕竖直直径匀速转动，内壁上一可视为质点的小球相对球壳静止，随球壳沿水平纬度圈以速率 $v$ 运动。小球位于下半球，球心至小球的连线与竖直向下方向的夹角为 $\theta$，$0<\theta<\pi/2$。静摩擦系数为 $\mu\geq0$。求在该纬度能维持共转的速率范围。
+\par\smallskip\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+\draw[object] (0,0) circle(2.4);
+\draw[guide] (0,-2.4)--(0,2.35);
+\coordinate (B) at (2.078,-1.2);
+\draw[object] (0,0)--(B) node[midway,above] {$R$};
+\draw[guide] (0,-1.2) ellipse(2.078 and .32);
+\draw[guide] (0,-1.2)--(B);
+\draw[guide] (0,-1.55)--(0,-2.95);
+\draw[guide] (B)--(2.078,-2.95);
+\draw[<->] (0,-2.85)--(2.078,-2.85) node[midway,below] {$R\sin\theta$};
+\node[fill=white,inner sep=.4pt,text=accent] at (B) {$\odot$};
+\node[above right] at (2.16,-1.12) {$m$};
+\node[below right] at (2.16,-1.3) {$v$};
+\node[left] at (0,0) {$O$};
+\draw (0,-.7) arc(-90:-30:.7);
+\node at (.55,-.85) {$\theta$};
+\draw[motion] (0,2.15)--(0,3.05) node[above] {$\boldsymbol\omega$};
+\end{tikzpicture}
+\figcaption{图 2.3\quad 纬度圈半径为$R\sin\theta$；$\odot$表示周向速度垂直子午面朝向观察者。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+匀速共转时，小球沿纬圈的切向加速度为零。重力与支持力都在子午面内，故摩擦的周向分量为零，只有沿经线的分量。取过球心和小球的竖直截面，$\theta$ 从竖直向下的半径量起；图2.3 中，从小球到转轴的水平距离是纬圈半径 $\rho=R\sin\theta$。规定切线沿经线上行为摩擦力的正方向。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\fill (0,0) circle(2pt);\draw[guide] (-.75,-1.3)--(.9,1.56);
+\draw[force] (0,0)--(-1.3,.75) node[above left] {$N$};
+\draw[force] (0,0)--(.43301,.75) node[above right] {$f>0$};
+\draw[force] (0,0)--(0,-1.5) node[below] {$mg$};
+\draw[motion] (0,-.35)--(-1.4,-.35) node[below left] {$v^2/\rho$};
+\draw[axis] (3.6,-.5)--(2.6,-.5) node[midway,below] {向轴为正};
+\node[align=left] at (5.7,1.1) {$N\sin\theta-f\cos\theta=mv^2/\rho$\\$N\cos\theta+f\sin\theta=mg$};
+
+\end{tikzpicture}
+\figcaption{解图 2.3A\quad 共转小球的重力、支持力、摩擦及向轴加速度。}
+\end{minipage}\end{center}
+解图 2.3A 中，支持力 $N$ 沿球面法线指向球心；$f>0$ 朝斜上方。小球的加速度水平指向转轴，竖直加速度为零，所以
+\[
+N\sin\theta-f\cos\theta=\frac{mv^2}{\rho},
+\qquad N\cos\theta+f\sin\theta=mg.
+\]
+记 $a=v^2/\rho$。两式分别作切向与法向的线性组合，得到
+\[
+f=m(g\sin\theta-a\cos\theta),\qquad
+N=m(g\cos\theta+a\sin\theta)>0.
+\]
+这样先得到任一速率下维持共转所需的 $f$ 和 $N$。材料允许的范围是 $-\mu N\leq f\leq\mu N$，其中等号给出摩擦达到极限的端点。
+
+\subsubsection*{无摩擦速度与两个临界趋势}
+令 $f=0$，得 $a=g\tan\theta$，即
+\[
+\boxed{v_0=\sin\theta\sqrt{\frac{gR}{\cos\theta}}}.
+\]
+当 $v<v_0$ 时需要向上的摩擦，阻止下滑；当 $v>v_0$ 时需要向下的摩擦，阻止上滑。记 $s=\sin\theta$、$c=\cos\theta$，由 $f\leq\mu N$ 得
+\[
+g(s-\mu c)\leq a(c+\mu s).
+\]
+因为 $c+\mu s>0$，再用 $a\geq0$，得到
+\[
+a\geq g\max\left(0,\frac{s-\mu c}{c+\mu s}\right).
+\]
+乘以 $\rho=Rs$，速率下限为
+\[
+\boxed{v_{\min}=\sqrt{gRs\max\left(0,\frac{s-\mu c}{c+\mu s}\right)}}.
+\]
+下限为零对应 $\mu\geq\tan\theta$。在 $v=0$ 时，沿经线向上的摩擦大小为 $mg\sin\theta$，法向力为 $mg\cos\theta$，这个条件恰好允许两者与重力平衡。
+
+另一侧 $f\geq-\mu N$ 整理为
+\[
+a(c-\mu s)\leq g(s+\mu c).
+\]
+当 $c-\mu s>0$ 时有有限上限，反之没有有限上限。因此
+\[
+\boxed{v_{\max}=\begin{cases}
+\sqrt{gRs(s+\mu c)/(c-\mu s)},&\mu<\cot\theta,\\
+\infty,&\mu\geq\cot\theta,
+\end{cases}\qquad v_{\min}\leq v\leq v_{\max}}.
+\]
+高速时 $f<0$，其绝对值与 $N$ 的比趋于 $\cot\theta$。当 $\mu\geq\cot\theta$，任何有限高速所需的向下摩擦都在材料范围内。
+
+\subsubsection*{无摩擦与接触条件}
+$\mu=0$ 时两端重合于 $v_0$。在题定的下半球，$g\cos\theta>0$，而 $a\sin\theta\geq0$，两项相加使 $N$ 始终为正。这里求的是随壳共转所需的静摩擦。若球壳固定而小球沿壁滑动，摩擦沿相对速度的反向，应按滑动时的切向运动列式。
+\subsubsection*{两个临界端点的受力代入}
+低速端由上行摩擦达到极限确定时，解图2.3A中的切向方程给出
+\[
+g\sin\theta-a_{\min}\cos\theta
+=\mu(g\cos\theta+a_{\min}\sin\theta).
+\]
+若存在有限的高速端，该端的下行摩擦达到极限，得到
+\[
+g\sin\theta-a_{\max}\cos\theta
+=-\mu(g\cos\theta+a_{\max}\sin\theta).
+\]
+两式的正负号对应图中同一条经线的相反方向。
+第一式移项后，$a$ 的系数总为正。当解出的代数下限为负时，所有非负 $a$ 都满足这一侧条件，速率从零起算。第二式移项后，若 $c-\mu s\leq0$，左侧对一切 $a\geq0$ 都小于或等于零，而右侧为正，于是这一侧给出的范围延伸到任意大速率。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 4 题 光滑斜面体与滑块的约束加速度}{q4}
+
+\section*{第 4 题\quad 光滑斜面体与滑块的约束加速度}
+
+\tagline{M-02-04}
+
+倾角为 $\theta$、质量为 $M$ 的斜面体放在光滑水平地面上，质量为 $m$ 的木块放在斜面上，接触面也光滑。斜面从左下向右上倾斜，$0<\theta<\pi/2$。求斜面体与木块相对地面的加速度，以及木块所受支持力。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.7,0)--(5,0);\draw[object,fill=rulegray!20] (0,0)--(4,3)--(4,0)--cycle;
+\begin{scope}[shift={(1.88,1.66)},rotate=36.87]\draw[object,fill=accent!15] (-.4,-.2) rectangle (.4,.2);\node at (0,0) {$m$};\end{scope}
+\node at (3,.75) {$M$};\draw (.7,0) arc(0:36.87:.7);\node at (.98,.28) {$\theta$};
+\draw[axis] (5.3,.3)--(6.5,.3) node[right] {$x$};\draw[axis] (5.3,.3)--(5.3,1.5) node[above] {$y$};
+
+\end{tikzpicture}
+\figcaption{图 2.4\quad 木块下滑时，斜面体向右运动；两者加速度均按地面坐标描述。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+取地面为惯性系，$x$ 向右、$y$ 向上。设斜面体加速度为 $a_M$，木块加速度分量为 $a_x,a_y$。解图2.4A 分别画出木块和斜面体的受力。木块受重力和斜面的法向支持力，斜面体受反向接触力、重力和地面支持力。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\fill (0,1) circle(2pt);\node[above right] at (0,1) {$m$};
+\draw[force] (0,1)--(-.6,1.8) node[above left] {$N$};\draw[force] (0,1)--(0,-.7) node[below] {$mg$};
+\draw[guide] (-.8,.4)--(1.2,1.9);
+\draw[object] (4.3,.5) rectangle (5.7,1.5);\node at (5,1) {$M$};
+\draw[force] (5,1.5)--(5.6,.7) node[right] {$-\vect N$};
+\draw[force] (4.65,.5)--(4.65,-1.2) node[below] {$Mg$};
+\draw[force] (5.35,.5)--(5.35,3) node[above] {$N_g$};
+\draw[motion] (5,1)--(6.6,1) node[above] {$a_M$};
+
+\end{tikzpicture}
+\figcaption{解图 2.4A\quad 木块与斜面体分别受力；光滑地面对斜面体没有水平力。}
+\end{minipage}\end{center}
+因此三个运动方程为
+\[
+ma_x=-N\sin\theta,\qquad ma_y=N\cos\theta-mg,
+\qquad Ma_M=N\sin\theta. \tag{1}
+\]
+这三式含有 $a_x,a_y,a_M,N$ 四个未知量。接触面光滑给出力的法向方向，木块贴在坡面上又给出一条相对运动关系。
+
+\subsubsection*{由相对运动写接触约束}
+解图 2.4B 中，加速度矢量满足 $\vect a_m=\vect a_M+\vect a_{m/M}$。规定木块沿坡向下的相对加速度大小为 $b$，则
+\[
+\vect a_{m/M}=(-b\cos\theta,-b\sin\theta),
+\quad a_x=a_M-b\cos\theta,\quad a_y=-b\sin\theta.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\coordinate (O) at (0,1.8);\coordinate (P) at (1.7,1.8);\coordinate (Q) at (-.7,0);
+\draw[motion] (O)--(P) node[midway,above] {$\vect a_M$};
+\draw[force] (P)--(Q) node[midway,below right] {$\vect a_{m/M}$};
+\draw[motion] (O)--(Q) node[midway,left] {$\vect a_m$};
+\draw[guide] (-1.1,-.3)--(2.1,2.1);\fill (O) circle(1.5pt) node[above left]{$O$};\fill (P) circle(1.5pt) node[above right]{$P$};\fill (Q) circle(1.5pt) node[below left]{$Q$};
+\node[align=left] at (5.4,1.8) {$\vect a_m=\vect a_M+\vect a_{m/M}$\\相对加速度沿坡向下\\两箭头相加得到对地加速度};
+
+\end{tikzpicture}
+\figcaption{解图 2.4B\quad 加速度矢量首尾相接。虚线与斜面平行。}
+\end{minipage}\end{center}
+消去 $b$，等价的接触约束是
+\[
+(a_x-a_M)\sin\theta-a_y\cos\theta=0. \tag{2}
+\]
+坡面方向固定，木块到坡面的有符号法向距离恒为零，连续求两次导数便得到式 (2)。解图2.4B 中的 $PQ$ 与坡面平行，$OQ$ 是加上斜面水平平动后的地面系加速度。
+
+将式 (1) 代入 (2)，有
+\[
+\left(-\frac{N\sin\theta}{m}-\frac{N\sin\theta}{M}\right)\sin\theta
+-\left(\frac{N\cos\theta}{m}-g\right)\cos\theta=0.
+\]
+整理得到
+\[
+N\left(\frac1m+\frac{\sin^2\theta}{M}\right)=g\cos\theta.
+\]
+记 $D=M+m\sin^2\theta$，支持力与斜面体加速度为
+\[
+\boxed{N=\frac{mMg\cos\theta}{D}},\qquad
+\boxed{a_M=\frac{mg\sin\theta\cos\theta}{D}}.
+\]
+再逐项代回木块方程，得
+\[
+\boxed{a_x=-\frac{Mg\sin\theta\cos\theta}{D}},\qquad
+\boxed{a_y=-\frac{(M+m)g\sin^2\theta}{D}}.
+\]
+两负号分别表示向左、向下。相对加速度及地面系加速度大小分别为
+\[
+\boxed{b=\frac{(M+m)g\sin\theta}{D}},\qquad
+|\vect a_m|=\frac{g\sin\theta}{D}
+\sqrt{M^2\cos^2\theta+(M+m)^2\sin^2\theta}.
+\]
+\subsubsection*{整体水平运动与斜面系的写法}
+把两物体看作整体，地面对它们的外力都沿竖直方向，于是 $ma_x+Ma_M=0$。这说明图2.4B 的地面系加速度向左，斜面体向右，水平加速度大小之比为 $M:m$。
+
+也可在斜面体的平动参考系中列式。图2.4B 的 $OP$ 表示斜面向右加速，此时木块的惯性力为 $-ma_M\hat i$。它沿坡向下的分量为 $ma_M\cos\theta$，与重力的下坡分量同向，所以 $b=g\sin\theta+a_M\cos\theta$。法向加速度为零，故 $N+ma_M\sin\theta=mg\cos\theta$。再由斜面体的水平运动 $Ma_M=N\sin\theta$ 消去 $a_M$，得到同一支持力。
+
+当 $M\to\infty$，斜面体的加速度趋于零，支持力趋于 $mg\cos\theta$，木块沿固定坡面下滑，$b\to g\sin\theta$。当 $\theta\to0$，重力沿坡分量与接触力的水平分量都趋于零，两个物体的加速度随之趋零。
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 5 题 旋转球壳中木块的摩擦条件与稳定性}{q5}
+
+\section*{第 5 题\quad 旋转球壳中木块的摩擦条件与稳定性}
+
+\tagline{M-02-05}
+
+半径 $R=0.5\,\mathrm m$ 的空心球壳绕竖直直径匀速转动。内壁上的小木块可看作质点，位于距球壳最低点 $h=R/2$ 的高度，随壳共转。取 $g=9.8\,\mathrm{m/s^2}$。
+\begin{enumerate}
+\item 当 $\omega=5\,\mathrm{s^{-1}}$ 时，至少需要多大的静摩擦系数？
+\item 当 $\omega=8\,\mathrm{s^{-1}}$ 时，维持共转的条件是什么？
+\item 分别讨论木块位置、角速度发生微小改变后能否继续共转。区分静摩擦有余量和恰好临界的情形，说明仅由这些条件能否断言木块必定返回原位置。
+\end{enumerate}
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (0,0) circle(2.4);\draw[guide] (0,-2.4)--(0,2.4);
+\coordinate (B) at (2.078,-1.2);\draw[object] (0,0)--(B);\draw[guide] (0,-1.2)--(B);
+\fill (B) circle(2.5pt);\node[right] at (B) {木块};\node[left] at (0,0) {$O$};
+\draw (0,-.7) arc(-90:-30:.7);\node at (.55,-.85) {$\theta$};
+\draw[thin,<->] (2.75,-2.4)--(2.75,-1.2) node[midway,right] {$h=R/2$};
+\draw[guide] (0,-2.4)--(2.75,-2.4);\draw[guide] (B)--(2.75,-1.2);
+\draw[motion] (-.45,2.05) arc(150:-120:.5 and .18) node[left] {$\omega$};
+
+\end{tikzpicture}
+\figcaption{图 2.5\quad 高度从球壳最低点量起，$h=R(1-\cos\theta)$，本题 $\theta=60^\circ$。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+图 2.5 中高度从最低点量起，$h=R(1-\cos\theta)$。由 $h=R/2$ 得 $\theta=60^\circ$，水平圆周半径为 $R\sin\theta$。小木块做水平圆周运动，加速度朝向转轴，大小为 $R\omega^2\sin\theta$。解图2.5A 在两幅受力图下方分别画出向轴的加速度。
+
+规定摩擦 $f$ 沿经线上行为正。按解图 2.5A 的两幅受力图，地面系的水平与竖直方程是
+\[
+N\sin\theta-f\cos\theta=mR\omega^2\sin\theta,
+\qquad N\cos\theta+f\sin\theta=mg.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\fill (0,0) circle(2pt);\draw[force] (0,0)--(-1.76607,1.01964) node[above left] {$N$};
+\draw[force] (0,0)--(0.21960,0.38036) node[above right] {$f>0$};\draw[force] (0,0)--(0,-1.4) node[below] {$mg$};
+\draw[motion] (0,-2)--(-0.92015,-2) node[left] {$\vect a$};\node at (0,2.55) {$\omega=5\,\mathrm{s^{-1}}$};
+\end{scope}
+\begin{scope}[xshift=5.8cm]
+\fill (0,0) circle(2pt);\draw[force] (0,0)--(-3.57545,2.06429) node[above left] {$N$};
+\draw[force] (0,0)--(-0.38353,-0.66429) node[below left] {$f<0$};\draw[force] (0,0)--(0,-1.4) node[below] {$mg$};
+\draw[motion] (0,-2)--(-2.35559,-2) node[left] {$\vect a$};\node at (0,2.55) {$\omega=8\,\mathrm{s^{-1}}$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.5A\quad 两种转速下的受力和向轴加速度。两幅图的重力箭头等长，支持力与摩擦力按各自大小绘出。}
+\end{minipage}\end{center}
+消元得到
+\[
+f=m(g-R\omega^2\cos\theta)\sin\theta,
+\qquad N=m(g\cos\theta+R\omega^2\sin^2\theta).
+\]
+用有符号比值 $\eta=f/N$ 记录方向，材料静摩擦系数记为非负的 $\mu_s$，则
+\[
+\boxed{\eta=\frac{(g-R\omega^2\cos\theta)\sin\theta}
+{g\cos\theta+R\omega^2\sin^2\theta}},\qquad \mu_s\geq|\eta|.
+\]
+\subsubsection*{两种转速的数值与方向}
+$R=0.5\,\mathrm m$、$g=9.8\,\mathrm{m/s^2}$、$\theta=60^\circ$。当 $\omega=5\,\mathrm{s^{-1}}$ 时，
+\[
+\frac Nm=4.9+12.5\times\frac34=14.275\,\mathrm{m/s^2},
+\quad \frac fm=(9.8-6.25)\frac{\sqrt3}{2}=3.0744\,\mathrm{m/s^2}.
+\]
+故 $\boxed{\mu_s\geq0.2154}$，摩擦向上。$\omega=8\,\mathrm{s^{-1}}$ 时，
+\[
+\frac Nm=4.9+32\times\frac34=28.9\,\mathrm{m/s^2},
+\quad \frac fm=(9.8-16)\frac{\sqrt3}{2}=-5.3694\,\mathrm{m/s^2}.
+\]
+故 $\boxed{\mu_s\geq0.1858}$，摩擦向下。$f/N<0$ 对应经线向下的摩擦，所需的最小材料系数取 $|f/N|$。零摩擦的分界转速为 $\sqrt{g/(R\cos\theta)}\approx6.261\,\mathrm{s^{-1}}$。
+
+\subsubsection*{位置与转速改变后的静摩擦条件}
+如果 $\mu_s>|\eta|$，摩擦有严格余量，连续性保证足够小的角度或转速改变后仍可共转。这里比较的是新共转状态所需的摩擦，扰动后的木块可以保持在新位置。
+
+材料恰在临界时，新的 $|\eta|$ 增大便会超过上限，减小则留下余量。令 $u=R\omega^2/g$、$D=\cos\theta+u\sin^2\theta$，则 $\eta=(1-u\cos\theta)\sin\theta/D$。记 $A=(1-u\cos\theta)\sin\theta$。对角度求导，有 $A_\theta=\cos\theta-u(\cos^2\theta-\sin^2\theta)$、$D_\theta=-\sin\theta+2u\sin\theta\cos\theta$，商法则的分子为 $A_\theta D-AD_\theta$。对 $u$ 求导，分子是 $-\cos\theta\sin\theta\,D-A\sin^2\theta=-\sin\theta$。再乘 $du/d\omega=2R\omega/g$，整理得
+\[
+\frac{\partial\eta}{\partial\theta}
+=\frac{1-u\cos\theta+u^2\sin^2\theta}{D^2},
+\qquad \frac{\partial\eta}{\partial\omega}
+=-\frac{2R\omega\sin\theta}{gD^2}.
+\]
+在本题两个状态处，第一导数为正、第二导数为负。沿球面经线上移时，$\theta$ 增大，在解图2.5B中向右读。第一种状态 $\eta>0$，第二种状态 $\eta<0$，因此两条 $|\eta|$ 曲线在该处的斜率一正一负。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\draw[axis] (-.1,0)--(3.6,0) node[right] {$\theta$};\draw[axis] (0,-.1)--(0,2.3) node[above] {$|\eta|$};
+\draw[traj,domain=45:75,samples=80] plot({(\x-45)/10},{4*abs((1-1.2755102*cos(\x))*sin(\x)/(cos(\x)+1.2755102*sin(\x)*sin(\x)))});
+\draw[guide] (1.5,0)--(1.5,2);\draw[guide] (0,.8616)--(3.2,.8616);
+\fill (1.5,.8616) circle(2pt);\node[below] at (1.5,0) {$60^\circ$};\node[left] at (0,.8616) {$\mu_s$};
+\node at (1.6,2.6) {$\omega=5\,\mathrm{s^{-1}}$};
+\end{scope}
+\begin{scope}[xshift=6.1cm]
+\draw[axis] (-.1,0)--(3.6,0) node[right] {$\theta$};\draw[axis] (0,-.1)--(0,2.3) node[above] {$|\eta|$};
+\draw[traj,domain=45:75,samples=80] plot({(\x-45)/10},{4*abs((1-3.2653061*cos(\x))*sin(\x)/(cos(\x)+3.2653061*sin(\x)*sin(\x)))});
+\draw[guide] (1.5,0)--(1.5,2);\draw[guide] (0,.7432)--(3.2,.7432);
+\fill (1.5,.7432) circle(2pt);\node[below] at (1.5,0) {$60^\circ$};\node[left] at (0,.7432) {$\mu_s$};
+\node at (1.6,2.6) {$\omega=8\,\mathrm{s^{-1}}$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.5B\quad 固定转速的位置扰动。水平虚线取 $60^\circ$ 位置的临界系数，虚线下方的曲线对应可继续共转的位置。}
+\end{minipage}\end{center}
+\begin{center}
+\begin{tabular}{@{}lll@{}}\toprule
+微小改变 & $\omega=5\,\mathrm{s^{-1}}$ & $\omega=8\,\mathrm{s^{-1}}$\\\midrule
+位置上移 & 需求增大，开始下滑 & 需求减小，可在新位置共转\\
+位置下移 & 需求减小，可在新位置共转 & 需求增大，开始上滑\\
+转速升高 & 需求减小，可继续共转 & 需求增大，开始上滑\\
+转速降低 & 需求增大，开始下滑 & 需求减小，可继续共转\\\bottomrule
+\end{tabular}\end{center}
+表中“开始滑动”的方向，由超出最大静摩擦后仍未平衡的经线分力确定。例如第一种状态上移后，所需向上摩擦超过材料上限，剩余合力向下。
+
+表中的共转情形是把木块在新位置无相对速度地放开。材料有余量时，木块可以停留在该处。若放开时已有相对速度，或静摩擦达到上限后开始滑动，后续轨迹由扰动速度、动摩擦规律和周向运动共同决定。
+\subsubsection*{经线上的摩擦方向与大小}
+局部斜率给出 $60^\circ$ 附近的增减。沿经线从底部移向赤道，$\sin\theta$ 增大，$\cos\theta$ 减小，分子中的 $1-u\cos\theta$ 可以由负转正。两种转速的过零位置因此不同。
+把表中每个角度代入 $\eta(\theta,\omega)$。正值指向经线上方，负值指向经线下方，相应材料系数取该数的绝对值。
+\begin{center}
+\begin{tabular}{@{}rrrrrrrr@{}}\toprule
+$\theta$ & $0^\circ$ & $15^\circ$ & $30^\circ$ & $45^\circ$ & $60^\circ$ & $75^\circ$ & $90^\circ$\\\midrule
+$\eta(\theta,5)$ & 0 & $-0.0571$ & $-0.0441$ & $0.0516$ & $0.2154$ & $0.4466$ & $0.7840$\\
+$\eta(\theta,8)$ & 0 & $-0.4706$ & $-0.5432$ & $-0.3956$ & $-0.1858$ & $0.0453$ & $0.3063$\\\bottomrule
+\end{tabular}
+\end{center}
+在 $\theta=0$ 的最低点，重力与向轴加速度的切向投影都为零，$\eta=0$。当 $\theta\to90^\circ$，重力全在切向，支持力全用于向心加速，于是 $\eta\to g/(R\omega^2)$。
+因此这两行末值分别是$9.8/12.5$和$9.8/32$。
+有符号需求在$\cos\theta=1/u$处过零，过零前后摩擦方向互换。
+在$60^\circ$附近，第一行的$\eta$为正且随角度增加，
+第二行的$\eta$为负且随角度增加；转为绝对值以后，两条需求曲线的升降方向相反，
+与解图2.5B相符。
+
+以图2.5B 左图为例，上移使向上摩擦需求超过临界线，静摩擦取到上限后，剩余分力沿经线向下。下移让需求落到临界线下方，木块可以静止在新位置。右图的临界曲线在 $60^\circ$ 处斜率反号，下移使所需向下摩擦超过上限，剩余分力向上。图中每一点的纵坐标都除以该位置的支持力 $N$，它与摩擦力一起随位置改变。
+
+\subsubsection*{实际调速过程还需要周向摩擦}
+前面的转速比较针对调整前、后两个匀速共转状态。
+若在有限时间内改变球壳角速度，同时要求木块始终留在同一纬度并随壳转动，
+还需要周向摩擦$f_\varphi=mR\sin\theta\,\dot\omega$，
+它负责角速度变化引起的周向加速度。
+经线所需摩擦仍为$f_\theta=m(g-R\omega^2\cos\theta)\sin\theta$，
+经线和周向两分量正交，合成的静摩擦条件为
+\[
+\sqrt{f_\theta^2+f_\varphi^2}\leq\mu_sN,
+\qquad N=m(g\cos\theta+R\omega^2\sin^2\theta).
+\]
+等价地，令$D=\cos\theta+u\sin^2\theta$，
+\[
+\eta^2+
+\left(\frac{R\sin\theta\,\dot\omega}{gD}\right)^2
+\leq\mu_s^2.
+\]
+在 $\dot\omega=0$ 的匀速阶段，条件化为 $|\eta|\leq\mu_s$。调速时可供周向分量使用的余量为 $N\sqrt{\mu_s^2-\eta^2}$。在经线摩擦恰达上限的时刻，这一余量为零。由合摩擦式可为两个匀速状态之间的调速过程选取允许的角加速度。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 6 题 反向滚轴上的钢件匀速推动}{q6}
+
+\section*{第 6 题\quad 反向滚轴上的钢件匀速推动}
+
+\tagline{M-02-06}
+
+质量 $m=20\,\mathrm{kg}$ 的对称钢件架在两个相同的平行长直滚轴上。滚轴轴线水平，半径 $r=0.025\,\mathrm m$，以角速度 $\omega=40\,\mathrm{rad/s}$ 反向转动，接触处的表面速度大小均为 $\omega r$，方向水平且相反。钢件与滚轴间的滑动摩擦系数 $\mu=0.20$。要使钢件沿滚轴轴线以 $v_0=0.050\,\mathrm{m/s}$ 匀速运动，需施加多大的轴向水平力 $F$？取 $g=10\,\mathrm{m/s^2}$。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (0,0) ellipse(.45 and .22);\draw[object] (0,0)--(0,3);\draw[object] (.45,0)--(.45,3);\draw[object] (-.45,0)--(-.45,3);\draw[object] (0,3) ellipse(.45 and .22);
+\draw[object] (3,0) ellipse(.45 and .22);\draw[object] (3,0)--(3,3);\draw[object] (3.45,0)--(3.45,3);\draw[object] (2.55,0)--(2.55,3);\draw[object] (3,3) ellipse(.45 and .22);
+\filldraw[object,fill=white] (-.7,.9) rectangle (3.7,2);\node at (1.5,1.45) {钢件};
+\draw[motion] (0,2.6)--(-1.2,2.6) node[left] {$\omega r$};\draw[motion] (3,2.6)--(4.2,2.6) node[right] {$\omega r$};
+\draw[motion] (1.5,2)--(1.5,3.6) node[above] {$v_0,F$};\node at (1.5,-.6) {俯视图：图中上下方向沿滚轴轴线};
+
+\end{tikzpicture}
+\figcaption{图 2.6\quad 两接触处的横向表面速度相反。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+取滚轴轴向为 $y$，钢件运动方向为 $+y$，横跨两轴的方向为 $x$。两轴顶部表面速度大小均为 $w=\omega r$，方向分别为 $+x$、$-x$。接触摩擦反向于钢件相对各滚轴表面的速度。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\draw[axis] (-1.6,0)--(1.8,0) node[right] {$x$};\draw[axis] (0,-1.6)--(0,1.6) node[above] {$y$};
+\draw[motion] (0,0)--(1.3,.6) node[right] {$\vect v_{\mathrm{rel},2}$};\draw[force] (0,0)--(-1.3,-.6) node[left] {$\vect f_2$};
+\draw[guide] (1.3,0)--(1.3,.6);\node[below] at (.65,0) {$\omega r$};\node[right] at (1.3,.25) {$v_0$};
+\node[below] at (0,-1.7) {左滚轴（2）};
+\end{scope}
+\begin{scope}[xshift=6cm]
+\draw[axis] (-1.6,0)--(1.8,0) node[right] {$x$};\draw[axis] (0,-1.6)--(0,1.6) node[above] {$y$};
+\draw[motion] (0,0)--(-1.3,.6) node[left] {$\vect v_{\mathrm{rel},1}$};\draw[force] (0,0)--(1.3,-.6) node[right] {$\vect f_1$};
+\node[below] at (0,-1.7) {右滚轴（1）};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.6A\quad 摩擦方向由相对滑动决定；沿轴的速度分量在图中画长，便于读出两次投影。}
+\end{minipage}\end{center}
+解图 2.6A 的速度三角形给出
+\[
+\vect v_{\mathrm{rel},1}=(-w,v_0),\qquad
+\vect v_{\mathrm{rel},2}=(w,v_0),\qquad
+V=\sqrt{w^2+v_0^2}.
+\]
+钢件对称放置、没有竖直加速度，两接触处支持力均为 $N_1=N_2=mg/2$。两摩擦力的大小是 $\mu mg/2$，方向分别沿相对速度的反向，因而
+\[
+\vect f_1=\frac{\mu mg}{2V}(w,-v_0),\qquad
+\vect f_2=\frac{\mu mg}{2V}(-w,-v_0).
+\]
+解图2.6A中每个摩擦力都与本处的相对速度反向。沿轴的阻力只取各自箭头在$-y$方向的投影。
+
+两式相加，横向分量抵消，轴向阻力相加：
+\[
+\vect f_1+\vect f_2=\left(0,-\frac{\mu mgv_0}{V}\right).
+\]
+匀速要求轴向合力为零，外力向 $+y$，大小为
+\[
+\boxed{F=\frac{\mu mgv_0}{\sqrt{(\omega r)^2+v_0^2}}
+=\frac{\mu mg}{\sqrt{1+(\omega r/v_0)^2}}}.
+\]
+代入 $\omega r=40\times0.025=1.00\,\mathrm{m/s}$、$v_0=0.050\,\mathrm{m/s}$、$g=10\,\mathrm{m/s^2}$，得到
+\[
+F=\frac{0.20\times20\times10}{\sqrt{401}}
+=1.9975\,\mathrm N\approx\boxed{2.0\,\mathrm N}.
+\]
+\subsubsection*{为何远小于普通水平面上的摩擦}
+每处摩擦的大小为$\mu N_i$，沿轴向的分量取决于箭头与轴线的夹角。本题$w/v_0=20$，相对速度接近横向，摩擦也几乎横向，其轴向比例只有 $v_0/V\approx0.05$。当 $v_0\ll\omega r$ 时，$F\approx\mu mgv_0/(\omega r)$；若滚轴停止，$F\to\mu mg$。
+
+能量分配也可逐项算出。钢件匀速，外推力功率为
+\[P_{\rm push}=Fv_0=\frac{\mu mgv_0^2}{V}.\]
+每个滚轴表面速度沿$x$向，所受摩擦的$x$分量大小为$\mu mgw/(2V)$，维持两滚轴转速的驱动功率因此为
+\[P_{\rm motor}=2\frac{\mu mgw}{2V}w=\frac{\mu mgw^2}{V}.\]
+相加得$P_{\rm push}+P_{\rm motor}=\mu mgV$，恰等于两个滑动接触的总耗散率。图2.6A中互相抵消的只是作用于钢件的横向合力，各滚轴处的摩擦功并未相消。
+
+\subsubsection*{把相对速度方向换成投影角}
+按图2.6的表面速度方向，右滚轴表面沿$x$正向运动，左滚轴沿$x$负向运动。
+解图2.6A中，右滚轴编号1，左滚轴编号2。两处滑动速度分别由钢件速度减去相应的滚轴表面速度得到。
+设每个相对速度与$y$正向夹角的大小为$\beta$，则
+\[
+\tan\beta=\frac{w}{v_0},\qquad
+\cos\beta=\frac{v_0}{\sqrt{w^2+v_0^2}}.
+\]
+每处摩擦大小为$\mu mg/2$，其沿$y$负向的投影为
+$(\mu mg/2)\cos\beta$，因此$F=2(\mu mg/2)\cos\beta$。
+这个几何投影法与前面的两个力矢量相加完全一致。
+
+当$v_0\to0$而滚轴仍转动，轴向投影趋于零，钢件可以不沿轴移动；
+两接触处仍有横向相对滑动，摩擦耗散率趋于$\mu mgw$，
+所需能量由滚轴驱动装置提供。当钢件和滚轴都静止时，接触处的摩擦由静摩擦平衡确定。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 7 题 粗糙地面上斜面接触木块的共同加速}{q7}
+
+\section*{第 7 题\quad 粗糙地面上斜面接触木块的共同加速}
+
+\tagline{M-02-07}
+
+质量为 $m_A,m_B$ 的木块 $A,B$ 放在粗糙水平地面上，与地面的摩擦系数均为 $\mu$。两木块接触面光滑，倾角 $0<\theta<\pi/2$，其方向如图：$A$ 对 $B$ 的压力向右下方。水平推力 $F$ 作用于 $A$，使两木块向右加速且无相对滑动。以下讨论两块已经向右滑动、地面采用滑动摩擦的平动阶段。求 $\mu$ 和 $F$ 的条件。允许 $A$ 的地面支持力恰好为零。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.4,0)--(5,0);\fill[pattern=north east lines,pattern color=rulegray] (-.4,-.16) rectangle (5,0);
+\filldraw[object,fill=accent!5] (0,0)--(1.4,0)--(3.3,1.5)--(0,1.5)--cycle;
+\filldraw[object,fill=warm!5] (1.4,0)--(4.5,0)--(4.5,1.5)--(3.3,1.5)--cycle;
+\node at (.8,1) {$A$};\node at (3.8,.7) {$B$};
+\draw[force] (-1.3,.7)--(0,.7) node[midway,above] {$F$};
+\draw (2,0) arc(0:38.29:.6);\node at (2.14,.24) {$\theta$};\draw[motion] (3,2.1)--(4.5,2.1) node[right] {$a$};
+
+\end{tikzpicture}
+\figcaption{图 2.7\quad 接触斜面向右升高；两木块都与地面保持接触。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+两个木块已在地面上向右滑动，解图2.7A 中的两支地面摩擦箭头都指向左方。记共同加速度为 $a>0$，斜面间的法向力大小为 $N$。斜面向右升高，它对 $B$ 的法向力指向右下方，对 $A$ 的法向力指向左上方，竖直分量的大小均为 $N\cos\theta$。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\fill (0,0) circle(2pt);\node at (0,2.9) {$A$};
+\draw[force] (0,0)--(1.28,0) node[right] {$F$};
+\draw[force] (0,0)--(-.16,0);\node[left] at (-.17,0) {$\mu R_A$};
+\draw[force] (0,0)--(-.8,.8) node[above left] {$N$};
+\draw[force] (0,0)--(0,.8) node[above] {$R_A$};
+\draw[force] (0,0)--(0,-1.6) node[below] {$m_Ag$};
+\end{scope}
+\begin{scope}[xshift=5.6cm]
+\fill (0,0) circle(2pt);\node at (0,2.9) {$B$};
+\draw[force] (0,0)--(.8,-.8) node[below right] {$N$};
+\draw[force] (0,0)--(-.48,0) node[left] {$\mu R_B$};
+\draw[force] (0,0)--(0,2.4) node[above] {$R_B$};
+\draw[force] (0,0)--(0,-1.6) node[below] {$m_Bg$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.7A\quad 图取$m_A=m_B$、$\theta=45^\circ$、$\mu=0.2$及$a=0.2g$。$A$的地面支持力较小，$B$的地面支持力较大。}
+\end{minipage}\end{center}
+竖直方向无加速度，故两块的地面支持力为
+\[
+R_A=m_Ag-N\cos\theta,\qquad
+R_B=m_Bg+N\cos\theta.
+\]
+随 $N$ 增加，$A$ 的支持力减少 $N\cos\theta$，$B$ 的支持力增加同样多，地面承担的总力仍为 $R_A+R_B=(m_A+m_B)g$。$B$ 的支持力始终为正，$A$ 保持接触的条件为 $R_A\geq0$，即
+\[
+N\leq\frac{m_Ag}{\cos\theta}. \tag{1}
+\]
+对 $B$ 水平方向列式，有
+\[
+N\sin\theta-\mu(m_Bg+N\cos\theta)=m_Ba>0.
+\]
+$B$ 的向右净力随 $N$ 的斜率为 $\sin\theta-\mu\cos\theta$，而在 $N=0$ 时其值为 $-\mu m_Bg$。要使净力为正，斜率须为正，因而
+\[
+N>\frac{\mu m_Bg}{\sin\theta-\mu\cos\theta}. \tag{2}
+\]
+斜率来自两个分量的差。每增加一单位压力，$B$ 得到 $\sin\theta$ 的向右力，地面摩擦同时增加 $\mu\cos\theta$。
+
+\subsubsection*{压力区间存在的条件}
+由 $R_A=0$ 定出的上端须大于由 $a=0$ 定出的下端，因此
+\[
+\frac{\mu m_Bg}{\sin\theta-\mu\cos\theta}
+<\frac{m_Ag}{\cos\theta}.
+\]
+在正分母条件下交叉相乘，得到
+\[
+\mu m_B\cos\theta<m_A\sin\theta-\mu m_A\cos\theta,
+\quad\boxed{0\leq\mu<\frac{m_A}{m_A+m_B}\tan\theta}.
+\]
+这个更强的条件已经保证 $\mu<\tan\theta$。
+
+\subsubsection*{由压力换成推力}
+整个系统的水平外力为 $F-\mu(R_A+R_B)$，因此
+\[
+a=\frac{F}{m_A+m_B}-\mu g.
+\]
+再代入 $B$ 的方程，公共的重力摩擦项抵消，得到
+\[
+N(\sin\theta-\mu\cos\theta)
+=\frac{m_B}{m_A+m_B}F.
+\]
+于是 (2) 给出 $F>\mu(m_A+m_B)g$，(1) 给出有限上限，合并为
+\[
+\boxed{\mu(m_A+m_B)g<F
+\leq\frac{m_A}{m_B}(m_A+m_B)(\tan\theta-\mu)g}.
+\]
+$F$ 取下端时 $a=0$，题设取 $a>0$，故范围从开端点开始。$F$ 取上端时 $R_A=0$，题设把这一临界接触状态计入。若另取 $R_A>0$，相应的推力范围在上端也为开区间。
+
+令 $\mu=0$，地面水平摩擦消失，上限仍由 $N\cos\theta=m_Ag$ 决定。此时 $F$ 增大只会使 $N$ 继续增大，恰在这个等式成立时 $A$ 的地面支持力降到零。
+\subsubsection*{两块木块的加速度与接触力}
+解图2.7A 中，$A$ 的水平力有向右的推力，以及向左的摩擦和斜面压力分量，因此
+\[
+F-\mu(m_Ag-N\cos\theta)-N\sin\theta=m_Aa.
+\]
+将 $A,B$ 各自的净力除以相应质量，并令两块的加速度相同，得到
+\[
+\frac{F-\mu m_Ag-N(\sin\theta-\mu\cos\theta)}{m_A}
+=\frac{N(\sin\theta-\mu\cos\theta)-\mu m_Bg}{m_B}.
+\]
+将质量交叉相乘，重力摩擦项相消，得到
+\[
+m_BF=(m_A+m_B)N(\sin\theta-\mu\cos\theta).
+\]
+消元时，两块的地面摩擦各随支持力变化，合计仍为 $\mu(m_A+m_B)g$，所以只留下 $F$ 和接触力。
+
+给定区间内的 $F$，用整体式求得 $a>0$，再由上式求 $N$。由于 $\sin\theta-\mu\cos\theta>0$ 且 $F>0$，接触压力为正。推力上限保证 $R_A\geq0$，而 $R_B=m_Bg+N\cos\theta>0$。这组接触力代入两个单体方程后，两块的竖直加速度均为零，水平方向得到同一个 $a$，正是图2.7A 所画的共同滑动状态。推力达到上限时，$A$ 的地面支持力降到零。超过上限后，需按允许 $A$ 离地的接触条件求运动。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 8 题 滑块、绳和悬挂重物的相对静止条件}{q8}
+
+\section*{第 8 题\quad 滑块、绳和悬挂重物的相对静止条件}
+
+\tagline{M-02-08}
+
+质量为 $M$ 的滑块 $C$ 位于光滑水平桌面上，滑轮固定在滑块右端。质量均为 $m$ 的物体 $A,B$ 用轻绳连接：$A$ 放在滑块上，绳的这一段水平；$B$ 悬在滑轮外侧。$A$ 与滑块的静摩擦系数为 $\mu$，绳和滑轮质量忽略，转轴光滑。用水平力 $F\geq0$ 向右推动滑块。求使 $A,B$ 与滑块保持相对静止的最小推力。讨论已建立的共同加速状态，悬绳允许倾斜，且 $B$ 不接触滑块。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.4,0)--(5.4,0);\draw[object] (0,0) rectangle (3,1.4);\node at (1.8,.6) {$C\ (M)$};
+\filldraw[object,fill=accent!6] (.8,1.4) rectangle (1.8,2);\node at (1.3,1.7) {$A$};
+\draw[object] (4.1,1.65) circle(.22);\draw[object] (3,1.4)--(4.1,1.65);\draw[object] (1.8,1.87)--(4.1,1.87);
+\draw[object] (4.3067,1.5748)--(3.8963,.4471);\filldraw[object,fill=warm!6] (3.6963,.0471) rectangle (4.0963,.4471);\node[right] at (4.0963,.2471) {$B$};
+\draw[guide] (4.3067,1.5748)--(4.3067,.45);\draw (4.3067,1.1248) arc(270:250:.45);\node[right] at (4.34,1.10) {$\beta$};
+\draw[force] (-1.4,.6)--(0,.6) node[midway,above] {$F$};\draw[motion] (2.5,2.5)--(4,2.5) node[right] {$a$};
+
+\end{tikzpicture}
+\figcaption{图 2.8\quad 共同向右加速时，悬绳向左倾斜。图中的侧面留有间隙，表示 $B$ 不与滑块接触。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+在题设的共同运动状态中，$A,B,C$ 都以同一个水平加速度 $a$ 运动，竖直加速度为零。图2.8 的悬绳下端在滑轮左下方，因此张力在平衡 $B$ 重力的同时，还能给出向右的水平分量。当 $a=0$ 时，绳沿竖直方向。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\fill (0,0) circle(2pt);\node at (0,2) {$A$};
+\draw[force] (0,0)--(1.3834,0) node[right] {$T$};\draw[force] (0,0)--(-.9102,0) node[left] {$f$};
+\draw[force] (0,0)--(0,1.3) node[above] {$N$};\draw[force] (0,0)--(0,-1.3) node[below] {$mg$};
+\end{scope}
+\begin{scope}[xshift=6cm]
+\fill (0,0) circle(2pt);\node at (0,2) {$B$};
+\draw[force] (0,0)--(.4732,1.3) node[above right] {$T$};\draw[force] (0,0)--(0,-1.3) node[below] {$mg$};
+\draw[guide] (0,0)--(0,1.3);\draw (0,.5) arc(90:70:.5);\node at (.22,.74) {$\beta$};
+\draw[motion] (.4,-.5)--(1.6,-.5) node[right] {$a$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.8A\quad $B$的张力竖直分量平衡重力，水平分量使它向右加速。$A$的静摩擦向左。}
+\end{minipage}\end{center}
+解图 2.8A 中绳与竖直的夹角为 $\beta$，张力对 $B$ 朝右上方。由两个分量方程，
+\[
+T\sin\beta=ma,\qquad T\cos\beta=mg,
+\]
+因此
+\[
+\tan\beta=\frac ag,\qquad T=m\sqrt{a^2+g^2}.
+\]
+$A$ 所在绳段水平，张力向右。规定作用于 $A$ 的摩擦向左时大小为 $f$，则
+\[
+T-f=ma,\qquad N_A=mg,
+\quad f=m(\sqrt{a^2+g^2}-a)>0.
+\]
+$g>0$ 使 $T>ma$，所以在任何有限 $a$ 下，$A$ 所受静摩擦都指向左方。解图2.8A 中，这支箭头的大小正好补足张力与所需水平净力的差。
+
+\subsubsection*{静摩擦不等式与推力下限}
+相对静止要求
+\[
+\sqrt{a^2+g^2}-a\leq\mu g.
+\]
+对 $\mu>0$，将 $a$ 移到右侧，得到 $\sqrt{a^2+g^2}\leq a+\mu g$。两边均非负，平方保持不等号方向：
+\[
+a^2+g^2\leq a^2+2\mu ag+\mu^2g^2,
+\qquad a\geq\frac{1-\mu^2}{2\mu}g.
+\]
+整体水平外力只有 $F$，桌面光滑，故 $F=(M+2m)a$。结合 $a\geq0$，有
+\[
+\boxed{F_{\min}=\begin{cases}
+(M+2m)g(1-\mu^2)/(2\mu),&0<\mu<1,\\
+0,&\mu\geq1.
+\end{cases}}
+\]
+$\mu=0$ 时，任何有限 $a$ 下所需摩擦都大于零，因而不存在有限推力使三物体按题设共同运动。$\mu\geq1$ 时，$a=0$ 已能承受 $T=mg$，所以没有正的推力下限。
+
+\subsubsection*{推力增大为何反而更容易维持}
+将所需摩擦有理化：
+\[
+f=\frac{mg^2}{\sqrt{a^2+g^2}+a},\qquad
+\frac{\dd f}{\dd a}=m\left(\frac a{\sqrt{a^2+g^2}}-1\right)<0.
+\]
+随 $a$ 增大，作用在 $A$ 上的水平张力 $T$ 增大，但 $T-ma$ 逐渐趋近于零。只要 $B$ 仍悬空且与滑块无接触，一旦所需摩擦降到 $\mu mg$，继续增大推力留下的摩擦余量更大。在滑块参考系里，$B$ 受到向左的惯性力 $ma$ 和向下的重力 $mg$，解图2.8A 的斜向张力正好平衡这两个分量。
+
+若悬绳最初竖直，从静止突然施加推力时，$B$ 会相对滑块摆动。题中所求的状态对应悬绳处在倾角 $\beta$，且 $B$ 相对滑块的速度为零。
+\subsubsection*{滑轮传给滑块的力}
+题图2.8中，轻绳在滑轮两侧张力大小相同，方向分别沿水平绳段和斜绳段。
+绳对滑轮的水平合力向左，大小为$T+T\sin\beta$，
+竖直合力向下，大小为$T\cos\beta=mg$。
+这些力通过固定滑轮的支架传给滑块$C$。
+解图2.8A中滑块对$A$的摩擦向左，所以$A$对滑块的摩擦向右，大小仍为$f$。
+因此滑块自身的水平方程为
+\[
+F+f-T-T\sin\beta=Ma.
+\]
+由$T-f=ma$、$T\sin\beta=ma$逐项代入，得
+$F-ma-ma=Ma$。两项 $ma$ 分别由桌上物体的张力与摩擦之差、斜绳段的张力水平分量给出，合在一起便是整体方程 $F=(M+2m)a$。竖直方向上，滑块承担自身重量、$A$ 的压力和滑轮传下的 $T\cos\beta=mg$，故桌面对滑块的支持力为 $(M+2m)g$。
+
+在$0<\mu<1$的临界推力处，
+\[
+a_{\min}=\frac{1-\mu^2}{2\mu}g,\qquad
+T_{\min}=\frac{1+\mu^2}{2\mu}mg,\qquad f=\mu mg.
+\]
+所以最小推力确对应桌上物体的静摩擦恰达上限。
+当 $\mu=1$ 时，$a_{\min}=0$ 恰使 $f=\mu mg$。当 $\mu>1$ 时，$a=0$ 已满足 $f=mg<\mu mg$，所以最小推力仍取零。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 9 题 旋转平台沟槽中双球的稳定位置}{q9}
+
+\section*{第 9 题\quad 旋转平台沟槽中双球的稳定位置}
+
+\tagline{M-02-09}
+
+水平平台以角速度 $\omega>0$ 绕中心竖直轴转动。两个径向沟槽内分别放小球 $A,B$，质量为 $m_A,m_B$。$A$ 与槽底的静摩擦系数为 $\mu$，$B$ 所在槽光滑。长为 $\ell$ 的轻绳绕过光滑中心轴，连接两球；轴半径可忽略。求两球可以与平台保持相对静止时，$A$ 到中心的距离 $x$ 的范围。忽略球和轴的尺寸，槽长至少为 $\ell$。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (0,0) circle(2.4);\draw[object] (-2.2,.17)--(2.2,.17);\draw[object] (-2.2,-.17)--(2.2,-.17);
+\draw[object] (-1.55,0)--(1.2,0);\filldraw[object,fill=accent!12] (-1.55,0) circle(.15);\filldraw[object,fill=warm!12] (1.2,0) circle(.15);\fill (0,0) circle(2pt);
+\node[above] at (-1.55,.2) {$A$（粗糙）};\node[above] at (1.2,.2) {$B$（光滑）};\node[below] at (0,0) {$O$};
+\draw[thin,<->] (-1.55,-.6)--(0,-.6) node[midway,below] {$x$};\draw[thin,<->] (0,-.6)--(1.2,-.6) node[midway,below] {$\ell-x$};
+\draw[motion] (2.75,-.7) arc(-15:55:2.85);\node[right] at (2.7,.8) {$\omega$};
+
+\end{tikzpicture}
+\figcaption{图 2.9\quad 绳长把两个向心运动联系起来，槽沿半径方向。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+设 $A$ 距中心 $x$，绳长约束给出 $B$ 距中心 $\ell-x$。两球位于中心两侧的径向槽中，绳张力均指向中心。槽底支持力平衡重力，$N_A=m_Ag$。共转时两球的加速度都指向转轴，中心处取零。所需向心力由张力和槽底摩擦合成。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\draw[guide] (-2,0)--(2,0);\fill (0,0) circle(2pt);\node[above] at (0,.6) {$A$};
+\draw[force] (0,0)--(1.7,0) node[right] {$T$，向心};\draw[force] (0,0)--(-1.4,0) node[left] {$f>0$，向外};
+\node[align=center] at (0,-1.1) {$x<x_0:\ f>0$\\$x>x_0:\ f<0$};
+\end{scope}
+\begin{scope}[xshift=6.4cm]
+\draw[axis] (-.2,0)--(4,0) node[right] {$x$};\draw[traj,line width=2pt] (.9,0)--(2.7,0);
+\draw[guide] (1.8,-.5)--(1.8,.6);\node[above] at (1.8,.6) {$x_0$};
+\node[below] at (.9,-.05) {$x_0-\Delta x$};\node[below] at (2.7,-.05) {$x_0+\Delta x$};
+\node[above] at (0,0) {$0$};\node[above] at (3.6,0) {$\ell$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.9A\quad 摩擦可向内也可向外；代数区间还要与几何区间相交。}
+\end{minipage}\end{center}
+先看光滑槽中的 $B$，向心力仅由张力提供：
+\[
+T=m_B\omega^2(\ell-x).
+\]
+对 $A$ 规定静摩擦向外为正，地面系径向方程为
+\[
+-T+f=-m_A\omega^2x.
+\]
+消去 $T$，得到
+\[
+f=\omega^2\{m_B\ell-(m_A+m_B)x\}.
+\]
+无须摩擦的位置为
+\[
+x_0=\frac{m_B\ell}{m_A+m_B}.
+\]
+解图2.9A 规定左侧小球 $A$ 向外为正。$x<x_0$ 时，内向张力超过所需向心力，摩擦沿图示向外。$x>x_0$ 时，张力偏小，摩擦改向中心。
+
+静摩擦限制给出
+\[
+\omega^2(m_A+m_B)|x-x_0|\leq\mu m_Ag,
+\quad |x-x_0|\leq\Delta x,
+\quad \Delta x=\frac{\mu m_Ag}{(m_A+m_B)\omega^2}.
+\]
+再与实际绳长允许的 $0\leq x\leq\ell$ 取交集，故
+\[
+\boxed{x_{\min}\leq x\leq x_{\max}},\qquad
+x_{\min}=\max(0,x_0-\Delta x),\quad
+x_{\max}=\min(\ell,x_0+\Delta x).
+\]
+当 $\omega^2>\mu m_Ag/(m_B\ell)$ 时，左端 $x_0-\Delta x$ 对应的最小半径大于零；等号时左端恰为零。类似地，$\omega^2>\mu g/\ell$ 使右端 $x_0+\Delta x$ 小于 $\ell$，等号时右端正好为 $\ell$。角速度达到两项阈值中较大的一项时，整段宽度为 $2\Delta x$。在较低转速下，伸出 $[0,\ell]$ 的部分由几何范围截去。
+
+\subsubsection*{端点及无摩擦时的径向扰动}
+$x=\ell$ 时，$B$ 位于中心，由它的向心方程得到 $T=0$，这是题设点状轴的极限位置。若要求 $B$ 位于中心之外且绳有正张力，取 $x<\ell$。$\mu=0$ 时只剩 $x_0$。判断这个位置受扰后怎样运动，需要让两球沿槽移动。
+
+当两槽都光滑，绳长给出 $x_B=\ell-x$，相应的两球径向加速度符号相反。消去两球沿槽方程中的共同张力，得到
+\[
+\ddot x=\omega^2(x-x_0).
+\]
+偏离会被放大，$x_0$ 是不稳定平衡。有静摩擦时得到的区间是可保持共转的位置集合；转速提高使该集合缩窄，是所需摩擦对位置更敏感的结果。
+\subsubsection*{把两侧摩擦限制分别展开}
+解图2.9A规定$f>0$向外。$x<x_0$时，张力大于$A$所需向心力，
+向外的摩擦抵消多余的内向拉力。它的最大值给出
+\[
+\omega^2[m_B\ell-(m_A+m_B)x]\leq\mu m_Ag
+\quad\Longrightarrow\quad x\geq x_0-\Delta x.
+\]
+$x>x_0$时张力不足，需要向内摩擦补充，因$f<0$，限制应是
+\[
+\omega^2[m_B\ell-(m_A+m_B)x]\geq-\mu m_Ag
+\quad\Longrightarrow\quad x\leq x_0+\Delta x.
+\]
+向外摩擦达到上限时对应 $x_0-\Delta x$，向内摩擦达到上限时对应 $x_0+\Delta x$。若摩擦不等式的某个端点超出 $[0,\ell]$，允许位置到沟槽的几何端点为止。
+
+写出无摩擦时两球各自向外为正的沿槽方程，绳长使第二式的加速度为 $-\ddot x$：
+\[
+m_A\ddot x=m_A\omega^2x-T,\qquad
+-m_B\ddot x=m_B\omega^2(\ell-x)-T.
+\]
+消去$T$后，
+$(m_A+m_B)\ddot x=\omega^2[(m_A+m_B)x-m_B\ell]$。
+令$\xi=x-x_0$，则$\ddot\xi=\omega^2\xi$，
+含随时间增长的$e^{\omega t}$分量，因而唯一的无摩擦平衡不稳定。
+径向运动产生的科里奥利力由槽侧壁的横向约束承担，不改变这两个径向方程。
+若初始偏移为$\xi_0$、径向相对速度为$u_0$，
+则$\xi(t)=\xi_0\cosh\omega t+(u_0/\omega)\sinh\omega t$；
+增长项的系数为 $(\xi_0+u_0/\omega)/2$，一般初态下这个系数非零。例如令 $u_0=0$，初始偏移就会按 $\cosh\omega t$ 增大。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 10 题 平方阻力竖直上抛的高度与返回速度}{q10}
+
+\section*{第 10 题\quad 平方阻力竖直上抛的高度与返回速度}
+
+\tagline{M-02-10}
+
+质量 $m$ 的物体从地面以速率 $v_0$ 竖直上抛。空气阻力大小为 $\mu v^2$，方向与速度相反，$\mu>0$ 为常数，重力加速度为 $g$。求最大高度，并证明返回地面时的速率为 $v_0\sqrt{mg/(mg+\mu v_0^2)}$。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.7,0)--(4.5,0);\draw[axis] (-.3,0)--(-.3,3.5) node[above] {$y$};
+\draw[motion] (.7,.2)--(.7,2.9) node[midway,left] {上升};\draw[motion] (2.8,2.9)--(2.8,.2) node[midway,right] {下降};
+\draw[guide] (.3,3.1)--(3.3,3.1);\node[right] at (3.3,3.1) {$H$};\node[below] at (.7,0) {$v_0$};\node[below] at (2.8,0) {$u_f$};
+
+\end{tikzpicture}
+\figcaption{图 2.10\quad 最高点前后阻力反向，需分别列方程。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+向上为位置坐标 $y$ 的正向。阻力反向于瞬时速度，上升时与重力同向，下降时与重力反向。解图2.10A 的上升图中阻力箭头向下，下降图中阻力箭头向上。用向上的速度写成一个式子时，阻力是 $-\mu|\dot y|\dot y$；下文分别用两个阶段的正速率计算。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\fill (0,0) circle(2pt);\node at (0,1.8) {上升};\draw[motion] (-.8,-.4)--(-.8,1) node[above] {$v$};
+\draw[force] (-.55,0)--(-.55,-1.2) node[below] {$mg$};\draw[force] (.55,0)--(.55,-.9) node[below] {$\mu v^2$};
+\end{scope}
+\begin{scope}[xshift=5.3cm]
+\fill (0,0) circle(2pt);\node at (0,1.8) {下降};\draw[motion] (-.8,.4)--(-.8,-1) node[below] {$u$};
+\draw[force] (0,0)--(0,-1.2) node[below] {$mg$};\draw[force] (0,0)--(0,1.1) node[above] {$\mu u^2$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.10A\quad 两个速率 $v,u$ 均取正值；下降的位移 $s$ 从最高点向下量。}
+\end{minipage}\end{center}
+\subsubsection*{上升段的速度与高度}
+上升速率 $v=\dot y>0$，运动方程为 $m\dot v=-mg-\mu v^2$。因题目求高度，使用链式法则 $\dot v=v\,\dd v/\dd y$：
+\[
+\frac{mv\,\dd v}{mg+\mu v^2}=-\dd y.
+\]
+从 $(y,v)=(0,v_0)$ 积到 $(y,v)$，有
+\[
+\frac m{2\mu}\ln\frac{mg+\mu v^2}{mg+\mu v_0^2}=-y,
+\quad y=\frac m{2\mu}\ln\frac{mg+\mu v_0^2}{mg+\mu v^2}.
+\]
+到最高点 $v=0$，故
+\[
+\boxed{H=\frac m{2\mu}\ln\left(1+\frac{\mu v_0^2}{mg}\right)}.
+\]
+令 $q=\mu v_0^2/(mg)>0$，有 $\ln(1+q)=\int_0^q(1+z)^{-1}\dd z<q$。所以 $H<v_0^2/(2g)$，阻力使物体在比真空情形更低的位置停升。
+
+\subsubsection*{下降段与返回速率}
+从最高点向下量位移 $s=H-y$，下降速率为 $u=\dot s=-\dot y\geq0$。此时
+\[
+m\dot u=mg-\mu u^2,\qquad
+\frac{mu\,\dd u}{mg-\mu u^2}=\dd s.
+\]
+以 $s=0,u=0$ 为起点积分，得到
+\[
+s=\frac m{2\mu}\ln\frac{mg}{mg-\mu u^2},
+\quad u^2(s)=\frac{mg}{\mu}(1-e^{-2\mu s/m}).
+\]
+下降方程在 $u=\sqrt{mg/\mu}$ 处的加速度为零。指数式给出 $u^2/(mg/\mu)=1-e^{-2\mu s/m}$，有限 $s$ 时该比值小于1，故积分中的分母为正。继续下落时，速率逐渐趋向终端值 $\sqrt{mg/\mu}$。返回地面时 $s=H$，而上升段结果给出
+\[
+e^{-2\mu H/m}=\frac{mg}{mg+\mu v_0^2}.
+\]
+因此
+\[
+u_f^2=\frac{mg}{\mu}\left(1-\frac{mg}{mg+\mu v_0^2}\right)
+=\frac{mgv_0^2}{mg+\mu v_0^2},
+\quad\boxed{u_f=v_0\sqrt{\frac{mg}{mg+\mu v_0^2}}}.
+\]
+若问向上为正的\emph{速度}，答案为 $-u_f$。
+
+\subsubsection*{能量与小阻力极限}
+完整往返的机械能损失为 $m(v_0^2-u_f^2)/2>0$。上升和下降各走过距离$H$。取$v_t=\sqrt{mg/\mu}$、$q=v_0^2/v_t^2$，将两段速率平方写到同一个高度坐标上。由上升积分得$v^2/v_t^2=(1+q)^{1-y/H}-1$，下降式给$u^2/v_t^2=1-(1+q)^{y/H-1}$。解图2.10B取$q=3$。沿上升曲线从地面读到$P$，再沿下降曲线从$P$返回地面，可以看见同一高度的两段速率一般不同。
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}
+\draw[axis] (0,0)--(6.8,0) node[right] {$y/H$};
+\draw[axis] (0,0)--(0,3.1) node[above] {速率平方比};
+\draw[traj,domain=0:1,samples=80] plot({6*\x},{.85*(4*exp(-ln(4)*\x)-1)});
+\draw[thick,dashed,warm,domain=0:1,samples=80] plot({6*\x},{.85*(1-exp(ln(4)*(\x-1)))});
+\fill[accent] (0,2.55) circle(1.55pt) node[left] {$3$};
+\fill[warm] (0,.6375) circle(1.55pt) node[left] {$3/4$};
+\fill (6,0) circle(1.55pt) node[above right] {$P$};
+\node[below] at (6,0) {$1$};\node[below left] at (0,0) {$0$};
+\node[above right,accent] at (.9,1.98) {上升 $v^2/v_t^2$};
+\node[below right,warm] at (1.1,.43) {下降 $u^2/v_t^2$};
+\end{tikzpicture}
+\figcaption{解图2.10B\quad 同一高度坐标上的上升与下降速率平方。$P$为最高点。}
+\end{minipage}\end{center}
+
+图中两条曲线下的面积相加，乘 $\mu H v_t^2$ 后给阻力耗散。取 $z=y/H$，两条曲线的常数项相消，面积之和为
+\[
+\int_0^1\!\big[(1+q)^{1-z}-(1+q)^{z-1}\big]\,\dd z
+=\frac{(1+q)+(1+q)^{-1}-2}{\ln(1+q)}
+=\frac{q^2}{(1+q)\ln(1+q)}.
+\]
+由于 $\mu H=(m/2)\ln(1+q)$，耗散能量为 $(m/2)v_t^2q^2/(1+q)$，正好等于上、下经过地面时的动能差。
+当 $\mu\to0$，用 $\ln(1+q)=q-q^2/2+\cdots$，有
+\[
+H=\frac{v_0^2}{2g}-\frac{\mu v_0^4}{4mg^2}+O(\mu^2),
+\qquad u_f=v_0\left(1-\frac{\mu v_0^2}{2mg}+O(\mu^2)\right).
+\]
+当$\mu\to0$，高度趋于真空高度$v_0^2/(2g)$，返回速率趋于初速。两式中的一阶修正均为负。
+\subsubsection*{始终用向上坐标计算下降段}
+若不另设向下位移，可继续用$y$和有符号竖直速度$w_y=\dot y<0$。
+解图2.10A的下降力图此时给出
+\[
+mw_y\frac{\dd w_y}{\dd y}=-mg+\mu w_y^2.
+\]
+从最高点$(H,0)$积分到$(y,w_y)$，应使用
+\[
+y-H=\int_0^{w_y}\frac{mq\,\dd q}{-mg+\mu q^2}
+=\frac m{2\mu}\ln\frac{mg-\mu w_y^2}{mg}.
+\]
+在有限下降路程内$|w_y|<\sqrt{mg/\mu}$，对数中的比值为正且不大于一，
+因此右边非正，与$y\leq H$一致。
+积分原函数含 $\ln|-mg+\mu w_y^2|$。取上下限之差后，绝对值化为 $mg-\mu w_y^2$，与最高点处的 $mg$ 组成无量纲比值。
+代入$y=0$、$w_y=-u_f$后，
+\[
+\left(1-\frac{\mu u_f^2}{mg}\right)
+\left(1+\frac{\mu v_0^2}{mg}\right)=1,
+\]
+仍得到同一返回速率。在向上坐标中，下降的速度和位移增量均为负。改用向下距离后，两者同时变号，积分仍沿解图2.10A 中的同一段下降轨迹。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 11 题 线性阻力下两竖直质点的相遇}{q11}
+
+\section*{第 11 题\quad 线性阻力下两竖直质点的相遇}
+
+\tagline{M-02-11}
+
+两个质量均为 $m$ 的质点同时开始运动：质点 1 从离地高度 $h$ 处由静止下落；质点 2 从它正下方的地面以初速 $v_0>0$ 竖直上抛。空气阻力为 $\vect f=-\mu\vect v$，$\mu>0$。求相遇时间、高度和两者相遇时的速度，并判断相遇是否发生在落地以前。不讨论质点接触地面后的运动。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.6,0)--(3.5,0);\draw[axis] (-.4,0)--(-.4,3.6) node[above] {$y$};
+\filldraw[object,fill=accent!10] (1,3) circle(.12);\filldraw[object,fill=warm!10] (1,.12) circle(.12);
+\node[right] at (1.15,3) {1：初速为零};\node[right] at (1.15,.12) {2};\draw[motion] (1,.4)--(1,1.5) node[right] {$v_0$};
+\draw[thin,<->] (2.8,0)--(2.8,3) node[midway,right] {$h$};
+
+\end{tikzpicture}
+\figcaption{图 2.11\quad 速度统一以向上为正，阻力表达式适用于上升和下降。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+统一取向上为正，令 $\beta=\mu/m$。线性阻力写成 $-\mu v$ 后，上升与下降都可用同一个有符号方程：
+\[
+\dot v+\beta v=-g.
+\]
+乘积分因子 $e^{\beta t}$ 并积分，初速度为 $u_0$、初位置为 $y_0$ 时，通解为
+\[
+v=(u_0+g/\beta)e^{-\beta t}-g/\beta,
+\quad y=y_0+\frac{u_0+g/\beta}{\beta}(1-e^{-\beta t})-\frac g\beta t.
+\]
+其中 $-g/\beta$ 为向下的终端速度。
+
+\subsubsection*{先求相对间距，确定候选相遇时间}
+令 $d=y_1-y_2$，两运动方程相减，重力项消去：
+\[
+\ddot d+\beta\dot d=0,\qquad d(0)=h,\quad\dot d(0)=-v_0.
+\]
+逐次积分得
+\[
+\dot d=-v_0e^{-\beta t},\qquad d=h-\frac{v_0}{\beta}(1-e^{-\beta t}).
+\]
+初始间距是 $h$，累计闭合量为 $(v_0/\beta)(1-e^{-\beta t})$。它从零单调增到极限 $v_0/\beta$，因此在 $v_0>\beta h$ 时才有一个有限的候选相遇时间。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (0,0)--(4.5,0) node[right] {$\beta t$};\draw[axis] (0,0)--(0,3.6) node[above] {$y/h$};
+\draw[traj,domain=0:1.2,samples=80] plot({3*\x},{1.4*(2+4*(1-exp(-.5*\x))-2*\x)});
+\draw[thick,color=warm,domain=0:1.2,samples=80] plot({3*\x},{1.4*(10*(1-exp(-.5*\x))-2*\x)});
+\draw[guide] (2.4328,0)--(2.4328,2.396);\draw[guide] (0,2.396)--(2.4328,2.396);\fill (2.4328,2.396) circle(2pt);
+\node[below] at (2.4328,0) {$\beta t_*$};\node[left] at (0,2.396) {$y_*/h$};\node[left] at (0,2.8) {$1$};
+\node[right,color=accent] at (3.6,1.967) {$y_1$};\node[right,color=warm] at (3.6,2.957) {$y_2$};
+
+\end{tikzpicture}
+\figcaption{解图 2.11A\quad 取$v_0/(\beta h)=3$、$g/(\beta^2h)=2$，两条位置曲线在地面线上方相交。}
+\end{minipage}\end{center}
+解图 2.11A 中，交点表示两位置相等。令 $q=1-\beta h/v_0$，在 $0<q<1$ 时，
+\[
+e^{-\beta t_*}=q,\qquad
+\boxed{t_*=-\frac1\beta\ln q=-\frac m\mu\ln\left(1-\frac{\mu h}{mv_0}\right)}.
+\]
+当$v_0=\beta h$，形式间距随$t\to\infty$趋零。当$v_0<\beta h$，累计闭合量的上限小于$h$，位置方程始终保留正间距。
+
+\subsubsection*{相遇高度与两个速度}
+质点 1 的初速度为零，故
+\[
+v_1=-\frac g\beta(1-e^{-\beta t}),\qquad
+y_1=h+\frac g{\beta^2}(1-e^{-\beta t})-\frac g\beta t.
+\]
+质点 2 的初速度为 $v_0$，故
+\[
+v_2=(v_0+g/\beta)e^{-\beta t}-g/\beta,
+\quad y_2=\frac{v_0+g/\beta}{\beta}(1-e^{-\beta t})-\frac g\beta t.
+\]
+将 $1-q=\beta h/v_0$ 代回，得到
+\[
+\boxed{y_*=h+\frac{gh}{\beta v_0}+\frac g{\beta^2}\ln q},
+\quad\boxed{v_1(t_*)=-\frac{gh}{v_0}},
+\quad\boxed{v_2(t_*)=v_0-\beta h-\frac{gh}{v_0}}.
+\]
+质点 1 始终下降；质点 2 在相遇时可能上升、恰在最高点或下降，应由最后一式的符号判断。相遇时相对速度为 $v_1-v_2=-v_0q<0$，与间距方程一致。
+
+\subsubsection*{在首次触地前取相遇点}
+两条位置曲线的物理区间分别止于各自的首次触地。质点1单调下降，质点2先升后降。两者在 $t_*>0$ 的同一高度满足 $\boxed{y_*\geq0}$ 时，交点就在这两个区间内。严格的 $y_*>0$ 对应空中相遇，等号对应两者同时到达地面。
+
+令 $T$ 为质点 1 首次落地的时间，它由
+\[
+h=\frac g\beta T-\frac g{\beta^2}(1-e^{-\beta T})
+\]
+唯一确定。因为 $d(t)$ 单调减少，在落地前或恰好触地时相遇的条件也可写成 $v_0\geq\beta h/(1-e^{-\beta T})$，比 $v_0>\beta h$ 更强。
+取无阻力极限时，相遇高度式有两个分别发散、相加有限的项。令
+$\varepsilon=\beta h/v_0$，保留对数的二阶项才能求高度：
+\[
+\ln(1-\varepsilon)=-\varepsilon-\frac{\varepsilon^2}{2}
+-\frac{\varepsilon^3}{3}+\cdots,
+\qquad
+y_*=h+\frac g{\beta^2}
+[\varepsilon+\ln(1-\varepsilon)].
+\]
+一次项相消后，$y_*=h-gh^2/(2v_0^2)+O(\beta)$；同时
+$t_*=(h/v_0)[1+\varepsilon/2+O(\varepsilon^2)]$。
+这一极限中，相遇时间由初始间距除以闭合速率给出，下降量就是同一时间内的自由落体位移。只保留对数的一次项，会漏掉有限的重力下降量。
+
+在 $\beta\to0$ 时，$t_*\to h/v_0$、$y_*\to h-gh^2/(2v_0^2)$，条件退化为 $v_0^2\geq gh/2$。
+\subsubsection*{统一通解中的两个积分常数}
+把共同方程写为
+$\dd[e^{\beta t}(v+g/\beta)]/\dd t=0$，先积分得到
+$v=C_1e^{-\beta t}-g/\beta$，再积分得到
+\[
+y=-\frac{C_1}{\beta}e^{-\beta t}-\frac g\beta t+C_2.
+\]
+初始速度决定$C_1=u_0+g/\beta$；
+初始位置则决定 $C_2=y_0+C_1/\beta$。速度初值和位置初值依次确定这两个常数。
+因此质点1取$C_1=g/\beta,\ C_2=h+g/\beta^2$；
+质点2取$C_1=v_0+g/\beta,\ C_2=v_0/\beta+g/\beta^2$。
+代回后逐项整理，便得到前面的四条速度和位置函数。
+解图2.11A中两位置曲线采用各自的位置常数，速度衰减因子却相同。
+
+相遇速度的代入也可写全：
+\[
+v_1=-\frac g\beta(1-q)=-\frac{gh}{v_0},\qquad
+v_2-v_1=v_0q=v_0-\beta h.
+\]
+第二式给的是质点2相对质点1的向上速度，正好等于间距每秒减少的长度 $-\dot d$。
+质点1在候选交点的速度虽然不显含$\beta$，交点能否在触地前出现仍依赖阻力。
+
+例如取$h=1\,\mathrm m$、$g=1\,\mathrm{m/s^2}$、
+$\beta=1\,\mathrm{s^{-1}}$、$v_0=1.1\,\mathrm{m/s}$，
+有$v_0>\beta h$，但
+$t_*=\ln11\approx2.398\,\mathrm s$、
+$y_*=1+1/1.1-\ln11\approx-0.489\,\mathrm m$。
+这组参数给出地面以下的交点。解图2.11A 的交点在地面以上，对应另一组初速和重力参数。按题意，质点首次触地后就结束这段运动，因此实际运动区间没有交点。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 12 题 线性阻力抛体的轨迹方程}{q12}
+
+\section*{第 12 题\quad 线性阻力抛体的轨迹方程}
+
+\tagline{M-02-12}
+
+质量 $m$ 的抛射体从原点以初速 $v_0$、仰角 $0<\alpha<\pi/2$ 发射。空气阻力为 $\vect f=-k\vect v$，$k>0$，重力加速度为 $g$。求轨迹方程 $y(x)$，说明其适用的 $x$ 范围，并验证 $k\to0$ 时得到通常的抛物线方程。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (0,0)--(5,0) node[right] {$x$};\draw[axis] (0,0)--(0,3) node[above] {$y$};
+\draw[motion] (0,0)--(1.2,1.2) node[above] {$v_0$};\draw (.65,0) arc(0:45:.65);\node at (.8,.35) {$\alpha$};
+\draw[traj,domain=0:2.656,samples=80] plot({5*(1-exp(-.6*\x))},{10*(1-exp(-.6*\x))-3*\x});
+\draw[force] (2.6,1.53)--(1.6,1.613) node[above left] {$-k\vect v$};\draw[force] (2.6,1.53)--(2.6,.63) node[right] {$mg$};
+
+\end{tikzpicture}
+\figcaption{图 2.12\quad 阻力与瞬时速度反向，水平分量使 $v_x$ 持续衰减。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+取发射点为原点，$x$ 水平向前、$y$ 竖直向上。令 $\beta=k/m$、$u=v_0\cos\alpha$、$w=v_0\sin\alpha$。阻力与速度反向，分量方程是
+\[
+\dot v_x+\beta v_x=0,\qquad\dot v_y+\beta v_y=-g,
+\quad v_x(0)=u,\quad v_y(0)=w.
+\]
+用指数积分因子求解，再用 $x(0)=y(0)=0$ 积分，得到
+\[
+v_x=ue^{-\beta t},\qquad v_y=(w+g/\beta)e^{-\beta t}-g/\beta,
+\]
+\[
+x=\frac u\beta(1-e^{-\beta t}),\qquad
+y=\frac{w+g/\beta}{\beta}(1-e^{-\beta t})-\frac g\beta t.
+\]
+经过最高点时，$v_y$ 从正变负，阻力的竖直分量 $-kv_y$ 从向下变为向上，同一个分量方程贯穿两段。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (0,0)--(4.8,0) node[right] {$\beta t$};\draw[axis] (0,0)--(0,3) node[above] {$x/x_\infty$};
+\draw[traj,domain=0:4.2,samples=80] plot(\x,{2.4*(1-exp(-\x))});\draw[guide] (0,2.4)--(4.4,2.4);
+\node[left] at (0,2.4) {$1$};\node[align=left] at (7.1,1.5) {$t=-\beta^{-1}\ln(1-x/x_\infty)$\\有限时间内 $0\leq x<x_\infty$};
+
+\end{tikzpicture}
+\figcaption{解图 2.12A\quad 水平位置随$\beta t$单调增加，延拓曲线趋于$x/x_\infty=1$。}
+\end{minipage}\end{center}
+\subsubsection*{用水平位置消去时间}
+解图 2.12A 中，$x(t)$ 单调增加并趋于 $x_\infty=u/\beta$，有限时间满足 $0\leq x<x_\infty$。因此
+\[
+e^{-\beta t}=1-\frac{\beta x}{u},\qquad
+t=-\frac1\beta\ln\left(1-\frac{\beta x}{u}\right).
+\]
+把这两式代入 $y(t)$，并用 $w/u=\tan\alpha$，得到
+\[
+\boxed{y=\left(\tan\alpha+\frac g{\beta u}\right)x
++\frac g{\beta^2}\ln\left(1-\frac{\beta x}{u}\right)}.
+\]
+换回题中符号为
+\[
+y=\left(\tan\alpha+\frac{mg}{kv_0\cos\alpha}\right)x
++\frac{m^2g}{k^2}\ln\left(1-\frac{kx}{mv_0\cos\alpha}\right).
+\]
+有限时刻的水平坐标满足 $0\leq x<mv_0\cos\alpha/k$，此时对数真数为正。若运动以回到发射高度为止，取 $y(x_R)=0$ 的正根。发射切线斜率 $\tan\alpha>0$，而 $x\to x_\infty$ 时 $y\to-\infty$。轨迹严格向下凹，故正根唯一，实际区间为 $0\leq x\leq x_R<x_\infty$。
+
+\subsubsection*{小阻力极限要保留到二阶}
+直接令 $k=0$ 会使两个项分别发散，应固定 $x$ 并令 $\varepsilon=\beta x/u$。展开
+\[
+\ln(1-\varepsilon)=-\varepsilon-\frac{\varepsilon^2}{2}
+-\frac{\varepsilon^3}{3}+O(\varepsilon^4).
+\]
+乘以 $g/\beta^2$ 后，一次项为 $-gx/(\beta u)$，恰好抵消轨迹式中的正发散项；二次项留下 $-gx^2/(2u^2)$。故
+\[
+y=x\tan\alpha-\frac{gx^2}{2u^2}-\frac{g\beta x^3}{3u^3}+O(\beta^2),
+\]
+\[
+\boxed{\lim_{k\to0}y=x\tan\alpha-\frac{gx^2}{2v_0^2\cos^2\alpha}}.
+\]
+这是通常的抛物线。还可从轨迹式求出
+\[
+y'(0)=\tan\alpha,\qquad
+y''(x)=-\frac g{u^2}(1-\beta x/u)^{-2}<0,
+\]
+第一个式子给题图中的发射切线，第二个式子表明切线斜率随 $x$ 递减，轨迹始终向下凹。
+\subsubsection*{分量积分和位置初值的完整代入}
+题图2.12中阻力的两个分量分别为$-kv_x$与$-kv_y$。
+采用正的初始水平速度$u$与初始竖直速度$w$，分离变量的积分为
+\[
+\int_u^{v_x}\frac{\dd q}{q}=-\beta t,\qquad
+\int_w^{v_y}\frac{\beta\,\dd q}{g+\beta q}=-\beta t.
+\]
+因此$\ln(v_x/u)=-\beta t$，
+$\ln[(g+\beta v_y)/(g+\beta w)]=-\beta t$。
+这些对数均为无量纲比值；竖直速度虽会变负，
+$g+\beta v_y=(g+\beta w)e^{-\beta t}$在有限时刻仍为正。
+
+速度再积分的位置通式为
+\[
+x=-\frac u\beta e^{-\beta t}+C_x,\qquad
+y=-\frac{w+g/\beta}{\beta}e^{-\beta t}-\frac g\beta t+C_y.
+\]
+由$x(0)=y(0)=0$分别确定
+$C_x=u/\beta$、$C_y=(w+g/\beta)/\beta$，
+才得到过发射点的参数轨迹。
+水平位置常数 $u/\beta$ 是长度。将 $t=0$ 代入时，它恰好抵消指数项，使轨迹从发射点出发。
+
+还可由$y'(x)=0$求最高点横坐标。整理得
+\[
+\frac wu=\frac g{\beta u}
+\left[\frac1{1-\beta x/u}-1\right],
+\qquad x_a=\frac{uw}{g+\beta w}<x_\infty.
+\]
+对应$t_a=\beta^{-1}\ln(1+\beta w/g)$；
+轨迹在$x_a$前上升、之后下降，与题图的速度切线和解图的水平单调运动相容。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 13 题 飞机着陆滑行距离}{q13}
+
+\section*{第 13 题\quad 飞机着陆滑行距离}
+
+\tagline{M-02-13}
+
+飞机以水平速度 $v_0=90\,\mathrm{km/h}$ 触地滑行。空气阻力为 $c_xv^2$，机翼升力为 $c_yv^2$，$c_y/c_x=k=5$；轮胎与跑道间的有效摩擦系数为 $\mu=0.10$。假设刚触地时升力恰等于重力，随后 $c_x,c_y$ 不变，忽略发动机推力。求停止前的滑行距离，取 $g=9.8\,\mathrm{m/s^2}$。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.6,0)--(5.3,0);\draw[object] (.2,.6)--(3.4,.6)--(3.8,.9)--(3.5,1.15)--(.9,1.15)--(.2,.6);\draw[object] (.7,.9)--(.2,1.7)--(.65,1.7)--(1.1,1.15);
+\draw[object] (1.1,.25) circle(.25);\draw[object] (2.9,.25) circle(.25);\draw[object] (1.1,.50)--(1.1,.8);\draw[object] (2.9,.50)--(2.9,.8);
+\draw[motion] (4,.9)--(5.3,.9) node[right] {$v$};\node at (2.2,-.55) {升力随速度降低，轮胎压力增大};
+
+\end{tikzpicture}
+\figcaption{图 2.13\quad 滑行减速时，空气阻力减小，地面摩擦增大。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+设飞机质量为 $m$。触地后的竖直加速度为零，解图 2.13A 中支持力、升力和重力满足
+\[
+N+c_yv^2=mg,\qquad N=mg-c_yv^2.
+\]
+所以地面摩擦为 $\mu N$。触地假设 $c_yv_0^2=mg$ 给出 $N(t=0)=0$。滑行中升力随速度下降，跑道承担的重量份额随之增加。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\fill (0,0) circle(2pt);\draw[force] (0,0)--(0,-2) node[below] {$mg$};
+\draw[force] (-.35,0)--(-.35,1) node[above left] {$N$};\draw[force] (.35,0)--(.35,1) node[above right] {$c_yv^2$};
+\draw[force] (0,.27)--(-1.6,.27) node[left] {$c_xv^2$};\draw[force] (0,-.27)--(-.8,-.27) node[left] {$\mu N$};\draw[motion] (.6,0)--(1.8,0) node[right] {$v$};
+\node[align=left] at (5,0) {$c_yv_0^2=mg$ 时刚触地\\滑行中 $0\leq v\leq v_0$\\跑道承担 $N=mg-c_yv^2$};
+
+\end{tikzpicture}
+\figcaption{解图 2.13A\quad 取$v=v_0/\sqrt2$时，升力和支持力各平衡一半重力。竖直力与水平阻力分别使用各自的比例尺。}
+\end{minipage}\end{center}
+水平运动方程为
+\[
+m\dot v=-c_xv^2-\mu(mg-c_yv^2)
+=-\mu mg-(c_x-\mu c_y)v^2.
+\]
+记 $q=c_x-\mu c_y$。$q$ 是空气阻力的二次项与摩擦中减去的升力项合并后的系数。若 $\mu c_y>c_x$，摩擦增加得更快，$q$ 为负。
+
+\subsubsection*{直接对距离积分}
+由 $\dot v=v\,\dd v/\dd x$，将速度从 $v_0$ 降到零，滑行距离为
+\[
+S=\int_0^{v_0}\frac{mv\,\dd v}{\mu mg+qv^2}.
+\]
+当 $q\ne0$，用 $\dd(\mu mg+qv^2)=2qv\dd v$，积分得
+\[
+S=\frac m{2q}\ln\frac{\mu mg+qv_0^2}{\mu mg}.
+\]
+触地条件与升阻比给出
+\[
+c_y=\frac{mg}{v_0^2},\qquad c_x=\frac{c_y}{k},\qquad
+q=\frac{mg}{v_0^2}(1/k-\mu).
+\]
+因此
+\[
+\mu mg+qv_0^2=\frac{mg}{k},\qquad
+\boxed{S=\frac{v_0^2}{2g(1/k-\mu)}\ln\frac1{\mu k}}.
+\]
+先把 $90\,\mathrm{km/h}$ 换算为 $25\,\mathrm{m/s}$。代入 $k=5,\mu=0.10,g=9.8\,\mathrm{m/s^2}$，有
+\[
+S=\frac{625}{2\times9.8\times0.10}\ln2
+=221.03\,\mathrm m\approx\boxed{221\,\mathrm m}.
+\]
+\subsubsection*{系数为零或为负的情形}
+若 $1/k=\mu$，两项阻力随速度变化的部分相消，减速率恒为 $\mu g$。直接积分给 $S=v_0^2/(2\mu g)$。把对数的自变量写成 $1+(1/k-\mu)/\mu$，用 $\ln(1+z)/z\to1$ 也得到这一极限。
+若 $1/k<\mu$，对数与分母同时为负，$S$ 仍为正。整个滑行区间的阻力分母为
+\[
+\mu mg+qv^2
+=mg\left[\mu(1-v^2/v_0^2)+\frac1k\frac{v^2}{v_0^2}\right]>0.
+\]
+括号内两项是 $\mu$ 和 $1/k$ 按 $v^2/v_0^2$ 加权的平均值，所以减速在全程持续。触地条件给 $c_y/m=g/v_0^2$，升阻比再给 $c_x/m$。若仅给两系数的比，仍要给一个系数的大小或相应的触地升力，才能定出距离。
+\subsubsection*{保留滑行中任意速度对应的位置}
+由解图2.13A 的竖直平衡，跑道支持力补足重力与升力之差。
+利用触地条件，可以分别写出
+\[
+N=mg(1-v^2/v_0^2),\quad
+f=\mu mg(1-v^2/v_0^2),\quad
+F_{\rm air}=\frac{mg}{k}\frac{v^2}{v_0^2}.
+\]
+令 $u=v^2/v_0^2$，解图2.13B 把两种水平阻力和它们的和画在同一纵轴上。飞机从图右端向左滑行，气动阻力逐渐减小，地面摩擦由零开始增大。按本题参数，气动阻力减少得更快，总阻力从 $0.20mg$ 降到 $0.10mg$。
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.88,transform shape]
+\draw[axis] (0,0)--(6.5,0) node[right] {$u=v^2/v_0^2$};
+\draw[axis] (0,0)--(0,3.15) node[above] {阻力除以 $mg$};
+\draw[guide] (0,1.35)--(6,1.35);
+\draw[guide] (0,2.7)--(6,2.7);
+\draw[guide] (6,0)--(6,2.7);
+\draw[traj] (0,1.35)--(6,2.7) node[above right] {总阻力};
+\draw[object] (0,0)--(6,2.7) node[below right] {空气阻力};
+\draw[guide,thick,color=warm] (0,1.35)--(6,0) node[below left] {地面摩擦};
+\node[left] at (0,1.35) {$0.10$};
+\node[left] at (0,2.7) {$0.20$};
+\node[below] at (0,0) {$0$};
+\node[below] at (6,0) {$1$};
+\draw[motion] (4.7,-.76)--(1.4,-.76) node[midway,below] {滑行中速度降低};
+\end{tikzpicture}
+\figcaption{解图2.13B\quad 随速度下降，气动阻力与轮胎摩擦的变化方向相反。}
+\end{minipage}\end{center}
+在 $q\ne0$ 时，从触地点 $(x,v)=(0,v_0)$ 积分到任意中间速度 $v$，得到
+\[
+x(v)=\frac m{2q}\ln\frac{\mu mg+qv_0^2}{\mu mg+qv^2}
+=-\frac{v_0^2}{2g(1/k-\mu)}
+\ln\left[\mu k+(1-\mu k)\frac{v^2}{v_0^2}\right].
+\]
+代入$v=v_0$时对数为零，确有$x=0$；代入$v=0$才得到停止距离$S$。
+对该式求导还原为
+$\dd x/\dd v=-mv/(\mu mg+qv^2)$，
+与前面的运动方程一致。速度减小意味着$\dd v<0$，
+因而飞机继续向前积累正的距离。
+在 $k\mu=1$ 的恒减速情形，中间速度与位置由 $v^2=v_0^2-2\mu gx$ 联系，所以
+$x(v)=(v_0^2-v^2)/(2\mu g)$。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 14 题 两根弹簧同时拉断的条件}{q14}
+
+\section*{第 14 题\quad 两根弹簧同时拉断的条件}
+
+\tagline{M-02-14}
+
+质量 $m$ 的小球用轻弹簧 1 竖直悬挂，劲度系数为 $k$。小球下方再接相同的轻弹簧 2，在其下端施加向下的拉力 $F(t)=\alpha t$，$\alpha>0$。两弹簧伸长达到 $\ell_C$ 时断裂，且 $\ell_C>mg/k$。$t=0$ 时小球静止于原平衡位置、下弹簧无伸长。求两弹簧同时首次达到断裂伸长时 $\alpha$ 应满足的关系式。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.8,3.6)--(.8,3.6);\draw[object] (0,3.6)--(0,3.4)--(-.15,3.25)--(.15,3.05)--(-.15,2.85)--(.15,2.65)--(-.15,2.45)--(0,2.3)--(0,2.15);
+\filldraw[object,fill=accent!10] (0,1.9) circle(.25);\node[right] at (.3,1.9) {$m$};\node[left] at (-.35,2.9) {弹簧 1};
+\draw[object] (0,1.65)--(0,1.5)--(-.15,1.35)--(.15,1.15)--(-.15,.95)--(.15,.75)--(-.15,.55)--(0,.4)--(0,.2);
+\node[left] at (-.35,1) {弹簧 2};\draw[force] (0,.2)--(0,-.7) node[below] {$F=\alpha t$};
+\draw[axis] (2,3.2)--(2,.3) node[below] {向下为正};
+
+\end{tikzpicture}
+\figcaption{图 2.14\quad 两根弹簧相同，伸长的时间变化却不同。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+分别记两根弹簧的伸长为 $x_1,x_2$，均从自然长度量起。弹簧 2 无质量，其两端张力相同，故 $kx_2=F(t)=\alpha t$。小球的位置变化与 $x_1$ 的变化相同，向下为正时
+\[
+m\ddot x_1=mg+\alpha t-kx_1.
+\]
+图2.14 中，下弹簧的下端由外力拉动。它的伸长由拉力确定，上端随小球一起运动。上弹簧顶端固定，它的伸长变化量才等于小球的位移。
+
+\subsubsection*{求上弹簧的受迫运动}
+令 $\omega_0=\sqrt{k/m}$，则
+\[
+\ddot x_1+\omega_0^2x_1=g+\frac\alpha m t.
+\]
+固定任一时刻的拉力，小球的平衡位置对应 $x_1=(mg+\alpha t)/k$。这个随时间线性移动的平衡位置的二阶导数为零，因此也给微分方程的特解。再加上同频率的两个齐次项，得到通解
+\[
+x_1=\frac{mg}{k}+\frac\alpha k t+C\cos\omega_0t+D\sin\omega_0t.
+\]
+初态 $x_1(0)=mg/k$ 给出 $C=0$，初速 $\dot x_1(0)=0$ 给出 $D=-\alpha/(k\omega_0)$，因而
+\[
+\boxed{x_1=\frac{mg}{k}+\frac\alpha k\left(t-\frac{\sin\omega_0t}{\omega_0}\right)},
+\qquad\boxed{x_2=\frac\alpha k t}.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (0,0)--(4.6,0) node[right] {$t$};\draw[axis] (0,0)--(0,3.5) node[above] {伸长};
+\draw[guide] (0,3)--(4.1,3);\node[left] at (0,3) {$\ell_C$};\draw[guide] (3.6,0)--(3.6,3);\node[below] at (3.6,0) {$t_0$};
+\draw[thick,color=warm] (0,0)--(3.6,3);\draw[traj,domain=0:1,samples=100] plot({3.6*\x},{3*(.4+\x-sin(121.7733095*\x)/2.12534519)});
+\node[above,color=accent] at (1.4,1.4) {$x_1$};\node[below right,color=warm] at (2.4,2) {$x_2$};\fill (3.6,3) circle(2pt);
+
+\end{tikzpicture}
+\figcaption{解图 2.14A\quad 取 $mg/(k\ell_C)=0.4$，两根弹簧的伸长同时到达临界线。}
+\end{minipage}\end{center}
+解图 2.14A 中，下弹簧伸长是过原点的直线，上弹簧在初始静伸长上增加“直线减正弦”的量。起始时小球速度为零，上弹簧的伸长曲线从水平切线起步。
+
+\subsubsection*{同时达到断裂伸长}
+设同时断裂时刻为 $t_0$。由 $x_2(t_0)=\ell_C$ 先得 $t_0=k\ell_C/\alpha$。再令 $x_1(t_0)=\ell_C$，有
+\[
+\frac{mg}{k}-\frac\alpha{k\omega_0}\sin\omega_0t_0=0.
+\]
+因此参量应满足
+\[
+\boxed{\sin\left(\frac{k\ell_C\omega_0}{\alpha}\right)
+=\frac{mg\omega_0}{\alpha}},\qquad\alpha>0.
+\]
+令 $z=\omega_0t_0=k\ell_C\omega_0/\alpha$、$\rho=mg/(k\ell_C)\in(0,1)$，等价形式为
+\[
+\boxed{\frac{\sin z}{z}=\rho,\qquad
+\alpha=\frac{k\ell_C\omega_0}{z},\quad z>0}.
+\]
+在 $(0,\pi)$ 上，$\sin z/z$ 的导数为 $(z\cos z-\sin z)/z^2$。分子在零处的极限为零，导数 $-z\sin z$ 在这一段为负，故比值从1严格降到0，与水平线 $\rho$ 恰好相交一次。$\rho$ 较小时，后续正半波也可能与这条线相交。又因 $|\sin z|\leq1$，每个交点所对应的拉力斜率都满足 $\alpha\geq mg\omega_0$。具体取值由完整的交点方程给出。
+
+\subsubsection*{伸长的单调性与首次断裂}
+图2.14A 从初态向右读，两条曲线都向上。对伸长表达式求导，得到
+\[
+\dot x_1=\frac\alpha k(1-\cos\omega_0t)\geq0,
+\qquad\dot x_2=\frac\alpha k>0.
+\]
+$\dot x_1$ 只在孤立时刻为零，故 $x_1$ 也严格递增。初态两伸长均小于 $\ell_C$，任何满足关系式的正解都不会在 $t_0$ 前已有某根达到阈值。因此这些解均满足题设的“同时首次”条件。
+\subsubsection*{快拉、慢拉与先断顺序}
+比较先断顺序时，可以用两条伸长曲线的单调性。它们从各自初值上升，第一次到达临界线的位置给出实际断裂时刻。
+设下弹簧若一直完整将于$t_2=k\ell_C/\alpha$达到阈值，
+令$z_2=\omega_0t_2$。此刻上弹簧相对阈值的差为
+\[
+x_1(t_2)-\ell_C
+=\frac{mg}{k}-\frac{\alpha}{k\omega_0}\sin z_2
+=\ell_C\left(\rho-\frac{\sin z_2}{z_2}\right).
+\]
+若该差为正，把上弹簧的伸长曲线从初值向右读，较早就会达到 $\ell_C$，上弹簧先断。若差为负，走到 $t_2$ 时上弹簧仍低于临界线，下弹簧先断。差为零时，两条严格上升的曲线同时首次到达临界线。用未断方程计算 $t_2$ 处的差值，可以确定应在图上的哪一个交点结束真实过程。
+
+当$\alpha<mg\omega_0$时，对所有时刻都有
+$x_1-x_2\geq(mg-\alpha/\omega_0)/k>0$，
+所以充分慢拉时上弹簧先断。
+充分快拉时$z_2\ll1$，由
+$\sin z_2/z_2=1-z_2^2/6+O(z_2^4)$，
+有$x_1(t_2)/\ell_C=\rho+z_2^2/6+O(z_2^4)<1$，
+故下弹簧先断。两种极限中的先后顺序与小球惯性的作用相符，
+中间的临界斜率由 $\sin z/z=\rho$ 的各正根换算。
+
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}
+\begin{scope}[x=.7cm,y=2.2cm]
+\draw[axis] (0,0)--(6,0) node[right] {$q=\omega_0t$};
+\draw[axis] (0,0)--(0,1.32) node[above] {$x_i/\ell_C$};
+\draw[guide] (0,1)--(5.6,1);
+\draw[traj,domain=0:5.0597131,samples=100]
+plot(\x,{.4+.1*(\x-sin(\x r))});
+\draw[thick,color=warm] (0,0)--(5.0597131,.5059713);
+\fill (5.0597131,1) circle(1.1pt);
+\node[left] at (0,1) {$1$};
+\node[above] at (3,1.4) {慢拉时上弹簧先断};
+\node[above left] at (3.5,.7851) {$x_1$};
+\node[below right] at (3,.3) {$x_2$};
+\end{scope}
+\begin{scope}[xshift=6.5cm,x=6cm,y=2.2cm]
+\draw[axis] (0,0)--(.72,0) node[right] {$q$};
+\draw[axis] (0,0)--(0,1.32) node[above] {$x_i/\ell_C$};
+\draw[guide] (0,1)--(.64,1);
+\draw[traj,domain=0:.5,samples=70]
+plot(\x,{.4+2*(\x-sin(\x r))});
+\draw[thick,color=warm] (0,0)--(.5,1);
+\fill (.5,1) circle(1.1pt);
+\node[left] at (0,1) {$1$};\node[below] at (.5,0) {$1/2$};
+\node[above] at (.32,1.4) {快拉时下弹簧先断};
+\node[above right] at (.4,.4212) {$x_1$};
+\node[above left] at (.3,.6) {$x_2$};
+\end{scope}
+\end{tikzpicture}
+\figcaption{解图2.14B\quad 取$\rho=0.4$；两图的$\alpha/(k\ell_C\omega_0)$分别为$0.1$与$2$，曲线只画到首次断裂。}
+\end{minipage}\end{center}
+解图2.14B的慢拉状态中，上弹簧达到阈值时下弹簧还只伸长约$0.506\ell_C$；
+快拉状态中，下弹簧达到阈值时上弹簧只伸长约$0.441\ell_C$。
+这两幅过程图与解图2.14A的同时断裂图一起，分别显示三种不同的首次事件。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 15 题 加速斜面上木块相对静止的推力范围}{q15}
+
+\section*{第 15 题\quad 加速斜面上木块相对静止的推力范围}
+
+\tagline{M-02-15}
+
+质量 $M$ 的斜面体位于光滑水平桌面上，斜面向右下降，倾角为 $0<\theta<\pi/2$。质量 $m$ 的木块置于斜面上，静摩擦系数 $0\leq\mu<\tan\theta$。水平力 $F\geq0$ 向右推斜面体。求木块可以相对斜面静止的推力范围；忽略斜面边缘对运动的限制。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.5,0)--(5,0);\filldraw[object,fill=accent!5] (0,0)--(4,0)--(0,2.2)--cycle;\node at (1.4,.55) {$M$};
+\begin{scope}[shift={(1.65,1.2925)},rotate=-28.81]\filldraw[object,fill=white] (-.45,0) rectangle (.45,.55);\node at (0,.28) {$m$};\end{scope}
+\draw[force] (-1.3,.6)--(0,.6) node[midway,above] {$F$};\draw (3.2,0) arc(180:151.19:.8);\node at (3,.22) {$\theta$};\draw[motion] (3,2)--(4.5,2) node[right] {$a$};
+
+\end{tikzpicture}
+\figcaption{图 2.15\quad 方向约定：推力向右，斜面向右下降。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+木块与斜面体相对静止时，两者的地面系加速度均水平向右，整体有 $a=F/(M+m)$。斜面向右下降，规定摩擦沿斜面上行为正。解图 2.15A 画在地面系，只有重力、支持力和摩擦力。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[guide] (-1.7,.98150)--(1.7,-.98150);\fill (0,0) circle(2pt);
+\draw[force] (0,0)--(.95942,1.66177) node[above right] {$N$};
+\draw[force] (0,0)--(-.23942,.13823) node[above left] {$f>0$};
+\draw[force] (0,0)--(0,-1.8) node[below] {$mg$};
+\draw[motion] (1.1,.1)--(2.4,.1) node[right] {$a$};\node[align=left] at (5.5,.3) {$f=m(g\sin\theta-a\cos\theta)$\\$N=m(g\cos\theta+a\sin\theta)$};
+
+\end{tikzpicture}
+\figcaption{解图 2.15A\quad 地面系中的受力和水平加速度。图取$\theta=30^\circ$、$a=0.4g$，摩擦沿坡向上。}
+\end{minipage}\end{center}
+向上坡与法向投影，水平向右的加速度分量分别为 $-a\cos\theta$、$a\sin\theta$，所以
+\[
+f-mg\sin\theta=-ma\cos\theta,
+\qquad N-mg\cos\theta=ma\sin\theta.
+\]
+得到
+\[
+f=m(g\sin\theta-a\cos\theta),\qquad
+N=m(g\cos\theta+a\sin\theta)>0.
+\]
+在斜面体参考系中，木块相对斜面静止，向左的惯性力在坡面上投影为向上的 $ma\cos\theta$，在法向上投影为压向斜面的 $ma\sin\theta$。因此两轴的平衡式为 $f+ma\cos\theta-mg\sin\theta=0$ 与 $N-ma\sin\theta-mg\cos\theta=0$，整理后得到上面同一组 $f,N$。
+
+\subsubsection*{下滑趋势给出下限}
+由 $f\leq\mu N$，整理为
+\[
+g(\sin\theta-\mu\cos\theta)
+\leq a(\cos\theta+\mu\sin\theta).
+\]
+分母恒正，而题定 $\mu<\tan\theta$ 保证分子为正，因此
+\[
+\boxed{a\geq a_-=g\frac{\tan\theta-\mu}{1+\mu\tan\theta}>0}.
+\]
+在 $a=a_-$ 时，摩擦沿坡向上达到极限，木块恰将下滑。
+
+\subsubsection*{上滑趋势与推力上限}
+由 $f\geq-\mu N$，有
+\[
+a(\cos\theta-\mu\sin\theta)
+\leq g(\sin\theta+\mu\cos\theta).
+\]
+若 $\mu\tan\theta<1$，左侧系数为正，得到
+\[
+a\leq a_+=g\frac{\tan\theta+\mu}{1-\mu\tan\theta}.
+\]
+若 $\mu\tan\theta\geq1$，左侧对所有 $a\geq0$ 非正，右侧为正，该条件自动成立，没有有限上限。故
+\[
+\boxed{F\in\begin{cases}
+[(M+m)a_-,(M+m)a_+],&\mu\tan\theta<1,\\
+[(M+m)a_-,\infty),&\mu\tan\theta\geq1.
+\end{cases}}
+\]
+下限对应沿坡向上的极限摩擦，有限上限对应沿坡向下的极限摩擦，这两个端点都可取。若 $\mu>0$，区间内部的推力使 $|f|<\mu N$。
+
+\subsubsection*{摩擦变号与静止条件}
+在 $a_0=g\tan\theta$ 处 $f=0$。$a<a_0$ 时摩擦向上，$a>a_0$ 时向下。加速度很大时，摩擦向下，大小与支持力的比值趋于 $\cot\theta$。对有符号比求导可得 $\mathrm d(f/N)/\mathrm da=-g/(g\cos\theta+a\sin\theta)^2$。所以 $f/N$ 从 $\tan\theta$ 单调降到 $-\cot\theta$，材料满足 $\mu\geq\cot\theta$ 时，这个极限仍在允许范围内。
+$\mu=0$ 时两端合为 $F=(M+m)g\tan\theta$。把材料条件放宽到 $\mu\geq\tan\theta$ 时，$a=0$ 的摩擦需求已经满足材料上限，非负推力的允许范围从零起算。
+\subsubsection*{用摩擦曲线看推力的作用}
+将$a=F/(M+m)$代入所需摩擦，得到
+\[
+f(F)=mg\sin\theta-\frac{m\cos\theta}{M+m}F,\qquad
+\mu N(F)=\mu mg\cos\theta+
+\frac{\mu m\sin\theta}{M+m}F.
+\]
+前者随推力线性减小，后者随推力线性增大。
+解图2.15B把$f$与$\pm\mu N$放在同一图中，
+实线被两条材料限制夹住的部分就是允许推力。
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}[x=2.3cm,y=2.1cm]
+\fill[accent!8] (.666667,-.8) rectangle (1.5,.85);
+\draw[axis] (-.1,0)--(2.2,0) node[right] {$F/[(M+m)g]$};
+\draw[axis] (0,-.83)--(0,.94) node[above] {$f/(mg)$};
+\draw[guide,domain=0:2] plot(\x,{.141421*(1+\x)});
+\draw[guide,domain=0:2] plot(\x,{-.141421*(1+\x)});
+\draw[thin,domain=0:2] plot(\x,{.707107*(1-\x)});
+\draw[traj,line width=1.3pt,domain=.666667:1.5] plot(\x,{.707107*(1-\x)});
+\node[below] at (.666667,0) {$F_-$};
+\node[above] at (1,0) {$F_0$};
+\node[above] at (1.5,0) {$F_+$};
+\node[right] at (2,.424263) {$+\mu N/(mg)$};
+\node[right] at (2,-.424263) {$-\mu N/(mg)$};
+\end{tikzpicture}
+\figcaption{解图2.15B\quad 取$\theta=45^\circ,\mu=0.20$；三个推力标记对应无量纲横轴上的位置。}
+\end{minipage}\end{center}
+例如 $\theta=60^\circ,\mu=1$ 时，材料满足题设的 $\mu<\sqrt3$，又有 $\mu\tan\theta>1$。当 $a>g\sqrt3$，木块有沿坡上滑的趋势，实际静摩擦朝向坡下。随着 $a$ 增加，支持力也增加，所需向下摩擦与支持力之比从零增至极限 $1/\sqrt3$，始终低于材料系数1。因此这个例子有摩擦方向反转，且所有超过下限的推力都允许相对静止。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 16 题 双斜面体上两木块相对加速度}{q16}
+
+\section*{第 16 题\quad 双斜面体上两木块相对加速度}
+
+\tagline{M-02-16}
+
+质量 $M$ 的双斜面体位于光滑水平地面上，左右坡面的倾角分别为 $\alpha_1,\alpha_2\in(0,\pi/2)$。质量为 $m_1,m_2$ 的两木块分别放在左右坡面，用轻绳经过固定在斜面体顶部的轻滑轮连接。接触面和滑轮均光滑，绳不可伸长。在两块都沿各自坡面运动的阶段，求它们相对斜面体的加速度、斜面体相对地面的加速度，以及两块保持接触的条件。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.5,0)--(6.7,0);\filldraw[object,fill=accent!5] (0,0)--(6,0)--(2.7,2.2)--cycle;\node at (3,.6) {$M$};
+\draw[object] (2.682164,2.572446) circle(.2);\draw[object] (2.7,2.2)--(2.682164,2.572446);
+\begin{scope}[shift={(1.05,.8556)},rotate=39.17366]\filldraw[object,fill=white] (-.4,0) rectangle (.4,.5);\node at (0,.25) {$m_1$};\end{scope}
+\begin{scope}[shift={(4.55,.9667)},rotate=-33.69007]\filldraw[object,fill=white] (-.4,0) rectangle (.4,.5);\node at (0,.25) {$m_2$};\end{scope}
+\draw[object] (.734164,1.243173)--(2.555829,2.727493);\draw[object] (2.793104,2.738856)--(4.827350,1.382692);
+\draw (.7,0) arc(0:39.17:.7);\node at (.88,.26) {$\alpha_1$};\draw (5.3,0) arc(180:146.31:.7);\node at (5.1,.24) {$\alpha_2$};
+
+\end{tikzpicture}
+\figcaption{图 2.16\quad 两木块相对斜面体沿绳方向运动，一边下滑时另一边上滑。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+规定斜面体向右的加速度为 $a_M$；规定 $m_1$ 沿左坡向下、$m_2$ 沿右坡向上的相对加速度为 $a'$。滑轮固定在斜面体上。左边绳段随 $m_1$ 下滑而增长，右边随 $m_2$ 上滑而缩短，两段位移大小相等。两边以这两个方向为正，共用一个有符号的相对加速度 $a'$；若 $a'<0$，两支相对加速度都沿各自正向的反方向。
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+\foreach \i/\xx/\sgn in {1/0/-1,2/5.1/1}{
+\begin{scope}[xshift=\xx cm]
+\coordinate (O) at (0,0);
+\coordinate (P) at (.96,0);
+\coordinate (Q) at (-.64,{1.2*\sgn});
+\draw[motion] (O)--(P) node[right] {$a_M$};
+\draw[force] (P)--(Q) node[midway,above right] {$a'$};
+\draw[traj,-{Stealth}] (O)--(Q) node[left] {$\vect a_{\i}$};
+\fill (O) circle(1.5pt);
+\node[below right] at (1.1,-1.36) {$m_{\i}$};
+\end{scope}}
+\end{tikzpicture}
+\figcaption{解图 2.16A\quad 图取两坡的余弦均为$4/5$，$m_1=2m_2$、$M=2m_2$，此时$a_M=0.48a'$。各图将沿坡加速度接在平移加速度之后。}
+\end{minipage}\end{center}
+解图 2.16A 将每个地面系加速度拆成斜面体平移与沿坡相对运动：
+\[
+\vect a_1=(a_M-a'\cos\alpha_1,-a'\sin\alpha_1),
+\quad\vect a_2=(a_M-a'\cos\alpha_2,a'\sin\alpha_2).
+\]
+两块相对斜面体的加速度大小同为 $|a'|$。解图2.16A 的两条坡方向不同，平移加速度投到坡上的分量也随坡角而变，所以两个对地加速度要分别合成。
+
+\subsubsection*{整体水平方程与两个沿坡方程}
+整个系统无水平外力，因此
+\[
+Ma_M+m_1(a_M-a'\cos\alpha_1)
++m_2(a_M-a'\cos\alpha_2)=0.
+\]
+记
+\[
+S=M+m_1+m_2,\quad C=m_1\cos\alpha_1+m_2\cos\alpha_2,
+\quad\Delta=m_1\sin\alpha_1-m_2\sin\alpha_2,
+\]
+则第一条关系为 $Sa_M-Ca'=0$。再沿 $m_1$ 下坡方向、$m_2$ 上坡方向分别投影：
+\[
+m_1(a'-a_M\cos\alpha_1)=m_1g\sin\alpha_1-T,
+\]
+\[
+m_2(a'-a_M\cos\alpha_2)=T-m_2g\sin\alpha_2.
+\]
+相加消去同一轻绳张力，得到第二条关系
+\[
+(m_1+m_2)a'-Ca_M=g\Delta.
+\]
+\subsubsection*{加速度、支持力与张力}
+用 $a_M=Ca'/S$ 代入第二式，令 $D=(m_1+m_2)S-C^2$，有
+\[
+\boxed{a'=\frac{S\Delta}{D}g},\qquad
+\boxed{a_M=\frac{C\Delta}{D}g}.
+\]
+即
+\[
+a_M=\frac{(m_1\cos\alpha_1+m_2\cos\alpha_2)
+(m_1\sin\alpha_1-m_2\sin\alpha_2)g}
+{(m_1+m_2)(M+m_1+m_2)-(m_1\cos\alpha_1+m_2\cos\alpha_2)^2}.
+\]
+由于 $C<m_1+m_2$ 且 $S>m_1+m_2$，$D>0$。两加速度方向均由 $\Delta$ 的符号决定；$\Delta=0$ 时重力驱动恰抵消。
+
+法向投影还给出
+\[
+N_1=m_1(g\cos\alpha_1-a_M\sin\alpha_1),\qquad
+N_2=m_2(g\cos\alpha_2+a_M\sin\alpha_2).
+\]
+两块都保持接触的条件由 $N_1,N_2\geq0$ 给出，即
+\[
+-g\cot\alpha_2\leq a_M\leq g\cot\alpha_1 .
+\]
+右端对应左块的支持力降为零，左端对应右块的支持力降为零。两块都贴坡时，由左块沿坡方程求张力：
+\[
+T=m_1(g\sin\alpha_1+a_M\cos\alpha_1-a')
+=\frac{m_1m_2g}{D}
+\left[S(\sin\alpha_1+\sin\alpha_2)-C\sin(\alpha_1+\alpha_2)\right].
+\]
+由于 $S>C>0$，且 $\sin(\alpha_1+\alpha_2)=\sin\alpha_1\cos\alpha_2+\cos\alpha_1\sin\alpha_2<\sin\alpha_1+\sin\alpha_2$，此接触解中 $T>0$。
+当 $M\to\infty$，有 $a_M\to0$、$a'\to g\Delta/(m_1+m_2)$，得到固定双斜面的结果。两边质量和坡角分别相等时，$\Delta=0$，两个加速度都为零。分母中 $(m_1+m_2)S$ 和 $C^2$ 均为质量的平方。
+\subsubsection*{单独隔离斜面体的另一条水平方程}
+解图2.16B中，两个木块对斜面体的支持力反作用分别向右下、左下。
+固定在斜面体上的滑轮还承受两段绳力，方向分别沿左坡向下、右坡向下；
+两者虽大小相同，水平方向不一定抵消。因此
+\[
+N_1\sin\alpha_1-N_2\sin\alpha_2
++T\cos\alpha_2-T\cos\alpha_1=Ma_M.
+\]
+这条式子可以和两个木块的沿坡、法向方程一起求出 $a_M,a'$。解图2.16B 上，滑轮所受的左下绳力给 $-T\cos\alpha_1$，右下绳力给 $T\cos\alpha_2$；坡角相等时，这两个水平分量恰好抵消。
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}
+\draw[object] (0,0)--(5,0)--(2.3,1.8)--cycle;
+\coordinate (P) at (2.3,2.15);
+\draw[object] (P) circle(.17);\draw[object] (2.3,1.8)--(P);
+\draw[force] (1.1,.86)--(1.85,-.11) node[below] {$-\vect N_1$};
+\draw[force] (3.7,.87)--(3.06,-.10) node[below] {$-\vect N_2$};
+\draw[force] (P)--(1.36,1.41) node[above left] {$T$};
+\draw[force] (P)--(3.30,1.48) node[above right] {$T$};
+\draw[motion] (4.5,1.6)--(5.65,1.6) node[right] {$a_M$};
+\node at (2.4,.55) {$M$};
+\node[align=left] at (8.2,.75) {仅画影响水平运动的力\\
+两段绳力都作用于滑轮支架\\
+重力与地面支持力另列竖直平衡};
+\end{tikzpicture}
+\figcaption{解图2.16B\quad 斜面体及其固定滑轮整体的受力；箭头作平移以便辨认。}
+\end{minipage}\end{center}
+把两个木块的地面系水平方程加到这一式中，每对支持力和绳力的水平分量都按作用力与反作用力逐项抵消，剩下整体关系 $Sa_M-Ca'=0$。在竖直方向上，两块经斜面和滑轮支架传给斜面体的力，也由地面支持力承担。由整体的竖直加速度分量可直接写成 $R_g-Sg=-m_1a'\sin\alpha_1+m_2a'\sin\alpha_2=-\Delta a'$。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 17 题 航天飞机伸杆卫星的潮汐稳定位置}{q17}
+
+\section*{第 17 题\quad 航天飞机伸杆卫星的潮汐稳定位置}
+
+\tagline{M-02-17}
+
+质量 $m_1$ 的航天飞机 $A$ 绕地球作半径 $R$ 的圆轨道运动。它通过一根长 $L$ 的轻刚杆连接质量 $m_2$ 的卫星 $S$，$L\ll R$、$m_2\ll m_1$。将 $A,S$ 看作质点，杆可在轨道平面内自由转动，不施加姿态控制力矩。定义 $\alpha$ 为杆 $AS$ 从指向地心的方向量起的角度，方向见图。求相对轨道转动系的平衡方位并讨论小扰动稳定性。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\coordinate (E) at (0,0);\coordinate (A) at (4,0);\coordinate (S) at (2.75,1.1);
+\draw[object] (E) circle(.45);\node[below] at (0,-.45) {地球};\draw[guide] (E)--(A);\draw[object] (A)--(S);
+\fill (A) circle(2pt);\fill (S) circle(2pt);\node[right] at (A) {$A$};\node[above left] at (S) {$S$};\node[above right] at (3.4,.6) {$L$};\node[below] at (2,0) {$R$};
+\draw (3.4,0) arc(180:138.65:.6);\node at (3.2,.32) {$\alpha$};\draw[motion] (4,-.8)--(4,.85) node[above] {轨道速度};
+
+\end{tikzpicture}
+\figcaption{图 2.17\quad $\alpha=0$ 表示卫星位于航天飞机朝地心的一侧。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+在图2.17 中，以航天飞机 $A$ 为原点，取 $x$ 沿背离地心的方向、$y$ 沿轨道速度。两轴随圆轨道一起转动，角速度满足 $\Omega^2=GM_{\mathrm E}/R^3$。当 $m_2\ll m_1$，以 $A$ 的圆轨道作为已知运动。轻杆绕 $A$ 转动，杆力作用在 $AS$ 方向。
+
+题中 $\alpha$ 从指向地心的方向量起，故卫星相对位置为
+\[
+\vect r=(-L\cos\alpha,L\sin\alpha)=(x,y).
+\]
+\subsubsection*{局部引力差与离心力差}
+卫星地心位置为 $(R+x,y)$。将引力
+\[
+\vect F_G=-\frac{GM_{\mathrm E}m_2}{[(R+x)^2+y^2]^{3/2}}(R+x,y)
+\]
+按 $L/R\ll1$ 展开：分母倒数为 $R^{-3}(1-3x/R)+O(L^2/R^5)$，所以
+\[
+\vect F_G=(-m_2\Omega^2R+2m_2\Omega^2x,-m_2\Omega^2y)
++O(m_2\Omega^2L^2/R).
+\]
+卫星引力式中的零阶项就是在 $A$ 处单位质量引力乘 $m_2$，它和参考系原点平移所给的惯性力抵消。余下的一阶引力差为 $m_2\Omega^2(2x,-y)$。相对原点的离心惯性力为 $m_2\Omega^2(x,y)$，将两个矢量逐分量相加，得到
+\[
+\vect F_{\mathrm{eff}}=3m_2\Omega^2x\vect e_x.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (-2.2,0)--(1.2,0) node[right] {$x$，向外};\draw[axis] (0,-.4)--(0,2.1) node[above] {$y$};
+\coordinate (S) at (-1.25,1.1);\draw[object] (0,0)--(S);\fill (0,0) circle(2pt);\node[below right] at (0,0) {$A$};\fill (S) circle(2pt);\node[above] at (S) {$S$};
+\draw[force] (S)--(-2.5,1.1) node[left] {$3m_2\Omega^2x\vect e_x$};\draw[motion] (S)--(-.59,1.85) node[right] {$\vect e_\alpha$};
+\begin{scope}[xshift=5cm]
+\draw[axis] (0,0)--(4.5,0) node[right] {$\alpha$};\draw[axis] (0,-1.5)--(0,.5) node[above] {$U_{\mathrm{eff}}$};
+\draw[traj,domain=0:360,samples=100] plot({\x/90},{-1.2*cos(\x)*cos(\x)});
+\node[below] at (0,-1.25) {$0$};\node[above] at (1,0) {$\pi/2$};\node[below] at (2,-1.25) {$\pi$};\node[above] at (3,0) {$3\pi/2$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.17A\quad 径向的有效力产生转矩；势能谷对应径向方位，势能峰对应切向方位。}
+\end{minipage}\end{center}
+解图2.17A 的水平箭头表示有效力。引力差的横向分量 $-m_2\Omega^2y$ 由引力方向转动产生，离心力的同分量恰好抵消它。两项的径向分量同号相加，因此只留下图中的径向力。
+
+\subsubsection*{角运动与平衡方位}
+$\alpha$ 增大的切向单位矢量为 $\vect e_\alpha=(\sin\alpha,\cos\alpha)$，故
+\[
+F_\alpha=-3m_2\Omega^2L\sin\alpha\cos\alpha.
+\]
+杆力沿 $AS$。相对速度为 $L\dot\alpha\vect e_\alpha$，科里奥利力同时垂直于轨道轴和这支速度，方向也沿 $AS$。因此角方程只取有效力在 $\vect e_\alpha$ 上的投影：
+\[
+m_2L\ddot\alpha=F_\alpha,\qquad
+\ddot\alpha=-\frac32\Omega^2\sin2\alpha.
+\]
+平衡角为 $\boxed{\alpha=0,\pi/2,\pi,3\pi/2\pmod{2\pi}}$。
+
+在 $0$ 或 $\pi$ 附近令小偏角为 $\delta$，线性化得到
+\[
+\ddot\delta+3\Omega^2\delta=0,
+\qquad \delta=A\cos(\sqrt3\Omega t)+B\sin(\sqrt3\Omega t).
+\]
+扰动有界，径向方位稳定；小振动周期为轨道周期的 $1/\sqrt3$。在 $\pi/2$ 或 $3\pi/2$ 附近则
+\[
+\ddot\delta-3\Omega^2\delta=0,
+\qquad\delta=Ae^{\sqrt3\Omega t}+Be^{-\sqrt3\Omega t},
+\]
+一般扰动指数增长，切向方位不稳定。
+
+\subsubsection*{势能曲线与力矩方向}
+将角力矩 $LF_\alpha$ 写为势能的负导数，积分得到 $U_{\mathrm{eff}}=-3m_2\Omega^2L^2\cos^2\alpha/2$。解图2.17A 右图的势能谷位于径向方位，势能峰位于切向方位。径向小扰动在势阱内往复运动，系统无耗散，振幅由初始偏角和角速度决定。若把杆换成轻绳，绳能维持的方位还要满足张力条件。
+
+解图2.17A 左图以 $\vect e_\alpha$ 为角度增大的方向。$F_\alpha<0$ 时，力矩使角度减小。
+在$\alpha=0$附近，若$\delta>0$，
+则$\sin2\delta>0$、$F_\alpha<0$；
+若$\delta<0$，则$F_\alpha>0$，两侧都把杆推回径向附近。
+在$\alpha=\pi$附近，$\sin[2(\pi+\delta)]=\sin2\delta$，
+所以回复方向相同。
+
+在$\alpha=\pi/2$附近，
+$\sin[2(\pi/2+\delta)]=-\sin2\delta$；
+正偏角受到正切向力，负偏角受到负切向力，偏离随之增大，
+$3\pi/2$附近也一样。
+等价地，有效势能的二阶导数为
+\[
+\frac{\dd^2U_{\rm eff}}{\dd\alpha^2}
+=3m_2\Omega^2L^2\cos2\alpha.
+\]
+径向两处的势能曲率为正，产生指向势阱底部的力矩；切向两处的曲率为负，力矩把杆从势能峰推开。这两种符号分别给出前面的简谐方程和指数增长方程。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 18 题 旋转圆盘上射手的科里奥利瞄准}{q18}
+
+\section*{第 18 题\quad 旋转圆盘上射手的科里奥利瞄准}
+
+\tagline{M-02-18}
+
+半径 $R$ 的水平圆盘以角速度 $\omega>0$ 逆时针转动。发射瞬间，盘边缘射手 $A=(-R,0)$ 的目标位于直径另一端 $B=(R,0)$。子弹相对圆盘的初速大小为 $v_0$，且 $\varepsilon=\omega R/v_0\ll1$。忽略空气阻力，只讨论水平运动，飞行很短而略去竖直下落。射手应朝哪个方向瞄准？求盘上观察到的轨迹，保留 $\varepsilon$ 的一阶项，并说明圆弧近似的适用性。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (0,0) circle(2);\draw[guide] (-2,0)--(2,0);\fill (-2,0) circle(2pt);\fill (2,0) circle(2pt);\fill (0,0) circle(2pt);
+\node[left] at (-2,0) {$A$};\node[right] at (2,0) {$B$};\node[below] at (0,0) {$O$};
+\draw[motion] (-2,0)--(-.2,.7) node[above] {$v_0$};\draw (-1.4,0) arc(0:21.25:.6);\node at (-1.25,.16) {$\theta$};
+\draw[motion] (2,0)--(2,.9) node[right] {$B$ 的速度};\draw[motion] (-2,0)--(-2,-.9) node[left] {$A$ 的速度};\draw[motion] (2.4,-.4) arc(-9.5:45:2.43);\node[above right] at (2,2.05) {$\omega$};
+
+\end{tikzpicture}
+\figcaption{图 2.18\quad 逆时针转动时，目标向上走，射手所在处的牵连速度向下。偏角作放大示意。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+在地面系中子弹走水平直线，目标随盘转动。这样求命中条件，可以同时包含目标运动和射手自身的牵连速度。取初始 $A=(-R,0)$、$B=(R,0)$，圆盘从上看逆时针转动，射手初始牵连速度为 $(0,-\omega R)$。
+
+规定相对发射方向从 $+x$ 朝 $+y$ 偏转 $\theta$，则子弹地面系速度为
+\[
+\vect V=(v_0\cos\theta,v_0\sin\theta-\omega R).
+\]
+子弹与目标的位置分别为
+\[
+\vect r_b=(-R+v_0t\cos\theta,(v_0\sin\theta-\omega R)t),
+\quad\vect r_B=(R\cos\omega t,R\sin\omega t).
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+\begin{scope}
+\coordinate (A0) at (-2,0);\coordinate (B0) at (2,0);
+\coordinate (H) at (1.8631739,0.7270371);
+\draw[guide] (A0)--(B0);\draw[object] (0,0) circle(2);
+\draw[traj] (A0)--(H);
+\draw[motion] ($(A0)!.2!(H)$)--($(A0)!.4!(H)$);
+\draw[motion] (B0) arc(0:21.3164415:2);
+\draw[motion] (A0)--(-2,-.58) node[left] {$\omega R$};
+\fill (A0) circle(1.6pt) node[above left] {$A_0$};
+\fill (B0) circle(1.6pt) node[right] {$B_0$};
+\fill (H) circle(1.6pt) node[above right] {$B_t$};
+\node at (0,-2.5) {地面系：直线命中移动目标};
+\end{scope}
+\begin{scope}[xshift=6cm]
+\draw[axis] (-2.3,0)--(2.6,0) node[right] {$x$};
+\draw[axis] (0,-.6)--(0,1.6) node[above] {$y$};
+\draw[traj,domain=-2:2,samples=80] plot(\x,{.09*(4-\x*\x)});
+\fill (-2,0) circle(1.6pt) node[below] {$A$};
+\fill (2,0) circle(1.6pt) node[below] {$B$};
+\draw[motion] (-1.8,.0684)--(-1.2,.2304);
+\node at (0,-2.5) {圆盘系：一阶轨迹向下弯};
+\end{scope}
+\end{tikzpicture}
+\figcaption{解图 2.18A\quad 取$\varepsilon=0.18$。左图按精确命中条件绘出，右图保留同一运动的一阶轨迹。}
+\end{minipage}\end{center}
+解图 2.18A 左图的直线与目标外缘轨迹交于 $B_t$，右图给这段运动转到圆盘坐标后的一阶曲线。精确的平面命中条件为
+\[
+v_0t_f\cos\theta=R(1+\cos\omega t_f),
+\quad v_0t_f\sin\theta=R\sin\omega t_f+\omega Rt_f.
+\]
+\subsubsection*{一阶瞄准角}
+令 $\varepsilon=\omega R/v_0\ll1$。零阶飞行时间 $t_f=2R/v_0$；在小角度展开中，余弦修正从二阶开始。第二式的一阶项为
+\[
+(v_0\theta-\omega R)t_f=R\omega t_f,
+\quad\boxed{\theta=\frac{2\omega R}{v_0}+O(\varepsilon^3)}.
+\]
+应瞄向直径上方，即目标将要移动的一侧。解图2.18A 左图中，发射速度的竖直分量分成两份 $\omega R$。一份与射手初始的向下牵连速度相抵，余下的一份让子弹以与靶初速相同的竖直分量向上。反转圆盘转向，偏角也反号。
+
+\subsubsection*{盘上轨迹的坐标变换}
+将子弹地面坐标绕原点转过 $-\omega t$，得到精确参数式
+\[
+x=(-R+v_0t\cos\theta)\cos\omega t
++(v_0\sin\theta-\omega R)t\sin\omega t,
+\]
+\[
+y=(R-v_0t\cos\theta)\sin\omega t
++(v_0\sin\theta-\omega R)t\cos\omega t.
+\]
+保留一阶时，牵连速度项与原点旋转项中的 $\omega Rt$ 抵消：
+\[
+x=-R+v_0t+O(\varepsilon^2R),\qquad
+y=v_0\theta t-\omega v_0t^2+O(\varepsilon^3R).
+\]
+用 $t=(x+R)/v_0$ 消参，代入瞄准角，得到
+\[
+\boxed{y=\frac\omega{v_0}(R^2-x^2)+O(\varepsilon^3R),\quad -R\leq x\leq R}.
+\]
+曲线开口向下，在圆盘中心横截面 $x=0$ 达到最大偏离 $\omega R^2/v_0$，两端均为零。
+
+\subsubsection*{圆弧近似的适用精度}
+若只保留科里奥利力，略掉离心项，方程为 $\ddot{\vect r}=-2\vect\omega\times\dot{\vect r}$，速度大小恒定，轨迹是半径 $\rho=v_0/(2\omega)$ 的圆弧。它通过 $A,B$ 时，弦切角满足 $\sin\theta=R/\rho=2\omega R/v_0$。
+飞行时间约为 $2R/v_0$，因此 $|\omega t_f|=O(\varepsilon)$。离心加速度量级为 $\omega^2 R$，科里奥利加速度量级为 $2\omega v_0$；前者在这段飞行中的位移为 $O(\varepsilon^2R)$。圆弧与浅抛物线在一阶相同。若需高阶修正，使用前面的地面系命中条件和旋转坐标变换。
+\subsubsection*{科里奥利近似中的完整圆弧推导}
+只保留科里奥利项时，盘系方程为
+$\ddot x=2\omega\dot y$、$\ddot y=-2\omega\dot x$。
+由发射初值$x=-R,y=0$、
+$\dot x=v_0\cos\theta,\dot y=v_0\sin\theta$，
+分别积分得到
+\[
+\dot x=2\omega y+v_0\cos\theta,\qquad
+\dot y=-2\omega(x+R)+v_0\sin\theta.
+\]
+消去时间并从发射点积分，得
+\[
+\omega y^2+v_0\cos\theta\,y
+=-\omega(x+R)^2+v_0\sin\theta\,(x+R).
+\]
+令$\rho=v_0/(2\omega)$并配方，轨迹为
+\[
+(x+R-\rho\sin\theta)^2+(y+\rho\cos\theta)^2=\rho^2.
+\]
+将目标$(R,0)$代入，得到
+$4R^2-4R\rho\sin\theta=0$，故$\sin\theta=R/\rho=2\varepsilon$。
+选发射时水平分量为正、转角很小的一支，便是所用的浅圆弧。
+
+解图2.18B还给出另一种不积分的几何法：
+科里奥利力始终垂直相对速度且大小为$2m\omega v_0$，
+所以速率不变，曲率半径为$\rho=v_0/(2\omega)$。
+圆心在弦$AB$的垂直平分线上，半弦长为$R$，
+半径与竖直方向的夹角也为$\theta$，因此同样有$R=\rho\sin\theta$。
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}
+\coordinate (A) at (-1,0);\coordinate (B) at (1,0);
+\coordinate (K) at (0,-2.291288);
+\draw[axis] (-1.6,0)--(1.8,0) node[right] {$x$};
+\draw[traj] (A) arc[start angle=113.578,end angle=66.422,radius=2.5];
+\draw[object] (K)--(A);\draw[object] (K)--(B) node[midway,right] {$\rho$};
+\draw[guide] (K)--(0,.45);
+\draw[motion] (A)--(-.1,.39279) node[above] {$v_0$};
+\draw (0,-1.791288) arc[start angle=90,end angle=66.422,radius=.5];
+\node at (.31,-1.55) {$\theta$};
+\fill (A) circle(1.8pt);\fill (B) circle(1.8pt);\fill (K) circle(1.8pt);
+\node[above left] at (A) {$A$};\node[above right] at (B) {$B$};
+\node[below] at (K) {$K$};
+\node[below left] at (0,0) {$O$};\node[above] at (.55,0) {$R$};
+\node[align=left] at (5.4,-.9) {只保留科里奥利项的圆弧\\
+$KO=\sqrt{\rho^2-R^2}$\\
+$\sin\theta=R/\rho$};
+\end{tikzpicture}
+\figcaption{解图2.18B\quad 圆弧几何给出同一阶瞄准角；图取$R/\rho=2/5$，$K$为科里奥利近似轨迹的圆心。}
+\end{minipage}\end{center}
+选圆的上支可写成
+\[
+y=\sqrt{\rho^2-x^2}-\sqrt{\rho^2-R^2}
+=\frac{R^2-x^2}{2\rho}
++O(R^4/\rho^3).
+\]
+因为$R/\rho=2\varepsilon\ll1$，首项正是
+$y=(\omega/v_0)(R^2-x^2)$。
+解图2.18B 的圆弧由保留科里奥利项的方程确定。增大转速时，可先在地面系求直线与移动靶的相遇，再将这条直线的每个时刻转入盘系。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 19 题 自由落体的科里奥利偏离}{q19}
+
+\section*{第 19 题\quad 自由落体的科里奥利偏离}
+
+\tagline{M-02-19}
+
+地球以角速度 $\omega$ 自转。纬度为 $\varphi$ 的地点上空，高度 $h$ 处一质点相对地面由静止释放。忽略空气阻力和离心惯性力，取局部重力加速度 $g$ 为常量，落下高度远小于地球半径。求科里奥利力引起的落地点偏离，先求 $\omega$ 一阶的主要偏移，再给出该局部模型中二阶的南北偏移。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (0,0)--(3,0) node[right] {$x$，东};\draw[axis] (0,0)--(-1.2,-1.1) node[below left] {$y$，北};\draw[axis] (0,0)--(0,3.3) node[above] {$z$，上};
+\fill (0,2.7) circle(2pt);\draw[motion] (0,2.4)--(0,1.4) node[left] {下落};\draw[guide] (.45,2.7)--(.45,0);\node[right] at (.45,1.7) {$h$};
+\draw[motion] (-2.4,1)--(-3.1,2.2) node[above] {$\vect\omega$};\node[align=left] at (4,2) {$\omega_y=\omega\cos\varphi$\\$\omega_z=\omega\sin\varphi$};
+
+\end{tikzpicture}
+\figcaption{图 2.19\quad 局部坐标依次为东、北、上，组成右手系。自转矢量以北半球为例绘出。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+取局地坐标 $x$ 向东、$y$ 向北、$z$ 竖直向上。纬度为 $\varphi$ 时，地球自转角速度为
+\[
+\vect\omega=(0,\omega\cos\varphi,\omega\sin\varphi).
+\]
+初始质点相对地面静止，$\vect r(0)=(0,0,h)$，$\dot{\vect r}(0)=0$。按题设的常重力、略去离心项的局部模型，
+\[
+\ddot{\vect r}=-g\vect e_z-2\vect\omega\times\dot{\vect r}.
+\]
+将自转矢量在北、上两轴的分量分别代入叉乘，得到
+\[
+\ddot x=2\omega\sin\varphi\,\dot y-2\omega\cos\varphi\,\dot z,
+\quad\ddot y=-2\omega\sin\varphi\,\dot x,
+\quad\ddot z=-g+2\omega\cos\varphi\,\dot x.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\begin{scope}
+\draw[axis] (-.4,0)--(2.2,0) node[right] {东};\draw[axis] (0,0)--(0,3.2) node[above] {上};
+\draw[guide] (0,0)--(0,2.7);\draw[traj,domain=0:1,samples=60] plot({.65*\x^3},{2.7*(1-\x^2)});\draw[motion] (.08125,2.025)--(.22295,1.377);\fill (.65,0) circle(2pt);
+\draw[thin,<->] (0,-.4)--(.65,-.4) node[midway,below] {$x_f>0$};\node at (.8,-1.1) {侧视：向东偏};
+\end{scope}
+\begin{scope}[xshift=6cm]
+\draw[axis] (-1,0)--(2.3,0) node[right] {东};\draw[axis] (0,-1.3)--(0,1.5) node[above] {北};
+\fill (0,0) circle(2pt);\fill (1.5,-.45) circle(2pt);\draw[guide] (0,0)--(1.5,0)--(1.5,-.45);\draw[traj,-{Stealth}] (0,0)--(1.5,-.45);
+\node[below right] at (1.5,-.45) {落点};\node at (.6,-1.9) {北半球俯视：还略向南};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{解图 2.19A\quad 偏移作放大示意。东偏是一阶效应，南北偏移是二阶效应。}
+\end{minipage}\end{center}
+解图 2.19A 左侧的下落速度主要沿 $-z$，产生东向加速度。右侧俯视图同时画出已有的东向速度引起的南北二阶偏移。
+
+\subsubsection*{一阶东偏}
+零阶为普通自由落体，$z_0=h-gt^2/2$、$\dot z_0=-gt$，$x_0=y_0=0$。代入科里奥利项，只保留一阶 $\omega$：
+\[
+\ddot x_1=2\omega g t\cos\varphi.
+\]
+由零初速、零初始横向位移连续积分，得到
+\[
+\dot x_1=\omega g\cos\varphi\,t^2,
+\qquad x_1=\frac13\omega g\cos\varphi\,t^3.
+\]
+零阶落地时间为 $t_0=\sqrt{2h/g}$，因此
+\[
+\boxed{x_f=\frac13\omega g\cos\varphi\left(\frac{2h}{g}\right)^{3/2}
+=\frac13\omega\cos\varphi\sqrt{\frac{8h^3}{g}}}.
+\]
+南北半球都有 $\cos\varphi\geq0$，均向东偏；赤道最大，两极的一阶东偏为零。量纲为长度，偏移随高度按 $h^{3/2}$ 增加。
+
+\subsubsection*{同一局部模型内的二阶项}
+将已有的一阶东向速度代入北向方程：
+\[
+\ddot y_2=-2\omega^2g\sin\varphi\cos\varphi\,t^2,
+\quad y_2=-\frac16\omega^2g\sin\varphi\cos\varphi\,t^4.
+\]
+故落地南北偏移为
+\[
+\boxed{y_f=-\frac{2\omega^2h^2}{3g}\sin\varphi\cos\varphi}.
+\]
+北半球为负，略向南；南半球为正，略向北，均朝赤道。
+竖直二阶项也由同一个东向速度产生：
+\[
+\ddot z_2=2\omega^2g\cos^2\varphi\,t^2,
+\quad z_2=\frac16\omega^2g\cos^2\varphi\,t^4.
+\]
+令落地时间为 $t_0+\delta t$，有 $\delta t=z_2(t_0)/(gt_0)=\omega^2\cos^2\varphi\,t_0^3/6$。将这个二阶时间修正代回一阶 $x$，只改变三阶项；代回二阶 $y$，只改变四阶项，所以以上保留阶数自洽。
+
+在常重力的局部方程中，南北二阶项由东向速度再次进入科里奥利项给出。
+\subsubsection*{先对速度积分，再控制近似阶数}
+由三个分量方程直接积分，并分别代入释放点的位置和零初速，可得到
+\[
+\dot x=-2\omega[(z-h)\cos\varphi-y\sin\varphi],\qquad
+\dot y=-2\omega x\sin\varphi,\qquad
+\dot z=-gt+2\omega x\cos\varphi.
+\]
+释放点的高度为 $h$，所以第一式的积分常数为 $2\omega h\cos\varphi$；后两式的初始位置项为零，积分常数也为零。
+将后两式代入$x$方向加速度，化为
+\[
+\ddot x+4\omega^2x=2\omega gt\cos\varphi,\qquad
+x(0)=\dot x(0)=0.
+\]
+这条常系数方程把两种二阶反馈一起包含在 $4\omega^2x$ 中。解出后按 $\omega t$ 展开，可直接读取各阶东偏。
+在题设常重力、只含科里奥利项的模型内，它的解为
+\[
+x(t)=\frac{g\cos\varphi}{2\omega}
+\left(t-\frac{\sin2\omega t}{2\omega}\right).
+\]
+前一项是线性特解，正弦项由初速度为零确定；
+当 $\omega t$ 很小时，正弦项首项为 $t$，与线性项相消。保留正弦的下一项，才得到首个非零东偏。
+展开括号后，
+\[
+x=\frac13\omega g\cos\varphi\,t^3
+-\frac1{15}\omega^3g\cos\varphi\,t^5+O(g\omega^5t^7).
+\]
+首项就是前面的一阶东偏。
+
+再将$x(t)$代回已积分的$\dot y,\dot z$，从初始位置积分，得到
+\[
+y=-g\sin\varphi\cos\varphi
+\left[\frac{t^2}{2}-\frac{1-\cos2\omega t}{4\omega^2}\right],
+\]
+\[
+z=h-\frac12gt^2+
+g\cos^2\varphi
+\left[\frac{t^2}{2}-\frac{1-\cos2\omega t}{4\omega^2}\right].
+\]
+方括号展开为$\omega^2t^4/6+O(\omega^4t^6)$，
+因此两式分别还原前面的二阶南北偏移和竖直修正。
+这套积分法保留全部初值，也明确显示为何北向运动要到二阶才出现。
+
+\subsubsection*{百米落体的东偏和南偏}
+例如取$\varphi=40^\circ$、$h=100\,\mathrm m$、$g=9.8\,\mathrm{m/s^2}$，
+并以$\omega=2\pi/(24\times3600)\,\mathrm{s^{-1}}$估算。
+零阶落地时间为$t_0\approx4.518\,\mathrm s$，
+$\omega t_0\approx3.29\times10^{-4}\ll1$。
+代入两条落点公式，得到
+\[
+x_f\approx1.678\times10^{-2}\,\mathrm m=16.78\,\mathrm{mm},
+\qquad
+y_f\approx-1.771\times10^{-6}\,\mathrm m=-0.001771\,\mathrm{mm}.
+\]
+主要偏移向东，局部模型的南向二阶偏移小得多。
+把两偏移相除，有 $|y_f|/x_f=(\omega t_0/2)|\sin\varphi|$。这里比值约为 $1.06\times10^{-4}$，因此东偏为厘米量级，南偏为微米量级。
+
+
+\Needspace{18\baselineskip}
+
+\pdfbookmark[2]{第 20 题 傅科摆摆动平面的旋转周期}{q20}
+
+\section*{第 20 题\quad 傅科摆摆动平面的旋转周期}
+
+\tagline{M-02-20}
+
+傅科摆在纬度 $\varphi$ 的地点作小角度摆动，地球自转角速度为 $\omega$，自转周期为 $T_0=2\pi/\omega$。忽略阻尼和离心项，且 $\omega$ 远小于摆的固有频率。证明摆动方向相对地面的进动角速度为 $-\omega\sin\varphi$，并求完整进动一周的周期。说明南北半球和赤道的情形。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-.7,3.2)--(.7,3.2);\draw[object] (0,3.2)--(.6,.4);\filldraw[object,fill=accent!10] (.6,.4) circle(.15);\draw[guide] (0,3.2)--(0,.2);
+\draw[object] (0,0) ellipse(1.6 and .45);\draw[traj] (-1.4,-.15)--(1.4,.15);\draw[guide] (-1.1,.31)--(1.1,-.31);\node at (0,-.8) {摆动方向随时间缓慢改变};
+\node[align=left] at (4.6,2) {$\Omega=\omega\sin\varphi$\\自转的竖直分量};
+
+\end{tikzpicture}
+\figcaption{图 2.20\quad 摆的快振动与摆动方向的慢进动同时发生。}
+\end{minipage}\end{center}
+
+\Needspace{5\baselineskip}\subsection*{解答}
+
+取 $x$ 向东、$y$ 向北，摆长为 $\ell$，固有角频率为 $\omega_0=\sqrt{g/\ell}$。小摆幅时，水平回复加速度分别为 $-\omega_0^2x$、$-\omega_0^2y$。地球自转的竖直分量记为 $\Omega=\omega\sin\varphi$，其科里奥利作用使两个水平速度耦合：
+\[
+\ddot x+\omega_0^2x=2\Omega\dot y,
+\qquad\ddot y+\omega_0^2y=-2\Omega\dot x.
+\]
+水平自转分量与竖直速度的耦合属于摆幅的高阶项，在这里的小振动水平模型中略去。
+
+\subsubsection*{把耦合方程化为普通振动}
+令 $Z=x+iy$，将第二式乘 $i$ 后与第一式相加：
+\[
+\ddot Z+2i\Omega\dot Z+\omega_0^2Z=0.
+\]
+作代换 $Z=e^{-i\Omega t}W$。逐项求导，
+\[
+\dot Z=e^{-i\Omega t}(\dot W-i\Omega W),
+\quad\ddot Z=e^{-i\Omega t}(\ddot W-2i\Omega\dot W-\Omega^2W).
+\]
+代回后 $\dot W$ 项抵消，得到
+\[
+\ddot W+(\omega_0^2+\Omega^2)W=0.
+\]
+所以在线性水平模型内
+\[
+Z=e^{-i\Omega t}(Ae^{i\nu t}+Be^{-i\nu t}),
+\qquad\nu=\sqrt{\omega_0^2+\Omega^2}\approx\omega_0.
+\]
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[axis] (-2,0)--(2.1,0) node[right] {东};\draw[axis] (0,-1.8)--(0,2) node[above] {北};
+\draw[guide] (-1.6,0)--(1.6,0);\draw[traj] (-1.386,.8)--(1.386,-.8);
+\draw[motion] (1.2,0) arc(0:-30:1.2);\node[right] at (1.3,-.35) {$-\Omega t$};
+\node[above] at (1.5,.1) {$t=0$};\node[below right] at (1.386,-.8) {$t>0$};
+\node[align=left] at (5.8,.6) {北半球：俯视顺时针\\南半球：俯视逆时针\\赤道：无此进动};
+
+\end{tikzpicture}
+\figcaption{解图 2.20A\quad 图示为北半球。快振动的方向以角速度 $-\Omega$ 相对地面转动。}
+\end{minipage}\end{center}
+解图 2.20A 的慢旋转因子是 $e^{-i\Omega t}$，表示水平振动图形相对地面以角速度 $-\Omega$ 转动；括号内则描述快得多的摆振动。
+
+\subsubsection*{由静止释放时，方向如何读取}
+例如 $Z(0)=a$、$\dot Z(0)=0$，则 $W(0)=a$、$\dot W(0)=i\Omega a$，具体解为
+\[
+Z=a e^{-i\Omega t}\left(\cos\nu t+i\frac\Omega\nu\sin\nu t\right).
+\]
+括号是一条短长轴比约为 $|\Omega|/\omega_0$ 的窄椭圆。由于 $|\Omega|\ll\omega_0$，椭圆很窄，通常把其长轴所在的竖直面称为摆动平面。图2.20A 用慢因子表示长轴方向，快振动在随该方向转动的窄椭圆上进行。
+
+按长轴方向完整进动 $2\pi$ 定义周期，
+\[
+\boxed{T'=\frac{2\pi}{|\Omega|}=\frac{T_0}{|\sin\varphi|}},
+\qquad\varphi\ne0.
+\]
+北半球 $\varphi>0$ 时为 $T_0/\sin\varphi$，从上看顺时针；南半球的周期仍取正值，方向改为逆时针。赤道 $\Omega=0$，没有这类水平进动；两极 $|\sin\varphi|=1$，进动周期等于地球自转周期。
+
+摆长改变会改变快振动频率 $\omega_0$，不改变慢进动角速度的一阶结果。若只把摆动平面当成无方向的直线，转过 $\pi$ 已与原平面重合，重合时间为 $T'/2$；这里的 $T'$ 采用完整转过一周的约定。
+\subsubsection*{由三维受力说明水平近似的依据}
+取摆球平衡位置为$O$，悬点坐标为$(0,0,\ell)$，
+竖直位移仍记为小写$z$，复坐标用大写$Z$。
+摆线张力大小记为$T$，其矢量为
+\[
+\vect T=T\left(-\frac x\ell,-\frac y\ell,\frac{\ell-z}{\ell}\right).
+\]
+重力为$(0,0,-mg)$，加上科里奥利力后，三个分量方程是
+\[
+\begin{aligned}
+\ddot x&=-\frac{T}{m\ell}x
+-2\omega(\cos\varphi\,\dot z-\sin\varphi\,\dot y),\\
+\ddot y&=-\frac{T}{m\ell}y-2\omega\sin\varphi\,\dot x,\\
+\ddot z&=-g+\frac Tm\left(1-\frac z\ell\right)
++2\omega\cos\varphi\,\dot x.
+\end{aligned}
+\]
+摆球的高度随水平位置改变。由不可伸长约束，
+\[
+z=\ell-\sqrt{\ell^2-x^2-y^2}
+=\frac{x^2+y^2}{2\ell}+O((x^2+y^2)^2/\ell^3).
+\]
+若水平振幅为$a\ll\ell$，$z$及$\dot z$均是摆幅的二阶量；
+张力相对$mg$的修正进入水平回复项时还要再乘$x/\ell$或$y/\ell$。
+所以在水平位移的一阶方程中，可用$T=mg$并略去
+$-2\omega\cos\varphi\,\dot z$，留下的耦合只含
+$\Omega=\omega\sin\varphi$。这些项按摆幅的阶数排列后，前面的水平小振动模型便由三维方程逐项得到。
+
+\subsubsection*{转动坐标中的椭圆及其相位}
+令随慢进动转动的水平坐标为$x',y'$，
+$W=x'+iy'$，则$Z=e^{-i\Omega t}W$表示
+\[
+\begin{pmatrix}x\\y\end{pmatrix}
+=\begin{pmatrix}
+\cos\Omega t&\sin\Omega t\\-\sin\Omega t&\cos\Omega t
+\end{pmatrix}
+\begin{pmatrix}x'\\y'\end{pmatrix}.
+\]
+在适当选择轴向和快振动相位后，$W$可写为
+$a\cos\nu t+i b\sin\nu t$，因此
+\[
+x'=a\cos\nu t,\qquad y'=b\sin\nu t,\qquad
+\frac{x'^2}{a^2}+\frac{y'^2}{b^2}=1.
+\]
+非零 $a,b$ 给固定椭圆，$b=0$ 时退化为直线。若 $|a|=|b|$，轨迹为圆，等长的半径不区分长轴和短轴。
+由静止释放的初值给 $b/a=\Omega/\nu$，在 $|\Omega|\ll\omega_0$ 下形成窄椭圆。其他初始速度则通过 $A,B$ 决定相应的长短轴。
+解图2.20B把转动坐标、快椭圆和地面方向放在同一图中，
+椭圆长轴随$x'$轴缓慢转动。
+\begin{center}\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}
+\draw[axis] (-2.3,0)--(2.5,0) node[right] {$x$，东};
+\draw[axis] (0,-1.6)--(0,1.8) node[above] {$y$，北};
+\begin{scope}[rotate=-25]
+\draw[axis] (-2.1,0)--(2.25,0) node[right] {$x'$};
+\draw[axis] (0,-.6)--(0,1.05) node[above] {$y'$};
+\draw[traj] (0,0) ellipse(1.8 and .3);
+\draw[thin,<->] (0,-.16)--(1.8,-.16) node[midway,below] {$a$};
+\draw[thin,<->] (-.25,0)--(-.25,.3);
+\node[fill=white,inner sep=1pt] at (-.6,.48) {$|b|$};
+\draw[thin] (-.5,.35)--(-.25,.15);
+\end{scope}
+\draw[motion] (1.4,0) arc[start angle=0,end angle=-25,radius=1.4];
+\node[right] at (1.5,-.42) {$-\Omega t$};
+\node[align=left] at (5.6,.85) {快运动在转动坐标中为固定椭圆\\
+地面系中的长轴以$-\Omega$进动\\
+短轴在图中放大};
+\end{tikzpicture}
+\figcaption{解图2.20B\quad 北半球的地面坐标与慢转动坐标；摆球沿椭圆快振动，椭圆长轴随$x'$轴缓慢转动。}
+\end{minipage}\end{center}
+也可把解分解为两个相反方向的圆周分量：
+$Z=Ae^{i(\nu-\Omega)t}+Be^{-i(\nu+\Omega)t}$。
+两个快角频率之差的大小为$2|\Omega|$，共同的慢旋转因子仍是
+$e^{-i\Omega t}$。这个因子的模长为一，不使振幅随时间衰减。
+若按$T_0=24$小时、$\varphi=40^\circ$估算，
+$T'=24/\sin40^\circ\approx37.34$小时，约为37小时20分；
+更换所取的地球自转周期时，应在同一公式中一致代入。
+\subsubsection*{两个圆周分量的系数由初值确定}
+把$Z=C e^{i\sigma t}$代入复方程，约去非零公因子，得到
+\[
+-\sigma^2-2\Omega\sigma+\omega_0^2=0,
+\qquad \sigma=-\Omega\pm\sqrt{\omega_0^2+\Omega^2}
+=-\Omega\pm\nu.
+\]
+这里$\sigma$有正负号，表示图2.20B平面内的两种旋转方向；
+两个正的快角频率分别为$\nu-\Omega$与$\nu+\Omega$。
+从东侧静止释放，初值给出
+\[
+A+B=a,\qquad (\nu-\Omega)A-(\nu+\Omega)B=0.
+\]
+解得
+\[
+A=\frac a2\left(1+\frac\Omega\nu\right),\qquad
+B=\frac a2\left(1-\frac\Omega\nu\right).
+\]
+因此$A+B=a$给出椭圆长半轴，$A-B=a\Omega/\nu$给出带方向的短半轴。
+两圆周分量的幅值略不相等，正是静止释放后出现窄椭圆的原因。
+$\nu=\omega_0+\Omega^2/(2\omega_0)+O(\Omega^4/\omega_0^3)$
+中的频率修正是自转角速度的二阶量，
+而慢进动$-\Omega$是一阶量。本题取自转角速度的一阶精度，
+用$\omega_0$描述快振动，用$-\Omega$描述长轴相对地面的慢进动。
+
+
+
+\end{document}

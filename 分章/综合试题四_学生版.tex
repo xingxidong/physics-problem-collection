@@ -1,0 +1,322 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000\newcommand{\chapterlabel}{综合试题（四）}
+
+
+
+
+
+
+
+\hypersetup{pdftitle={综合试题（四）·学生版},pdfauthor={}}
+
+\begin{document}\pdfbookmark[0]{综合试题（四）}{cover}
+
+\thispagestyle{empty}\vspace*{22mm}
+
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{12mm}
+
+\noindent{\LARGE 综合试题（四）}\par\vspace{12mm}
+
+\noindent{\Large\color{accent}学生版}\par\vspace{9mm}
+
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{9mm}
+
+\noindent 第1--6题\par\vfill\clearpage
+
+\pdfbookmark[1]{题目目录}{contents}\section*{题目目录}
+
+\begin{longtable}{@{}r p{113mm} r@{}}\toprule 题号 & 题目 & 页码\\\midrule
+
+\hyperref[q:1]{1} & \hyperref[q:1]{由几何约束与自相似计算转动惯量} & \pageref{q:1} \\
+
+\hyperref[q:2]{2} & \hyperref[q:2]{方截面浮木的平衡与临界稳定性} & \pageref{q:2} \\
+
+\hyperref[q:3]{3} & \hyperref[q:3]{滑动悬点细杆的周期与整体落地} & \pageref{q:3} \\
+
+\hyperref[q:4]{4} & \hyperref[q:4]{环形轨道上的连续喷珠与回收} & \pageref{q:4} \\
+
+\hyperref[q:5]{5} & \hyperref[q:5]{二维静电场的通量、场能与带电圆环} & \pageref{q:5} \\
+
+\hyperref[q:6]{6} & \hyperref[q:6]{相对论库仑轨道的近日点进动} & \pageref{q:6} \\
+
+\bottomrule\end{longtable}
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 由几何约束与自相似计算转动惯量}{q1}
+
+\section*{第 1 题\quad 由几何约束与自相似计算转动惯量}\label{q:1}
+
+
+（1）一不规则、未必匀质的薄板内有三点$P_1,P_2,P_3$，满足
+$P_1P_2=2l,\ P_2P_3=l,\ P_3P_1=\sqrt3l$。薄板质量为$m$，绕过质心$C$且垂直板面的轴转动惯量为$I_C$，已知绕过$P_1,P_2$的平行轴分别有
+\[
+I_1=I_C+ml^2,\qquad I_2=I_C+3ml^2.
+\]
+求绕过$P_3$的平行轴转动惯量$I_3$，并讨论结果是否唯一。
+
+（2）均匀薄球壳质量$m$、半径$R$，求绕任一直径的转动惯量。另有半长轴$A$、半短轴$B$、质量$m$的椭圆细环，其质量未必均匀；已知绕长轴的转动惯量$I_A$，求绕短轴的$I_B$。
+
+（3）均匀立方体质量$m$、边长$a$，求绕体对角线$PQ$的转动惯量。要求用量纲、自相似分割和平行轴定理推导系数。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\coordinate (P1) at (0,2);\coordinate (P2) at (0,0);\coordinate (P3) at (.866,.5);
+\draw[object] (P1)--(P2)--(P3)--cycle;
+\fill (P1) circle (2pt) node[above] {$P_1$};
+\fill (P2) circle (2pt) node[below] {$P_2$};
+\fill (P3) circle (2pt) node[right] {$P_3$};
+\node[left] at (0,1) {$2l$};\node[above right] at (.55,1.4) {$\sqrt3l$};
+\node[below right] at (.45,.2) {$l$};
+
+\begin{scope}[xshift=3.4cm]
+\draw[object] (0,1) circle (.85);
+\draw[guide] (-1,1)--(1,1);
+\node at (0,-.3) {薄球壳};
+\draw[object] (0,-2) ellipse (1.2 and .6);
+\draw[guide] (-1.4,-2)--(1.4,-2) node[right] {$A$};
+\draw[guide] (0,-2.8)--(0,-1.2) node[above] {$B$};
+\end{scope}
+\begin{scope}[xshift=6.4cm]
+\begin{scope}[x={(2.2cm,0cm)},y={(1cm,.8cm)},z={(0cm,2.2cm)}]
+\draw[object] (0,0,0)--(1,0,0)--(1,0,1)--(0,0,1)--cycle;
+\draw[object] (0,0,1)--(0,1,1)--(1,1,1)--(1,0,1);
+\draw[object] (1,0,0)--(1,1,0)--(1,1,1);
+\draw[guide] (0,0,0)--(0,1,0)--(0,1,1) (0,1,0)--(1,1,0);
+\draw[motion] (0,0,0)--(1,1,1);
+\node[below left] at (0,0,0) {$P$};\node[above right] at (1,1,1) {$Q$};
+\end{scope}\end{scope}
+
+\end{tikzpicture}
+\figcaption{图综四.1\quad 三点轴距、薄球壳与椭圆环及体对角线PQ，分属三问。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 2 题 方截面浮木的平衡与临界稳定性}{q2}
+
+\section*{第 2 题\quad 方截面浮木的平衡与临界稳定性}\label{q:2}
+
+
+一根均匀长方体木料，其正截面为边长$2a$的正方形，长边始终与水面平行。木料密度为$\rho$，水的密度为$\rho_0$，忽略毛细作用。
+
+（1）给出木料部分露出水面时的平衡条件，说明浮心与重心的几何关系。
+
+（2）木料对称地浮在水面上，正截面的一条对角线竖直，且只有一条长棱没入水中，浸截面是下角的等腰直角三角形。讨论这种姿态对微小转动的稳定性，尤其说明临界密度比时是否随遇平衡。必要的参数可自行定义。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\fill[accent!12] (-1.05,-.364)--(0,-1.414)--(1.05,-.364)--cycle;
+
+\draw[object] (0,-1.414)--(1.414,0)--(0,1.414)--(-1.414,0)--cycle;
+\fill (0,0) circle (2pt) node[above right] {$O$};
+
+\draw[axis] (-2,-.364)--(2,-.364) node[right] {水面};
+\fill (0,-.714) circle (2pt) node[right] {$C$};
+\draw[force] (0,-.714)--(0,.6) node[left] {浮力};
+\draw[force,color=warm] (0,0)--(0,-1.3) node[right] {重力};
+\node at (0,-2.2) {长边垂直纸面，正截面边长$2a$};
+
+\end{tikzpicture}
+\figcaption{图综四.2\quad 对称尖角向下的浮木，浮力作用线通过浸三角形重心。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 3 题 滑动悬点细杆的周期与整体落地}{q3}
+
+\section*{第 3 题\quad 滑动悬点细杆的周期与整体落地}\label{q:3}
+
+
+质量$m$、长$2l$的均匀细杆，其上端$A$套在水平光滑横梁上，可无摩擦滑动。开始时细杆静止，与竖直方向夹$60^\circ$，杆的下端在$A$左下方；$A$距横梁左端为$S$。横梁距水平地面高度为$h$。
+
+（1）若$S$足够大，细杆可完整往复摆动。比较其周期与长$1.1l$、上端固定、振幅也为$60^\circ$的单摆周期，不作小角度近似。
+
+（2）若细杆恰在竖直最低位置时，上端$A$从横梁左端脱出，求相应的$S$。要使杆上各部分同时向下落到地面，$h$应取哪些值？同时说明各候选高度下杆端在此前是否触地。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[object] (-2,0)--(3.5,0);
+\fill (1.2,0) circle (3pt) node[above] {$A$};
+\draw[object,line width=1.5pt] (1.2,0)--(-1.8,-1.732);
+\fill (-.3,-.866) circle (2pt) node[below] {$C$};
+\draw[guide] (1.2,0)--(1.2,-2.5);
+\draw[guide] (1.2,-.8) arc[start angle=-90,end angle=-150,radius=.8];
+\node at (.6,-1) {$60^\circ$};
+\draw[axis,<->] (-2,.6)--(1.2,.6) node[midway,above] {$S$};
+
+\draw[object] (-2.5,-4)--(3.6,-4);
+\draw[axis,<->] (3.2,0)--(3.2,-4) node[midway,right] {$h$};
+\node at (-.6,-2.6) {均匀杆长$2l$};
+
+\end{tikzpicture}
+\figcaption{图综四.3\quad 上端可沿梁滑动；杆到竖直最低位置时可从左端脱出。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 4 题 环形轨道上的连续喷珠与回收}{q4}
+
+\section*{第 4 题\quad 环形轨道上的连续喷珠与回收}\label{q:4}
+
+
+光滑水平面上固定一个光滑大圆环，半径$R$。一个尺寸可忽略的发射装置$P$紧贴环内侧，起初静止，其头朝右、尾朝左。装置干质量为$m$，内部许多光滑微珠的总质量也为$m$。
+
+从$t=0$起，装置从尾部沿切线向后连续发珠，珠相对装置的喷出速率恒为$u$，质量流率恒定。当装置的头首次与沿环逆行、从前方迎来的珠相遇时，恰好全部珠已发完，记此时为$T$。
+
+（1）求发射全过程装置相对圆环转过的角度，精确到$1^\circ$。（2）若此后装置把迎来的珠吞入，不再发射，求最终速率，并证明所有珠都能被回收。忽略装置和微珠在轨道上的尺寸以及珠间相互碰撞。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[object] (0,0) circle (2);
+\fill[accent] (-.3,1.88) rectangle (.3,2.12);
+\node[above] at (0,2.2) {$P$};
+\draw[motion] (.4,2)--(1.3,2) node[right] {$v$正向};
+\draw[motion] (-.4,2)--(-1.3,2) node[left] {喷珠};
+\fill (0,0) circle (2pt) node[below] {$O$};
+\draw[guide] (0,0)--(1.414,-1.414) node[midway,below left] {$R$};
+
+\node[align=left] at (5,0) {干质量$m$\\待发珠总质量$m$\\相对喷速$u$};
+
+\end{tikzpicture}
+\figcaption{图综四.4\quad 以装置初始头向为沿环正向；支持力对环心无力矩。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 5 题 二维静电场的通量、场能与带电圆环}{q5}
+
+\section*{第 5 题\quad 二维静电场的通量、场能与带电圆环}\label{q:5}
+
+
+设一个假想世界的空间是二维平面，真空中电荷间的力为
+\[
+\boldsymbol F=\frac{Qq}{2\pi\epsilon_*}\frac{\boldsymbol r}{r^2},
+\]
+其中$\boldsymbol r$从电荷$Q$指向$q$，$\epsilon_*>0$为该世界的真空常量。
+
+（1）定义闭合曲线上线元矢量$d\boldsymbol\ell=\boldsymbol n\,d\ell$，$\boldsymbol n$为外法线单位矢量，导出静电场的高斯定理。（2）通过两条平行带电直线构成的特例，验证单位面积场能$w$与$E^2$成正比，并确定系数。（3）利用场能关系求总电荷$Q>0$、半径$R$的均匀带电圆环在环上电荷处的电场，需说明取值含义。（4）在任意有界、面积非零的区域内均匀分布正电荷，面密度$\sigma>0$，证明全平面的电场能发散。
+
+第（3）问环上取场须排除该点自身的电荷元，按两侧极限的对称平均理解；所有电场、面积与环均处于二维世界中。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[object] (0,0) circle (1.6);
+\fill (0,0) circle (2pt) node[below] {$Q$};
+\draw[guide] (0,0)--(1.6,0) node[midway,below] {$r$};
+\draw[force] (1.6,0)--(2.7,0) node[right] {$\boldsymbol E$};
+\begin{scope}[xshift=6cm]
+\fill[accent!15] plot[smooth cycle] coordinates {(-1.4,-.8)(-.7,1.3)(.6,1.1)(1.5,.1)(.6,-1.2)};
+\draw[object] plot[smooth cycle] coordinates {(-1.4,-.8)(-.7,1.3)(.6,1.1)(1.5,.1)(.6,-1.2)};
+\node at (0,0) {$\sigma>0$};
+\node at (0,-2) {有限带电区域};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图综四.5\quad 二维点电荷的1/r场与有界面电荷区，场和电荷均在同一平面。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 6 题 相对论库仑轨道的近日点进动}{q6}
+
+\section*{第 6 题\quad 相对论库仑轨道的近日点进动}\label{q:6}
+
+
+惯性系中固定点电荷$Q>0$位于平面内的$O$，另一静质量为$m_0$、带电量$-q$（$q>0$）的粒子$P$受其库仑力，沿有界、非圆轨道运动。其初始总相对论能量为$E_0$，包括静能和电势能；关于$O$的初始角动量为$L_0>0$。令
+\[
+\kappa=\frac{qQ}{4\pi\epsilon_0},\qquad
+\eta=\frac{\kappa}{L_0c}\ll1.
+\]
+这里使用三维真空库仑定律，但粒子运动限于一个平面；忽略辐射反作用。
+
+（1）证明忽略$\eta^2$的零级近似轨道为椭圆。（2）求保留相对论动力学后的轨道方程，说明相邻两次近日点之间的转角，进而给出每个径向周期的进动角及其最低阶近似。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[traj,domain=0:400,samples=200] plot ({2*cos(\x)/(1+.45*cos(.96*\x))},{2*sin(\x)/(1+.45*cos(.96*\x))});
+\fill (0,0) circle (2pt) node[below] {$O,+Q$};
+\node at (0,-3.6) {有界非圆轨道，图中进动为示意};
+\draw[guide] (0,0)--(1.38,0) node[midway,below] {$r$};
+
+\end{tikzpicture}
+\figcaption{图综四.6\quad 三维库仑力限于平面运动，相对论动力学使近日点方向改变。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\end{document}

@@ -1,0 +1,2272 @@
+{
+  "单元": "电磁学第五章",
+  "题数": 20,
+  "分章文件_SHA256": {
+    "电磁学第五章_学生版.pdf": "dd96613046f696a7b7b3a1956c414794db57808d9b969fc8b10a224000fd175c",
+    "电磁学第五章_学生版.tex": "4ed45ae1de6676997f529f10229a0cef9ed46c97a97057e14325775ae51683c8",
+    "电磁学第五章_学生解答版.pdf": "d2bd27ab49585ee94c009141f81d04dc90832415bc9b803985f17c2164bcbbd2",
+    "电磁学第五章_学生解答版.tex": "37b55132f6e18b06fc4a6a09d06a88c5ba14d0b2d2fd3d7f1fa0089bad34fd23",
+    "电磁学第五章_教师版.pdf": "8c1f8009ff8725ef8a5aef7090e5ce60d8e625907087299e83beb0fe58b08f92",
+    "电磁学第五章_教师版.tex": "77312398876c7cb54195552553a5c83ac8e1221ad36db5959dc336b20cd6726e"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "偏轴旋转线圈的电流、力矩与能量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 989,
+          "chinese_characters": 287
+        },
+        "student": {
+          "content_characters": 1446,
+          "chinese_characters": 638
+        },
+        "teacher": {
+          "content_characters": 1446,
+          "chinese_characters": 638
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电5.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.1A",
+          "解图电5.1B",
+          "解图电5.1C",
+          "解图电5.1D",
+          "变图电5.1V1",
+          "变图电5.1V2",
+          "变图电5.1V3",
+          "变图电5.1V4",
+          "变图电5.1V5",
+          "变图电5.1V6",
+          "变图电5.1V7",
+          "变图电5.1V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "随时间变化的门限与张弛振荡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 774,
+          "chinese_characters": 287
+        },
+        "student": {
+          "content_characters": 1859,
+          "chinese_characters": 1013
+        },
+        "teacher": {
+          "content_characters": 1859,
+          "chinese_characters": 1013
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.2A",
+          "解图电5.2B",
+          "解图电5.2C",
+          "变图电5.2V1",
+          "变图电5.2V2",
+          "变图电5.2V3",
+          "变图电5.2V4",
+          "变图电5.2V5",
+          "变图电5.2V6",
+          "变图电5.2V7",
+          "变图电5.2V8"
+        ],
+        "edits": [
+          {
+            "stage": "content",
+            "description": "补首次交点的斜率条件，以及交替触发的小扰动。"
+          },
+          {
+            "stage": "humanizer-zh",
+            "description": "直写两个交点从下向上的过零方向。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "一次闪亮后不再点燃的氖灯",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 968,
+          "chinese_characters": 327
+        },
+        "student": {
+          "content_characters": 1442,
+          "chinese_characters": 509
+        },
+        "teacher": {
+          "content_characters": 1442,
+          "chinese_characters": 509
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.3A",
+          "解图电5.3B",
+          "解图电5.3C",
+          "变图电5.3V1",
+          "变图电5.3V2",
+          "变图电5.3V3",
+          "变图电5.3V4",
+          "变图电5.3V5",
+          "变图电5.3V6",
+          "变图电5.3V7",
+          "变图电5.3V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "任意波形下保持平衡的电感电桥",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 454,
+          "chinese_characters": 268
+        },
+        "student": {
+          "content_characters": 1423,
+          "chinese_characters": 658
+        },
+        "teacher": {
+          "content_characters": 1423,
+          "chinese_characters": 658
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.4A",
+          "解图电5.4B",
+          "解图电5.4C",
+          "变图电5.4V1",
+          "变图电5.4V2",
+          "变图电5.4V3",
+          "变图电5.4V4",
+          "变图电5.4V5",
+          "变图电5.4V6",
+          "变图电5.4V7",
+          "变图电5.4V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "三元件黑盒的连接与参数识别",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1231,
+          "chinese_characters": 662
+        },
+        "student": {
+          "content_characters": 3157,
+          "chinese_characters": 1395
+        },
+        "teacher": {
+          "content_characters": 3157,
+          "chinese_characters": 1395
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.5A",
+          "解图电5.5B",
+          "解图电5.5C",
+          "变图电5.5V1",
+          "变图电5.5V2",
+          "变图电5.5V3",
+          "变图电5.5V4",
+          "变图电5.5V5",
+          "变图电5.5V6",
+          "变图电5.5V7",
+          "变图电5.5V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "不对称星形负载与中性点漂移",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 925,
+          "chinese_characters": 351
+        },
+        "student": {
+          "content_characters": 2139,
+          "chinese_characters": 727
+        },
+        "teacher": {
+          "content_characters": 2139,
+          "chinese_characters": 727
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.6A",
+          "解图电5.6B",
+          "解图电5.6C",
+          "变图电5.6V1",
+          "变图电5.6V2",
+          "变图电5.6V3",
+          "变图电5.6V4",
+          "变图电5.6V5",
+          "变图电5.6V6",
+          "变图电5.6V7",
+          "变图电5.6V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "非正弦电源的谐波叠加与瞬时投影",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1203,
+          "chinese_characters": 501
+        },
+        "student": {
+          "content_characters": 2147,
+          "chinese_characters": 993
+        },
+        "teacher": {
+          "content_characters": 2147,
+          "chinese_characters": 993
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.7A",
+          "解图电5.7B",
+          "解图电5.7C",
+          "变图电5.7V1",
+          "变图电5.7V2",
+          "变图电5.7V3",
+          "变图电5.7V4",
+          "变图电5.7V5",
+          "变图电5.7V6",
+          "变图电5.7V7",
+          "变图电5.7V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "含电抗桥支路的复阻抗网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 768,
+          "chinese_characters": 223
+        },
+        "student": {
+          "content_characters": 2087,
+          "chinese_characters": 796
+        },
+        "teacher": {
+          "content_characters": 2087,
+          "chinese_characters": 796
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.8A",
+          "解图电5.8B",
+          "解图电5.8C",
+          "变图电5.8V1",
+          "变图电5.8V2",
+          "变图电5.8V3",
+          "变图电5.8V4",
+          "变图电5.8V5",
+          "变图电5.8V6",
+          "变图电5.8V7",
+          "变图电5.8V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "有损线圈的等效模型与导纳电桥",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 875,
+          "chinese_characters": 331
+        },
+        "student": {
+          "content_characters": 2152,
+          "chinese_characters": 982
+        },
+        "teacher": {
+          "content_characters": 2152,
+          "chinese_characters": 982
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.9C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.9A",
+          "解图电5.9B",
+          "解图电5.9C",
+          "变图电5.9V1",
+          "变图电5.9V2",
+          "变图电5.9V3",
+          "变图电5.9V4",
+          "变图电5.9V5",
+          "变图电5.9V6",
+          "变图电5.9V7",
+          "变图电5.9V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "交流跳环的相位与平均斥力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1120,
+          "chinese_characters": 600
+        },
+        "student": {
+          "content_characters": 2171,
+          "chinese_characters": 1181
+        },
+        "teacher": {
+          "content_characters": 2171,
+          "chinese_characters": 1181
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.10A",
+          "解图电5.10B",
+          "解图电5.10C",
+          "变图电5.10V1",
+          "变图电5.10V2",
+          "变图电5.10V3",
+          "变图电5.10V4",
+          "变图电5.10V5",
+          "变图电5.10V6",
+          "变图电5.10V7",
+          "变图电5.10V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "将平均磁力正负对应到周期内的面积。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "并联谐振的带宽、自由振荡与持久环流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1376,
+          "chinese_characters": 528
+        },
+        "student": {
+          "content_characters": 2953,
+          "chinese_characters": 1163
+        },
+        "teacher": {
+          "content_characters": 2953,
+          "chinese_characters": 1163
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.11A",
+          "解图电5.11B",
+          "解图电5.11C",
+          "变图电5.11V1",
+          "变图电5.11V2",
+          "变图电5.11V3",
+          "变图电5.11V4",
+          "变图电5.11V5",
+          "变图电5.11V6",
+          "变图电5.11V7",
+          "变图电5.11V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "把单位换算写进求频率与带宽的计算。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "无限电感电容链的色散与传播速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1133,
+          "chinese_characters": 524
+        },
+        "student": {
+          "content_characters": 2183,
+          "chinese_characters": 1032
+        },
+        "teacher": {
+          "content_characters": 2183,
+          "chinese_characters": 1032
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.12C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电5.12D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.12A",
+          "解图电5.12B",
+          "解图电5.12C",
+          "解图电5.12D",
+          "变图电5.12V1",
+          "变图电5.12V2",
+          "变图电5.12V3",
+          "变图电5.12V4",
+          "变图电5.12V5",
+          "变图电5.12V6",
+          "变图电5.12V7",
+          "变图电5.12V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "完全互感耦合回路的充放电与快慢模式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1632,
+          "chinese_characters": 560
+        },
+        "student": {
+          "content_characters": 3083,
+          "chinese_characters": 1390
+        },
+        "teacher": {
+          "content_characters": 3083,
+          "chinese_characters": 1390
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.13A",
+          "解图电5.13B",
+          "解图电5.13C",
+          "变图电5.13V1",
+          "变图电5.13V2",
+          "变图电5.13V3",
+          "变图电5.13V4",
+          "变图电5.13V5",
+          "变图电5.13V6",
+          "变图电5.13V7",
+          "变图电5.13V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "双电容电阻网的两个衰减模式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1005,
+          "chinese_characters": 367
+        },
+        "student": {
+          "content_characters": 2252,
+          "chinese_characters": 733
+        },
+        "teacher": {
+          "content_characters": 2252,
+          "chinese_characters": 733
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.14C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.14A",
+          "解图电5.14B",
+          "解图电5.14C",
+          "变图电5.14V1",
+          "变图电5.14V2",
+          "变图电5.14V3",
+          "变图电5.14V4",
+          "变图电5.14V5",
+          "变图电5.14V6",
+          "变图电5.14V7",
+          "变图电5.14V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "带电容反馈的阶跃放大器",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1367,
+          "chinese_characters": 552
+        },
+        "student": {
+          "content_characters": 2255,
+          "chinese_characters": 1071
+        },
+        "teacher": {
+          "content_characters": 2255,
+          "chinese_characters": 1071
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.15A",
+          "解图电5.15B",
+          "解图电5.15C",
+          "变图电5.15V1",
+          "变图电5.15V2",
+          "变图电5.15V3",
+          "变图电5.15V4",
+          "变图电5.15V5",
+          "变图电5.15V6",
+          "变图电5.15V7",
+          "变图电5.15V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "漏电电容分压与不交换的极限",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1645,
+          "chinese_characters": 513
+        },
+        "student": {
+          "content_characters": 2935,
+          "chinese_characters": 1141
+        },
+        "teacher": {
+          "content_characters": 2935,
+          "chinese_characters": 1141
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.16A",
+          "解图电5.16B",
+          "解图电5.16C",
+          "变图电5.16V1",
+          "变图电5.16V2",
+          "变图电5.16V3",
+          "变图电5.16V4",
+          "变图电5.16V5",
+          "变图电5.16V6",
+          "变图电5.16V7",
+          "变图电5.16V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "正弦电源接通时的电容充电暂态",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 983,
+          "chinese_characters": 286
+        },
+        "student": {
+          "content_characters": 1977,
+          "chinese_characters": 760
+        },
+        "teacher": {
+          "content_characters": 1977,
+          "chinese_characters": 760
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.17C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.17A",
+          "解图电5.17B",
+          "解图电5.17C",
+          "变图电5.17V1",
+          "变图电5.17V2",
+          "变图电5.17V3",
+          "变图电5.17V4",
+          "变图电5.17V5",
+          "变图电5.17V6",
+          "变图电5.17V7",
+          "变图电5.17V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "大气电场、离子中和与旋转电场仪",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1638,
+          "chinese_characters": 875
+        },
+        "student": {
+          "content_characters": 3201,
+          "chinese_characters": 1427
+        },
+        "teacher": {
+          "content_characters": 3201,
+          "chinese_characters": 1427
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.18B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.18C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电5.18D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.18A",
+          "解图电5.18B",
+          "解图电5.18C",
+          "解图电5.18D",
+          "变图电5.18V1",
+          "变图电5.18V2",
+          "变图电5.18V3",
+          "变图电5.18V4",
+          "变图电5.18V5",
+          "变图电5.18V6",
+          "变图电5.18V7",
+          "变图电5.18V8"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "说明负地表电荷向零增加，电场绝对值与离子流同时下降。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "假设磁单极子的线圈探测",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 913,
+          "chinese_characters": 595
+        },
+        "student": {
+          "content_characters": 2163,
+          "chinese_characters": 1268
+        },
+        "teacher": {
+          "content_characters": 2163,
+          "chinese_characters": 1268
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.19C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图电5.19A",
+          "解图电5.19B",
+          "解图电5.19C",
+          "变图电5.19V1",
+          "变图电5.19V2",
+          "变图电5.19V3",
+          "变图电5.19V4",
+          "变图电5.19V5",
+          "变图电5.19V6",
+          "变图电5.19V7",
+          "变图电5.19V8"
+        ],
+        "edits": []
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "切连科夫辐射的几何、阈值与测量误差",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1000,
+          "chinese_characters": 383
+        },
+        "student": {
+          "content_characters": 2368,
+          "chinese_characters": 928
+        },
+        "teacher": {
+          "content_characters": 2368,
+          "chinese_characters": 928
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电5.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电5.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电5.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电5.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电5.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电5.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮读知识点与物理图像；有勘改或优先问题另读相关段落及主解，其余字段接既审证据",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图电5.20A",
+          "解图电5.20B",
+          "解图电5.20C"
+        ],
+        "edits": [
+          {
+            "stage": "humanizer-zh",
+            "description": "直接用锥面图说明零角阈值与非零辐射。"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

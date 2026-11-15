@@ -1,0 +1,34 @@
+{
+  "题数": 667,
+  "单元数": 38,
+  "分章PDF": 114,
+  "图目统计": {
+    "question": 667,
+    "题图": 668,
+    "解图": 1948,
+    "变图": 4923
+  },
+  "合订交付文件": [
+    {
+      "版本": "学生版",
+      "页数": 754,
+      "合订方式": "LaTeX grouped typesetting with compiled contents, printed page offsets and rebuilt PDF navigation",
+      "pdf_sha256": "1b616a613893209de99aa11633699ca83474d04437f0bfa5b5aa16faf820c114",
+      "tex_sha256": "8f954aa150dc491b182dc76e9714680c5357bd160444fa06e9dbad82c72964f4"
+    },
+    {
+      "版本": "学生解答版",
+      "页数": 1948,
+      "合订方式": "LaTeX grouped typesetting with compiled contents, printed page offsets and rebuilt PDF navigation",
+      "pdf_sha256": "dd71253abad1d8be225912c86b3d086cbdf5823347fd9bed47238f7d6388d448",
+      "tex_sha256": "512892c8e323d05f9d761f93d562d8f1d54ff7b5b857c16c79f4dc963b3366d5"
+    },
+    {
+      "版本": "教师版",
+      "页数": 4835,
+      "合订方式": "按已正式编译的 LaTeX 分章矢量页合订；更新书首目录、页码、书签和跳转，正文与图不重排。",
+      "pdf_sha256": "b5f3bbaba4c00eb4f5e8a2d89db3996e6d7bf617ffa6e9ddaf50aa9f7c9e44f1",
+      "tex_sha256": "d91ce2c7a015eaa53bcd84f7a8cedcbc12178aa53337bdaed8b2821852b82a30"
+    }
+  ]
+}

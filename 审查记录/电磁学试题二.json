@@ -1,0 +1,510 @@
+{
+  "单元": "电磁学试题二",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "电磁学试题二_学生版.pdf": "bf7e20183243564032ae8effe83388cd623837284aacbec5b6eae9a1df11fb34",
+    "电磁学试题二_学生版.tex": "0683e496b3d2ce09f7aebbfee107cca4570c31a63c37fd469607e2df2d334e16",
+    "电磁学试题二_学生解答版.pdf": "0790caaa03df19e73dae10e6944bad2b1fffef5cd029fbc291dc9caff9a7022d",
+    "电磁学试题二_学生解答版.tex": "ce089a7275a1790f26d0fe476bdfa653f3470cbbdeb9417609e21ee5459a4ef4",
+    "电磁学试题二_教师版.pdf": "31fc03090c10e0c79079f9a30320fc5e40720f8acd5e0f002b273eb29383ba8c",
+    "电磁学试题二_教师版.tex": "1e79d87653c5c37e1ccd15a7cc30d2d4206827a4d35bf623e4a04e9d499a19d5"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "带电圆环中心附近的受限小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1309,
+          "chinese_characters": 909
+        },
+        "student": {
+          "content_characters": 2083,
+          "chinese_characters": 1284
+        },
+        "teacher": {
+          "content_characters": 2083,
+          "chinese_characters": 1284
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试2.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试2.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试2.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读环内势能的四次项和轴向线性场，明确重力下环心自由释放不是静态平衡，以轨迹差求不稳定倍率。重画解图B面内势能的归一化刻度，说明右图是电场力差。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "圆锥曲线电流在焦点处的磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 995,
+          "chinese_characters": 408
+        },
+        "student": {
+          "content_characters": 1434,
+          "chinese_characters": 760
+        },
+        "teacher": {
+          "content_characters": 1434,
+          "chinese_characters": 760
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试2.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试2.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "检查双曲线极角区间及余弦端点项，抽读有限弧与左右焦点。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "磁力辅助的圆环外侧持续绕行",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2019,
+          "chinese_characters": 929
+        },
+        "student": {
+          "content_characters": 2293,
+          "chinese_characters": 1282
+        },
+        "teacher": {
+          "content_characters": 2293,
+          "chinese_characters": 1282
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试2.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试2.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试2.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读闭合轨道接触条件和临界的连续通过，抽读小初速周期及两个端点支持力相等的条件。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "匀强磁场中电阻网络的总安培力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 692,
+          "chinese_characters": 493
+        },
+        "student": {
+          "content_characters": 1619,
+          "chinese_characters": 801
+        },
+        "teacher": {
+          "content_characters": 1619,
+          "chinese_characters": 801
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试2.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试2.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读均匀场下的端点力与一般支路电流；抽读非匀强场闭合环力及三种供电约束。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "时变磁场中带电弦杆的转动与端点作用力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2535,
+          "chinese_characters": 1305
+        },
+        "student": {
+          "content_characters": 2715,
+          "chinese_characters": 1329
+        },
+        "teacher": {
+          "content_characters": 2715,
+          "chinese_characters": 1329
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试2.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试2.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试2.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读两个端点径向支持、固定环心惯量与质心方程；抽读能量及脱离后早期位移。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

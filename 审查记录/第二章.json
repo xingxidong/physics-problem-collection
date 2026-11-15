@@ -1,0 +1,1960 @@
+{
+  "单元": "第二章",
+  "题数": 20,
+  "分章文件_SHA256": {
+    "第二章_学生版.pdf": "2086e5738655758462fba9b61328036c2e01987d970eeb6324a65487e0e1a337",
+    "第二章_学生版.tex": "834042bc505973915f39f3ecb61e704cdcc89a697beec6ee2aee35da6c7367e8",
+    "第二章_学生解答版.pdf": "b889035a87ecd304fb87cfeeb399a8d7c02c3fbc28c4758e1157246cb1e4caa3",
+    "第二章_学生解答版.tex": "44cc6d45d255362f1cb32284099f74620b4465294e369edc89276e5c69d4650d",
+    "第二章_教师版.pdf": "48a3b4ae0cc1998fda90544dcfa328d9a06887c15eca6a479819069ff310f75d",
+    "第二章_教师版.tex": "ba39a5190d3ffeef6ab53845edf54af14a271bc4c2c8fd35700cc7619556b878"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "圆柱绕绳与欧拉摩擦公式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 683,
+          "chinese_characters": 360
+        },
+        "student": {
+          "content_characters": 1010,
+          "chinese_characters": 580
+        },
+        "teacher": {
+          "content_characters": 1010,
+          "chinese_characters": 580
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.1A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.1V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.1",
+            "解图2.1A",
+            "变图2.1V1–V4"
+          ],
+          "physics": "两张力沿端点切线，复算14/15圈极限张力比、局部摩擦反向与四变式，删同句已给出的重复总结。"
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "旋转斜杆上小环的稳定位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1241,
+          "chinese_characters": 591
+        },
+        "student": {
+          "content_characters": 1462,
+          "chinese_characters": 789
+        },
+        "teacher": {
+          "content_characters": 1462,
+          "chinese_characters": 789
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.2V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.2",
+            "解图2.2A–B",
+            "变图2.2V1–V4"
+          ],
+          "physics": "分别由 c(c±μs) 确定端点与零下限。有摩擦静止位置和无摩擦扰动的 cosh 增长是两项不同结论；45° 的端点为 2/3 与3/2，角速度加倍位置变四分之一；60°阈值下方虚线平行。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "球壳内壁水平圆周运动的速度范围",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 781,
+          "chinese_characters": 362
+        },
+        "student": {
+          "content_characters": 1057,
+          "chinese_characters": 596
+        },
+        "teacher": {
+          "content_characters": 1057,
+          "chinese_characters": 596
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.3A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.3V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.3",
+            "解图2.3A",
+            "变图2.3V1–V4"
+          ],
+          "physics": "匀速圆周运动的周向加速度为零，静摩擦只剩经线分量。复算低速与高速端点、45°比值及60°力图投影；将图的水平正向与方程统一。"
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "光滑斜面体与滑块的约束加速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 657,
+          "chinese_characters": 320
+        },
+        "student": {
+          "content_characters": 955,
+          "chinese_characters": 493
+        },
+        "teacher": {
+          "content_characters": 955,
+          "chinese_characters": 493
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.4V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.4",
+            "解图2.4A–B",
+            "变图2.4V1–V4"
+          ],
+          "physics": "以撑住滑块的两个接触力为第三定律对；整体水平动量、法向距离约束与斜面系惯性力逐项一致。代表力图取等质量和 sinθ=0.6、cosθ=0.8，按共比例画出支持力。B图补足 O、P、Q 供正文读取。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "旋转球壳中木块的摩擦条件与稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1961,
+          "chinese_characters": 969
+        },
+        "student": {
+          "content_characters": 2194,
+          "chinese_characters": 1124
+        },
+        "teacher": {
+          "content_characters": 2194,
+          "chinese_characters": 1124
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.5V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.5",
+            "解图2.5A–B",
+            "变图2.5V1–V4"
+          ],
+          "physics": "分情况比对临界表格方向、两种外观图的共尺度箭头、θ与ω偏导的符号、调速周向力与经线力正交。给 V4 增加从有符号比直接反解 u 的代数步骤。"
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "反向滚轴上的钢件匀速推动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 859,
+          "chinese_characters": 569
+        },
+        "student": {
+          "content_characters": 1108,
+          "chinese_characters": 569
+        },
+        "teacher": {
+          "content_characters": 1108,
+          "chinese_characters": 569
+        },
+        "floor_met": true,
+        "variants": 5,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.6A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.6V5"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.6",
+            "解图2.6A",
+            "变图2.6V1–V5"
+          ],
+          "physics": "逐项核对速度三角形横向及摩擦反向、40/√401 与 40/√1601。推力和滚轴驱动分别提供 v²、w² 两部分；同向与异速时外力有横向分量。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "粗糙地面上斜面接触木块的共同加速",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1102,
+          "chinese_characters": 567
+        },
+        "student": {
+          "content_characters": 1185,
+          "chinese_characters": 634
+        },
+        "teacher": {
+          "content_characters": 1185,
+          "chinese_characters": 634
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.7A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.7V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.7",
+            "解图2.7A",
+            "变图2.7V1–V4"
+          ],
+          "physics": "受力图示例用各质量重力1.6单位，图上A合力1.28−0.16−0.8=0.32，B合力0.8−0.48=0.32；各竖直分量和为零。推力下界开、上界闭，各变式核对本身的接触条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "滑块、绳和悬挂重物的相对静止条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 866,
+          "chinese_characters": 586
+        },
+        "student": {
+          "content_characters": 1220,
+          "chinese_characters": 673
+        },
+        "teacher": {
+          "content_characters": 1220,
+          "chinese_characters": 673
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.8A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.8V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.8",
+            "解图2.8A",
+            "变图2.8V1–V4"
+          ],
+          "physics": "题图斜绳与滑轮切点半径正交，B与滑块、桌面留隙；受力图 T 的两画法共尺度，左向摩擦等于 1.3834−.4732=.9102。V2补全各质量比分支，保留平方根符号条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "旋转平台沟槽中双球的稳定位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1073,
+          "chinese_characters": 484
+        },
+        "student": {
+          "content_characters": 1270,
+          "chinese_characters": 687
+        },
+        "teacher": {
+          "content_characters": 1270,
+          "chinese_characters": 687
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.9A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.9V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.9",
+            "解图2.9A",
+            "变图2.9V1–V4"
+          ],
+          "physics": "复算共转张力、几何截短、无摩擦指数解、两粗糙槽张力交集与两处等速率上限。变式 V2 的宽度比为(1/4)/(5/6)=3/10。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "平方阻力竖直上抛的高度与返回速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 784,
+          "chinese_characters": 233
+        },
+        "student": {
+          "content_characters": 1599,
+          "chinese_characters": 616
+        },
+        "teacher": {
+          "content_characters": 1599,
+          "chinese_characters": 616
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.10V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.10",
+            "解图2.10A–B",
+            "变图2.10V1–V4"
+          ],
+          "physics": "按上升、下降分别确定阻力方向及积分正域，核对解析解、真空极限、终端速率与线性阻力变式。解图B两正面积实算后与能量损失一致。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "线性阻力下两竖直质点的相遇",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1520,
+          "chinese_characters": 695
+        },
+        "student": {
+          "content_characters": 1718,
+          "chinese_characters": 756
+        },
+        "teacher": {
+          "content_characters": 1718,
+          "chinese_characters": 756
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.11A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.11V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.11",
+            "解图2.11A",
+            "变图2.11V1–V4"
+          ],
+          "physics": "相对方程消去重力，形式交点还要接受两个首次触地时刻的限制。复算图A两无量纲曲线的正高度交点和正文反例的负高度，分开这两组参数；校对各相遇时刻归一化标注。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "线性阻力抛体的轨迹方程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1099,
+          "chinese_characters": 311
+        },
+        "student": {
+          "content_characters": 1278,
+          "chinese_characters": 474
+        },
+        "teacher": {
+          "content_characters": 1278,
+          "chinese_characters": 474
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.12A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.12V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.12",
+            "解图2.12A",
+            "变图2.12V1–V4"
+          ],
+          "physics": "题图力箭头与代表轨迹的局部切线严格反向；解析轨迹严格凹向下，落地正根唯一。逐项核对速度比、归一化终点、平方阻力的耦合、顶点切线和不同轨迹的高度顺序。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "飞机着陆滑行距离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 952,
+          "chinese_characters": 382
+        },
+        "student": {
+          "content_characters": 1278,
+          "chinese_characters": 507
+        },
+        "teacher": {
+          "content_characters": 1278,
+          "chinese_characters": 507
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.13B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.13V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.13",
+            "解图2.13A–B",
+            "变图2.13V1–V4"
+          ],
+          "physics": "重力与升力、支持力分担；按有量纲阻力起点和终点复算221米及三组扩展，区分恒减速和对数表达。主图中轮胎接触地面，受力图的两个比例尺与图注一致。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "两根弹簧同时拉断的条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1218,
+          "chinese_characters": 665
+        },
+        "student": {
+          "content_characters": 1458,
+          "chinese_characters": 802
+        },
+        "teacher": {
+          "content_characters": 1458,
+          "chinese_characters": 802
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.14V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.14",
+            "解图2.14A–B",
+            "变图2.14V1–V4"
+          ],
+          "physics": "上弹簧伸长导数非负且仅孤立时刻为零，判别首次断裂；逐图查同时、慢拉、快拉的临界点与变式多根。补不同临界拉力的通式并保留原有两个弹簧方程。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "加速斜面上木块相对静止的推力范围",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 901,
+          "chinese_characters": 453
+        },
+        "student": {
+          "content_characters": 1092,
+          "chinese_characters": 566
+        },
+        "teacher": {
+          "content_characters": 1092,
+          "chinese_characters": 566
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.15B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.15V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.15",
+            "解图2.15A–B",
+            "变图2.15V1–V4"
+          ],
+          "physics": "有符号摩擦比随推力单调下降，两条限制线分别与所需摩擦线相交。静摩擦系数、符号与两有限端点对应；μ=0 时两端合并，μtanθ≥1 时无有限上限。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "双斜面体上两木块相对加速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 597,
+          "chinese_characters": 235
+        },
+        "student": {
+          "content_characters": 1360,
+          "chinese_characters": 652
+        },
+        "teacher": {
+          "content_characters": 1360,
+          "chinese_characters": 652
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.16B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.16V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.16",
+            "解图2.16A–B",
+            "变图2.16V1–V4"
+          ],
+          "physics": "两块同贴坡时，沿绳的相对加速度大小相等。逐项核对水平动量、滑轮绳力、支持力和等效惯性分母。由两个支持力非负得到共同接触条件，显式证明绳张力为正。坡角及质量很不对称时可失去接触，题干限定于两块都沿坡运动的阶段，并求该阶段的接触条件。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "航天飞机伸杆卫星的潮汐稳定位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 900,
+          "chinese_characters": 448
+        },
+        "student": {
+          "content_characters": 1230,
+          "chinese_characters": 630
+        },
+        "teacher": {
+          "content_characters": 1230,
+          "chinese_characters": 630
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.17A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.17V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.17",
+            "解图2.17A",
+            "变图2.17V1–V4"
+          ],
+          "physics": "转动参考系中一阶切向分量相消，科里奥利力沿杆；有效势曲率核对径向稳定、切向不稳定。有限长度两圆交点、零张力方向和小振动图的时间坐标相符。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "旋转圆盘上射手的科里奥利瞄准",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1284,
+          "chinese_characters": 544
+        },
+        "student": {
+          "content_characters": 1478,
+          "chinese_characters": 705
+        },
+        "teacher": {
+          "content_characters": 1478,
+          "chinese_characters": 705
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.18V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.18",
+            "解图2.18A–B",
+            "变图2.18V1–V4"
+          ],
+          "physics": "按理想圆盘模型核对坐标转向、精确与一阶路径的端点、镜像关系、圆弧曲率和一阶抛物线顶点斜率。大参数示例保留精确式，图中切线按几何辅助线处理。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "自由落体的科里奥利偏离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1603,
+          "chinese_characters": 476
+        },
+        "student": {
+          "content_characters": 1628,
+          "chinese_characters": 724
+        },
+        "teacher": {
+          "content_characters": 1628,
+          "chinese_characters": 724
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.19A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.19V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.19",
+            "解图2.19A",
+            "变图2.19V1–V4"
+          ],
+          "physics": "东、北、上叉乘与一阶和二阶时序相符。逐次展开弱线阻力落地式及位移式确认五次项；子午面轴示意采用北半球，补给图注。"
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "傅科摆摆动平面的旋转周期",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1679,
+          "chinese_characters": 729
+        },
+        "student": {
+          "content_characters": 2004,
+          "chinese_characters": 993
+        },
+        "teacher": {
+          "content_characters": 2004,
+          "chinese_characters": 993
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图2.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图2.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图2.20B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图2.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图2.20V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图2.20",
+            "解图2.20A–B",
+            "变图2.20V1–V4"
+          ],
+          "physics": "复数代换逐项求导，初值系数及升高位移的幅度阶数正确。区分快振动近似与精确水平模型、整周和半周重合，补充赤道条件并让全周箭头与图义一致。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "2.1V1",
+      "page": 5,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.2A",
+      "page": 8,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.2V2",
+      "page": 10,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.3A",
+      "page": 13,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.4A",
+      "page": 18,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.4B",
+      "page": 18,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.6A",
+      "page": 29,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.7V2",
+      "page": 36,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.10V4",
+      "page": 50,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.11V2",
+      "page": 54,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.11V3",
+      "page": 55,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.11V4",
+      "page": 55,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.12V2",
+      "page": 59,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.18V1",
+      "page": 88,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.18V4",
+      "page": 89,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.19",
+      "page": 90,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "2.20V4",
+      "page": 99,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    }
+  ]
+}

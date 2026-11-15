@@ -1,0 +1,3141 @@
+{
+  "单元": "热学第三章",
+  "题数": 30,
+  "分章文件_SHA256": {
+    "热学第三章_学生版.pdf": "c2638885c527a48b7387c0b8de63c518963c604776a3c8388a65623309b73748",
+    "热学第三章_学生版.tex": "8e47e9eb1aa0701d2920701953ab91ce370aa02757942b42baaee7fd8193c8a2",
+    "热学第三章_学生解答版.pdf": "9c279e21e4e98bc292d0a7abb4f2dbd981d509c469180d63a13c5d5b7106b2b5",
+    "热学第三章_学生解答版.tex": "ce6dd2f818580b7cf493494bf1e0fc3bf4bcfc1ba016fa2ea3a81bfd27e3401c",
+    "热学第三章_教师版.pdf": "f14285d2ba375b09d3b53279fdcf2de327a08338991b7920516b424453418d21",
+    "热学第三章_教师版.tex": "3b96ca698fd9f8bcb70e170adb1316485ab56be4a81fc0ea4b476dc743fe4682"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "饱和蒸汽分子通量与蒸发速率比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 694,
+          "chinese_characters": 411
+        },
+        "student": {
+          "content_characters": 1207,
+          "chinese_characters": 652
+        },
+        "teacher": {
+          "content_characters": 1207,
+          "chinese_characters": 652
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.1A",
+          "解图 热3.1B",
+          "变图热3.1V1",
+          "变图热3.1V2",
+          "变图热3.1V3",
+          "变图热3.1V4",
+          "变图热3.1V5",
+          "变图热3.1V6",
+          "变图热3.1V7",
+          "变图热3.1V8"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "氯气分子反应冲量导致玻璃板偏转",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 954,
+          "chinese_characters": 628
+        },
+        "student": {
+          "content_characters": 1494,
+          "chinese_characters": 805
+        },
+        "teacher": {
+          "content_characters": 1494,
+          "chinese_characters": 805
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.2A",
+          "解图 热3.2B",
+          "解图 热3.2C",
+          "变图热3.2V1",
+          "变图热3.2V2",
+          "变图热3.2V3",
+          "变图热3.2V4",
+          "变图热3.2V5",
+          "变图热3.2V6",
+          "变图热3.2V7",
+          "变图热3.2V8"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "隔板推动试管后的最终速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1781,
+          "chinese_characters": 1204
+        },
+        "student": {
+          "content_characters": 2574,
+          "chinese_characters": 1482
+        },
+        "teacher": {
+          "content_characters": 2574,
+          "chinese_characters": 1482
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.3A",
+          "解图 热3.3B",
+          "解图 热3.3C",
+          "变图热3.3V1",
+          "变图热3.3V2",
+          "变图热3.3V3",
+          "变图热3.3V4",
+          "变图热3.3V5",
+          "变图热3.3V6",
+          "变图热3.3V7",
+          "变图热3.3V8"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "一维小球气体的绝热压缩规律",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1303,
+          "chinese_characters": 808
+        },
+        "student": {
+          "content_characters": 1718,
+          "chinese_characters": 912
+        },
+        "teacher": {
+          "content_characters": 1718,
+          "chinese_characters": 912
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图 热3.4A",
+          "解图 热3.4B"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "光子气压强、能量密度与绝热方程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1264,
+          "chinese_characters": 622
+        },
+        "student": {
+          "content_characters": 2099,
+          "chinese_characters": 1102
+        },
+        "teacher": {
+          "content_characters": 2099,
+          "chinese_characters": 1102
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.5A",
+          "解图 热3.5B",
+          "变图热3.5V1",
+          "变图热3.5V2",
+          "变图热3.5V3",
+          "变图热3.5V4",
+          "变图热3.5V5",
+          "变图热3.5V6",
+          "变图热3.5V7",
+          "变图热3.5V8"
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "混合理想气体分子相对速率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 3366,
+          "chinese_characters": 890
+        },
+        "student": {
+          "content_characters": 3873,
+          "chinese_characters": 1652
+        },
+        "teacher": {
+          "content_characters": 3873,
+          "chinese_characters": 1652
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.6A",
+          "解图 热3.6B",
+          "变图热3.6V1",
+          "变图热3.6V2",
+          "变图热3.6V3",
+          "变图热3.6V4",
+          "变图热3.6V5",
+          "变图热3.6V6",
+          "变图热3.6V7",
+          "变图热3.6V8"
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "最概然平动能与最概然速率比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 720,
+          "chinese_characters": 302
+        },
+        "student": {
+          "content_characters": 1389,
+          "chinese_characters": 606
+        },
+        "teacher": {
+          "content_characters": 1389,
+          "chinese_characters": 606
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.7B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.7A",
+          "解图 热3.7B",
+          "变图热3.7V1",
+          "变图热3.7V2",
+          "变图热3.7V3",
+          "变图热3.7V4",
+          "变图热3.7V5",
+          "变图热3.7V6",
+          "变图热3.7V7",
+          "变图热3.7V8"
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "定容热气球升空后的振动与上升高度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1552,
+          "chinese_characters": 820
+        },
+        "student": {
+          "content_characters": 2608,
+          "chinese_characters": 1205
+        },
+        "teacher": {
+          "content_characters": 2608,
+          "chinese_characters": 1205
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.8A",
+          "解图 热3.8B",
+          "变图热3.8V1",
+          "变图热3.8V2",
+          "变图热3.8V3",
+          "变图热3.8V4",
+          "变图热3.8V5",
+          "变图热3.8V6",
+          "变图热3.8V7",
+          "变图热3.8V8"
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "等温大气重力势能与热运动能量比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 940,
+          "chinese_characters": 566
+        },
+        "student": {
+          "content_characters": 1613,
+          "chinese_characters": 745
+        },
+        "teacher": {
+          "content_characters": 1613,
+          "chinese_characters": 745
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.9A",
+          "解图 热3.9B",
+          "变图热3.9V1",
+          "变图热3.9V2",
+          "变图热3.9V3",
+          "变图热3.9V4",
+          "变图热3.9V5",
+          "变图热3.9V6",
+          "变图热3.9V7",
+          "变图热3.9V8"
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "大气压强随高度变化与半数分子高度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 956,
+          "chinese_characters": 354
+        },
+        "student": {
+          "content_characters": 1954,
+          "chinese_characters": 853
+        },
+        "teacher": {
+          "content_characters": 1954,
+          "chinese_characters": 853
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.10A",
+          "解图 热3.10B",
+          "变图热3.10V1",
+          "变图热3.10V2",
+          "变图热3.10V3",
+          "变图热3.10V4",
+          "变图热3.10V5",
+          "变图热3.10V6",
+          "变图热3.10V7",
+          "变图热3.10V8"
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "等温大气分子的逃逸通量估算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1013,
+          "chinese_characters": 396
+        },
+        "student": {
+          "content_characters": 2367,
+          "chinese_characters": 1031
+        },
+        "teacher": {
+          "content_characters": 2367,
+          "chinese_characters": 1031
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.11A",
+          "解图 热3.11B",
+          "变图热3.11V1",
+          "变图热3.11V2",
+          "变图热3.11V3",
+          "变图热3.11V4",
+          "变图热3.11V5",
+          "变图热3.11V6",
+          "变图热3.11V7",
+          "变图热3.11V8"
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "旋转封闭空气柱引起的液面上升",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 864,
+          "chinese_characters": 393
+        },
+        "student": {
+          "content_characters": 1936,
+          "chinese_characters": 865
+        },
+        "teacher": {
+          "content_characters": 1936,
+          "chinese_characters": 865
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.12B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.12A",
+          "解图 热3.12B",
+          "变图热3.12V1",
+          "变图热3.12V2",
+          "变图热3.12V3",
+          "变图热3.12V4",
+          "变图热3.12V5",
+          "变图热3.12V6",
+          "变图热3.12V7",
+          "变图热3.12V8"
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "等离子体在引力场中的电场平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 870,
+          "chinese_characters": 505
+        },
+        "student": {
+          "content_characters": 2050,
+          "chinese_characters": 1089
+        },
+        "teacher": {
+          "content_characters": 2050,
+          "chinese_characters": 1089
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.13B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.13A",
+          "解图 热3.13B",
+          "变图热3.13V1",
+          "变图热3.13V2",
+          "变图热3.13V3",
+          "变图热3.13V4",
+          "变图热3.13V5",
+          "变图热3.13V6",
+          "变图热3.13V7",
+          "变图热3.13V8"
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "自由程分布函数与平均自由程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1184,
+          "chinese_characters": 534
+        },
+        "student": {
+          "content_characters": 1736,
+          "chinese_characters": 760
+        },
+        "teacher": {
+          "content_characters": 1736,
+          "chinese_characters": 760
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.14A",
+          "解图 热3.14B",
+          "变图热3.14V1",
+          "变图热3.14V2",
+          "变图热3.14V3",
+          "变图热3.14V4",
+          "变图热3.14V5",
+          "变图热3.14V6",
+          "变图热3.14V7",
+          "变图热3.14V8"
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "分子随机游走位移与扩散时间",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1059,
+          "chinese_characters": 403
+        },
+        "student": {
+          "content_characters": 1903,
+          "chinese_characters": 937
+        },
+        "teacher": {
+          "content_characters": 1903,
+          "chinese_characters": 937
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.15A",
+          "解图 热3.15B",
+          "解图 热3.15C",
+          "变图热3.15V1",
+          "变图热3.15V2",
+          "变图热3.15V3",
+          "变图热3.15V4",
+          "变图热3.15V5",
+          "变图热3.15V6",
+          "变图热3.15V7",
+          "变图热3.15V8"
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "混合气体中两类分子的平均自由程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 689,
+          "chinese_characters": 201
+        },
+        "student": {
+          "content_characters": 1966,
+          "chinese_characters": 1067
+        },
+        "teacher": {
+          "content_characters": 1966,
+          "chinese_characters": 1067
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.16B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图 热3.16A",
+          "解图 热3.16B"
+        ]
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "阴极射线管真空度与电子无碰撞概率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1260,
+          "chinese_characters": 728
+        },
+        "student": {
+          "content_characters": 1977,
+          "chinese_characters": 1029
+        },
+        "teacher": {
+          "content_characters": 1977,
+          "chinese_characters": 1029
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.17B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.17A",
+          "解图 热3.17B",
+          "变图热3.17V1",
+          "变图热3.17V2",
+          "变图热3.17V3",
+          "变图热3.17V4",
+          "变图热3.17V5",
+          "变图热3.17V6",
+          "变图热3.17V7",
+          "变图热3.17V8"
+        ]
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "球对称速度分布下的壁碰撞通量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1132,
+          "chinese_characters": 515
+        },
+        "student": {
+          "content_characters": 1929,
+          "chinese_characters": 950
+        },
+        "teacher": {
+          "content_characters": 1929,
+          "chinese_characters": 950
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.18A",
+          "解图 热3.18B",
+          "变图热3.18V1",
+          "变图热3.18V2",
+          "变图热3.18V3",
+          "变图热3.18V4",
+          "变图热3.18V5",
+          "变图热3.18V6",
+          "变图热3.18V7",
+          "变图热3.18V8"
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "小孔逸出原子束的速率分布与衰减",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 3246,
+          "chinese_characters": 1272
+        },
+        "student": {
+          "content_characters": 3467,
+          "chinese_characters": 1580
+        },
+        "teacher": {
+          "content_characters": 3467,
+          "chinese_characters": 1580
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.19B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.19A",
+          "解图 热3.19B",
+          "变图热3.19V1",
+          "变图热3.19V2",
+          "变图热3.19V3",
+          "变图热3.19V4",
+          "变图热3.19V5",
+          "变图热3.19V6",
+          "变图热3.19V7",
+          "变图热3.19V8"
+        ]
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "雨滴下落与飞虫平均自由程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2370,
+          "chinese_characters": 1142
+        },
+        "student": {
+          "content_characters": 2668,
+          "chinese_characters": 1172
+        },
+        "teacher": {
+          "content_characters": 2668,
+          "chinese_characters": 1172
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.20A",
+          "解图 热3.20B",
+          "解图 热3.20C",
+          "变图热3.20V1",
+          "变图热3.20V2",
+          "变图热3.20V3",
+          "变图热3.20V4",
+          "变图热3.20V5",
+          "变图热3.20V6",
+          "变图热3.20V7",
+          "变图热3.20V8"
+        ]
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "由细管流出测量气体粘滞系数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1896,
+          "chinese_characters": 1108
+        },
+        "student": {
+          "content_characters": 2731,
+          "chinese_characters": 1202
+        },
+        "teacher": {
+          "content_characters": 2731,
+          "chinese_characters": 1202
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.21B"
+          },
+          {
+            "n": 3,
+            "caption": "解图热3.21C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.21A",
+          "解图 热3.21B",
+          "解图 热3.21C",
+          "变图热3.21V1",
+          "变图热3.21V2",
+          "变图热3.21V3",
+          "变图热3.21V4",
+          "变图热3.21V5",
+          "变图热3.21V6",
+          "变图热3.21V7",
+          "变图热3.21V8"
+        ]
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "线性热膨胀液体绝热混合体积不变",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 690,
+          "chinese_characters": 297
+        },
+        "student": {
+          "content_characters": 1562,
+          "chinese_characters": 860
+        },
+        "teacher": {
+          "content_characters": 1562,
+          "chinese_characters": 860
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.22A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.22A",
+          "变图热3.22V1",
+          "变图热3.22V2",
+          "变图热3.22V3",
+          "变图热3.22V4",
+          "变图热3.22V5",
+          "变图热3.22V6",
+          "变图热3.22V7",
+          "变图热3.22V8"
+        ]
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "湖冰增长估算冰的热传导率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 352,
+          "chinese_characters": 182
+        },
+        "student": {
+          "content_characters": 1772,
+          "chinese_characters": 994
+        },
+        "teacher": {
+          "content_characters": 1772,
+          "chinese_characters": 994
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.23B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.23A",
+          "解图 热3.23B",
+          "变图热3.23V1",
+          "变图热3.23V2",
+          "变图热3.23V3",
+          "变图热3.23V4",
+          "变图热3.23V5",
+          "变图热3.23V6",
+          "变图热3.23V7",
+          "变图热3.23V8"
+        ]
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "实心球与立方体冷却过程比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 877,
+          "chinese_characters": 220
+        },
+        "student": {
+          "content_characters": 1913,
+          "chinese_characters": 946
+        },
+        "teacher": {
+          "content_characters": 1913,
+          "chinese_characters": 946
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.24B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.24A",
+          "解图 热3.24B",
+          "变图热3.24V1",
+          "变图热3.24V2",
+          "变图热3.24V3",
+          "变图热3.24V4",
+          "变图热3.24V5",
+          "变图热3.24V6",
+          "变图热3.24V7",
+          "变图热3.24V8"
+        ]
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "球壳稳态导热的温度分布与供能功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 715,
+          "chinese_characters": 264
+        },
+        "student": {
+          "content_characters": 1584,
+          "chinese_characters": 721
+        },
+        "teacher": {
+          "content_characters": 1584,
+          "chinese_characters": 721
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.25A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.25A",
+          "变图热3.25V1",
+          "变图热3.25V2",
+          "变图热3.25V3",
+          "变图热3.25V4",
+          "变图热3.25V5",
+          "变图热3.25V6",
+          "变图热3.25V7",
+          "变图热3.25V8"
+        ]
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "通电保险丝稳态温度分布",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1561,
+          "chinese_characters": 644
+        },
+        "student": {
+          "content_characters": 2088,
+          "chinese_characters": 946
+        },
+        "teacher": {
+          "content_characters": 2088,
+          "chinese_characters": 946
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.26B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "unconfirmed_fields": [
+          "变式训练"
+        ],
+        "figures_with_confirmed_field": [
+          "解图 热3.26A",
+          "解图 热3.26B"
+        ]
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "绝热柱体非稳态热传导积分解",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 744,
+          "chinese_characters": 260
+        },
+        "student": {
+          "content_characters": 2045,
+          "chinese_characters": 955
+        },
+        "teacher": {
+          "content_characters": 2045,
+          "chinese_characters": 955
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.27B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.27A",
+          "解图 热3.27B",
+          "变图热3.27V1",
+          "变图热3.27V2",
+          "变图热3.27V3",
+          "变图热3.27V4",
+          "变图热3.27V5",
+          "变图热3.27V6",
+          "变图热3.27V7",
+          "变图热3.27V8"
+        ]
+      }
+    },
+    {
+      "题号": 28,
+      "题名": "小孔扩散导致左右气体密度随时间变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1641,
+          "chinese_characters": 658
+        },
+        "student": {
+          "content_characters": 2160,
+          "chinese_characters": 1201
+        },
+        "teacher": {
+          "content_characters": 2160,
+          "chinese_characters": 1201
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.28A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.28V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.28A",
+          "变图热3.28V1",
+          "变图热3.28V2",
+          "变图热3.28V3",
+          "变图热3.28V4",
+          "变图热3.28V5",
+          "变图热3.28V6",
+          "变图热3.28V7",
+          "变图热3.28V8"
+        ]
+      }
+    },
+    {
+      "题号": 29,
+      "题名": "布朗粒子高度分布测阿伏伽德罗常数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 632,
+          "chinese_characters": 305
+        },
+        "student": {
+          "content_characters": 1490,
+          "chinese_characters": 770
+        },
+        "teacher": {
+          "content_characters": 1490,
+          "chinese_characters": 770
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.29A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.29B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.29V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.29A",
+          "解图 热3.29B",
+          "变图热3.29V1",
+          "变图热3.29V2",
+          "变图热3.29V3",
+          "变图热3.29V4",
+          "变图热3.29V5",
+          "变图热3.29V6",
+          "变图热3.29V7",
+          "变图热3.29V8"
+        ]
+      }
+    },
+    {
+      "题号": 30,
+      "题名": "一维布朗运动位移方均量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1662,
+          "chinese_characters": 473
+        },
+        "student": {
+          "content_characters": 2392,
+          "chinese_characters": 1128
+        },
+        "teacher": {
+          "content_characters": 2392,
+          "chinese_characters": 1128
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图热3.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图热3.30A"
+          },
+          {
+            "n": 2,
+            "caption": "解图热3.30B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图热3.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图热3.30V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "unconfirmed_fields": [],
+        "figures_with_confirmed_field": [
+          "解图 热3.30A",
+          "解图 热3.30B",
+          "变图热3.30V1",
+          "变图热3.30V2",
+          "变图热3.30V3",
+          "变图热3.30V4",
+          "变图热3.30V5",
+          "变图热3.30V6",
+          "变图热3.30V7",
+          "变图热3.30V8"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "学生解答版",
+      "figure": "热3.11C",
+      "page": 33,
+      "scope": "实际查看由总速率与速度分量选择的两个区域及标注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "热3.11C",
+      "page": 70,
+      "scope": "实际查看由总速率与速度分量选择的两个区域及标注。"
+    }
+  ]
+}

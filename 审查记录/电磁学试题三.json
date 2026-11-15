@@ -1,0 +1,522 @@
+{
+  "单元": "电磁学试题三",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "电磁学试题三_学生版.pdf": "b9dcdda4d18a6ebccdb87a1588904598ec0918c66f01740e9c0c1b92e5e2c125",
+    "电磁学试题三_学生版.tex": "5f13a702eb0e03821d435873818ecfae50ce4166fd1142860975761d302783ca",
+    "电磁学试题三_学生解答版.pdf": "ea6adf733c795e8d72f097843014215e9e6b58b7961df8f03c4c8a37b3f84102",
+    "电磁学试题三_学生解答版.tex": "874b7f2b8db617906740395421b90032da5fb40631f4a951e554c26441942b5b",
+    "电磁学试题三_教师版.pdf": "aa5c4aa3817b5c14962776b463484b65cee162fad0d81a8b643cb4ab5618a20d",
+    "电磁学试题三_教师版.tex": "ec90731e25259f31e2933f7b15e3cbf2e3d7b170f3cbd13b4de5a28b30f5159f"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "二维电导与折叠导电曲面的电阻",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1153,
+          "chinese_characters": 601
+        },
+        "student": {
+          "content_characters": 1666,
+          "chinese_characters": 1000
+        },
+        "teacher": {
+          "content_characters": 1666,
+          "chinese_characters": 1000
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试3.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试3.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试3.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试3.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试3.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "读等时与泊松碰撞的平均年龄及片电阻；变式7重画带真刻度和极值标记的图，补达不到的下确界和导电宽度说明。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "双环网络与无限内接正方形网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1714,
+          "chinese_characters": 931
+        },
+        "student": {
+          "content_characters": 2280,
+          "chinese_characters": 1370
+        },
+        "teacher": {
+          "content_characters": 2280,
+          "chinese_characters": 1370
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试3.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试3.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试3.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试3.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试3.2D"
+          },
+          {
+            "n": 5,
+            "caption": "解图电试3.2E"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试3.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读端口换位及内外等势节点，抽读改径向辐条和改变嵌套缩放两变式。另用节点方程验辐条参数0.2、2、8；变式8补任意正比例下的两层递推收敛证明。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "双频理想电源驱动的稳态电流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 745,
+          "chinese_characters": 329
+        },
+        "student": {
+          "content_characters": 1629,
+          "chinese_characters": 830
+        },
+        "teacher": {
+          "content_characters": 1629,
+          "chinese_characters": 830
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试3.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试3.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试3.3D"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试3.3B"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试3.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试3.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读理想源固定母线、两频稳态的相位号，抽读有限内阻、零初态时域解及自由响应。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "三棱柱交流网络与最小补偿电容",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 945,
+          "chinese_characters": 465
+        },
+        "student": {
+          "content_characters": 1591,
+          "chinese_characters": 723
+        },
+        "teacher": {
+          "content_characters": 1591,
+          "chinese_characters": 723
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试3.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试3.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试3.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试3.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试3.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读三棱柱AD和AB端口区别，抽读只改CF和固定补偿电容跨频率。修订前后的主解对同一支路容抗保留一致。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "锯齿电源驱动的RC逐周期暂态",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1032,
+          "chinese_characters": 405
+        },
+        "student": {
+          "content_characters": 1513,
+          "chinese_characters": 549
+        },
+        "teacher": {
+          "content_characters": 1513,
+          "chinese_characters": 549
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试3.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试3.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试3.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试3.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试3.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试3.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读逐周期首末电荷、荷电连续及稳态最低点。改变式6写明同一极板在周期首尾电荷相同，进而给出能量增量为零。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

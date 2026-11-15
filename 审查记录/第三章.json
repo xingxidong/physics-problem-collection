@@ -1,0 +1,2604 @@
+{
+  "单元": "第三章",
+  "题数": 39,
+  "分章文件_SHA256": {
+    "第三章_学生版.pdf": "44a84a6481063a7629389ad1031f4342c5c296d15ca8e0d0c5022e7f1f52e85d",
+    "第三章_学生版.tex": "4150981b6aa79cc9741d54e0f2d1156c71725327a509bd8a15ec9ab6337c5bb4",
+    "第三章_学生解答版.pdf": "70b79b3f01a1fee58bfd1aa2de2200792492904c41d4bced23e3af0d249d0e40",
+    "第三章_学生解答版.tex": "953e22dabccc6741f62181bb9876ec90823c6de08e718c0b0ac8ebc4b8bfbf31",
+    "第三章_教师版.pdf": "4288e40415d737b33105fc886053da8d81b1c64ddce31298fff9c5ed44dad2bd",
+    "第三章_教师版.tex": "7b9d0d642560e04759a48c2ba6a6c86456ebc15b61c3ea4c64219a31ae74b0e5"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "撤去下挂物后的弹簧最大速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 602,
+          "chinese_characters": 278
+        },
+        "student": {
+          "content_characters": 957,
+          "chinese_characters": 494
+        },
+        "teacher": {
+          "content_characters": 957,
+          "chinese_characters": 494
+        },
+        "floor_met": true,
+        "variants": 3,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.1A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.1V3"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "实读势能配方、振动方程、符号和三变式。补原长点可达条件 m2≥m1，正面写首次向上速率峰与四分之一周期，合并重复结论。",
+        "figure_source_reads": [
+          "图3.1 两质量的撤去前平衡",
+          "解图3.1A 释放线与新平衡线相差 A，方向向下",
+          "变图3.1V1 归一化势阱与释放点",
+          "变图3.1V2 位移零点是负速率峰",
+          "变图3.1V3 初点(1,3/4)及顺时针相流"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "带摩擦水平弹簧振子的过原点条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1057,
+          "chinese_characters": 603
+        },
+        "student": {
+          "content_characters": 1634,
+          "chinese_characters": 860
+        },
+        "teacher": {
+          "content_characters": 1634,
+          "chinese_characters": 860
+        },
+        "floor_met": true,
+        "variants": 3,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.2V3"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "实读分段静摩擦、两次转折与二次不等式。等号分别给返回到O与首次到O；直接写各区间的运动，保留往返耗能的公式。",
+        "figure_source_reads": [
+          "图3.2 水平初态、A和O",
+          "解图3.2A 左行及可能返回",
+          "解图3.2B 分段端点",
+          "变图3.2V1 走到O恰停止的抛物线",
+          "变图3.2V2 两次穿过的 1,-3/5,1/5",
+          "变图3.2V3 交点 1/(2√2) 和 1/√3"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "斜面摩擦中动能等于势能的位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 692,
+          "chinese_characters": 360
+        },
+        "student": {
+          "content_characters": 1169,
+          "chinese_characters": 543
+        },
+        "teacher": {
+          "content_characters": 1169,
+          "chinese_characters": 543
+        },
+        "floor_met": true,
+        "variants": 3,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.3V3"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "复算 H=0.63036284 m、h1=0.38849401 m、h2=0.17809502 m。用同高处的额外滑动路程替换未限条件的单调断言；变式补最高点的两个代数根对应一次到达。",
+        "figure_source_reads": [
+          "图3.3 坡面、O、P和高度",
+          "解图3.3A 0<h2<h1<H",
+          "解图3.3B 三条能线及交点",
+          "变图3.3V1 q=6/5，交点 11/16",
+          "变图3.3V2 q=1/2，返回能量三分之一",
+          "变图3.3V3 附加常数，交点 9/20、1/12"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "桌孔下落绳的速度与位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 739,
+          "chinese_characters": 338
+        },
+        "student": {
+          "content_characters": 1287,
+          "chinese_characters": 708
+        },
+        "teacher": {
+          "content_characters": 1287,
+          "chinese_characters": 708
+        },
+        "floor_met": true,
+        "variants": 3,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.4A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.4V3"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "确认桌上段与垂段各计动能，从孔口量重力势能，双曲余弦及其首末速度和加速度，摩擦阈值、自由落体接续、非零初速的未来根。解图3.4A 题注明确 x/2 属于下垂段，而动能计全绳。",
+        "figure_source_reads": [
+          "图3.4 孔O和下垂长度",
+          "解图3.4A 下垂段重心",
+          "变图3.4V1 μ=1/2 的启动点 1/3",
+          "变图3.4V2 离桌衔接位置和斜率",
+          "变图3.4V3 ln4 与 arcosh4 的离桌时刻"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "单摆碰钉后的完整圆周与撞钉条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 953,
+          "chinese_characters": 541
+        },
+        "student": {
+          "content_characters": 1628,
+          "chinese_characters": 769
+        },
+        "teacher": {
+          "content_characters": 1628,
+          "chinese_characters": 769
+        },
+        "floor_met": true,
+        "variants": 3,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.5V3"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "确认碰钉前后能量、最高点张力最小、T=0 的两种分支、抛体命中与全程 d<a。修正顶点瞬时零张力仍可过顶；飞行前真正松弛对应上行张力将继续下降。两曲线各自的水平释放起点替代含混图注。",
+        "figure_source_reads": [
+          "图3.5 OP、OA 和两角",
+          "解图3.5A 角度与向心方向",
+          "解图3.5B D、切线和命中轨道",
+          "变图3.5V1 两个最小 r/L 阈值",
+          "变图3.5V2 最高点重力和切速",
+          "变图3.5V3 60° 标点 3/4"
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "圆环双球下滑与悬线张力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1015,
+          "chinese_characters": 427
+        },
+        "student": {
+          "content_characters": 1586,
+          "chinese_characters": 865
+        },
+        "teacher": {
+          "content_characters": 1586,
+          "chinese_characters": 865
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图3.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.6V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "实读符号径向力、张力抛物线、相切与超临界，复算凸性、较大根及4变式。补可动环与串珠联立后圆环确实抬升的一阶判据；V2 明确外径反力和环重，V3 只有超过阈值后的延拓用点线。",
+        "figure_source_reads": [
+          "图3.6 两对称球与圆环",
+          "解图3.6A 零线相切",
+          "解图3.6B 作用反作用分图",
+          "解图3.6C 三质量比及失效点",
+          "变图3.6V1 零点 1/2、1/6",
+          "变图3.6V2 向下杆力及两个球向外的反力",
+          "变图3.6V3 实际固定段和延拓线",
+          "变图3.6V4 0.02m/M 的环底张力"
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "滑杆脱离约束后的落点",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1352,
+          "chinese_characters": 708
+        },
+        "student": {
+          "content_characters": 1854,
+          "chinese_characters": 878
+        },
+        "teacher": {
+          "content_characters": 1854,
+          "chinese_characters": 878
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图3.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.7V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "逐段实读",
+        "reviewed_components": [
+          "题干",
+          "学生主解",
+          "教师九栏",
+          "全部变式",
+          "题图、解图与变式TikZ关系"
+        ],
+        "findings": "实读正根与数值、约束力矩和四变式。增加从离位开始 OC²−r²>0 的展开推导，证明两个接触间隙相容，补间隙图；对有限质量杆原有联立方程及反力零点仍保留。",
+        "figure_source_reads": [
+          "图3.7 轻杆端点和质心",
+          "解图3.7A 离位点切线与抛体",
+          "解图3.7B 中点矩形和力矩方向",
+          "解图3.7C 两端间隙与非接触姿态",
+          "变图3.7V1 轨迹按全长归一",
+          "变图3.7V2 两反力共零",
+          "变图3.7V3 φ=arccos .8 时质量缩放",
+          "变图3.7V4 有限杆质量地面反力未消失"
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "轻杆小球跌落与触地速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 925,
+          "chinese_characters": 611
+        },
+        "student": {
+          "content_characters": 1376,
+          "chinese_characters": 851
+        },
+        "teacher": {
+          "content_characters": 1376,
+          "chinese_characters": 851
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.8V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "绳绕钉运动与碰钉条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1517,
+          "chinese_characters": 939
+        },
+        "student": {
+          "content_characters": 2042,
+          "chinese_characters": 1066
+        },
+        "teacher": {
+          "content_characters": 2042,
+          "chinese_characters": 1066
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.9V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "引力追及中的最大间距",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1202,
+          "chinese_characters": 714
+        },
+        "student": {
+          "content_characters": 1612,
+          "chinese_characters": 826
+        },
+        "teacher": {
+          "content_characters": 1612,
+          "chinese_characters": 826
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.10V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "地球直通隧道中的运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1658,
+          "chinese_characters": 836
+        },
+        "student": {
+          "content_characters": 1982,
+          "chinese_characters": 931
+        },
+        "teacher": {
+          "content_characters": 1982,
+          "chinese_characters": 931
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.11V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "旋转杆上双弹簧小球",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 727,
+          "chinese_characters": 290
+        },
+        "student": {
+          "content_characters": 1359,
+          "chinese_characters": 628
+        },
+        "teacher": {
+          "content_characters": 1359,
+          "chinese_characters": 628
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.12A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.12V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "旋转圆环中的平衡稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1626,
+          "chinese_characters": 669
+        },
+        "student": {
+          "content_characters": 1658,
+          "chinese_characters": 823
+        },
+        "teacher": {
+          "content_characters": 1658,
+          "chinese_characters": 823
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.13B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.13V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "弹性小球与移动墙壁",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 765,
+          "chinese_characters": 416
+        },
+        "student": {
+          "content_characters": 1204,
+          "chinese_characters": 757
+        },
+        "teacher": {
+          "content_characters": 1204,
+          "chinese_characters": 757
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.14V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "三质点绳系冲量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 458,
+          "chinese_characters": 232
+        },
+        "student": {
+          "content_characters": 1076,
+          "chinese_characters": 525
+        },
+        "teacher": {
+          "content_characters": 1076,
+          "chinese_characters": 525
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.15A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.15V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "炮弹最高点爆炸",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 850,
+          "chinese_characters": 430
+        },
+        "student": {
+          "content_characters": 1224,
+          "chinese_characters": 635
+        },
+        "teacher": {
+          "content_characters": 1224,
+          "chinese_characters": 635
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.16B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.16V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "平板车上多人跳离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 675,
+          "chinese_characters": 334
+        },
+        "student": {
+          "content_characters": 1127,
+          "chinese_characters": 597
+        },
+        "teacher": {
+          "content_characters": 1127,
+          "chinese_characters": 597
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.17A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.17V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "下滑木块中支持力做功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1093,
+          "chinese_characters": 600
+        },
+        "student": {
+          "content_characters": 1354,
+          "chinese_characters": 710
+        },
+        "teacher": {
+          "content_characters": 1354,
+          "chinese_characters": 710
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.18V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "半圆槽中小球与木块",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 815,
+          "chinese_characters": 360
+        },
+        "student": {
+          "content_characters": 1379,
+          "chinese_characters": 630
+        },
+        "teacher": {
+          "content_characters": 1379,
+          "chinese_characters": 630
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.19B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.19V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "非弹性碰撞后弹簧带起木块",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 835,
+          "chinese_characters": 465
+        },
+        "student": {
+          "content_characters": 1328,
+          "chinese_characters": 711
+        },
+        "teacher": {
+          "content_characters": 1328,
+          "chinese_characters": 711
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.20A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.20V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "滑块弹簧与断绳条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1127,
+          "chinese_characters": 789
+        },
+        "student": {
+          "content_characters": 1767,
+          "chinese_characters": 863
+        },
+        "teacher": {
+          "content_characters": 1767,
+          "chinese_characters": 863
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.21B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.21V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "两球与墙的碰撞次数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1947,
+          "chinese_characters": 956
+        },
+        "student": {
+          "content_characters": 2009,
+          "chinese_characters": 1037
+        },
+        "teacher": {
+          "content_characters": 2009,
+          "chinese_characters": 1037
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.22B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.22V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "三球铰链杆释放",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 906,
+          "chinese_characters": 605
+        },
+        "student": {
+          "content_characters": 1470,
+          "chinese_characters": 672
+        },
+        "teacher": {
+          "content_characters": 1470,
+          "chinese_characters": 672
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.23A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.23V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "小球反复弹跳总时间",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 581,
+          "chinese_characters": 297
+        },
+        "student": {
+          "content_characters": 764,
+          "chinese_characters": 450
+        },
+        "teacher": {
+          "content_characters": 764,
+          "chinese_characters": 450
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.24A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.24V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "台阶逐级弹跳",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 868,
+          "chinese_characters": 490
+        },
+        "student": {
+          "content_characters": 1148,
+          "chinese_characters": 674
+        },
+        "teacher": {
+          "content_characters": 1148,
+          "chinese_characters": 674
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.25A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.25V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "固定斜面碰撞反弹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 901,
+          "chinese_characters": 367
+        },
+        "student": {
+          "content_characters": 1267,
+          "chinese_characters": 531
+        },
+        "teacher": {
+          "content_characters": 1267,
+          "chinese_characters": 531
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.26B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.26V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "可动斜面上的斜碰",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1376,
+          "chinese_characters": 589
+        },
+        "student": {
+          "content_characters": 1552,
+          "chinese_characters": 753
+        },
+        "teacher": {
+          "content_characters": 1552,
+          "chinese_characters": 753
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.27B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.27V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 28,
+      "题名": "相对平板的反射定律",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1229,
+          "chinese_characters": 810
+        },
+        "student": {
+          "content_characters": 1729,
+          "chinese_characters": 1017
+        },
+        "teacher": {
+          "content_characters": 1729,
+          "chinese_characters": 1017
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.28A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.28V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 29,
+      "题名": "小球在可动圆环内反射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1224,
+          "chinese_characters": 630
+        },
+        "student": {
+          "content_characters": 1502,
+          "chinese_characters": 910
+        },
+        "teacher": {
+          "content_characters": 1502,
+          "chinese_characters": 910
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.29A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.29B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.29V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 30,
+      "题名": "三质点万有引力相对平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 938,
+          "chinese_characters": 455
+        },
+        "student": {
+          "content_characters": 1654,
+          "chinese_characters": 835
+        },
+        "teacher": {
+          "content_characters": 1654,
+          "chinese_characters": 835
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.30A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.30B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.30V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 31,
+      "题名": "等功跳车的动能比较",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 882,
+          "chinese_characters": 599
+        },
+        "student": {
+          "content_characters": 1626,
+          "chinese_characters": 915
+        },
+        "teacher": {
+          "content_characters": 1626,
+          "chinese_characters": 915
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.31"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.31A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.31V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.31V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.31V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.31V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 32,
+      "题名": "子弹射入弹簧连接木块",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1551,
+          "chinese_characters": 749
+        },
+        "student": {
+          "content_characters": 1619,
+          "chinese_characters": 827
+        },
+        "teacher": {
+          "content_characters": 1619,
+          "chinese_characters": 827
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.32"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.32A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.32V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.32V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.32V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.32V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 33,
+      "题名": "箱中滑块多次碰撞",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1044,
+          "chinese_characters": 542
+        },
+        "student": {
+          "content_characters": 1232,
+          "chinese_characters": 648
+        },
+        "teacher": {
+          "content_characters": 1232,
+          "chinese_characters": 648
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.33"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.33A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.33B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.33V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.33V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.33V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.33V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 34,
+      "题名": "核反应阈能",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1083,
+          "chinese_characters": 358
+        },
+        "student": {
+          "content_characters": 1275,
+          "chinese_characters": 707
+        },
+        "teacher": {
+          "content_characters": 1275,
+          "chinese_characters": 707
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.34"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.34A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.34B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.34V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.34V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.34V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.34V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 35,
+      "题名": "变质量物体方程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 614,
+          "chinese_characters": 344
+        },
+        "student": {
+          "content_characters": 1281,
+          "chinese_characters": 749
+        },
+        "teacher": {
+          "content_characters": 1281,
+          "chinese_characters": 749
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.35"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.35A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.35B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.35V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.35V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.35V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.35V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 36,
+      "题名": "下落绳子的变质量分析",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1217,
+          "chinese_characters": 569
+        },
+        "student": {
+          "content_characters": 1498,
+          "chinese_characters": 849
+        },
+        "teacher": {
+          "content_characters": 1498,
+          "chinese_characters": 849
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.36"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.36A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.36B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.36V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.36V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.36V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.36V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点且已看变动"
+      }
+    },
+    {
+      "题号": 37,
+      "题名": "火箭竖直发射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 975,
+          "chinese_characters": 368
+        },
+        "student": {
+          "content_characters": 1274,
+          "chinese_characters": 593
+        },
+        "teacher": {
+          "content_characters": 1274,
+          "chinese_characters": 593
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.37"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.37A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.37V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.37V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.37V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.37V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 38,
+      "题名": "小球带绳竖直上抛",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 886,
+          "chinese_characters": 256
+        },
+        "student": {
+          "content_characters": 1256,
+          "chinese_characters": 537
+        },
+        "teacher": {
+          "content_characters": 1256,
+          "chinese_characters": 537
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.38"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.38A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.38B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.38V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.38V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.38V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.38V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    },
+    {
+      "题号": 39,
+      "题名": "雾中水滴变质量下落",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1442,
+          "chinese_characters": 722
+        },
+        "student": {
+          "content_characters": 1622,
+          "chinese_characters": 766
+        },
+        "teacher": {
+          "content_characters": 1622,
+          "chinese_characters": 766
+        },
+        "floor_met": true,
+        "variants": 4,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图3.39"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图3.39A"
+          },
+          {
+            "n": 2,
+            "caption": "解图3.39B"
+          },
+          {
+            "n": 3,
+            "caption": "解图3.39C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图3.39V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.39V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.39V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图3.39V4"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "按字段引用同文实审；本轮抽读重点"
+      }
+    }
+  ],
+  "实际目视登记": []
+}

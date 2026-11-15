@@ -1,0 +1,637 @@
+{
+  "单元": "近代物理试题",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "近代物理试题_学生版.pdf": "16754c13281e069803ebbcc261c3245293b842e9757a57d6bdd2baacf7ba18ca",
+    "近代物理试题_学生版.tex": "cc5831410dff5bf843a97c90257511956fbd6147e29606547b2100d73cb26f25",
+    "近代物理试题_学生解答版.pdf": "4e665e626e2ffd5f568c87f944b9514c0fdd8112a40db303704d05bb3e6c0ae0",
+    "近代物理试题_学生解答版.tex": "a53f073dfb33127286b1d20e8c2d5b477a5e6f091afd0cd920f2e22ae4e9f000",
+    "近代物理试题_教师版.pdf": "8d1783a47f67e5ea1e18057dbf0a68945bd66fbc37aca3a7b36f684c365bec15",
+    "近代物理试题_教师版.tex": "fd52fca2d87080f873de230e3edb557c2f5663d26e621a9fd223d72bb3aed366"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "热运动和碰撞造成的谱线展宽",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2091,
+          "chinese_characters": 932
+        },
+        "student": {
+          "content_characters": 2375,
+          "chinese_characters": 1088
+        },
+        "teacher": {
+          "content_characters": 2375,
+          "chinese_characters": 1088
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近试.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近试.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近试.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近试.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图近试.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读麦氏分量和多普勒映射、摩尔质量约化、碰撞率与洛伦兹谱，补同峰高定量比较及波长密度的雅可比，图A横轴与采样坐标统一为标准差。",
+          "figures": [
+            "图近试.1",
+            "解图近试.1A",
+            "解图近试.1B",
+            "解图近试.1C",
+            "解图近试.1V1",
+            "解图近试.1V2",
+            "解图近试.1V3",
+            "解图近试.1V4",
+            "解图近试.1V5",
+            "解图近试.1V6",
+            "解图近试.1V7",
+            "解图近试.1V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "中子干涉中的重力相位差",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1088,
+          "chinese_characters": 589
+        },
+        "student": {
+          "content_characters": 1470,
+          "chinese_characters": 658
+        },
+        "teacher": {
+          "content_characters": 1470,
+          "chinese_characters": 658
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近试.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近试.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近试.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近试.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图近试.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读可达相位和未知固定相位的整数计数，补21次的偏置条件和图B两组示例的边界说明。",
+          "figures": [
+            "图近试.2",
+            "解图近试.2A",
+            "解图近试.2B",
+            "解图近试.2C",
+            "解图近试.2V1",
+            "解图近试.2V2",
+            "解图近试.2V3",
+            "解图近试.2V4",
+            "解图近试.2V5",
+            "解图近试.2V6",
+            "解图近试.2V7",
+            "解图近试.2V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "有限核半径下的缪子原子估算",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1296,
+          "chinese_characters": 511
+        },
+        "student": {
+          "content_characters": 1590,
+          "chinese_characters": 652
+        },
+        "teacher": {
+          "content_characters": 1590,
+          "chinese_characters": 652
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近试.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近试.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近试.3C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近试.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图近试.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读有限核电势、核外点电荷估算和核内圆轨道总能量。补核内能量区间保证半径存在，图B把基态能量标成由跃迁差值求出。",
+          "figures": [
+            "图近试.3",
+            "解图近试.3A",
+            "解图近试.3C",
+            "解图近试.3B",
+            "解图近试.3V1",
+            "解图近试.3V2",
+            "解图近试.3V3",
+            "解图近试.3V4",
+            "解图近试.3V5",
+            "解图近试.3V6",
+            "解图近试.3V7",
+            "解图近试.3V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "两根运动尺与分别归零的四只钟",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 760,
+          "chinese_characters": 215
+        },
+        "student": {
+          "content_characters": 1231,
+          "chinese_characters": 533
+        },
+        "teacher": {
+          "content_characters": 1231,
+          "chinese_characters": 533
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近试.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近试.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近试.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近试.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图近试.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读两系归零、光线交点、回光行程与各钟固有时。事件图C加真实归一化刻度，把A标签与最后到达点V错开。",
+          "figures": [
+            "图近试.4",
+            "解图近试.4A",
+            "解图近试.4B",
+            "解图近试.4C",
+            "解图近试.4V1",
+            "解图近试.4V2",
+            "解图近试.4V3",
+            "解图近试.4V4",
+            "解图近试.4V5",
+            "解图近试.4V6",
+            "解图近试.4V7",
+            "解图近试.4V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "磁场轨迹与两体反应的粒子鉴别",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1470,
+          "chinese_characters": 781
+        },
+        "student": {
+          "content_characters": 1977,
+          "chinese_characters": 921
+        },
+        "teacher": {
+          "content_characters": 1977,
+          "chinese_characters": 921
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近试.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近试.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近试.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近试.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图近试.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图近试.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮独立通读题干与师生共有主解。教师各栏的差异段与相关图逐项复阅，其余与签字候选等同的字段、变式和图用 SHA 实审记录承接。",
+        "evidence": {
+          "physics": "独立通读曲率定动量、能量守恒与负粒子鉴别。补两种非相对论动能误差，图C标出实验动量处的两曲线读数。",
+          "figures": [
+            "图近试.5",
+            "解图近试.5A",
+            "解图近试.5B",
+            "解图近试.5C",
+            "解图近试.5V1",
+            "解图近试.5V2",
+            "解图近试.5V3",
+            "解图近试.5V4",
+            "解图近试.5V5",
+            "解图近试.5V6",
+            "解图近试.5V7",
+            "解图近试.5V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

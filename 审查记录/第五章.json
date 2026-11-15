@@ -1,0 +1,1616 @@
+{
+  "单元": "第五章",
+  "题数": 12,
+  "分章文件_SHA256": {
+    "第五章_学生版.pdf": "2bed4aa11be7c573892d019c999c13b444a5847d1b42d1a50c7bc7cfbe61fca4",
+    "第五章_学生版.tex": "2e576f3caa3b1d6e66c8b8d9887dbd3890a55372163d08e61e0b781824c7cae8",
+    "第五章_学生解答版.pdf": "3ecace82059087cf47ca5c18a71967623666aa08fe405930cf700cc324b0351a",
+    "第五章_学生解答版.tex": "28295249317088db1c71a70f8a77bf674e5a56b70aec956868838d3d5429b3a3",
+    "第五章_教师版.pdf": "2340ad6eeca7191982772ad0fa3dcf1a187f36d4aad330b86ccecb260ba50a22",
+    "第五章_教师版.tex": "877b451a7a7fd3e265426e1158d02bf854524728f2c7808d33c77d21bde9f7de"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "圆锥面上链环的张力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 358,
+          "chinese_characters": 184
+        },
+        "student": {
+          "content_characters": 1067,
+          "chinese_characters": 640
+        },
+        "teacher": {
+          "content_characters": 1067,
+          "chinese_characters": 640
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.1V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.1",
+            "解图5.1A–B",
+            "变图5.1V1–V6"
+          ],
+          "physics": "复算圆锥母线与支持力垂直、两个切力的有限弧合力、分布支持力逐段积分，以及半球换角、缺口切线和强度曲线。V4补全静摩擦很大时的张力上下端，并区分摩擦极限和链环长度约束。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "水平杆靠墙的摩擦条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 731,
+          "chinese_characters": 335
+        },
+        "student": {
+          "content_characters": 1327,
+          "chinese_characters": 702
+        },
+        "teacher": {
+          "content_characters": 1327,
+          "chinese_characters": 702
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.2V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.2",
+            "解图5.2A–B",
+            "变图5.2V1–V6"
+          ],
+          "physics": "复算三矩心的力矩转向、载荷半重的无量纲曲线与 c=.8 交点、挂点对导数的影响和中点系绳的摩擦反号。明确判别条件为系数相等或材料线更高，在变图 V1 将向左的箭头标为绳的水平分量。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "竖杆受水平力的防滑条件",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 400,
+          "chinese_characters": 190
+        },
+        "student": {
+          "content_characters": 1156,
+          "chinese_characters": 580
+        },
+        "teacher": {
+          "content_characters": 1156,
+          "chinese_characters": 580
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.3V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.3",
+            "解图5.3A–B",
+            "变图5.3V1–V6"
+          ],
+          "physics": "验 D 的三种符号、零摩擦的退化情形、渐近线 h/L=.5、可用高度的下限及绳强度交点。变图V1–V4让各杆底端落在地面上；明确 h=0 时 N=mg。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "半球凹面内的均匀细杆",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 371,
+          "chinese_characters": 152
+        },
+        "student": {
+          "content_characters": 1338,
+          "chinese_characters": 644
+        },
+        "teacher": {
+          "content_characters": 1338,
+          "chinese_characters": 644
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.4V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.4",
+            "解图5.4A–B",
+            "变图5.4V1–V6"
+          ],
+          "physics": "以圆内端、口缘和整杆重心三力共点复算两个直角三角形、正支持力、端点、带摩擦方程和双密度重心。零露出时 B、D 同一点，改成同一个标签。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "三圆柱堆放的摩擦下限",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 464,
+          "chinese_characters": 190
+        },
+        "student": {
+          "content_characters": 1394,
+          "chinese_characters": 827
+        },
+        "teacher": {
+          "content_characters": 1394,
+          "chinese_characters": 827
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.5V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.5",
+            "解图5.5A–B",
+            "变图5.5V1–V6"
+          ],
+          "physics": "复算上下柱圆心矩与两个摩擦下限、左右平均的库仑凸性、四柱侧力及镜像。明确参数化的是全部对称解，四柱变图的同大竖直力按等长画。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "斜木板上三球的支承",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 843,
+          "chinese_characters": 540
+        },
+        "student": {
+          "content_characters": 1761,
+          "chinese_characters": 951
+        },
+        "teacher": {
+          "content_characters": 1761,
+          "chinese_characters": 951
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图5.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.6V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.6",
+            "解图5.6A–C",
+            "变图5.6V1–V6"
+          ],
+          "physics": "复算三球总支持力、各球支承与合力位置、板与球组成整体时墙力矩，以及变式各张力与有限板接触条件。补两球图中的 E 和 D、板图的铰链水平反力，并将三个法向力用法向垂足的字母标示。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "分段悬线的平衡与提升功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 645,
+          "chinese_characters": 285
+        },
+        "student": {
+          "content_characters": 1753,
+          "chinese_characters": 730
+        },
+        "teacher": {
+          "content_characters": 1753,
+          "chinese_characters": 730
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图5.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.7V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.7",
+            "解图5.7A–C",
+            "变图5.7V1–V6"
+          ],
+          "physics": "复算两圆交点、准静态正张力、外力导数和分段功、速度沿外绳的正交条件。统一两节点各力比例，明示作图所取的外力方向与横轴归一化单位。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "浮子与插杆的稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 676,
+          "chinese_characters": 391
+        },
+        "student": {
+          "content_characters": 1702,
+          "chinese_characters": 1021
+        },
+        "teacher": {
+          "content_characters": 1702,
+          "chinese_characters": 1021
+        },
+        "floor_met": true,
+        "variants": 7,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图5.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.8V7"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.8",
+            "解图5.8A–C",
+            "变图5.8V1–V7"
+          ],
+          "physics": "复算浮力对曲率中心零力矩、三种稳定条件、排水球缺体积和接缝最低点高度。题干补浮子质量分布对称条件，订正两个分重力与图号的课堂引导。"
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "五杆悬挂的平衡形状",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1961,
+          "chinese_characters": 924
+        },
+        "student": {
+          "content_characters": 2532,
+          "chinese_characters": 1122
+        },
+        "teacher": {
+          "content_characters": 2532,
+          "chinese_characters": 1122
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.9V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.9",
+            "解图5.9A–B",
+            "变图5.9V1–V6"
+          ],
+          "physics": "复算四次式的数据表、牛顿根和内角，逐杆对照两端力矩、七杆宽度和底杆改变质量的形状。受力转向改用两个独立分量，并将逐层承重箭头按 5:3:1 画。"
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "厚木板在圆柱上的稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 713,
+          "chinese_characters": 330
+        },
+        "student": {
+          "content_characters": 1531,
+          "chinese_characters": 807
+        },
+        "teacher": {
+          "content_characters": 1531,
+          "chinese_characters": 807
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.10V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.10",
+            "解图5.10A–B",
+            "变图5.10V1–V6"
+          ],
+          "physics": "对比板面无滑滚动几何与自由平移两模型。复算高度、临界四次项、一般转矩和有限偏角势垒角，令无摩擦图独立取 q≠Rθ，移除厚板势能曲线的箭头。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "菱形木条与圆盘的平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 653,
+          "chinese_characters": 217
+        },
+        "student": {
+          "content_characters": 1666,
+          "chinese_characters": 739
+        },
+        "teacher": {
+          "content_characters": 1666,
+          "chinese_characters": 739
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.11V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.11",
+            "解图5.11A–B",
+            "变图5.11V1–V6"
+          ],
+          "physics": "独立复算驻值、切点、盘心到上杆直线的距离、上下杆的力矩、摩擦比及对称构型自由度。补盘心至上杆直线的垂距和有摩擦时的下杆消元。明确虚功正偏角与箭头的关系。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "细绳张力与悬链线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1363,
+          "chinese_characters": 450
+        },
+        "student": {
+          "content_characters": 2290,
+          "chinese_characters": 946
+        },
+        "teacher": {
+          "content_characters": 2290,
+          "chinese_characters": 946
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图5.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图5.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图5.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图5.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图5.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图5.12V6"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "实读题干、学生主解、教师九栏和各变式；检查 TikZ 源码及旧数学证据",
+        "evidence": {
+          "figures": [
+            "图5.12",
+            "解图5.12A–C",
+            "变图5.12V1–V6"
+          ],
+          "physics": "复算最小张力、切线角互余、微元投影及两次积分、曲率以及固定跨度时端张力的最小值。区分由弧长定位与由横坐标定位的局部切线角，坐标平移图将横轴复归零高度。"
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

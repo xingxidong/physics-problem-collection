@@ -1,0 +1,530 @@
+{
+  "单元": "电磁学试题四",
+  "题数": 5,
+  "分章文件_SHA256": {
+    "电磁学试题四_学生版.pdf": "0fd4b916f69bd78927878b285d204bcb71d2b3b58c4b0cd3204dd5cd3cf3dfd8",
+    "电磁学试题四_学生版.tex": "e5aa92c02751d151bce27c43ea0e164075e7d416034c0c97a20861c523d9b21a",
+    "电磁学试题四_学生解答版.pdf": "a7b8ba848653d2cf09d8aacb09221bdf226939ac23b3a653418c7286d925500d",
+    "电磁学试题四_学生解答版.tex": "f1bbadfb6b8db526e1006b2feb03c1e1b23b8c87cdbc879adce0263de496e036",
+    "电磁学试题四_教师版.pdf": "fce482e2a728ee3488ef881f7406354d5ab700cf588552b4a8cea66f7e85aad5",
+    "电磁学试题四_教师版.tex": "94324a82c0bf597c9d34d935b9bc168e0d40123527716d62cdc78ce7e8a60fb2"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "非均匀导体中的体电荷与界面电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 931,
+          "chinese_characters": 492
+        },
+        "student": {
+          "content_characters": 1304,
+          "chinese_characters": 694
+        },
+        "teacher": {
+          "content_characters": 1304,
+          "chinese_characters": 694
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试4.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试4.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试4.1D"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试4.1B"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试4.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试4.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读场连续斜率跳变、薄柱极限；抽读统一改阻和体电荷偶极矩。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "多端等效与无限内接三角形网络",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1593,
+          "chinese_characters": 1161
+        },
+        "student": {
+          "content_characters": 2407,
+          "chinese_characters": 1337
+        },
+        "teacher": {
+          "content_characters": 2407,
+          "chinese_characters": 1337
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试4.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试4.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试4.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试4.2D"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试4.2C"
+          },
+          {
+            "n": 5,
+            "caption": "解图电试4.2E"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试4.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "补外端固定时内部矩阵为正定的电阻耗散证明；对照等效电导、有限层主根和增量误差。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "互补RL、RC支路的相量与初始储能",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1411,
+          "chinese_characters": 596
+        },
+        "student": {
+          "content_characters": 1926,
+          "chinese_characters": 939
+        },
+        "teacher": {
+          "content_characters": 1926,
+          "chinese_characters": 939
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试4.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试4.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试4.3D"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试4.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试4.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试4.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读并联导纳与初态抵消条件，抽读局部频率同相、两支路不同电阻。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "双行CLC网络的复阻抗和功率因数",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 913,
+          "chinese_characters": 354
+        },
+        "student": {
+          "content_characters": 1405,
+          "chinese_characters": 696
+        },
+        "teacher": {
+          "content_characters": 1405,
+          "chinese_characters": 696
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试4.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试4.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试4.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试4.4C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试4.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读阻抗主解及箭头参考方向；直接对照一般频率实部和容感转换阈值。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "导体屏蔽暂态与单频等效电容",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1818,
+          "chinese_characters": 874
+        },
+        "student": {
+          "content_characters": 2074,
+          "chinese_characters": 1040
+        },
+        "teacher": {
+          "content_characters": 2074,
+          "chinese_characters": 1040
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电试4.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电试4.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电试4.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电试4.5D"
+          },
+          {
+            "n": 4,
+            "caption": "解图电试4.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电试4.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电试4.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "review_depth": "本轮逐题读题干、关键推导/栏目及变式重点，两次同文按签署项引用",
+        "findings": "复读外加电势降与真实内部电场、动态串联和单频并联等效，抽读能量与非周期输入。",
+        "confirmed_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "关键洞察",
+          "易错点"
+        ],
+        "remaining_fields": [
+          "标准解法",
+          "课堂讲解建议",
+          "变式训练"
+        ]
+      }
+    }
+  ],
+  "实际目视登记": []
+}

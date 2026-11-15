@@ -1,0 +1,3054 @@
+{
+  "单元": "光学第二章",
+  "题数": 27,
+  "分章文件_SHA256": {
+    "光学第二章_学生版.pdf": "e2e1a855219e5f4137dec5881df7e2223220165a02b9b3da152e4cd35fa1b96e",
+    "光学第二章_学生版.tex": "7c75afb8d620545b7bbbd5f42696139b3c737c3c19bffcfb67bc03fcfc3503eb",
+    "光学第二章_学生解答版.pdf": "913e20449aeb6c2392fe00669ed1f655736c64f899ff9002434914581648c429",
+    "光学第二章_学生解答版.tex": "bf1109a67626c5375841854748cbe0086b6b89f800ab7c943b8ab27381804fd9",
+    "光学第二章_教师版.pdf": "454ffeffac6f73636e1469caeb77c2e82d19dff224a7042206d78b028814e222",
+    "光学第二章_教师版.tex": "498196e38ffacc65d92360598536fc3d6b6935641d95969b10dbbc21ec1b376a"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "运动散射体引起的信号起伏",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 806,
+          "chinese_characters": 326
+        },
+        "student": {
+          "content_characters": 1689,
+          "chinese_characters": 758
+        },
+        "teacher": {
+          "content_characters": 1689,
+          "chinese_characters": 758
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读取驻点相位、时间导数与速率，复读旧终检后变化的三栏及 C/S 光路可见度。",
+          "figures": [
+            "图光2.1",
+            "解图光2.1A",
+            "解图光2.1B",
+            "解图光2.1C",
+            "解图光2.1D",
+            "变图光2.1V1",
+            "变图光2.1V2",
+            "变图光2.1V3",
+            "变图光2.1V4",
+            "变图光2.1V5",
+            "变图光2.1V6",
+            "变图光2.1V7",
+            "变图光2.1V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "射电星升起时的海面干涉",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1391,
+          "chinese_characters": 646
+        },
+        "student": {
+          "content_characters": 3135,
+          "chinese_characters": 1484
+        },
+        "teacher": {
+          "content_characters": 3135,
+          "chinese_characters": 1484
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.2C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读水平线上完全相消与非水平上谷底，核对两类相位级次以及 n=9 取值。",
+          "figures": [
+            "图光2.2",
+            "解图光2.2A",
+            "解图光2.2B",
+            "解图光2.2C",
+            "解图光2.2D",
+            "变图光2.2V1",
+            "变图光2.2V2",
+            "变图光2.2V3",
+            "变图光2.2V4",
+            "变图光2.2V5",
+            "变图光2.2V6",
+            "变图光2.2V7",
+            "变图光2.2V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "菲涅耳双面镜与有限宽光源",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 915,
+          "chinese_characters": 591
+        },
+        "student": {
+          "content_characters": 2854,
+          "chinese_characters": 1437
+        },
+        "teacher": {
+          "content_characters": 2854,
+          "chinese_characters": 1437
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.3C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读共同照明区的开闭端、均匀非相干源的积分及两种近似区分。",
+          "figures": [
+            "图光2.3",
+            "解图光2.3A",
+            "解图光2.3B",
+            "解图光2.3C",
+            "解图光2.3D",
+            "变图光2.3V1",
+            "变图光2.3V2",
+            "变图光2.3V3",
+            "变图光2.3V4",
+            "变图光2.3V5",
+            "变图光2.3V6",
+            "变图光2.3V7",
+            "变图光2.3V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "对剖透镜的条纹数与孔径限制",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 626,
+          "chinese_characters": 272
+        },
+        "student": {
+          "content_characters": 2199,
+          "chinese_characters": 1063
+        },
+        "teacher": {
+          "content_characters": 2199,
+          "chinese_characters": 1063
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读知识点、虚光源距离与孔径，继承一致的已审范例。",
+          "figures": [
+            "图光2.4",
+            "解图光2.4A",
+            "解图光2.4B",
+            "解图光2.4C",
+            "解图光2.4D",
+            "变图光2.4V1",
+            "变图光2.4V2",
+            "变图光2.4V3",
+            "变图光2.4V4",
+            "变图光2.4V5",
+            "变图光2.4V6",
+            "变图光2.4V7",
+            "变图光2.4V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "不等间距三缝的主极大与次极大",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 869,
+          "chinese_characters": 340
+        },
+        "student": {
+          "content_characters": 2872,
+          "chinese_characters": 1195
+        },
+        "teacher": {
+          "content_characters": 2872,
+          "chinese_characters": 1195
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.5C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.5D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读余弦多项式可行根与实际次峰位置，补出按导数分峰谷的对应。",
+          "figures": [
+            "图光2.5",
+            "解图光2.5A",
+            "解图光2.5B",
+            "解图光2.5C",
+            "解图光2.5D",
+            "变图光2.5V1",
+            "变图光2.5V2",
+            "变图光2.5V3",
+            "变图光2.5V4",
+            "变图光2.5V5",
+            "变图光2.5V6",
+            "变图光2.5V7",
+            "变图光2.5V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "两束斜交平面波的条纹",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 692,
+          "chinese_characters": 293
+        },
+        "student": {
+          "content_characters": 1799,
+          "chinese_characters": 764
+        },
+        "teacher": {
+          "content_characters": 1799,
+          "chinese_characters": 764
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.6C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读斜交波的波矢差、屏截条纹和偏振条件。",
+          "figures": [
+            "图光2.6",
+            "解图光2.6A",
+            "解图光2.6B",
+            "解图光2.6C",
+            "解图光2.6D",
+            "变图光2.6V1",
+            "变图光2.6V2",
+            "变图光2.6V3",
+            "变图光2.6V4",
+            "变图光2.6V5",
+            "变图光2.6V6",
+            "变图光2.6V7",
+            "变图光2.6V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "双棱镜的最佳观察距离",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 619,
+          "chinese_characters": 384
+        },
+        "student": {
+          "content_characters": 1937,
+          "chinese_characters": 933
+        },
+        "teacher": {
+          "content_characters": 1937,
+          "chinese_characters": 933
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.7C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.7D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读可照明区两束边界与宽度的分段函数，说明最大共同照明区。",
+          "figures": [
+            "图光2.7",
+            "解图光2.7A",
+            "解图光2.7B",
+            "解图光2.7C",
+            "解图光2.7D",
+            "变图光2.7V1",
+            "变图光2.7V2",
+            "变图光2.7V3",
+            "变图光2.7V4",
+            "变图光2.7V5",
+            "变图光2.7V6",
+            "变图光2.7V7",
+            "变图光2.7V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "三平面波的三种组合",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1634,
+          "chinese_characters": 391
+        },
+        "student": {
+          "content_characters": 2218,
+          "chinese_characters": 825
+        },
+        "teacher": {
+          "content_characters": 2218,
+          "chinese_characters": 825
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.8C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.8B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.8D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读三波叠加两时间分量与非恒定的峰谷互换，具体指出遗漏项。",
+          "figures": [
+            "图光2.8",
+            "解图光2.8A",
+            "解图光2.8C",
+            "解图光2.8B",
+            "解图光2.8D",
+            "变图光2.8V1",
+            "变图光2.8V2",
+            "变图光2.8V3",
+            "变图光2.8V4",
+            "变图光2.8V5",
+            "变图光2.8V6",
+            "变图光2.8V7",
+            "变图光2.8V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "平面波与球面波的同心环",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 810,
+          "chinese_characters": 359
+        },
+        "student": {
+          "content_characters": 2004,
+          "chinese_characters": 898
+        },
+        "teacher": {
+          "content_characters": 2004,
+          "chinese_characters": 898
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.9C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.9D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读等振幅环式和相长点的精确强度导数。新增缓变振幅时非中央亮峰位移首项，并将路程差位移换成半径位移。",
+          "figures": [
+            "图光2.9",
+            "解图光2.9A",
+            "解图光2.9B",
+            "解图光2.9C",
+            "解图光2.9D",
+            "变图光2.9V1",
+            "变图光2.9V2",
+            "变图光2.9V3",
+            "变图光2.9V4",
+            "变图光2.9V5",
+            "变图光2.9V6",
+            "变图光2.9V7",
+            "变图光2.9V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "梅斯林装置中的会聚与发散波",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1680,
+          "chinese_characters": 682
+        },
+        "student": {
+          "content_characters": 2358,
+          "chinese_characters": 1076
+        },
+        "teacher": {
+          "content_characters": 2358,
+          "chinese_characters": 1076
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.10C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.10D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读梅斯林曲率、中心相位与共同照明三个量，复看V8画束区域和是否有环。",
+          "figures": [
+            "图光2.10",
+            "解图光2.10A",
+            "解图光2.10B",
+            "解图光2.10C",
+            "解图光2.10D",
+            "变图光2.10V1",
+            "变图光2.10V2",
+            "变图光2.10V3",
+            "变图光2.10V4",
+            "变图光2.10V5",
+            "变图光2.10V6",
+            "变图光2.10V7",
+            "变图光2.10V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "有限洛埃镜的条纹与谱宽",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 894,
+          "chinese_characters": 444
+        },
+        "student": {
+          "content_characters": 2154,
+          "chinese_characters": 942
+        },
+        "teacher": {
+          "content_characters": 2154,
+          "chinese_characters": 942
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.11C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.11D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读精确光程差、近轴近似导致的边缘离散级次差与谱包络。",
+          "figures": [
+            "图光2.11",
+            "解图光2.11A",
+            "解图光2.11B",
+            "解图光2.11C",
+            "解图光2.11D",
+            "变图光2.11V1",
+            "变图光2.11V2",
+            "变图光2.11V3",
+            "变图光2.11V4",
+            "变图光2.11V5",
+            "变图光2.11V6",
+            "变图光2.11V7",
+            "变图光2.11V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "双星角间距的干涉测量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 685,
+          "chinese_characters": 382
+        },
+        "student": {
+          "content_characters": 1930,
+          "chinese_characters": 977
+        },
+        "teacher": {
+          "content_characters": 1930,
+          "chinese_characters": 977
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.12C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.12D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读双星方向的几何修正与透镜近轴焦面关系。",
+          "figures": [
+            "图光2.12",
+            "解图光2.12A",
+            "解图光2.12B",
+            "解图光2.12C",
+            "解图光2.12D",
+            "变图光2.12V1",
+            "变图光2.12V2",
+            "变图光2.12V3",
+            "变图光2.12V4",
+            "变图光2.12V5",
+            "变图光2.12V6",
+            "变图光2.12V7",
+            "变图光2.12V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "均匀狭缝的空间相干性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1024,
+          "chinese_characters": 460
+        },
+        "student": {
+          "content_characters": 1667,
+          "chinese_characters": 865
+        },
+        "teacher": {
+          "content_characters": 1667,
+          "chinese_characters": 865
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.13C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.13D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读均匀狭缝相干积分角宽、首零和半高定义。",
+          "figures": [
+            "图光2.13",
+            "解图光2.13A",
+            "解图光2.13B",
+            "解图光2.13C",
+            "解图光2.13D",
+            "变图光2.13V1",
+            "变图光2.13V2",
+            "变图光2.13V3",
+            "变图光2.13V4",
+            "变图光2.13V5",
+            "变图光2.13V6",
+            "变图光2.13V7",
+            "变图光2.13V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "任意扩展光源的可见度公式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1727,
+          "chinese_characters": 766
+        },
+        "student": {
+          "content_characters": 2638,
+          "chinese_characters": 1432
+        },
+        "teacher": {
+          "content_characters": 2638,
+          "chinese_characters": 1432
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.14C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.14D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读两维强度投影及可见度零点与双孔重合的极限、V7有限基线。",
+          "figures": [
+            "图光2.14",
+            "解图光2.14A",
+            "解图光2.14B",
+            "解图光2.14C",
+            "解图光2.14D",
+            "变图光2.14V1",
+            "变图光2.14V2",
+            "变图光2.14V3",
+            "变图光2.14V4",
+            "变图光2.14V5",
+            "变图光2.14V6",
+            "变图光2.14V7",
+            "变图光2.14V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "三块平凸透镜的曲率测量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 601,
+          "chinese_characters": 253
+        },
+        "student": {
+          "content_characters": 1653,
+          "chinese_characters": 912
+        },
+        "teacher": {
+          "content_characters": 1653,
+          "chinese_characters": 912
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.15C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.15D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读三组曲率之和、消元与半径各自由度。",
+          "figures": [
+            "图光2.15",
+            "解图光2.15A",
+            "解图光2.15B",
+            "解图光2.15C",
+            "解图光2.15D",
+            "变图光2.15V1",
+            "变图光2.15V2",
+            "变图光2.15V3",
+            "变图光2.15V4",
+            "变图光2.15V5",
+            "变图光2.15V6",
+            "变图光2.15V7",
+            "变图光2.15V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "薄膜可见度对角宽和厚度的限制",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 961,
+          "chinese_characters": 534
+        },
+        "student": {
+          "content_characters": 2366,
+          "chinese_characters": 1313
+        },
+        "teacher": {
+          "content_characters": 2366,
+          "chinese_characters": 1313
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.16C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.16B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.16D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读全角跨度而非单边角差，以及正入射内部极值；将相同角宽下的舍入说清。",
+          "figures": [
+            "图光2.16",
+            "解图光2.16A",
+            "解图光2.16C",
+            "解图光2.16B",
+            "解图光2.16D",
+            "变图光2.16V1",
+            "变图光2.16V2",
+            "变图光2.16V3",
+            "变图光2.16V4",
+            "变图光2.16V5",
+            "变图光2.16V6",
+            "变图光2.16V7",
+            "变图光2.16V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "钠双线的条纹可见度拍变",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1339,
+          "chinese_characters": 659
+        },
+        "student": {
+          "content_characters": 2330,
+          "chinese_characters": 1126
+        },
+        "teacher": {
+          "content_characters": 2330,
+          "chinese_characters": 1126
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "题图光2.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.17C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.17D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光2.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读初始亮纹同步与短波级次、平均级次的精确差及符号。",
+          "figures": [
+            "题图光2.17",
+            "解图光2.17A",
+            "解图光2.17B",
+            "解图光2.17C",
+            "解图光2.17D",
+            "解图光2.17V1",
+            "解图光2.17V2",
+            "解图光2.17V3",
+            "解图光2.17V4",
+            "解图光2.17V5",
+            "解图光2.17V6",
+            "解图光2.17V7",
+            "解图光2.17V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "圆环收缩中的级次判断",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 541,
+          "chinese_characters": 306
+        },
+        "student": {
+          "content_characters": 1898,
+          "chinese_characters": 1085
+        },
+        "teacher": {
+          "content_characters": 1898,
+          "chinese_characters": 1085
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.18C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.18B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.18D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读相对级次与绝对级次的区分，复读V6越零后的可见段。",
+          "figures": [
+            "图光2.18",
+            "解图光2.18A",
+            "解图光2.18C",
+            "解图光2.18B",
+            "解图光2.18D",
+            "变图光2.18V1",
+            "变图光2.18V2",
+            "变图光2.18V3",
+            "变图光2.18V4",
+            "变图光2.18V5",
+            "变图光2.18V6",
+            "变图光2.18V7",
+            "变图光2.18V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "光电条纹信号与双线拍频",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 447,
+          "chinese_characters": 256
+        },
+        "student": {
+          "content_characters": 2136,
+          "chinese_characters": 1029
+        },
+        "teacher": {
+          "content_characters": 2136,
+          "chinese_characters": 1029
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "题图光2.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.19C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.19D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光2.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读镜移导致的多普勒相位速度、两线的载频/拍频。",
+          "figures": [
+            "题图光2.19",
+            "解图光2.19A",
+            "解图光2.19B",
+            "解图光2.19C",
+            "解图光2.19D",
+            "解图光2.19V1",
+            "解图光2.19V2",
+            "解图光2.19V3",
+            "解图光2.19V4",
+            "解图光2.19V5",
+            "解图光2.19V6",
+            "解图光2.19V7",
+            "解图光2.19V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "法布里—珀罗双线的分数级次",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 980,
+          "chinese_characters": 379
+        },
+        "student": {
+          "content_characters": 2443,
+          "chinese_characters": 1155
+        },
+        "teacher": {
+          "content_characters": 2443,
+          "chinese_characters": 1155
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.20C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.20D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读精确波数差、分数级次候选及焦面读数灵敏度；突出近轴几何取法。",
+          "figures": [
+            "图光2.20",
+            "解图光2.20A",
+            "解图光2.20B",
+            "解图光2.20C",
+            "解图光2.20D",
+            "变图光2.20V1",
+            "变图光2.20V2",
+            "变图光2.20V3",
+            "变图光2.20V4",
+            "变图光2.20V5",
+            "变图光2.20V6",
+            "变图光2.20V7",
+            "变图光2.20V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "多光束条纹的半强度宽",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 494,
+          "chinese_characters": 175
+        },
+        "student": {
+          "content_characters": 1768,
+          "chinese_characters": 893
+        },
+        "teacher": {
+          "content_characters": 1768,
+          "chinese_characters": 893
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.21B"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.21A"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.21C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.21D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读半强度解的反正弦和峰宽的分母取法。",
+          "figures": [
+            "图光2.21",
+            "解图光2.21B",
+            "解图光2.21A",
+            "解图光2.21C",
+            "解图光2.21D",
+            "变图光2.21V1",
+            "变图光2.21V2",
+            "变图光2.21V3",
+            "变图光2.21V4",
+            "变图光2.21V5",
+            "变图光2.21V6",
+            "变图光2.21V7",
+            "变图光2.21V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "谐振腔的模间隔与腔峰宽度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 799,
+          "chinese_characters": 368
+        },
+        "student": {
+          "content_characters": 1738,
+          "chinese_characters": 779
+        },
+        "teacher": {
+          "content_characters": 1738,
+          "chinese_characters": 779
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.22C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.22D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.22B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光2.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读自由光谱范围、谐振峰半高全宽与精细度。",
+          "figures": [
+            "图光2.22",
+            "解图光2.22A",
+            "解图光2.22C",
+            "解图光2.22D",
+            "解图光2.22B",
+            "解图光2.22V1",
+            "解图光2.22V2",
+            "解图光2.22V3",
+            "解图光2.22V4",
+            "解图光2.22V5",
+            "解图光2.22V6",
+            "解图光2.22V7",
+            "解图光2.22V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "平行玻璃膜的反射与透射反衬度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1321,
+          "chinese_characters": 587
+        },
+        "student": {
+          "content_characters": 2275,
+          "chinese_characters": 974
+        },
+        "teacher": {
+          "content_characters": 2275,
+          "chinese_characters": 974
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.23B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.23C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.23D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光2.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读等折射率极限的平均反射强度和反衬度，不将归一化极限当可见条件。",
+          "figures": [
+            "图光2.23",
+            "解图光2.23A",
+            "解图光2.23B",
+            "解图光2.23C",
+            "解图光2.23D",
+            "解图光2.23V1",
+            "解图光2.23V2",
+            "解图光2.23V3",
+            "解图光2.23V4",
+            "解图光2.23V5",
+            "解图光2.23V6",
+            "解图光2.23V7",
+            "解图光2.23V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "单层减反膜的厚度与波长响应",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1235,
+          "chinese_characters": 545
+        },
+        "student": {
+          "content_characters": 2093,
+          "chinese_characters": 895
+        },
+        "teacher": {
+          "content_characters": 2093,
+          "chinese_characters": 895
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.24C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.24B"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.24D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读同基准电场相位，功率归一化与设计点消反条件，修改题干多光束表述。",
+          "figures": [
+            "图光2.24",
+            "解图光2.24A",
+            "解图光2.24C",
+            "解图光2.24B",
+            "解图光2.24D",
+            "变图光2.24V1",
+            "变图光2.24V2",
+            "变图光2.24V3",
+            "变图光2.24V4",
+            "变图光2.24V5",
+            "变图光2.24V6",
+            "变图光2.24V7",
+            "变图光2.24V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "半球发光器件的增透设计",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1671,
+          "chinese_characters": 903
+        },
+        "student": {
+          "content_characters": 2188,
+          "chinese_characters": 1081
+        },
+        "teacher": {
+          "content_characters": 2188,
+          "chinese_characters": 1081
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.25C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.25D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.25B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "解图光2.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "解图光2.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "复读正入射面积内各点的角度一致性及阻抗匹配幅度条件。",
+          "figures": [
+            "图光2.25",
+            "解图光2.25A",
+            "解图光2.25C",
+            "解图光2.25D",
+            "解图光2.25B",
+            "解图光2.25V1",
+            "解图光2.25V2",
+            "解图光2.25V3",
+            "解图光2.25V4",
+            "解图光2.25V5",
+            "解图光2.25V6",
+            "解图光2.25V7",
+            "解图光2.25V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "单层多光束求和与双层减反",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1713,
+          "chinese_characters": 531
+        },
+        "student": {
+          "content_characters": 2477,
+          "chinese_characters": 1128
+        },
+        "teacher": {
+          "content_characters": 2477,
+          "chinese_characters": 1128
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.26C"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.26D"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.26B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读同法线逐次反射和传输矩阵，保留终检时的几何、符号和弧元说明。",
+          "figures": [
+            "图光2.26",
+            "解图光2.26A",
+            "解图光2.26C",
+            "解图光2.26D",
+            "解图光2.26B",
+            "变图光2.26V1",
+            "变图光2.26V2",
+            "变图光2.26V3",
+            "变图光2.26V4",
+            "变图光2.26V5",
+            "变图光2.26V6",
+            "变图光2.26V7",
+            "变图光2.26V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "交替四分之一波层的高反射膜",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 897,
+          "chinese_characters": 345
+        },
+        "student": {
+          "content_characters": 2218,
+          "chinese_characters": 1023
+        },
+        "teacher": {
+          "content_characters": 2218,
+          "chinese_characters": 1023
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图光2.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图光2.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图光2.27B"
+          },
+          {
+            "n": 3,
+            "caption": "解图光2.27C"
+          },
+          {
+            "n": 4,
+            "caption": "解图光2.27D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图光2.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图光2.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "认证后差异逐项复读，完全相同的文字与图稿沿用已签字实审。",
+        "evidence": {
+          "physics": "读交替膜导纳递推及边界介质来源的单调条件，对照图D的匹配点。",
+          "figures": [
+            "图光2.27",
+            "解图光2.27A",
+            "解图光2.27B",
+            "解图光2.27C",
+            "解图光2.27D",
+            "变图光2.27V1",
+            "变图光2.27V2",
+            "变图光2.27V3",
+            "变图光2.27V4",
+            "变图光2.27V5",
+            "变图光2.27V6",
+            "变图光2.27V7",
+            "变图光2.27V8"
+          ]
+        },
+        "edits": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

@@ -1,0 +1,297 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000\newcommand{\chapterlabel}{近代物理试题}
+
+
+
+
+
+
+
+\hypersetup{pdftitle={近代物理试题·学生版},pdfauthor={}}
+
+\begin{document}\pdfbookmark[0]{近代物理试题}{cover}
+
+\thispagestyle{empty}\vspace*{22mm}
+
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{12mm}
+
+\noindent{\LARGE 近代物理试题}\par\vspace{12mm}
+
+\noindent{\Large\color{accent}学生版}\par\vspace{9mm}
+
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{9mm}
+
+\noindent 第1--5题\par\vfill\clearpage
+
+\pdfbookmark[1]{题目目录}{contents}\section*{题目目录}
+
+\begin{longtable}{@{}r p{113mm} r@{}}\toprule 题号 & 题目 & 页码\\\midrule
+
+\hyperref[q:1]{1} & \hyperref[q:1]{热运动和碰撞造成的谱线展宽} & \pageref{q:1} \\
+
+\hyperref[q:2]{2} & \hyperref[q:2]{中子干涉中的重力相位差} & \pageref{q:2} \\
+
+\hyperref[q:3]{3} & \hyperref[q:3]{有限核半径下的缪子原子估算} & \pageref{q:3} \\
+
+\hyperref[q:4]{4} & \hyperref[q:4]{两根运动尺与分别归零的四只钟} & \pageref{q:4} \\
+
+\hyperref[q:5]{5} & \hyperref[q:5]{磁场轨迹与两体反应的粒子鉴别} & \pageref{q:5} \\
+
+\bottomrule\end{longtable}
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 热运动和碰撞造成的谱线展宽}{q1}
+
+\section*{第 1 题\quad 热运动和碰撞造成的谱线展宽}\label{q:1}
+
+
+摩尔质量为$\mu$的理想气体处于温度$T$的热平衡态，原子静止时某条谱线中心频率为$\nu_0$、真空波长为$\lambda_0=c/\nu_0$，原子热运动速度远小于$c$。
+\begin{enumerate}
+\item 从一维麦克斯韦速度分布推导多普勒展宽的归一化频率分布$F(\nu)$。
+\item 容器内充氩气，温度$200^\circ\mathrm C$，压强$10\,\mathrm{mmHg}$，含少量钠蒸气。钠灯光通过后出现$\lambda_0=589.6\,\mathrm{nm}$吸收线，钠摩尔质量$23\,\mathrm{g/mol}$。以中心两侧$F(\nu)=F(\nu_0)/\sqrt2$两频率之差定义$\Delta\nu_D$，求对应正的波长宽度。
+\item 估计碰撞导致的波长展宽数量级。钠原子有效直径约$0.10\,\mathrm{nm}$；估算时氩原子有效直径取同量级且近似相等，氩摩尔质量取$40\,\mathrm{g/mol}$。说明碰撞率与精确线宽系数的区别。
+\end{enumerate}
+可用$R=8.314\,\mathrm{J/(mol\,K)}$、$k_B=1.381\times10^{-23}\,\mathrm{J/K}$、
+$c=3.00\times10^8\,\mathrm{m/s}$及$1\,\mathrm{mmHg}=133.3\,\mathrm{Pa}$。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[object] (-1,-.6) rectangle (5,1.2);
+\node at (2,.85) {氩气与少量钠蒸气};
+\draw[motion] (-3,0)--(7,0);
+\node[above] at (-2.5,0) {钠灯};\node[above] at (6.5,0) {接收器};
+\draw[axis] (-1,-1.2)--(6,-1.2) node[right] {$x$};
+\fill (2,0) circle (2pt);\draw[force] (2,.3)--(3.4,.3) node[right] {$v_x$};
+\node at (2,2) {$T=200^\circ\mathrm C,\quad p=10\,\mathrm{mmHg}$};
+
+\end{tikzpicture}
+\figcaption{图近试.1\quad 接收方向的速度分量造成频移，碰撞限制相干持续时间。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 2 题 中子干涉中的重力相位差}{q2}
+
+\section*{第 2 题\quad 中子干涉中的重力相位差}\label{q:2}
+
+
+四个光路结点$B,C,E,D$构成菱形，$BC=CE=ED=DB=l$，对角线$BE$分别与$BC$、$BD$夹角$\theta$。平行单晶片在$B$分束，使两束低能中子分别沿$BCE$与$BDE$传播，在$E$合束后由探测器$F$计数。
+
+装置平面$S$可绕$BD$轴旋转，相对水平面$S_0$的有向夹角为$\phi\in[-90^\circ,90^\circ]$；规定$\phi>0$时$C,E$高于$B,D$。重力势能变化远小于中子初动能，忽略光路的微小重力弯曲。
+\begin{enumerate}
+\item 证明重力相位差可写成$\delta=q\sin\phi$、$q=k\lambda l^2\sin2\theta$，求常数$k$；相位差定义为下路径减上路径，$\lambda$为入射波长。
+\item 初动能为$3.9\times10^{-2}\,\mathrm{eV}$，$l=4.0\,\mathrm{cm}$、$\theta=22.5^\circ$，估计旋转全程相长极大的次数。分别说明固定附加相位未知，以及已校准$\phi=0$为相长极大时的答案。
+\end{enumerate}
+可用中子静能$mc^2=939\,\mathrm{MeV}$、$\hbar c=1.97\times10^{-11}\,\mathrm{MeV\,cm}$、$g=9.8\,\mathrm{m/s^2}$。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.65,transform shape]
+
+\coordinate (B) at (0,0);\coordinate (D) at (4,0);
+\coordinate (C) at (2.828,2.828);\coordinate (E) at (6.828,2.828);
+\draw[object] (B)--(C)--(E)--(D)--cycle;
+\draw[guide,line width=1.2pt] (B)--(E);
+\draw[guide,line width=1.2pt] (2.2,2.568)--(3.456,3.088);
+\draw[guide,line width=1.2pt] (3.372,-.26)--(4.628,.26);
+\draw[motion] (-1.5,0)--(B) node[midway,above] {$A$};
+\draw[motion] (C)--(4.8,2.828);
+\draw[motion] (D)--(5.6,1.6);
+\draw[motion] (E)--(8,2.828) node[right] {$F$};
+\foreach \p/\pos in {B/below left,C/above left,E/above,D/below right}{\fill (\p) circle (1.5pt) node[\pos] {$\p$};}
+\node[below] at (2,0) {$l$};\node[above] at (4.8,2.828) {$l$};
+\node[left] at (1.4,1.5) {$l$};\node[right] at (5.6,1.5) {$l$};
+\draw[object] (1.2,0) arc[start angle=0,end angle=22.5,radius=1.2];
+\draw[object] (22.5:1.6) arc[start angle=22.5,end angle=45,radius=1.6];
+\node at (1.4,.2) {$\theta$};\node at (1.65,1.05) {$\theta$};
+\begin{scope}[xshift=10cm]
+\draw[guide] (-1,0)--(3,0) node[right] {$S_0$};
+\draw[object] (0,0)--(2.5,1.5) node[right] {$S$};
+\fill (0,0) circle (2pt) node[below] {$BD$轴};
+\node at (1,.3) {$\phi$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图近试.2\quad 菱形光路的平面内几何与绕BD旋转的侧视示意。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 3 题 有限核半径下的缪子原子估算}{q3}
+
+\section*{第 3 题\quad 有限核半径下的缪子原子估算}\label{q:3}
+
+
+铅核有$Z=82$个质子，核半径$R=7.1\,\mathrm{fm}$，$1\,\mathrm{fm}=10^{-15}\,\mathrm m$。铅的缪子原子由该核、81个电子与一个$\mu^-$组成；缪子质量$m_\mu=207m_e$、电荷$-e$。所有电子位于缪子轨道之外，缪子的第一激发态位于核外。测得从第一激发态跃迁到基态的光子能量为$6.0\,\mathrm{MeV}$。
+
+先用核外点电荷的非相对论玻尔模型检查基态位置。若核外假设不自洽，将核视为均匀带电球，结合观测跃迁能量，在经典能量等效圆轨道近似下估计基态半径，并检查所得半径是否在核内。
+
+可用氢原子玻尔半径$a_0=0.0529\,\mathrm{nm}$、氢基态束缚能$13.6\,\mathrm{eV}$及$e^2/(4\pi\varepsilon_0)=1.44\,\mathrm{MeV\,fm}$。说明这一“等效圆轨道半径”与完整量子态空间分布的区别。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.75,transform shape]
+
+\fill[accent!10] (0,0) circle (1.2);\draw[object] (0,0) circle (1.2);
+\draw[object] (0,0) circle (2.3);
+\draw[axis] (0,0)--(.849,.849) node[midway,above left] {$R$};
+\draw[force] (0,0)--(2.3,0) node[midway,above] {$r_2>R$};
+\fill (2.3,0) circle (2pt) node[right] {$\mu^-,\ n=2$};
+\node at (0,-3) {电子位于缪子轨道之外};
+\begin{scope}[xshift=6cm]
+\draw[object] (0,1.5)--(3,1.5) node[right] {$E_2$};
+\draw[object] (0,-1)--(3,-1) node[right] {$E_g$};
+\draw[motion] (1.5,1.4)--(1.5,-.9) node[midway,right] {$6.0\,\mathrm{MeV}$};
+\node at (1.5,2.5) {由跃迁能估计基态};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图近试.3\quad 核外第一激发态提供能量基准，基态尺度按有限核模型估算。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 4 题 两根运动尺与分别归零的四只钟}{q4}
+
+\section*{第 4 题\quad 两根运动尺与分别归零的四只钟}\label{q:4}
+
+
+两根静长均为$l_0$的细尺$AB$与$A'B'$分别静止在惯性系$S,S'$中，$S'$相对$S$沿$+x$以$v$运动，$0<\beta=v/c<1$。两尺平行，横向间距忽略。各钟按自身固有时均匀计时；当$A'$与$A$相遇时，二钟均归零，当$B'$与$B$相遇时，二钟也均归零。
+
+$A'$与$A$相遇时，$A$发出向右光信号。已知$B'$接到该信号时，$B'$钟读数为1个时间单位。
+\begin{enumerate}
+\item $B$接到同一向右信号时，$B$钟读数是多少？
+\item $B'$接到信号便立即向左发回应答。求$A'$接到应答时$A'$钟的读数，以及这束回光继续传播到$A$时$A$钟的读数。
+\end{enumerate}
+全部答案用$\beta$表示。各钟按上述相遇事件归零，钟的实际读数由各自归零事件和固有走时共同确定。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[object,line width=2pt] (0,0)--(6,0);
+\draw[object,line width=2pt] (0,2)--(4.8,2);
+\foreach \x/\y/\p in {0/0/A,6/0/B,0/2/{A'},4.8/2/{B'}}{\draw[object] (\x,\y) circle (.18);\node[above] at (\x,{\y+.2}) {$\p$};}
+\draw[motion] (2,3.2)--(4,3.2) node[midway,above] {$v$};
+\node[right] at (7,0) {$S$};\node[right] at (6.2,2) {$S'$};
+\node at (3,-1.1) {两尺静长均为$l_0$；分别在同名端相遇时归零};
+
+\end{tikzpicture}
+\figcaption{图近试.4\quad 某一S系同时截面中，移动尺较短；两次端点相遇是不同事件。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 5 题 磁场轨迹与两体反应的粒子鉴别}{q5}
+
+\section*{第 5 题\quad 磁场轨迹与两体反应的粒子鉴别}\label{q:5}
+
+
+低速$K^-$介子与静止质子$p$反应，产生一个$\pi^+$介子和一个未知粒子$x$，初始总动量近似为零。两产物在垂直纸面向内的匀强磁场中运动，轨迹如图；磁感应强度$B=1.70\,\mathrm T$，测得$\pi^+$轨迹半径$R_1=34.0\,\mathrm{cm}$。
+\begin{enumerate}
+\item 求未知粒子电荷和轨迹半径$R_2$。
+\item 用下表确定$x$的静能与粒子名称，并说明两产物速度对应的非相对论近似是否适用。
+\end{enumerate}
+反应时间很短，忽略磁场在反应过程中的外冲量，忽略入射$K^-$的动能；产物运动中磁场不做功。可用$c=3.00\times10^8\,\mathrm{m/s}$、$e=1.60\times10^{-19}\,\mathrm C$。
+
+\begin{longtable}{@{}l c r c@{}}
+\toprule 粒子 & 符号 & 静能$m_0c^2/\mathrm{MeV}$ & 电荷$/e$\\\midrule
+电子、正电子 & $e^-,e^+$ & $0.511$ & $-1,+1$\\
+缪子 & $\mu^-,\mu^+$ & $105.7$ & $-1,+1$\\
+带电$\pi$介子 & $\pi^-,\pi^+$ & $139.6$ & $-1,+1$\\
+带电$K$介子 & $K^-,K^+$ & $493.8$ & $-1,+1$\\
+质子 & $p$ & $938.3$ & $+1$\\
+中子 & $n$ & $939.6$ & $0$\\
+$\Lambda$粒子 & $\Lambda^0$ & $1115.4$ & $0$\\
+正$\Sigma$粒子 & $\Sigma^+$ & $1189.4$ & $+1$\\
+中性$\Sigma$粒子 & $\Sigma^0$ & $1192.3$ & $0$\\
+负$\Sigma$粒子 & $\Sigma^-$ & $1197.2$ & $-1$\\
+中性$\Xi$粒子 & $\Xi^0$ & $1314.3$ & $0$\\
+负$\Xi$粒子 & $\Xi^-$ & $1320.8$ & $-1$\\
+$\Omega$粒子 & $\Omega^-$ & $1675$ & $-1$\\
+\bottomrule
+\end{longtable}
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\foreach \x/\y in {-3/2,0/2,3/2,-3/-2,0/-2,3/-2}{\node at (\x,\y) {$\otimes$};}
+\coordinate (P) at (0,.8);
+\draw[motion] (P) arc[start angle=90,end angle=145,radius=3];
+\draw[motion] (P) arc[start angle=90,end angle=35,radius=3];
+\fill (P) circle (2pt) node[above] {$P$};
+\draw[guide] (0,2.6)--(P) node[midway,right] {$K^-+p$};
+\node[left] at (-2.46,-.48) {$\pi^+$};\node[right] at (2.46,-.48) {$x$};
+\node at (0,-3) {$\boldsymbol B$垂直纸面向内};
+
+\end{tikzpicture}
+\figcaption{图近试.5\quad 两产物从反应点沿相反方向飞出，随后在磁场中向下弯曲。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\end{document}

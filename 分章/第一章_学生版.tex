@@ -1,0 +1,540 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}
+
+\newcommand{\edition}{学生版}
+\newcommand{\chapterlabel}{第一章\quad 运动学}
+\hypersetup{pdftitle={第一章 运动学·学生版},pdfauthor={},pdfsubject={第一章第1--15题}}
+\begin{document}
+\pdfbookmark[0]{第一章 运动学}{cover}
+\thispagestyle{empty}
+\vspace*{20mm}
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{8mm}
+\noindent{\LARGE 第一章\quad 运动学}\par\vspace{10mm}
+\noindent{\Large\color{accent}学生版}\par\vspace{8mm}
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{8mm}
+\noindent 第 1--15 题\par\vspace{5mm}
+\noindent 题目、题图与作答区。\par
+\vfill\clearpage
+\pdfbookmark[1]{题目目录}{contents}
+\section*{题目目录}
+\begin{longtable}{@{}>{\color{accent}\bfseries}r p{120mm}@{}}
+\toprule 题号 & 题目\\\midrule
+1 & 分段运动时间比较 \\
+2 & 线性阻力下的剩余路程 \\
+3 & 三次阻力运动规律 \\
+4 & 斜坡上的最大射程 \\
+5 & 等射程抛体的飞行时间乘积 \\
+6 & 水枪越墙的最小初速 \\
+7 & 反弹平抛与公共越杆点 \\
+8 & 导弹追踪匀速上升飞行物 \\
+9 & 圆柱解线与渐开线轨迹 \\
+10 & 旋转杆上小环的阿基米德螺线 \\
+11 & 相对运动中的最短距离 \\
+12 & 非均匀河流中的往返轨迹 \\
+13 & 小船始终指向目标的河流轨迹 \\
+14 & 纯滚动轮缘点速度 \\
+15 & 内滚圆盘接触点加速度 \\
+\bottomrule\end{longtable}
+
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 分段运动时间比较}{q1}
+
+\section*{第 1 题\quad 分段运动时间比较}
+
+\tagline{M-01-01}
+
+直角三角形 $ABC$ 位于铅垂平面内，$AB$ 竖直，$BC$ 水平，$AC$ 与 $BC$ 的夹角为 $\alpha$。质点从 $A$ 点由静止出发，沿光滑约束路径在重力作用下运动到 $C$ 点。拐折不耗时，且只改变速度方向，不改变速率。
+\begin{enumerate}
+\item 沿 $A\to B\to C$ 的两段用时分别为 $t_1,t_2$，沿 $AC$ 用时为 $t_3$。若 $t_1+t_2=t_3$，求 $\alpha$。
+\item 取上述 $\alpha$，路径限制为三角形内部及边界上的水平段与竖直段，且水平段只向右、竖直段只向下。求最短用时路径；说明如何使有限阶梯路径的用时趋近最长时间极限，并求该极限与最短用时之比。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.02]
+\coordinate (A) at (0,3);\coordinate (B) at (0,0);\coordinate (C) at (4,0);
+\draw[object] (A)--(B)--(C)--cycle;
+\draw[motion] (0,2.6)--(0,1.2);\draw[motion] (.5,0)--(2.0,0);
+\draw[motion] (.55,2.59)--(1.65,1.76);
+\draw[guide] (A)--(0,2.1)--(.9,2.1)--(.9,1.4)--(1.8,1.4)--(1.8,.65)--(3.1,.65)--(3.1,0)--(C);
+\draw (0,.2)--(.2,.2)--(.2,0);
+\draw (3.35,0) arc[start angle=180,end angle=143.13,radius=.65];
+\node at (3.1,.27) {$\alpha$};
+\node[above left] at (A) {$A$};\node[below left] at (B) {$B$};\node[below right] at (C) {$C$};
+\draw[force] (4.65,2.75)--(4.65,1.85) node[right] {$\vect g$};
+\node[align=left,color=muted] at (6,0.9) {虚线为一条\,\\允许的阶梯路径};
+\end{tikzpicture}
+\figcaption{图 1.1\quad 两条比较路径与一条有限阶梯路径。示意图不按比例。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 2 题 线性阻力下的剩余路程}{q2}
+
+\section*{第 2 题\quad 线性阻力下的剩余路程}
+
+\tagline{M-01-02}
+
+质量为 $m$ 的质点以初速度 $v_0>0$ 沿 $x$ 轴正方向运动，初始位置为 $x=0$。唯一的运动方向上的力为线性阻力 $F_x=-bv$，其中 $b>0$ 为常量。
+
+当速度降为 $v_0/n$（$n>1$）时，求已通过路程与总路程之比。总路程指 $t\to\infty$ 时路程的极限。
+
+\begin{center}
+\begin{tikzpicture}
+\draw[axis] (-.7,0)--(7.0,0) node[right] {$x$};
+\fill[ink] (2.7,0) circle (2.5pt);\node[below] at (2.7,-.12) {$m$};
+\draw[motion] (2.7,.4)--(4.6,.4) node[above] {$\vect v$};
+\draw[force] (2.7,.4)--(1.0,.4) node[above] {$\vect F$};
+\draw (0,.1)--(0,-.1);\node[below] at (0,-.1) {$O$};
+\node[color=muted] at (3.4,1.25) {阻力始终与速度反向};
+\end{tikzpicture}
+\figcaption{图 1.2\quad 运动方向与阻力方向。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 3 题 三次阻力运动规律}{q3}
+
+\section*{第 3 题\quad 三次阻力运动规律}
+
+\tagline{M-01-03}
+
+质量为 $m$ 的质点以初速度 $v_0>0$ 沿 $x$ 轴正方向作直线运动，初始位置为 $x(0)=0$。唯一的运动方向上的力为 $F_x=-cv^3$，其中 $c>0$ 为常量。记 $k=c/m$。
+\begin{enumerate}
+\item 求速度 $v(t)$ 和位置 $x(t)$；
+\item 求速度随位置的变化规律 $v(x)$；
+\item 判断总路程是否有限，并说明理由。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}
+\draw[axis] (-.4,0)--(7.0,0) node[right] {$x$};
+\fill[ink] (3,0) circle (2.5pt);\node[below] at (3,-.12) {$m$};
+\draw[motion] (3,.4)--(4.6,.4) node[above] {$\vect v$};
+\draw[force] (3,.4)--(1.3,.4) node[above] {$F_x=-cv^3$};
+\node[color=muted] at (3.4,1.35) {规定 $x(0)=0,\quad v(0)=v_0$};
+\draw (0,.1)--(0,-.1);\node[below] at (0,-.1) {$O$};
+\end{tikzpicture}
+\figcaption{图 1.3\quad 初始速度沿正方向，三次阻力沿负方向。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 4 题 斜坡上的最大射程}{q4}
+
+\section*{第 4 题\quad 斜坡上的最大射程}
+
+\tagline{M-01-04}
+
+一门大炮位于倾角为 $\theta$ 的笔直山坡上，其中 $0\leq\theta<\pi/2$。炮弹在沿山坡上升方向的铅垂截面内发射，初速为 $v_0$，炮口方向相对山坡的仰角为 $\alpha$，且 $0<\alpha<\pi/2-\theta$。忽略空气阻力。
+\begin{enumerate}
+\item 取炮口为原点，水平向右为 $x$ 轴、竖直向上为 $y$ 轴，求落点坐标及沿坡射程 $R$；
+\item 求使 $R$ 最大的仰角 $\alpha$ 及最大射程。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.08]
+\draw[axis] (-.4,0)--(6.2,0) node[right] {$x$};\draw[axis] (0,-.3)--(0,3.4) node[above] {$y$};
+\draw[object] (0,0)--(5.8,1.74) node[right] {山坡};
+\draw[traj,domain=0:4.5,samples=70] plot (\x,{(10/7)*\x-((10/7)-.3)*\x*\x/4.5});
+\draw[motion] (0,0)--(.98,1.4) node[above] {$\vect v_0$};
+\draw[thin] (1.1,0) arc (0:16.699:1.1);\node at (1.37,.17) {$\theta$};
+\draw[thin] (.7663,.2299) arc (16.699:55.008:.8);\node at (1.02,.76) {$\alpha$};
+\fill (4.5,1.35) circle (1.8pt);\node[above right] at (4.5,1.35) {$P$};
+\draw[guide] (4.5,1.35)--(4.5,0);\node[below] at (4.5,0) {$x_f$};\node[below left] at (0,0) {$O$};
+\draw[thin,<->] (.2,-.35)--(4.7,1.0) node[midway,below,sloped] {$R$};
+\end{tikzpicture}
+\figcaption{图 1.4\quad $\alpha$ 从坡面量起，水平发射角为 $\theta+\alpha$。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 5 题 等射程抛体的飞行时间乘积}{q5}
+
+\section*{第 5 题\quad 等射程抛体的飞行时间乘积}
+
+\tagline{M-01-05}
+
+两质点从同一水平地面上的同一点，以相同速率 $v_0$、不同仰角 $\alpha_1$ 和 $\alpha_2$ 抛出，且 $0<\alpha_1,\alpha_2<\pi/2$。两质点均落回该水平地面，空气阻力忽略。
+
+若两次抛射的射程同为 $R$，证明两次飞行时间满足
+\[
+T_1T_2=\frac{2R}{g}.
+\]
+
+\begin{center}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[axis] (-.35,0)--(6.5,0) node[right] {$x$};\draw[axis] (0,-.2)--(0,3.5) node[above] {$y$};
+\draw[traj,domain=0:6,samples=70] plot (\x,{1.73205*\x*(1-\x/6)});
+\draw[traj,dashed,domain=0:6,samples=70] plot (\x,{.57735*\x*(1-\x/6)});
+\draw[motion] (0,0)--(.6,1.039);\draw[motion] (0,0)--(1.039,.6);
+\draw (.7,0) arc(0:30:.7);\node at (1,.22) {$\alpha_1$};
+\draw (1.0,0) arc(0:60:1);\node at (1.05,1.05) {$\alpha_2$};
+\node[color=accent] at (4.2,2.7) {高轨迹};\node[color=accent] at (4.5,.95) {低轨迹};
+\fill (6,0) circle (1.8pt);\node[below] at (6,-.05) {$R$};\node[below left] at (0,0) {$O$};
+\end{tikzpicture}
+\figcaption{图 1.5\quad 同初速、同射程的两条不同轨迹。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 6 题 水枪越墙的最小初速}{q6}
+
+\section*{第 6 题\quad 水枪越墙的最小初速}
+
+\tagline{M-01-06}
+
+地面上的水枪枪口视为质点，与竖直墙的水平距离为 $d=3.0\,\mathrm m$，墙高为 $h=4.0\,\mathrm m$。水流以速率 $v_0$、仰角 $\alpha$ 喷出，忽略空气阻力和水流宽度，取 $g=10\,\mathrm{m/s^2}$。
+
+求使水流恰好通过墙顶的最小初速及相应仰角。
+
+\begin{center}
+\begin{tikzpicture}[scale=1.0]
+\draw[axis] (-.35,0)--(5.7,0) node[right] {$x$};\draw[axis] (0,-.3)--(0,4.9) node[above] {$y$};
+\fill[pattern=north east lines,pattern color=muted] (3,0) rectangle (3.22,4);
+\draw[object] (3,0)--(3,4)--(3.22,4);
+\draw[traj,domain=0:4.5,samples=70] plot(\x,{3*\x-5*\x*\x/9});
+\draw[motion] (0,0)--(.44,1.32) node[left] {$\vect v_0$};
+\draw (.7,0) arc(0:71.565:.7);\node at (.9,.55) {$\alpha$};
+\draw[guide] (0,4)--(3,4);\node[left] at (0,4) {$h$};
+\draw[thin,<->] (0,-.48)--(3,-.48) node[midway,below] {$d$};
+\fill (3,4) circle (2pt);\node[above right] at (3.22,4) {$P(d,h)$};\node[below left] at (0,0) {$O$};
+\end{tikzpicture}
+\figcaption{图 1.6\quad 枪口、墙顶与一条通过墙顶的轨迹。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 7 题 反弹平抛与公共越杆点}{q7}
+
+\section*{第 7 题\quad 反弹平抛与公共越杆点}
+
+\tagline{M-01-07}
+
+两个小球从同一点 $S$ 水平抛出，$S$ 距水平地面高 $H$。水平初速分别为 $v_1>v_2>0$。球 1 恰好越过一根竖直杆的顶端，随后第一次落地于 $R$ 点，$OR=R$，其中 $O$ 为 $S$ 在地面的投影。
+
+球 2 第一次落地后，与\textbf{光滑水平地面作完全弹性碰撞}，反弹后恰好越过同一杆顶，并在第二次落地时到达同一 $R$ 点。忽略空气阻力和小球大小。
+\begin{enumerate}
+\item 求 $v_1/v_2$；\item 求杆的位置 $x_P$；\item 求杆高 $h$。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[x=1cm,y=1.25cm]
+\draw[axis] (-.3,0)--(6.6,0) node[right] {$x$};\draw[axis] (0,-.2)--(0,2.75) node[above] {$y$};
+\draw[traj,domain=0:6,samples=70] plot(\x,{2.4*(1-\x*\x/36)});
+\draw[traj,dashed,domain=0:2,samples=45] plot(\x,{2.4*(1-\x*\x/4)});
+\draw[traj,dashed,domain=2:6,samples=70] plot(\x,{2.4*(1-(\x-4)*(\x-4)/4)});
+\draw[object,line width=1.3pt] (3,0)--(3,1.8);\fill (3,1.8) circle (1.8pt);
+\node[above left] at (0,2.4) {$S$};\node[below left] at (0,0) {$O$};
+\node[above left] at (3,1.8) {$P$};\node[below] at (3,0) {$x_P$};
+\node[below] at (2,0) {$B$};\node[below] at (6,0) {$R$};
+\node[color=accent] at (4.8,1.30) {球 1};\node[color=accent] at (4.4,2.6) {球 2};
+\draw[thin,<->] (-.6,0)--(-.6,2.4) node[midway,left] {$H$};
+\draw[thin,<->] (3.35,0)--(3.35,1.8) node[midway,right] {$h$};
+\end{tikzpicture}
+\figcaption{图 1.7\quad 实线为球 1；虚线为球 2；$B$ 为球 2 第一次落地点。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 8 题 导弹追踪匀速上升飞行物}{q8}
+
+\section*{第 8 题\quad 导弹追踪匀速上升飞行物}
+
+\tagline{M-01-08}
+
+飞行物从地面以速率 $v_f>0$ 匀速竖直上升。导弹从距其起飞点水平距离 $L$ 的地面点同时发射。导弹速率 $v$ 恒定，且 $v>v_f$；其瞬时速度方向始终指向飞行物的当前位置。
+
+取导弹发射点为原点，水平朝向目标起飞点为 $x$ 轴，竖直向上为 $y$ 轴，记 $\gamma=v_f/v$。
+\begin{enumerate}
+\item 求导弹的轨迹 $y(x)$；\item 求击中时间及击中高度。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[x=1cm,y=1cm]
+\draw[axis] (-.3,0)--(6.1,0) node[right] {$x$};\draw[axis] (0,-.3)--(0,4.4) node[above] {$y$};
+\draw[guide] (5,0)--(5,4.1);\node[below] at (5,0) {$L$};
+\draw[traj,domain=0:.998,samples=120] plot({5*\x},{2.5*((1-pow(1-\x,.5))/.5-(1-pow(1-\x,1.5))/1.5)});
+\coordinate (M) at (3,.592);\coordinate (F) at (5,1.541);
+\draw[guide] (M)--(F);\draw[motion] (M)--(4,1.066) node[midway,above left] {$\vect v$};
+\draw[motion] (F)--(5,2.34) node[right] {$v_f$};
+\fill (M) circle(2pt);\fill (F) circle(2pt);
+\node[below right] at (M) {$M(x,y)$};\node[right] at (F) {$F(L,v_ft)$};
+\draw[guide] (3,0)--(M);\node[below] at (3,0) {$x$};
+\node[below left] at (0,0) {$O$};\node[right,color=muted] at (5,3.7) {目标航线};
+\end{tikzpicture}
+\figcaption{图 1.8\quad 导弹轨迹的切线始终沿 $MF$；图中位置对应同一时刻。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 9 题 圆柱解线与渐开线轨迹}{q9}
+
+\section*{第 9 题\quad 圆柱解线与渐开线轨迹}
+
+\tagline{M-01-09}
+
+半径为 $r$ 的圆柱固定不动，轴线竖直。一条很轻、柔软、不可伸长的细线在同一水平面内缠绕于圆柱，线末端系一个可视为质点的小球。初始时小球位于圆柱表面的 $A$ 点，外露直线段长度为零。
+
+给小球一个沿水平方向、垂直于圆柱表面并向外的瞬时冲量，使其初速为 $v$。此后细线无滑动地解开，保持绷紧；忽略重力及其他作用力，并假设缠绕线长足够。
+\begin{enumerate}
+\item 求 $t>0$ 时小球的加速度大小与方向；
+\item 以圆心为原点、$OA$ 为 $x$ 轴正方向，求小球的参数轨迹方程。
+\end{enumerate}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.28]
+\draw[axis] (-1.6,0)--(3.2,0) node[right] {$x$};\draw[axis] (0,-1.4)--(0,2.75) node[above] {$y$};
+\draw[object,fill=rulegray!18] (0,0) circle (1);
+\draw[traj,domain=0:1.9,samples=90] plot({cos(\x r)+\x*sin(\x r)},{sin(\x r)-\x*cos(\x r)});
+\coordinate (Q) at ({cos(1.2 r)},{sin(1.2 r)});
+\coordinate (P) at ({cos(1.2 r)+1.2*sin(1.2 r)},{sin(1.2 r)-1.2*cos(1.2 r)});
+\draw[object] (Q)--(P) node[midway,above right] {$\ell$};
+\draw[guide] (0,0)--(Q) node[midway,left] {$r$};
+\draw[motion] (P)--($(P)+(.29,.746)$) node[right] {$\vect v$};
+\fill (Q) circle(1.6pt);\fill (P) circle(2pt);\fill (1,0) circle(1.6pt);
+\node[above left] at (Q) {$Q$};\node[below right] at (P) {$P$};\node[below right] at (1,0) {$A$};\node[below left] at (0,0) {$O$};
+\draw (.4,0) arc(0:68.755:.4);\node at (.49,.34) {$\varphi$};
+\draw[thin] ($(Q)+(.093,-.036)$)--($(Q)+(.129,.057)$)--($(Q)+(.036,.093)$);
+\end{tikzpicture}
+\figcaption{图 1.9\quad $Q$ 为瞬时切点，$QP$ 为解开的直线段；图中选取逆时针展开支。}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 10 题 旋转杆上小环的阿基米德螺线}{q10}
+
+\section*{第 10 题\quad 旋转杆上小环的阿基米德螺线}
+
+\tagline{M-01-10}
+
+一根足够长的细杆在固定平面内绕端点 $O$ 以恒定角速度 $\omega>0$ 逆时针旋转。小环可看作质点，沿杆向外的相对速率恒为 $v>0$。设 $t=0$ 时小环位于 $O$，杆沿 $x$ 轴正方向。
+\begin{enumerate}
+\item 证明小环轨迹为阿基米德螺线；
+\item 求任意时刻的速度、加速度向量及其大小；
+\item 定性画出加速度在轨迹切向与法向的分量，并说明各自作用。
+\end{enumerate}
+
+\begin{center}
+\begin{minipage}{\linewidth}\centering
+\begin{tikzpicture}[scale=1.1]
+\draw[axis] (-2.1,0)--(3.3,0) node[right] {$x$};\draw[axis] (0,-1.9)--(0,3.3) node[above] {$y$};
+\draw[traj,domain=0:5.4,samples=120] plot({.45*\x*cos(\x r)},{.45*\x*sin(\x r)});
+\coordinate (P) at ({.45*1.1*cos(1.1 r)},{.45*1.1*sin(1.1 r)});
+\draw[object,line width=1.2pt] (0,0)--({2.9*cos(1.1 r)},{2.9*sin(1.1 r)});
+\filldraw[fill=white,draw=ink,thick] (P) circle(2.4pt);\node[right] at (P) {$P$};
+\draw[motion] (.48,.94)--(.94,1.85) node[right] {$v\vect e_r$};
+\draw (.34,0) arc(0:63.025:.34);\node at (.65,.2) {$\varphi$};
+\draw[motion] (.8,-.45) arc(-29:22:.92);\node[right] at (.98,-.3) {$\omega$};
+\node[below left] at (0,0) {$O$};\node[color=muted] at (2.35,2.5) {转动杆};
+\end{tikzpicture}
+\figcaption{图 1.10\quad 小环沿杆向外运动，同时随杆转动；箭头 $v\vect e_r$ 表示相对速度。}
+\end{minipage}
+\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 11 题 相对运动中的最短距离}{q11}
+
+\section*{第 11 题\quad 相对运动中的最短距离}
+
+\tagline{M-01-11}
+
+质点甲、乙同时从 $A,B$ 出发，初始距离 $AB=\ell$。甲以速率 $v_1>0$ 沿 $AB$ 向右运动；乙以速率 $v_2>0$ 沿射线 $BC$ 运动。定义 $\alpha=\angle ABC$，即 $BA$ 与 $BC$ 的夹角，$0<\alpha<\pi$。两质点均作匀速直线运动，求出发以后（$t\geq0$）的最短距离。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\coordinate (A) at (0,0);\coordinate (B) at (5,0);\coordinate (C) at (2,2.25);
+\draw[object] (A)--(B);\draw[guide] (B)--(C);
+\fill (A) circle(2pt);\fill (B) circle(2pt);
+\node[below] at (A) {$A$（甲）};\node[below right] at (B) {$B$（乙）};\node[above left] at (C) {$C$};
+\draw[motion] (A)--(1.6,0) node[midway,above] {$v_1$};
+\draw[motion] (B)--(3.4,1.2) node[midway,above right] {$v_2$};
+\draw (4.2,0) arc(180:143.13:.8);\node at (4.05,.32) {$\alpha$};
+\draw[thin,<->] (0,-.7)--(5,-.7) node[midway,below] {$\ell$};
+
+\end{tikzpicture}
+\figcaption{图 1.11\quad 角 $\alpha$ 从向左的射线 $BA$ 量起。图示为锐角情形。}
+\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 12 题 非均匀河流中的往返轨迹}{q12}
+
+\section*{第 12 题\quad 非均匀河流中的往返轨迹}
+
+\tagline{M-01-12}
+
+宽为 $L$ 的河流沿 $x$ 轴正方向流动。以出发岸为 $y=0$、对岸为 $y=L$，流速大小与到较近河岸的距离成正比：两岸流速为零，河中心流速为 $v_0$。小船从原点出发，相对水以速率 $v_r$ 垂直水流驶向对岸；到 $y=L/4$ 时立即掉头，相对水以速率 $v_r/2$ 垂直水流返回出发岸。忽略掉头所需时间，求两段轨迹及返回点离出发点的距离。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (0,0)--(6,0);\draw[object] (0,3)--(6,3);
+\draw[axis] (0,-.2)--(0,3.5) node[above] {$y$};\draw[axis] (0,0)--(6.5,0) node[right] {$x$};
+\foreach \y/\a in {.3/.4,.75/1,1.5/2,2.25/1,2.7/.4}{\draw[motion] (3.4,\y)--({3.4+\a},\y);}
+\node[right] at (5.4,1.5) {$v_0$};
+\draw[guide] (0,.75)--(2.8,.75);\node[left] at (0,.75) {$L/4$};\node[left] at (0,3) {$L$};
+\draw[motion] (.4,.12)--(.4,.65) node[left] {$v_r$};
+\node[below left] at (0,0) {$O$};
+
+\end{tikzpicture}
+\figcaption{图 1.12\quad 流速沿河宽呈三角形分布；小船只在靠近出发岸的四分之一河宽内往返。}
+\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 13 题 小船始终指向目标的河流轨迹}{q13}
+
+\section*{第 13 题\quad 小船始终指向目标的河流轨迹}
+
+\tagline{M-01-13}
+
+笔直河流宽 $d$，水沿 $x$ 轴正方向以恒定速率 $v_0>0$ 流动。取对岸目标 $O$ 为极点，过 $O$ 顺水方向为极轴；出发岸位于 $y=d$。小船从 $A$ 出发，相对水的速率恒为 $v'>v_0$，且相对水的速度方向始终指向 $O$。已知 $OA=r_0$、$\angle AOP=\varphi_0$，其中 $OP$ 顺水，$0<\varphi_0<\pi$，$r_0\sin\varphi_0=d$。求轨迹；另求 $A$ 恰在 $O$ 正对岸时的结果。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\draw[object] (-1,0)--(5.4,0);\draw[object] (-1,3)--(5.4,3);
+\coordinate (O) at (0,0);\coordinate (A) at (1.6,3);
+\draw[axis] (O)--(5.8,0) node[right] {$x$};\draw[guide] (O)--(A) node[midway,left] {$r_0$};
+\draw[motion] (A)--(.94,1.76) node[midway,left] {$v'$};\draw[motion] (3,1.6)--(4.3,1.6) node[above] {$v_0$};
+\draw (.8,0) arc(0:61.93:.8);\node at (1.1,.65) {$\varphi_0$};
+\fill (O) circle(2pt);\fill (A) circle(2pt);\node[below] at (O) {$O$};\node[above] at (A) {$A$};\node[below] at (4.5,0) {$P$};
+\draw[thin,<->] (-.65,0)--(-.65,3) node[midway,left] {$d$};
+
+\end{tikzpicture}
+\figcaption{图 1.13\quad 指向 $O$ 的是相对水速度；对地速度还要加上水流速度。}
+\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 14 题 纯滚动轮缘点速度}{q14}
+
+\section*{第 14 题\quad 纯滚动轮缘点速度}
+
+\tagline{M-01-14}
+
+半径为 $r$ 的轮子在水平面上向右纯滚动。轮心速度为 $v_c$，轮的角速度大小为 $\omega$，转向为顺时针。设接触点为 $M$，轮缘点 $A$ 的位置角 $\theta$ 从 $CM$ 向逆时针量起，$0\leq\theta<2\pi$。求 $A$ 点对地的速度矢量、速率和方向。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\coordinate (C) at (0,1.5);\coordinate (M) at (0,0);\coordinate (A) at (1.299,.75);
+\draw[object] (-2,0)--(3,0);\draw[object] (C) circle(1.5);\draw[guide] (C)--(M);\draw[object] (C)--(A);
+\fill (C) circle(2pt);\fill (A) circle(2pt);\fill (M) circle(2pt);
+\node[left] at (C) {$C$};\node[below] at (M) {$M$};\node[right] at (A) {$A$};
+\draw (0,.9) arc(-90:-30:.6);\node at (.45,.75) {$\theta$};
+\draw[motion] (C)--(1.5,1.5) node[midway,above] {$v_c$};
+\draw[motion] (-.765,2.412) arc(130:50:1.19);\node at (0,2.38) {$\omega$};
+
+\end{tikzpicture}
+\figcaption{图 1.14\quad 轮心平动与绕轮心顺时针转动同时存在。图中 $\theta=60^\circ$。}
+\end{minipage}\end{center}
+
+\workarea
+
+\clearpage
+
+\pdfbookmark[2]{第 15 题 内滚圆盘接触点加速度}{q15}
+
+\section*{第 15 题\quad 内滚圆盘接触点加速度}
+
+\tagline{M-01-15}
+
+半径 $R$ 的圆环固定，半径 $r<R$ 的圆盘沿圆环内侧无滑动滚动。圆盘中心 $C$ 绕环心 $O$ 以恒定角速度大小 $\Omega$ 运动。求圆盘上在当前时刻与圆环接触的材料点 $A$ 相对圆环的加速度大小和方向。
+
+\begin{center}\begin{minipage}{\linewidth}\centering\begin{tikzpicture}
+
+\coordinate (O) at (0,0);\coordinate (C) at (2,0);\coordinate (A) at (3,0);
+\draw[object] (O) circle(3);\draw[guide] (O) circle(2);\draw[object] (C) circle(1);
+\draw[object] (O)--(A);\node[below] at (1,0) {$R-r$};\node[below] at (2.5,0) {$r$};
+\fill (O) circle(2pt);\fill (C) circle(2pt);\fill (A) circle(2pt);
+\node[below left] at (O) {$O$};\node[above] at (C) {$C$};\node[right] at (A) {$A$};
+\draw[motion] (1.1,0) arc(0:85:1.1) node[left] {$\Omega$};
+\draw[motion] (2.24,.66) arc(70:-40:.7);\node at (2.6,-.8) {$\omega$};
+\node[align=left] at (5.9,2) {圆环固定\\圆盘内滚\\当前接触材料点速度为零};
+
+\end{tikzpicture}
+\figcaption{图 1.15\quad 盘心逆时针绕 $O$ 运动时，圆盘绕自身中心顺时针转动。}
+\end{minipage}\end{center}
+
+\workarea
+
+\end{document}

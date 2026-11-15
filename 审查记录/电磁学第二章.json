@@ -1,0 +1,3167 @@
+{
+  "单元": "电磁学第二章",
+  "题数": 27,
+  "分章文件_SHA256": {
+    "电磁学第二章_学生版.pdf": "62741abce1f98b622a527f8c98f03e73f834f4a1c1881a6563a3519d18d4083a",
+    "电磁学第二章_学生版.tex": "2abff5703623fbb21f7e4747766b4c0f8eb8c26521f28853b0bb7aef647b74e6",
+    "电磁学第二章_学生解答版.pdf": "b475cae27e712457a8f25dbcdafe693e26da26eb27413b96090ff930c347c734",
+    "电磁学第二章_学生解答版.tex": "38d9840d63bad4e1d059b6ee59572689952ce301b12fefc3f4b2372fd055de89",
+    "电磁学第二章_教师版.pdf": "5cb6442c272d732569cf5202009a1acadd27e0e027a32bb8f8ad5165b7733e7e",
+    "电磁学第二章_教师版.tex": "6be8c488d1801be80420ba4e2157186a435854647c5b70c94f0dacf8e40a33a6"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "半球面经线电流的球心磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 546,
+          "chinese_characters": 339
+        },
+        "student": {
+          "content_characters": 973,
+          "chinese_characters": 588
+        },
+        "teacher": {
+          "content_characters": 973,
+          "chinese_characters": 588
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.1C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取经线载流与配对投影，检查三个解图的手性、半圆系数及两极电流密度的归一化。",
+          "figures": [
+            "图电2.1",
+            "解图电2.1A",
+            "解图电2.1B",
+            "解图电2.1C",
+            "变图电2.1V1",
+            "变图电2.1V2",
+            "变图电2.1V3",
+            "变图电2.1V4",
+            "变图电2.1V5",
+            "变图电2.1V6",
+            "变图电2.1V7",
+            "变图电2.1V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "抛物线形电流在焦点的磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 842,
+          "chinese_characters": 293
+        },
+        "student": {
+          "content_characters": 1152,
+          "chinese_characters": 449
+        },
+        "teacher": {
+          "content_characters": 1152,
+          "chinese_characters": 449
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.2B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.2C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取焦点距离、切线及换元，也核对积分占比与尾项。复读旧校对过的变式第6项，百分号已作正确 LaTeX 转义。",
+          "figures": [
+            "图电2.2",
+            "解图电2.2A",
+            "解图电2.2B",
+            "解图电2.2C",
+            "变图电2.2V1",
+            "变图电2.2V2",
+            "变图电2.2V3",
+            "变图电2.2V4",
+            "变图电2.2V5",
+            "变图电2.2V6",
+            "变图电2.2V7",
+            "变图电2.2V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "均匀带电球面旋转的轴内磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 909,
+          "chinese_characters": 395
+        },
+        "student": {
+          "content_characters": 1207,
+          "chinese_characters": 487
+        },
+        "teacher": {
+          "content_characters": 1207,
+          "chinese_characters": 487
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.3B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.3C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取环带归一化、根号端点及极点可积极限，统一正测度环带宽度与解图。",
+          "figures": [
+            "图电2.3",
+            "解图电2.3A",
+            "解图电2.3B",
+            "解图电2.3C",
+            "变图电2.3V1",
+            "变图电2.3V2",
+            "变图电2.3V3",
+            "变图电2.3V4",
+            "变图电2.3V5",
+            "变图电2.3V6",
+            "变图电2.3V7",
+            "变图电2.3V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "无限长螺旋导线的轴上磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2410,
+          "chinese_characters": 1189
+        },
+        "student": {
+          "content_characters": 2919,
+          "chinese_characters": 1297
+        },
+        "teacher": {
+          "content_characters": 2919,
+          "chinese_characters": 1297
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.4B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.4C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电2.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "逐项查叉乘和奇偶性，验证两部分横场及随轴相移的符号。补横场积分为正的计算以与解图箭头对应。",
+          "figures": [
+            "图电2.4",
+            "解图电2.4A",
+            "解图电2.4B",
+            "解图电2.4C",
+            "解图电2.4D",
+            "变图电2.4V1",
+            "变图电2.4V2",
+            "变图电2.4V3",
+            "变图电2.4V4",
+            "变图电2.4V5",
+            "变图电2.4V6",
+            "变图电2.4V7",
+            "变图电2.4V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "互补圆柱导体空隙中的均匀磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 859,
+          "chinese_characters": 461
+        },
+        "student": {
+          "content_characters": 1261,
+          "chinese_characters": 647
+        },
+        "teacher": {
+          "content_characters": 1261,
+          "chinese_characters": 647
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.5B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.5C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取等量异向的圆柱叠加、真实面积、电流密度，以及交区按共同尺度画出的矢量和。",
+          "figures": [
+            "图电2.5",
+            "解图电2.5A",
+            "解图电2.5B",
+            "解图电2.5C",
+            "变图电2.5V1",
+            "变图电2.5V2",
+            "变图电2.5V3",
+            "变图电2.5V4",
+            "变图电2.5V5",
+            "变图电2.5V6",
+            "变图电2.5V7",
+            "变图电2.5V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "有限厚电流层的磁场分布",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1111,
+          "chinese_characters": 615
+        },
+        "student": {
+          "content_characters": 1207,
+          "chinese_characters": 652
+        },
+        "teacher": {
+          "content_characters": 1207,
+          "chinese_characters": 652
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.6B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.6C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V6"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.6D"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取平移对称和高斯法向分量、安培计算的内外段；教师变式后的合用解图注明两个例子的电流分布。",
+          "figures": [
+            "图电2.6",
+            "解图电2.6A",
+            "解图电2.6B",
+            "解图电2.6C",
+            "变图电2.6V1",
+            "变图电2.6V2",
+            "变图电2.6V3",
+            "变图电2.6V4",
+            "变图电2.6V5",
+            "变图电2.6V6",
+            "解图电2.6D",
+            "变图电2.6V7",
+            "变图电2.6V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "载流圆柱内的电子收缩与净电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 950,
+          "chinese_characters": 435
+        },
+        "student": {
+          "content_characters": 1580,
+          "chinese_characters": 758
+        },
+        "teacher": {
+          "content_characters": 1580,
+          "chinese_characters": 758
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.7B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.7C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取电子体区内力平衡、缩半径和线电荷守恒及归一化三段场。",
+          "figures": [
+            "图电2.7",
+            "解图电2.7A",
+            "解图电2.7B",
+            "解图电2.7C",
+            "变图电2.7V1",
+            "变图电2.7V2",
+            "变图电2.7V3",
+            "变图电2.7V4",
+            "变图电2.7V5",
+            "变图电2.7V6",
+            "变图电2.7V7",
+            "变图电2.7V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "磁场中转杆与滑动带电环",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1677,
+          "chinese_characters": 927
+        },
+        "student": {
+          "content_characters": 2346,
+          "chinese_characters": 1106
+        },
+        "teacher": {
+          "content_characters": 2346,
+          "chinese_characters": 1106
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.8B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.8C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取有限扰动初值、能量角动量、外转向与时间缩放。对照图B，两处零点分别对应径向速度和径向加速度。",
+          "figures": [
+            "图电2.8",
+            "解图电2.8A",
+            "解图电2.8B",
+            "解图电2.8C",
+            "变图电2.8V1",
+            "变图电2.8V2",
+            "变图电2.8V3",
+            "变图电2.8V4",
+            "变图电2.8V5",
+            "变图电2.8V6",
+            "变图电2.8V7",
+            "变图电2.8V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "地磁场中带电圆环的滑动与纯滚动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1556,
+          "chinese_characters": 882
+        },
+        "student": {
+          "content_characters": 1851,
+          "chinese_characters": 907
+        },
+        "teacher": {
+          "content_characters": 1851,
+          "chinese_characters": 907
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.9B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.9C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取平移与绕心磁力、动摩擦方向和纯滚动交接。用同一比例画竖直受力，合并物理条件重复处。",
+          "figures": [
+            "图电2.9",
+            "解图电2.9A",
+            "解图电2.9B",
+            "解图电2.9C",
+            "变图电2.9V1",
+            "变图电2.9V2",
+            "变图电2.9V3",
+            "变图电2.9V4",
+            "变图电2.9V5",
+            "变图电2.9V6",
+            "变图电2.9V7",
+            "变图电2.9V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "电子枪击靶的圆轨道与螺旋轨道",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 737,
+          "chinese_characters": 419
+        },
+        "student": {
+          "content_characters": 1212,
+          "chinese_characters": 563
+        },
+        "teacher": {
+          "content_characters": 1212,
+          "chinese_characters": 563
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取圆轨道弦角、右手坐标的电子螺旋与整数回转时间；代入参数复算毫特斯拉数值。",
+          "figures": [
+            "图电2.10",
+            "解图电2.10A",
+            "解图电2.10B",
+            "解图电2.10C",
+            "变图电2.10V1",
+            "变图电2.10V2",
+            "变图电2.10V3",
+            "变图电2.10V4",
+            "变图电2.10V5",
+            "变图电2.10V6",
+            "变图电2.10V7",
+            "变图电2.10V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "平移细管内出射粒子追碰目标",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 976,
+          "chinese_characters": 383
+        },
+        "student": {
+          "content_characters": 1369,
+          "chinese_characters": 663
+        },
+        "teacher": {
+          "content_characters": 1369,
+          "chinese_characters": 663
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.11B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.11C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取移动管壁供能、真实大弧时间和离散速度，将重复结语改为图中离散点与到达次序的对应。",
+          "figures": [
+            "图电2.11",
+            "解图电2.11A",
+            "解图电2.11B",
+            "解图电2.11C",
+            "变图电2.11V1",
+            "变图电2.11V2",
+            "变图电2.11V3",
+            "变图电2.11V4",
+            "变图电2.11V5",
+            "变图电2.11V6",
+            "变图电2.11V7",
+            "变图电2.11V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "方波轴向磁场中的电子束聚焦",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 779,
+          "chinese_characters": 443
+        },
+        "student": {
+          "content_characters": 1283,
+          "chinese_characters": 701
+        },
+        "teacher": {
+          "content_characters": 1283,
+          "chinese_characters": 701
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取恒磁、飞行中一至两次翻转、短周期扇区平均及管壁吸收条件。两次翻转分段相位从 α 到 α−β 再到 2π−2β。",
+          "figures": [
+            "图电2.12",
+            "解图电2.12A",
+            "解图电2.12B",
+            "解图电2.12C",
+            "变图电2.12V1",
+            "变图电2.12V2",
+            "变图电2.12V3",
+            "变图电2.12V4",
+            "变图电2.12V5",
+            "变图电2.12V6",
+            "变图电2.12V7",
+            "变图电2.12V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "同轴磁控管的临界磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1359,
+          "chinese_characters": 694
+        },
+        "student": {
+          "content_characters": 1781,
+          "chinese_characters": 781
+        },
+        "teacher": {
+          "content_characters": 1781,
+          "chinese_characters": 781
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.13C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取磁控管的角动量、内外触极、径向函数的凹性、临界场及外起始条件。补u_r=0时的向外启动依据。",
+          "figures": [
+            "图电2.13",
+            "解图电2.13A",
+            "解图电2.13B",
+            "解图电2.13C",
+            "变图电2.13V1",
+            "变图电2.13V2",
+            "变图电2.13V3",
+            "变图电2.13V4",
+            "变图电2.13V5",
+            "变图电2.13V6",
+            "变图电2.13V7",
+            "变图电2.13V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "点源到点像的磁场边界",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1209,
+          "chinese_characters": 718
+        },
+        "student": {
+          "content_characters": 1531,
+          "chinese_characters": 754
+        },
+        "teacher": {
+          "content_characters": 1531,
+          "chinese_characters": 754
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.14B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.14C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复算磁场边线的几何式、三类接受角与端点极限，补证两直线段在场外而整段回转弧在场内。",
+          "figures": [
+            "图电2.14",
+            "解图电2.14A",
+            "解图电2.14B",
+            "解图电2.14C",
+            "变图电2.14V1",
+            "变图电2.14V2",
+            "变图电2.14V3",
+            "变图电2.14V4",
+            "变图电2.14V5",
+            "变图电2.14V6",
+            "变图电2.14V7",
+            "变图电2.14V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "电子束先会聚再扩束的四区磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1230,
+          "chinese_characters": 859
+        },
+        "student": {
+          "content_characters": 1718,
+          "chinese_characters": 985
+        },
+        "teacher": {
+          "content_characters": 1718,
+          "chinese_characters": 985
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.15B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.15C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取四叶片圆盘交集证明、左右半径比、汇焦速度连续、电子磁偏转符号和反向二倍位置映射。",
+          "figures": [
+            "图电2.15",
+            "解图电2.15A",
+            "解图电2.15B",
+            "解图电2.15C",
+            "变图电2.15V1",
+            "变图电2.15V2",
+            "变图电2.15V3",
+            "变图电2.15V4",
+            "变图电2.15V5",
+            "变图电2.15V6",
+            "变图电2.15V7",
+            "变图电2.15V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "环形磁场中的电子束聚焦与漂移",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1652,
+          "chinese_characters": 714
+        },
+        "student": {
+          "content_characters": 1836,
+          "chinese_characters": 834
+        },
+        "teacher": {
+          "content_characters": 1836,
+          "chinese_characters": 834
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复算B1、B、径向函数、外根、Cardano公式和负z漂移。用转向图的f说明径向动能。",
+          "figures": [
+            "图电2.16",
+            "解图电2.16A",
+            "解图电2.16B",
+            "解图电2.16C",
+            "变图电2.16V1",
+            "变图电2.16V2",
+            "变图电2.16V3",
+            "变图电2.16V4",
+            "变图电2.16V5",
+            "变图电2.16V6",
+            "变图电2.16V7",
+            "变图电2.16V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "磁铁边缘场的单平面聚焦",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1003,
+          "chinese_characters": 476
+        },
+        "student": {
+          "content_characters": 1240,
+          "chinese_characters": 685
+        },
+        "teacher": {
+          "content_characters": 1240,
+          "chinese_characters": 685
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.17C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取主偏转、无旋积分与薄边缘近似；在投影图上把f画成从出口到焦面的位置间距。",
+          "figures": [
+            "图电2.17",
+            "解图电2.17A",
+            "解图电2.17B",
+            "解图电2.17C",
+            "变图电2.17V1",
+            "变图电2.17V2",
+            "变图电2.17V3",
+            "变图电2.17V4",
+            "变图电2.17V5",
+            "变图电2.17V6",
+            "变图电2.17V7",
+            "变图电2.17V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "电场漂移与磁场梯度漂移",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1014,
+          "chinese_characters": 552
+        },
+        "student": {
+          "content_characters": 1418,
+          "chinese_characters": 677
+        },
+        "teacher": {
+          "content_characters": 1418,
+          "chinese_characters": 677
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.18B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.18C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "逐项代回E×B速度和位移初值，复核两种电荷相位、梯度漂移展开及周期平均。",
+          "figures": [
+            "图电2.18",
+            "解图电2.18A",
+            "解图电2.18B",
+            "解图电2.18C",
+            "变图电2.18V1",
+            "变图电2.18V2",
+            "变图电2.18V3",
+            "变图电2.18V4",
+            "变图电2.18V5",
+            "变图电2.18V6",
+            "变图电2.18V7",
+            "变图电2.18V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "重力与磁场中同高度的再相遇",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 912,
+          "chinese_characters": 618
+        },
+        "student": {
+          "content_characters": 1287,
+          "chinese_characters": 750
+        },
+        "teacher": {
+          "content_characters": 1287,
+          "chinese_characters": 750
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.19C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取同高度返回条件、同步抵达时间与回转系的相位。合并重力功与回到同一高度的重复。",
+          "figures": [
+            "图电2.19",
+            "解图电2.19A",
+            "解图电2.19B",
+            "解图电2.19C",
+            "变图电2.19V1",
+            "变图电2.19V2",
+            "变图电2.19V3",
+            "变图电2.19V4",
+            "变图电2.19V5",
+            "变图电2.19V6",
+            "变图电2.19V7",
+            "变图电2.19V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 20,
+      "题名": "载流双杆与弹簧的小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 674,
+          "chinese_characters": 191
+        },
+        "student": {
+          "content_characters": 925,
+          "chinese_characters": 419
+        },
+        "teacher": {
+          "content_characters": 925,
+          "chinese_characters": 419
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.20C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.20B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.20V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "复核相对坐标质量、旋转前提之外的实际净力、平衡点线性化与恒流机械有效势正曲率。",
+          "figures": [
+            "图电2.20",
+            "解图电2.20A",
+            "解图电2.20C",
+            "解图电2.20B",
+            "变图电2.20V1",
+            "变图电2.20V2",
+            "变图电2.20V3",
+            "变图电2.20V4",
+            "变图电2.20V5",
+            "变图电2.20V6",
+            "变图电2.20V7",
+            "变图电2.20V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 21,
+      "题名": "旋转带电圆环的附加张力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 480,
+          "chinese_characters": 274
+        },
+        "student": {
+          "content_characters": 814,
+          "chinese_characters": 528
+        },
+        "teacher": {
+          "content_characters": 814,
+          "chinese_characters": 528
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.21B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.21C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.21V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取弧段两态径向式、固定几何静电项抵消与有符号张力；修正两态力箭头的长度和位置。",
+          "figures": [
+            "图电2.21",
+            "解图电2.21A",
+            "解图电2.21B",
+            "解图电2.21C",
+            "变图电2.21V1",
+            "变图电2.21V2",
+            "变图电2.21V3",
+            "变图电2.21V4",
+            "变图电2.21V5",
+            "变图电2.21V6",
+            "变图电2.21V7",
+            "变图电2.21V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 22,
+      "题名": "圆电流对共面长直导线的作用力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 540,
+          "chinese_characters": 249
+        },
+        "student": {
+          "content_characters": 1188,
+          "chinese_characters": 656
+        },
+        "teacher": {
+          "content_characters": 1188,
+          "chinese_characters": 656
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.22B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.22C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.22V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取正向角度参考电流元、真实顺时针翻号、代数反力、换元端点及远场偶极展开。",
+          "figures": [
+            "图电2.22",
+            "解图电2.22A",
+            "解图电2.22B",
+            "解图电2.22C",
+            "变图电2.22V1",
+            "变图电2.22V2",
+            "变图电2.22V3",
+            "变图电2.22V4",
+            "变图电2.22V5",
+            "变图电2.22V6",
+            "变图电2.22V7",
+            "变图电2.22V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 23,
+      "题名": "闭合稳恒电流回路间的作用与反作用",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 631,
+          "chinese_characters": 168
+        },
+        "student": {
+          "content_characters": 950,
+          "chinese_characters": 521
+        },
+        "teacher": {
+          "content_characters": 950,
+          "chinese_characters": 521
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.23B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.23C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.23V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取毕奥-萨伐尔向量号、闭合全微分与可换积分次序、图C单个线元的非反力示例。",
+          "figures": [
+            "图电2.23",
+            "解图电2.23A",
+            "解图电2.23B",
+            "解图电2.23C",
+            "变图电2.23V1",
+            "变图电2.23V2",
+            "变图电2.23V3",
+            "变图电2.23V4",
+            "变图电2.23V5",
+            "变图电2.23V6",
+            "变图电2.23V7",
+            "变图电2.23V8"
+          ]
+        },
+        "edits": []
+      }
+    },
+    {
+      "题号": 24,
+      "题名": "超导平板上方电流环的悬浮与振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1270,
+          "chinese_characters": 704
+        },
+        "student": {
+          "content_characters": 1520,
+          "chinese_characters": 921
+        },
+        "teacher": {
+          "content_characters": 1520,
+          "chinese_characters": 921
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.24A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.24C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.24B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.24V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取反向镜像、平动振动、上下非对称弧段产生的恢复力矩，标清倾斜图中高度和y。",
+          "figures": [
+            "图电2.24",
+            "解图电2.24A",
+            "解图电2.24C",
+            "解图电2.24B",
+            "变图电2.24V1",
+            "变图电2.24V2",
+            "变图电2.24V3",
+            "变图电2.24V4",
+            "变图电2.24V5",
+            "变图电2.24V6",
+            "变图电2.24V7",
+            "变图电2.24V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 25,
+      "题名": "均匀磁化长棒侧面的场边界",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 677,
+          "chinese_characters": 389
+        },
+        "student": {
+          "content_characters": 1040,
+          "chinese_characters": 672
+        },
+        "teacher": {
+          "content_characters": 1040,
+          "chinese_characters": 672
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.25B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.25C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.25V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取侧面切/法向连续及中截面的镜像条件，修正图A分场向量的投影比例。",
+          "figures": [
+            "图电2.25",
+            "解图电2.25A",
+            "解图电2.25B",
+            "解图电2.25C",
+            "变图电2.25V1",
+            "变图电2.25V2",
+            "变图电2.25V3",
+            "变图电2.25V4",
+            "变图电2.25V5",
+            "变图电2.25V6",
+            "变图电2.25V7",
+            "变图电2.25V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 26,
+      "题名": "均匀磁化球壳在球心的磁场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 484,
+          "chinese_characters": 212
+        },
+        "student": {
+          "content_characters": 1093,
+          "chinese_characters": 523
+        },
+        "teacher": {
+          "content_characters": 1093,
+          "chinese_characters": 523
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.26B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.26C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.26V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取同立体角内外半径平方消去、叠加和实心球势的一阶角解，调整题干第二问口吻。",
+          "figures": [
+            "图电2.26",
+            "解图电2.26A",
+            "解图电2.26B",
+            "解图电2.26C",
+            "变图电2.26V1",
+            "变图电2.26V2",
+            "变图电2.26V3",
+            "变图电2.26V4",
+            "变图电2.26V5",
+            "变图电2.26V6",
+            "变图电2.26V7",
+            "变图电2.26V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 27,
+      "题名": "旋转径向极化圆柱的场能量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 598,
+          "chinese_characters": 242
+        },
+        "student": {
+          "content_characters": 1417,
+          "chinese_characters": 666
+        },
+        "teacher": {
+          "content_characters": 1417,
+          "chinese_characters": 666
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电2.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电2.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电2.27B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电2.27C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电2.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电2.27V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "depth": "本轮实读题干、师生共有主解及各题图和解图的 TikZ 源码。教师其他栏目和未单列的变式沿用经 SHA 校验的上轮实审记录。",
+        "evidence": {
+          "physics": "读取体面电荷守恒及面电流入射方向、分轴场与场能量，补径向和方位磁场为零的推导。",
+          "figures": [
+            "图电2.27",
+            "解图电2.27A",
+            "解图电2.27B",
+            "解图电2.27C",
+            "变图电2.27V1",
+            "变图电2.27V2",
+            "变图电2.27V3",
+            "变图电2.27V4",
+            "变图电2.27V5",
+            "变图电2.27V6",
+            "变图电2.27V7",
+            "变图电2.27V8"
+          ]
+        },
+        "edits": [
+          {
+            "edition": "学生解答版"
+          },
+          {
+            "edition": "教师版"
+          }
+        ]
+      }
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "电2.2A",
+      "page": 10,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.2V1",
+      "page": 12,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.2V2",
+      "page": 12,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.2V4",
+      "page": 13,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.2V8",
+      "page": 14,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.6V5",
+      "page": 39,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.6D",
+      "page": 40,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.8A",
+      "page": 50,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.13A",
+      "page": 82,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.15A",
+      "page": 95,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.17C",
+      "page": 109,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.20C",
+      "page": 126,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.21B",
+      "page": 132,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.25A",
+      "page": 156,
+      "scope": "实际查看新版图线、标签、图注。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.9A",
+      "page": 57,
+      "scope": "实际看完整图和相邻段。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "电2.24B",
+      "page": 151,
+      "scope": "实际看完整图和相邻段。"
+    }
+  ]
+}

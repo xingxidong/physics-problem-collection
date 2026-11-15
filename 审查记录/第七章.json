@@ -1,0 +1,3141 @@
+{
+  "单元": "第七章",
+  "题数": 43,
+  "分章文件_SHA256": {
+    "第七章_学生版.pdf": "b52b9ec5f38b74f7968cc18a5b9882229feb1326da10a6a6b440b1f4448d298c",
+    "第七章_学生版.tex": "37ddd4cb919bbf3f598dfaaf4eb75cdbb43d13947fee62a9f758554c2741d87f",
+    "第七章_学生解答版.pdf": "245f82d5445ca2cdfcbe9729b74de01341fcd75cfbc095b379cf9bdf1b49749e",
+    "第七章_学生解答版.tex": "4042a7762c6d3b2a3c45ab5c741db83633249f97297b462adf75b509b717f926",
+    "第七章_教师版.pdf": "75da93384764fb683f1c1d23b28dc5a0ece0002b26542827d72fc25d7c5bc2e1",
+    "第七章_教师版.tex": "82bce7c30006a38b70f2fda811bbf5efe3a20b0b77888c060e6d820b53ede3c3"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "弹簧振子与滑块非弹性碰撞后的振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1614,
+          "chinese_characters": 655
+        },
+        "student": {
+          "content_characters": 2613,
+          "chinese_characters": 976
+        },
+        "teacher": {
+          "content_characters": 2613,
+          "chinese_characters": 976
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.1V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 2,
+      "题名": "密度线性分层液体中的浮力振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 359,
+          "chinese_characters": 153
+        },
+        "student": {
+          "content_characters": 1420,
+          "chinese_characters": 724
+        },
+        "teacher": {
+          "content_characters": 1420,
+          "chinese_characters": 724
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.2V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 3,
+      "题名": "两滚轮支承木板的微小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 582,
+          "chinese_characters": 396
+        },
+        "student": {
+          "content_characters": 1591,
+          "chinese_characters": 866
+        },
+        "teacher": {
+          "content_characters": 1591,
+          "chinese_characters": 866
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.3B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.3V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 4,
+      "题名": "地球贯通隧道中的简谐运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 729,
+          "chinese_characters": 521
+        },
+        "student": {
+          "content_characters": 1638,
+          "chinese_characters": 875
+        },
+        "teacher": {
+          "content_characters": 1638,
+          "chinese_characters": 875
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.4V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 5,
+      "题名": "斜面上弹簧连接滚动圆柱的振动周期",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 379,
+          "chinese_characters": 210
+        },
+        "student": {
+          "content_characters": 1448,
+          "chinese_characters": 725
+        },
+        "teacher": {
+          "content_characters": 1448,
+          "chinese_characters": 725
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.5A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.5V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 6,
+      "题名": "直角均匀杆连弹簧的微小摆动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 416,
+          "chinese_characters": 178
+        },
+        "student": {
+          "content_characters": 1492,
+          "chinese_characters": 684
+        },
+        "teacher": {
+          "content_characters": 1492,
+          "chinese_characters": 684
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.6V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 7,
+      "题名": "有质量弹簧振子的等效质量修正",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 788,
+          "chinese_characters": 387
+        },
+        "student": {
+          "content_characters": 1995,
+          "chinese_characters": 824
+        },
+        "teacher": {
+          "content_characters": 1995,
+          "chinese_characters": 824
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.7A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.7V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 8,
+      "题名": "小孔圆周运动与悬挂重物的耦合振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1204,
+          "chinese_characters": 632
+        },
+        "student": {
+          "content_characters": 2210,
+          "chinese_characters": 955
+        },
+        "teacher": {
+          "content_characters": 2210,
+          "chinese_characters": 955
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.8V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 9,
+      "题名": "旋转平板上弹簧质点的相对运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 886,
+          "chinese_characters": 404
+        },
+        "student": {
+          "content_characters": 1836,
+          "chinese_characters": 814
+        },
+        "teacher": {
+          "content_characters": 1836,
+          "chinese_characters": 814
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.9V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 10,
+      "题名": "狭长湖泊湖震的整体振荡模型",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2637,
+          "chinese_characters": 1291
+        },
+        "student": {
+          "content_characters": 4189,
+          "chinese_characters": 1938
+        },
+        "teacher": {
+          "content_characters": 4189,
+          "chinese_characters": 1938
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.10"
+          },
+          {
+            "n": 2,
+            "caption": "图7.10B"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.10V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 11,
+      "题名": "滑块摆系统的轨迹与小角振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1849,
+          "chinese_characters": 658
+        },
+        "student": {
+          "content_characters": 2414,
+          "chinese_characters": 1036
+        },
+        "teacher": {
+          "content_characters": 2414,
+          "chinese_characters": 1036
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.11A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.11V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 12,
+      "题名": "实心球在球形碗底纯滚动的小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 800,
+          "chinese_characters": 312
+        },
+        "student": {
+          "content_characters": 2014,
+          "chinese_characters": 971
+        },
+        "teacher": {
+          "content_characters": 2014,
+          "chinese_characters": 971
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.12A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.12V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 13,
+      "题名": "物体在两薄壁圆筒上纯滚的振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 784,
+          "chinese_characters": 373
+        },
+        "student": {
+          "content_characters": 2040,
+          "chinese_characters": 1038
+        },
+        "teacher": {
+          "content_characters": 2040,
+          "chinese_characters": 1038
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.13A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.13V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 14,
+      "题名": "旋转圆盘导轨中弹簧小球的振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1021,
+          "chinese_characters": 420
+        },
+        "student": {
+          "content_characters": 2201,
+          "chinese_characters": 1035
+        },
+        "teacher": {
+          "content_characters": 2201,
+          "chinese_characters": 1035
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.14B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.14V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 15,
+      "题名": "圆周弹簧质点受径向轻击后的径向频率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 645,
+          "chinese_characters": 285
+        },
+        "student": {
+          "content_characters": 1855,
+          "chinese_characters": 856
+        },
+        "teacher": {
+          "content_characters": 1855,
+          "chinese_characters": 856
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.15A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.15V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 16,
+      "题名": "有限振幅单摆周期的二级近似",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 797,
+          "chinese_characters": 211
+        },
+        "student": {
+          "content_characters": 2391,
+          "chinese_characters": 977
+        },
+        "teacher": {
+          "content_characters": 2391,
+          "chinese_characters": 977
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.16A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.16V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 17,
+      "题名": "谐振子的相积分与能量频率关系",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 770,
+          "chinese_characters": 296
+        },
+        "student": {
+          "content_characters": 1878,
+          "chinese_characters": 845
+        },
+        "teacher": {
+          "content_characters": 1878,
+          "chinese_characters": 845
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.17A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.17V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 18,
+      "题名": "T形导轨约束细杆的小振动与碰撞",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1429,
+          "chinese_characters": 713
+        },
+        "student": {
+          "content_characters": 2391,
+          "chinese_characters": 1102
+        },
+        "teacher": {
+          "content_characters": 2391,
+          "chinese_characters": 1102
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.18V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 19,
+      "题名": "两质量弹簧系统的相对振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1351,
+          "chinese_characters": 380
+        },
+        "student": {
+          "content_characters": 2205,
+          "chinese_characters": 871
+        },
+        "teacher": {
+          "content_characters": 2205,
+          "chinese_characters": 871
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.19A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.19V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 20,
+      "题名": "缓慢缩短摆长时的振幅变化",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1233,
+          "chinese_characters": 474
+        },
+        "student": {
+          "content_characters": 2183,
+          "chinese_characters": 997
+        },
+        "teacher": {
+          "content_characters": 2183,
+          "chinese_characters": 997
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.20B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.20V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 21,
+      "题名": "小虫沿刚性摆杆爬行时的频率与振幅",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1856,
+          "chinese_characters": 769
+        },
+        "student": {
+          "content_characters": 2183,
+          "chinese_characters": 872
+        },
+        "teacher": {
+          "content_characters": 2183,
+          "chinese_characters": 872
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.21A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.21B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.21V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 22,
+      "题名": "旋转圆盘支架上摆球的平衡与小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1610,
+          "chinese_characters": 558
+        },
+        "student": {
+          "content_characters": 2012,
+          "chinese_characters": 902
+        },
+        "teacher": {
+          "content_characters": 2012,
+          "chinese_characters": 902
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.22B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.22C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.22V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 23,
+      "题名": "弹性碰撞激发弹簧连接双质点振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2379,
+          "chinese_characters": 825
+        },
+        "student": {
+          "content_characters": 2748,
+          "chinese_characters": 1114
+        },
+        "teacher": {
+          "content_characters": 2748,
+          "chinese_characters": 1114
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.23B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.23V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 24,
+      "题名": "三球双弹簧系统的特征频率和振型",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 918,
+          "chinese_characters": 367
+        },
+        "student": {
+          "content_characters": 2396,
+          "chinese_characters": 915
+        },
+        "teacher": {
+          "content_characters": 2396,
+          "chinese_characters": 915
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.24A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.24V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 25,
+      "题名": "两端弹簧支承木板的小振动特征频率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1009,
+          "chinese_characters": 375
+        },
+        "student": {
+          "content_characters": 2278,
+          "chinese_characters": 1157
+        },
+        "teacher": {
+          "content_characters": 2278,
+          "chinese_characters": 1157
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.25B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.25V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 26,
+      "题名": "两个弹簧耦合单摆的简正模式",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1735,
+          "chinese_characters": 640
+        },
+        "student": {
+          "content_characters": 2720,
+          "chinese_characters": 1242
+        },
+        "teacher": {
+          "content_characters": 2720,
+          "chinese_characters": 1242
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.26B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.26V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 27,
+      "题名": "六球环形弹簧链的特征频率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 590,
+          "chinese_characters": 168
+        },
+        "student": {
+          "content_characters": 2429,
+          "chinese_characters": 1234
+        },
+        "teacher": {
+          "content_characters": 2429,
+          "chinese_characters": 1234
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.27A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.27B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.27V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 28,
+      "题名": "圆周弹簧质点链的简正模式与频带",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 5318,
+          "chinese_characters": 2007
+        },
+        "student": {
+          "content_characters": 6776,
+          "chinese_characters": 3243
+        },
+        "teacher": {
+          "content_characters": 6776,
+          "chinese_characters": 3243
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.28A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.28B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.28C"
+          },
+          {
+            "n": 4,
+            "caption": "解图7.28D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.28V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.28V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.28V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 29,
+      "题名": "带阻尼器摆的等效阻尼振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 853,
+          "chinese_characters": 228
+        },
+        "student": {
+          "content_characters": 2146,
+          "chinese_characters": 981
+        },
+        "teacher": {
+          "content_characters": 2146,
+          "chinese_characters": 981
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.29A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.29B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.29V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.29V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.29V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 30,
+      "题名": "临界阻尼是否最快回到平衡位置",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 779,
+          "chinese_characters": 365
+        },
+        "student": {
+          "content_characters": 2608,
+          "chinese_characters": 1247
+        },
+        "teacher": {
+          "content_characters": 2608,
+          "chinese_characters": 1247
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.30A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.30B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.30V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.30V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.30V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 31,
+      "题名": "容器振动驱动下的阻尼受迫振子",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1716,
+          "chinese_characters": 653
+        },
+        "student": {
+          "content_characters": 2918,
+          "chinese_characters": 1354
+        },
+        "teacher": {
+          "content_characters": 2918,
+          "chinese_characters": 1354
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.31"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.31A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.31B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.31V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.31V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.31V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.31V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.31V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.31V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 32,
+      "题名": "受周期外力三滑块弹簧链的响应",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1559,
+          "chinese_characters": 371
+        },
+        "student": {
+          "content_characters": 2859,
+          "chinese_characters": 1165
+        },
+        "teacher": {
+          "content_characters": 2859,
+          "chinese_characters": 1165
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.32"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.32A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.32B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.32C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.32V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.32V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.32V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.32V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.32V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.32V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 33,
+      "题名": "地震波在地幔地芯模型中的传播",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2368,
+          "chinese_characters": 1049
+        },
+        "student": {
+          "content_characters": 2959,
+          "chinese_characters": 1346
+        },
+        "teacher": {
+          "content_characters": 2959,
+          "chinese_characters": 1346
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.33"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.33A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.33B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.33C"
+          },
+          {
+            "n": 4,
+            "caption": "解图7.33D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.33V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.33V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.33V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.33V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.33V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.33V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 34,
+      "题名": "夜间声速梯度导致的声线弯曲",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 899,
+          "chinese_characters": 479
+        },
+        "student": {
+          "content_characters": 2384,
+          "chinese_characters": 1075
+        },
+        "teacher": {
+          "content_characters": 2384,
+          "chinese_characters": 1075
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.34"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.34A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.34B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.34V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.34V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.34V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.34V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.34V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.34V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 35,
+      "题名": "海洋声道中的声波传播路径",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1127,
+          "chinese_characters": 448
+        },
+        "student": {
+          "content_characters": 2865,
+          "chinese_characters": 1317
+        },
+        "teacher": {
+          "content_characters": 2865,
+          "chinese_characters": 1317
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.35"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.35A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.35B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.35C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.35V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.35V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.35V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.35V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.35V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.35V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 36,
+      "题名": "有质量弹簧中的纵向弹性波",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1854,
+          "chinese_characters": 691
+        },
+        "student": {
+          "content_characters": 2990,
+          "chinese_characters": 1401
+        },
+        "teacher": {
+          "content_characters": 2990,
+          "chinese_characters": 1401
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.36"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.36A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.36B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.36V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.36V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.36V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.36V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.36V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.36V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 37,
+      "题名": "拉紧弦中简谐波的平均能流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 430,
+          "chinese_characters": 164
+        },
+        "student": {
+          "content_characters": 2268,
+          "chinese_characters": 1119
+        },
+        "teacher": {
+          "content_characters": 2268,
+          "chinese_characters": 1119
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.37"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.37A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.37B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.37V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.37V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.37V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.37V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.37V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.37V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 38,
+      "题名": "弦线上附加质点对波的反射",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 670,
+          "chinese_characters": 291
+        },
+        "student": {
+          "content_characters": 2688,
+          "chinese_characters": 1195
+        },
+        "teacher": {
+          "content_characters": 2688,
+          "chinese_characters": 1195
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.38"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.38A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.38B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.38C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.38V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.38V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.38V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.38V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.38V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.38V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 39,
+      "题名": "拍频与空气柱共振测声速",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 653,
+          "chinese_characters": 358
+        },
+        "student": {
+          "content_characters": 2387,
+          "chinese_characters": 1337
+        },
+        "teacher": {
+          "content_characters": 2387,
+          "chinese_characters": 1337
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.39"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.39A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.39B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.39C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.39V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.39V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.39V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.39V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.39V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.39V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 40,
+      "题名": "小提琴弦按点与变线密度的驻波",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1160,
+          "chinese_characters": 539
+        },
+        "student": {
+          "content_characters": 2429,
+          "chinese_characters": 1284
+        },
+        "teacher": {
+          "content_characters": 2429,
+          "chinese_characters": 1284
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.40"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.40A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.40B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.40C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.40V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.40V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.40V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.40V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.40V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.40V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 41,
+      "题名": "两列反向横波叠加的驻波能量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1378,
+          "chinese_characters": 445
+        },
+        "student": {
+          "content_characters": 2621,
+          "chinese_characters": 1123
+        },
+        "teacher": {
+          "content_characters": 2621,
+          "chinese_characters": 1123
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.41"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.41A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.41B"
+          },
+          {
+            "n": 3,
+            "caption": "解图7.41C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.41V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.41V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.41V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.41V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.41V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.41V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 42,
+      "题名": "飞机越顶飞行的多普勒频移测高",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 379,
+          "chinese_characters": 183
+        },
+        "student": {
+          "content_characters": 1954,
+          "chinese_characters": 851
+        },
+        "teacher": {
+          "content_characters": 1954,
+          "chinese_characters": 851
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.42"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.42A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.42B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.42V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.42V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.42V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.42V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.42V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.42V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 43,
+      "题名": "圆周运动音叉的多普勒频率极值",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 756,
+          "chinese_characters": 201
+        },
+        "student": {
+          "content_characters": 2361,
+          "chinese_characters": 1055
+        },
+        "teacher": {
+          "content_characters": 2361,
+          "chinese_characters": 1055
+        },
+        "floor_met": true,
+        "variants": 6,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图7.43"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图7.43A"
+          },
+          {
+            "n": 2,
+            "caption": "解图7.43B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图7.43V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.43V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.43V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.43V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.43V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图7.43V6"
+          }
+        ]
+      },
+      "审读登记": {}
+    }
+  ],
+  "实际目视登记": [
+    {
+      "edition": "教师版",
+      "figure": "7.3V1",
+      "page": 18,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.7V1",
+      "page": 41,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.10B",
+      "page": 58,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.12V4",
+      "page": 77,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.13V6",
+      "page": 83,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.17V4",
+      "page": 106,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.22V6",
+      "page": 139,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.37V6",
+      "page": 240,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.43V3",
+      "page": 275,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    },
+    {
+      "edition": "教师版",
+      "figure": "7.43V6",
+      "page": 276,
+      "scope": "本轮实际查看新导出图、图注，及相邻说明或完整成品页。"
+    }
+  ]
+}

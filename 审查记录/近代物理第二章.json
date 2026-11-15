@@ -1,0 +1,4487 @@
+{
+  "单元": "近代物理第二章",
+  "题数": 19,
+  "分章文件_SHA256": {
+    "近代物理第二章_学生版.pdf": "ba301df1e6319244e59e74a144646240c5c3bf333e227141253cafbc0e221c9a",
+    "近代物理第二章_学生版.tex": "96c0ce6885e86717c768a46a110c93e113048c517e8e0ab620d8190fdfd57152",
+    "近代物理第二章_学生解答版.pdf": "2173e57d692e50489e7684d00c5a437137af57544e347203010366e50345d294",
+    "近代物理第二章_学生解答版.tex": "8ff650c251402f78fce453f4c95bb010db7b6029811533a1e9527e4c88e192db",
+    "近代物理第二章_教师版.pdf": "996d52b1233c39a2cdfc2c657c25454ef1bd56859c7276398f2fdd3d2a484406",
+    "近代物理第二章_教师版.tex": "9472fb5abe3e1692050f33f7db58dbbf2ec0d0986fe70442315dff48b2040db8"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "飞船、定站与往返信号",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 924,
+          "chinese_characters": 549
+        },
+        "student": {
+          "content_characters": 1225,
+          "chinese_characters": 595
+        },
+        "teacher": {
+          "content_characters": 1225,
+          "chinese_characters": 595
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.1B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.1C"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.1D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.1V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "飞船、定站与往返信号",
+        "new_read": "按事件而非远处钟面读数分别核地球系、船系本地时刻；逐图检查两条光世界线、地球等待信号和停船变式。",
+        "signed_evidence": {
+          "number": 1,
+          "title": "飞船、定站与往返信号",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 924,
+            "chinese_characters": 549
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 924,
+          "chinese_characters": 549
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1225,
+            "chinese_characters": 595
+          },
+          "教师版标准解法": {
+            "content_characters": 1225,
+            "chinese_characters": 595
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.1",
+              "page": 3
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.1",
+              "page": 3
+            },
+            {
+              "figure": "解图近2.1A",
+              "page": 4
+            },
+            {
+              "figure": "解图近2.1B",
+              "page": 4
+            },
+            {
+              "figure": "解图近2.1C",
+              "page": 5
+            },
+            {
+              "figure": "解图近2.1D",
+              "page": 5
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.1",
+              "page": 3
+            },
+            {
+              "figure": "解图近2.1A",
+              "page": 4
+            },
+            {
+              "figure": "解图近2.1B",
+              "page": 5
+            },
+            {
+              "figure": "解图近2.1C",
+              "page": 5
+            },
+            {
+              "figure": "解图近2.1D",
+              "page": 5
+            },
+            {
+              "figure": "变图近2.1V1",
+              "page": 6
+            },
+            {
+              "figure": "变图近2.1V2",
+              "page": 7
+            },
+            {
+              "figure": "变图近2.1V3",
+              "page": 7
+            },
+            {
+              "figure": "变图近2.1V4",
+              "page": 8
+            },
+            {
+              "figure": "变图近2.1V5",
+              "page": 8
+            },
+            {
+              "figure": "变图近2.1V6",
+              "page": 8
+            },
+            {
+              "figure": "变图近2.1V7",
+              "page": 9
+            },
+            {
+              "figure": "变图近2.1V8",
+              "page": 9
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 2,
+      "题名": "运动中性线框的电荷与电偶极",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1399,
+          "chinese_characters": 706
+        },
+        "student": {
+          "content_characters": 1523,
+          "chinese_characters": 784
+        },
+        "teacher": {
+          "content_characters": 1523,
+          "chinese_characters": 784
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.2C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.2B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.2D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.2V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "运动中性线框的电荷与电偶极",
+        "new_read": "用同时性筛选平移线框各边移动球计数，核纵边、横边的总量，重算电偶极及外电场力矩方向。",
+        "signed_evidence": {
+          "number": 2,
+          "title": "运动中性线框的电荷与电偶极",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1399,
+            "chinese_characters": 706
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1399,
+          "chinese_characters": 706
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1523,
+            "chinese_characters": 784
+          },
+          "教师版标准解法": {
+            "content_characters": 1523,
+            "chinese_characters": 784
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.2",
+              "page": 4
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.2",
+              "page": 6
+            },
+            {
+              "figure": "解图近2.2A",
+              "page": 7
+            },
+            {
+              "figure": "解图近2.2C",
+              "page": 7
+            },
+            {
+              "figure": "解图近2.2B",
+              "page": 8
+            },
+            {
+              "figure": "解图近2.2D",
+              "page": 8
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.2",
+              "page": 10
+            },
+            {
+              "figure": "解图近2.2A",
+              "page": 11
+            },
+            {
+              "figure": "解图近2.2C",
+              "page": 12
+            },
+            {
+              "figure": "解图近2.2B",
+              "page": 12
+            },
+            {
+              "figure": "解图近2.2D",
+              "page": 12
+            },
+            {
+              "figure": "变图近2.2V1",
+              "page": 13
+            },
+            {
+              "figure": "变图近2.2V2",
+              "page": 14
+            },
+            {
+              "figure": "变图近2.2V3",
+              "page": 14
+            },
+            {
+              "figure": "变图近2.2V4",
+              "page": 14
+            },
+            {
+              "figure": "变图近2.2V5",
+              "page": 15
+            },
+            {
+              "figure": "变图近2.2V6",
+              "page": 15
+            },
+            {
+              "figure": "变图近2.2V7",
+              "page": 15
+            },
+            {
+              "figure": "变图近2.2V8",
+              "page": 16
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 3,
+      "题名": "两艘相向飞船的光信号",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 675,
+          "chinese_characters": 291
+        },
+        "student": {
+          "content_characters": 1055,
+          "chinese_characters": 441
+        },
+        "teacher": {
+          "content_characters": 1055,
+          "chinese_characters": 441
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.3A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.3C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.3B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.3D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.3V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "两艘相向飞船的光信号",
+        "new_read": "从命中事件反求S系光速分量，再分别变到两船系；对照接收时刻、同时两船距离、改同向航线和换有质量粒子。",
+        "signed_evidence": {
+          "number": 3,
+          "title": "两艘相向飞船的光信号",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "易错点",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 675,
+            "chinese_characters": 291
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 675,
+          "chinese_characters": 291
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1055,
+            "chinese_characters": 441
+          },
+          "教师版标准解法": {
+            "content_characters": 1055,
+            "chinese_characters": 441
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.3",
+              "page": 5
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.3",
+              "page": 9
+            },
+            {
+              "figure": "解图近2.3A",
+              "page": 9
+            },
+            {
+              "figure": "解图近2.3C",
+              "page": 10
+            },
+            {
+              "figure": "解图近2.3B",
+              "page": 10
+            },
+            {
+              "figure": "解图近2.3D",
+              "page": 11
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.3",
+              "page": 16
+            },
+            {
+              "figure": "解图近2.3A",
+              "page": 17
+            },
+            {
+              "figure": "解图近2.3C",
+              "page": 18
+            },
+            {
+              "figure": "解图近2.3B",
+              "page": 18
+            },
+            {
+              "figure": "解图近2.3D",
+              "page": 19
+            },
+            {
+              "figure": "变图近2.3V1",
+              "page": 20
+            },
+            {
+              "figure": "变图近2.3V2",
+              "page": 20
+            },
+            {
+              "figure": "变图近2.3V3",
+              "page": 21
+            },
+            {
+              "figure": "变图近2.3V4",
+              "page": 21
+            },
+            {
+              "figure": "变图近2.3V5",
+              "page": 22
+            },
+            {
+              "figure": "变图近2.3V6",
+              "page": 22
+            },
+            {
+              "figure": "变图近2.3V7",
+              "page": 23
+            },
+            {
+              "figure": "变图近2.3V8",
+              "page": 23
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 4,
+      "题名": "沿法线运动的平面镜",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1002,
+          "chinese_characters": 480
+        },
+        "student": {
+          "content_characters": 1183,
+          "chinese_characters": 611
+        },
+        "teacher": {
+          "content_characters": 1183,
+          "chinese_characters": 611
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.4C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.4B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.4D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.4V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "沿法线运动的平面镜",
+        "new_read": "复算镜前有限相遇、双Doppler频移及反射角钝角支，图C用两条引线分别标清世界线。",
+        "signed_evidence": {
+          "number": 4,
+          "title": "沿法线运动的平面镜",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1002,
+            "chinese_characters": 480
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1002,
+          "chinese_characters": 480
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1183,
+            "chinese_characters": 611
+          },
+          "教师版标准解法": {
+            "content_characters": 1183,
+            "chinese_characters": 611
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.4",
+              "page": 6
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.4",
+              "page": 11
+            },
+            {
+              "figure": "解图近2.4A",
+              "page": 12
+            },
+            {
+              "figure": "解图近2.4C",
+              "page": 12
+            },
+            {
+              "figure": "解图近2.4B",
+              "page": 13
+            },
+            {
+              "figure": "解图近2.4D",
+              "page": 13
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.4",
+              "page": 23
+            },
+            {
+              "figure": "解图近2.4A",
+              "page": 24
+            },
+            {
+              "figure": "解图近2.4C",
+              "page": 25
+            },
+            {
+              "figure": "解图近2.4B",
+              "page": 25
+            },
+            {
+              "figure": "解图近2.4D",
+              "page": 26
+            },
+            {
+              "figure": "变图近2.4V1",
+              "page": 27
+            },
+            {
+              "figure": "变图近2.4V2",
+              "page": 27
+            },
+            {
+              "figure": "变图近2.4V3",
+              "page": 27
+            },
+            {
+              "figure": "变图近2.4V4",
+              "page": 28
+            },
+            {
+              "figure": "变图近2.4V5",
+              "page": 28
+            },
+            {
+              "figure": "变图近2.4V6",
+              "page": 28
+            },
+            {
+              "figure": "变图近2.4V7",
+              "page": 29
+            },
+            {
+              "figure": "变图近2.4V8",
+              "page": 29
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 4,
+            "where": "解图近2.4C",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "old": "\\draw[axis] (0,0)--(8,0) node[right] {$ct$};\\draw[axis] (0,-3)--(0,3) node[above] {$x$};\\draw[guide] (0,0)--(6,-1.8) node[below] {镜面$x=-0.3ct$};\\draw[traj] (0,1)--(6,-2) node[right] {入射$x=\\ell-0.5ct$};\\node[left] at (0,1) {$\\ell$};\\fill (5,-1.5) circle(.04) node[left] {相交};",
+            "new": "\\draw[axis] (0,0)--(8,0) node[right] {$ct$};\n\\draw[axis] (0,-3)--(0,3) node[above] {$x$};\n\\draw[guide] (0,0)--(6,-1.8);\n\\draw[traj] (0,1)--(6,-2);\n\\draw[guide] (6,-1.8)--(6.48,-1.15) node[right] {镜面$x=-0.3ct$};\n\\draw[guide] (6,-2)--(6.48,-2.49) node[right] {入射$x=\\ell-0.5ct$};\n\\node[left] at (0,1) {$\\ell$};\n\\fill (5,-1.5) circle(.04) node[left] {相交};",
+            "reason": "用两条分开的引线注明镜面和入射光世界线，保留真实交点。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 5,
+      "题名": "共同运动的介质界面",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1593,
+          "chinese_characters": 506
+        },
+        "student": {
+          "content_characters": 1753,
+          "chinese_characters": 819
+        },
+        "teacher": {
+          "content_characters": 1753,
+          "chinese_characters": 819
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.5C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.5D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.5V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "共同运动的介质界面",
+        "new_read": "用共同静止系群速度、Snell关系和洛伦兹变换核各支光线路径、掠端及全反射条件。",
+        "signed_evidence": {
+          "number": 5,
+          "title": "共同运动的介质界面",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1593,
+            "chinese_characters": 506
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1593,
+          "chinese_characters": 506
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1753,
+            "chinese_characters": 819
+          },
+          "教师版标准解法": {
+            "content_characters": 1753,
+            "chinese_characters": 819
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.5",
+              "page": 7
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.5",
+              "page": 14
+            },
+            {
+              "figure": "解图近2.5A",
+              "page": 14
+            },
+            {
+              "figure": "解图近2.5C",
+              "page": 15
+            },
+            {
+              "figure": "解图近2.5D",
+              "page": 15
+            },
+            {
+              "figure": "解图近2.5B",
+              "page": 16
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.5",
+              "page": 30
+            },
+            {
+              "figure": "解图近2.5A",
+              "page": 31
+            },
+            {
+              "figure": "解图近2.5C",
+              "page": 31
+            },
+            {
+              "figure": "解图近2.5D",
+              "page": 32
+            },
+            {
+              "figure": "解图近2.5B",
+              "page": 32
+            },
+            {
+              "figure": "变图近2.5V1",
+              "page": 33
+            },
+            {
+              "figure": "变图近2.5V2",
+              "page": 34
+            },
+            {
+              "figure": "变图近2.5V3",
+              "page": 34
+            },
+            {
+              "figure": "变图近2.5V4",
+              "page": 35
+            },
+            {
+              "figure": "变图近2.5V5",
+              "page": 35
+            },
+            {
+              "figure": "变图近2.5V6",
+              "page": 36
+            },
+            {
+              "figure": "变图近2.5V7",
+              "page": 36
+            },
+            {
+              "figure": "变图近2.5V8",
+              "page": 37
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 5,
+            "where": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "old": "本题两介质在$S'$中均匀、各向同性且无色散，相位方向与光线方向重合，光线速率为$c/n_j$。",
+            "new": "两种介质在 $S'$ 中均匀、各向同性且无色散。这个系里群速度与相速度同向，光线的传播速率为 $c/n_j$。实验室图跟踪光线到达界面后的方向，因此对群速度的两个分量作变换。",
+            "reason": "明确由速度相加得到的是实验室光线方向，界面系折射率定义不变。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 6,
+      "题名": "运动观察者所见的星空分布",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 871,
+          "chinese_characters": 337
+        },
+        "student": {
+          "content_characters": 1145,
+          "chinese_characters": 591
+        },
+        "teacher": {
+          "content_characters": 1145,
+          "chinese_characters": 591
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.6C"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.6A"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.6B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.6D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.6V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "运动观察者所见的星空分布",
+        "new_read": "核星体方位与实际入射光方向负号、立体角雅可比及总数；逐图查前方圆帽计数和高速极限。",
+        "signed_evidence": {
+          "number": 6,
+          "title": "运动观察者所见的星空分布",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "解题入口",
+            "关键洞察",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "物理图像",
+            "标准解法",
+            "易错点",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 871,
+            "chinese_characters": 337
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 871,
+          "chinese_characters": 337
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1145,
+            "chinese_characters": 591
+          },
+          "教师版标准解法": {
+            "content_characters": 1145,
+            "chinese_characters": 591
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.6",
+              "page": 8
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.6",
+              "page": 17
+            },
+            {
+              "figure": "解图近2.6C",
+              "page": 17
+            },
+            {
+              "figure": "解图近2.6A",
+              "page": 18
+            },
+            {
+              "figure": "解图近2.6B",
+              "page": 18
+            },
+            {
+              "figure": "解图近2.6D",
+              "page": 19
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.6",
+              "page": 37
+            },
+            {
+              "figure": "解图近2.6C",
+              "page": 38
+            },
+            {
+              "figure": "解图近2.6A",
+              "page": 39
+            },
+            {
+              "figure": "解图近2.6B",
+              "page": 39
+            },
+            {
+              "figure": "解图近2.6D",
+              "page": 40
+            },
+            {
+              "figure": "变图近2.6V1",
+              "page": 41
+            },
+            {
+              "figure": "变图近2.6V2",
+              "page": 41
+            },
+            {
+              "figure": "变图近2.6V3",
+              "page": 41
+            },
+            {
+              "figure": "变图近2.6V4",
+              "page": 42
+            },
+            {
+              "figure": "变图近2.6V5",
+              "page": 42
+            },
+            {
+              "figure": "变图近2.6V6",
+              "page": 43
+            },
+            {
+              "figure": "变图近2.6V7",
+              "page": 43
+            },
+            {
+              "figure": "变图近2.6V8",
+              "page": 43
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 7,
+      "题名": "运动点光源的接收强度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1052,
+          "chinese_characters": 509
+        },
+        "student": {
+          "content_characters": 1268,
+          "chinese_characters": 607
+        },
+        "teacher": {
+          "content_characters": 1268,
+          "chinese_characters": 607
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.7C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.7D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.7B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.7V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "运动点光源的接收强度",
+        "new_read": "核单光子能量、到达率与立体角的四次因子，区分发射时钟的全方向总功率；V3展开谱峰与带宽的图注。",
+        "signed_evidence": {
+          "number": 7,
+          "title": "运动点光源的接收强度",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1052,
+            "chinese_characters": 509
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1052,
+          "chinese_characters": 509
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1268,
+            "chinese_characters": 607
+          },
+          "教师版标准解法": {
+            "content_characters": 1268,
+            "chinese_characters": 607
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.7",
+              "page": 9
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.7",
+              "page": 19
+            },
+            {
+              "figure": "解图近2.7A",
+              "page": 20
+            },
+            {
+              "figure": "解图近2.7C",
+              "page": 20
+            },
+            {
+              "figure": "解图近2.7D",
+              "page": 21
+            },
+            {
+              "figure": "解图近2.7B",
+              "page": 21
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.7",
+              "page": 44
+            },
+            {
+              "figure": "解图近2.7A",
+              "page": 45
+            },
+            {
+              "figure": "解图近2.7C",
+              "page": 45
+            },
+            {
+              "figure": "解图近2.7D",
+              "page": 46
+            },
+            {
+              "figure": "解图近2.7B",
+              "page": 46
+            },
+            {
+              "figure": "变图近2.7V1",
+              "page": 47
+            },
+            {
+              "figure": "变图近2.7V2",
+              "page": 48
+            },
+            {
+              "figure": "变图近2.7V3",
+              "page": 48
+            },
+            {
+              "figure": "变图近2.7V4",
+              "page": 48
+            },
+            {
+              "figure": "变图近2.7V5",
+              "page": 49
+            },
+            {
+              "figure": "变图近2.7V6",
+              "page": 49
+            },
+            {
+              "figure": "变图近2.7V7",
+              "page": 49
+            },
+            {
+              "figure": "变图近2.7V8",
+              "page": 50
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 7,
+            "where": "变图近2.7V3",
+            "editions": [
+              "教师版"
+            ],
+            "old": "\\node[above] at (5,3.5) {静止高斯谱与前方$\\delta=2$接收谱：峰位和频宽均加倍};\n",
+            "new": "",
+            "reason": "删除与图注重复且压住纵轴名的图内标题。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 8,
+      "题名": "迎面反射镜返回的光功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 991,
+          "chinese_characters": 571
+        },
+        "student": {
+          "content_characters": 1369,
+          "chinese_characters": 742
+        },
+        "teacher": {
+          "content_characters": 1369,
+          "chinese_characters": 742
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.8C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.8B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.8D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.8V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "迎面反射镜返回的光功率",
+        "new_read": "核双变频、到达间隔与固定镜速的机械功，逐图复核反射镜局部功率和固定探测器功率之别。",
+        "signed_evidence": {
+          "number": 8,
+          "title": "迎面反射镜返回的光功率",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "易错点"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 991,
+            "chinese_characters": 571
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 991,
+          "chinese_characters": 571
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1369,
+            "chinese_characters": 742
+          },
+          "教师版标准解法": {
+            "content_characters": 1369,
+            "chinese_characters": 742
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.8",
+              "page": 10
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.8",
+              "page": 22
+            },
+            {
+              "figure": "解图近2.8A",
+              "page": 22
+            },
+            {
+              "figure": "解图近2.8C",
+              "page": 23
+            },
+            {
+              "figure": "解图近2.8B",
+              "page": 23
+            },
+            {
+              "figure": "解图近2.8D",
+              "page": 24
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.8",
+              "page": 50
+            },
+            {
+              "figure": "解图近2.8A",
+              "page": 51
+            },
+            {
+              "figure": "解图近2.8C",
+              "page": 52
+            },
+            {
+              "figure": "解图近2.8B",
+              "page": 52
+            },
+            {
+              "figure": "解图近2.8D",
+              "page": 53
+            },
+            {
+              "figure": "变图近2.8V1",
+              "page": 54
+            },
+            {
+              "figure": "变图近2.8V2",
+              "page": 54
+            },
+            {
+              "figure": "变图近2.8V3",
+              "page": 55
+            },
+            {
+              "figure": "变图近2.8V4",
+              "page": 55
+            },
+            {
+              "figure": "变图近2.8V5",
+              "page": 55
+            },
+            {
+              "figure": "变图近2.8V6",
+              "page": 56
+            },
+            {
+              "figure": "变图近2.8V7",
+              "page": 56
+            },
+            {
+              "figure": "变图近2.8V8",
+              "page": 57
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 9,
+      "题名": "移动色散介质中的相速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 732,
+          "chinese_characters": 263
+        },
+        "student": {
+          "content_characters": 1396,
+          "chinese_characters": 730
+        },
+        "teacher": {
+          "content_characters": 1396,
+          "chinese_characters": 730
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.9C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.9D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.9V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "移动色散介质中的相速度",
+        "new_read": "核移动色散端面的介质系频率、物理波长的隐式导数和相位速度相加，一阶色散项在正反向的对应。",
+        "signed_evidence": {
+          "number": 9,
+          "title": "移动色散介质中的相速度",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 732,
+            "chinese_characters": 263
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 732,
+          "chinese_characters": 263
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1396,
+            "chinese_characters": 730
+          },
+          "教师版标准解法": {
+            "content_characters": 1396,
+            "chinese_characters": 730
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.9",
+              "page": 11
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.9",
+              "page": 25
+            },
+            {
+              "figure": "解图近2.9A",
+              "page": 25
+            },
+            {
+              "figure": "解图近2.9C",
+              "page": 25
+            },
+            {
+              "figure": "解图近2.9D",
+              "page": 26
+            },
+            {
+              "figure": "解图近2.9B",
+              "page": 26
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.9",
+              "page": 57
+            },
+            {
+              "figure": "解图近2.9A",
+              "page": 58
+            },
+            {
+              "figure": "解图近2.9C",
+              "page": 58
+            },
+            {
+              "figure": "解图近2.9D",
+              "page": 59
+            },
+            {
+              "figure": "解图近2.9B",
+              "page": 59
+            },
+            {
+              "figure": "变图近2.9V1",
+              "page": 61
+            },
+            {
+              "figure": "变图近2.9V2",
+              "page": 61
+            },
+            {
+              "figure": "变图近2.9V3",
+              "page": 62
+            },
+            {
+              "figure": "变图近2.9V4",
+              "page": 62
+            },
+            {
+              "figure": "变图近2.9V5",
+              "page": 63
+            },
+            {
+              "figure": "变图近2.9V6",
+              "page": 63
+            },
+            {
+              "figure": "变图近2.9V7",
+              "page": 64
+            },
+            {
+              "figure": "变图近2.9V8",
+              "page": 64
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 10,
+      "题名": "固有加速度恒定的星际航程",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1458,
+          "chinese_characters": 681
+        },
+        "student": {
+          "content_characters": 1881,
+          "chinese_characters": 757
+        },
+        "teacher": {
+          "content_characters": 1881,
+          "chinese_characters": 757
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.10C"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.10A"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.10D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.10B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.10V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "固有加速度恒定的星际航程",
+        "new_read": "从瞬时共动系和快速度复算前后程时空轨迹与钟时。逐图查匀速段、长航程对数与两段加速不等变式。",
+        "signed_evidence": {
+          "number": 10,
+          "title": "固有加速度恒定的星际航程",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "物理图像",
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1458,
+            "chinese_characters": 681
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1458,
+          "chinese_characters": 681
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1881,
+            "chinese_characters": 757
+          },
+          "教师版标准解法": {
+            "content_characters": 1881,
+            "chinese_characters": 757
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.10",
+              "page": 12
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.10",
+              "page": 27
+            },
+            {
+              "figure": "解图近2.10C",
+              "page": 27
+            },
+            {
+              "figure": "解图近2.10A",
+              "page": 28
+            },
+            {
+              "figure": "解图近2.10D",
+              "page": 29
+            },
+            {
+              "figure": "解图近2.10B",
+              "page": 29
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.10",
+              "page": 64
+            },
+            {
+              "figure": "解图近2.10C",
+              "page": 65
+            },
+            {
+              "figure": "解图近2.10A",
+              "page": 66
+            },
+            {
+              "figure": "解图近2.10D",
+              "page": 66
+            },
+            {
+              "figure": "解图近2.10B",
+              "page": 67
+            },
+            {
+              "figure": "变图近2.10V1",
+              "page": 68
+            },
+            {
+              "figure": "变图近2.10V2",
+              "page": 69
+            },
+            {
+              "figure": "变图近2.10V3",
+              "page": 69
+            },
+            {
+              "figure": "变图近2.10V4",
+              "page": 70
+            },
+            {
+              "figure": "变图近2.10V5",
+              "page": 70
+            },
+            {
+              "figure": "变图近2.10V6",
+              "page": 71
+            },
+            {
+              "figure": "变图近2.10V7",
+              "page": 71
+            },
+            {
+              "figure": "变图近2.10V8",
+              "page": 71
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 11,
+      "题名": "相对论火箭的质量比",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 867,
+          "chinese_characters": 337
+        },
+        "student": {
+          "content_characters": 1529,
+          "chinese_characters": 684
+        },
+        "teacher": {
+          "content_characters": 1529,
+          "chinese_characters": 684
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.11C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.11D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.11V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "相对论火箭的质量比",
+        "new_read": "重算排气共动能量与动量、快速度积分和质量比，逐图查反向制动、余速与给定排气下的下界。",
+        "signed_evidence": {
+          "number": 11,
+          "title": "相对论火箭的质量比",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 867,
+            "chinese_characters": 337
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 867,
+          "chinese_characters": 337
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1529,
+            "chinese_characters": 684
+          },
+          "教师版标准解法": {
+            "content_characters": 1529,
+            "chinese_characters": 684
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.11",
+              "page": 13
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.11",
+              "page": 30
+            },
+            {
+              "figure": "解图近2.11A",
+              "page": 30
+            },
+            {
+              "figure": "解图近2.11C",
+              "page": 30
+            },
+            {
+              "figure": "解图近2.11D",
+              "page": 31
+            },
+            {
+              "figure": "解图近2.11B",
+              "page": 32
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.11",
+              "page": 72
+            },
+            {
+              "figure": "解图近2.11A",
+              "page": 72
+            },
+            {
+              "figure": "解图近2.11C",
+              "page": 73
+            },
+            {
+              "figure": "解图近2.11D",
+              "page": 74
+            },
+            {
+              "figure": "解图近2.11B",
+              "page": 74
+            },
+            {
+              "figure": "变图近2.11V1",
+              "page": 75
+            },
+            {
+              "figure": "变图近2.11V2",
+              "page": 76
+            },
+            {
+              "figure": "变图近2.11V3",
+              "page": 76
+            },
+            {
+              "figure": "变图近2.11V4",
+              "page": 77
+            },
+            {
+              "figure": "变图近2.11V5",
+              "page": 77
+            },
+            {
+              "figure": "变图近2.11V6",
+              "page": 77
+            },
+            {
+              "figure": "变图近2.11V7",
+              "page": 78
+            },
+            {
+              "figure": "变图近2.11V8",
+              "page": 78
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 12,
+      "题名": "光子火箭的巡航速度与燃料下限",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 717,
+          "chinese_characters": 394
+        },
+        "student": {
+          "content_characters": 1318,
+          "chinese_characters": 664
+        },
+        "teacher": {
+          "content_characters": 1318,
+          "chinese_characters": 664
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.12C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.12B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.12D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.12V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "光子火箭的巡航速度与燃料下限",
+        "new_read": "核巡航船钟、两次瞬时光子推动与燃料比，核有限加速下固定船时的凸性，移除V2叠放标题。",
+        "signed_evidence": {
+          "number": 12,
+          "title": "光子火箭的巡航速度与燃料下限",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "解题入口",
+            "关键洞察",
+            "易错点"
+          ],
+          "remaining_fields": [
+            "物理图像",
+            "标准解法",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 717,
+            "chinese_characters": 394
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 717,
+          "chinese_characters": 394
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1318,
+            "chinese_characters": 664
+          },
+          "教师版标准解法": {
+            "content_characters": 1318,
+            "chinese_characters": 664
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.12",
+              "page": 14
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.12",
+              "page": 33
+            },
+            {
+              "figure": "解图近2.12A",
+              "page": 33
+            },
+            {
+              "figure": "解图近2.12C",
+              "page": 33
+            },
+            {
+              "figure": "解图近2.12B",
+              "page": 34
+            },
+            {
+              "figure": "解图近2.12D",
+              "page": 34
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.12",
+              "page": 78
+            },
+            {
+              "figure": "解图近2.12A",
+              "page": 79
+            },
+            {
+              "figure": "解图近2.12C",
+              "page": 80
+            },
+            {
+              "figure": "解图近2.12B",
+              "page": 80
+            },
+            {
+              "figure": "解图近2.12D",
+              "page": 81
+            },
+            {
+              "figure": "变图近2.12V1",
+              "page": 82
+            },
+            {
+              "figure": "变图近2.12V2",
+              "page": 82
+            },
+            {
+              "figure": "变图近2.12V3",
+              "page": 83
+            },
+            {
+              "figure": "变图近2.12V4",
+              "page": 83
+            },
+            {
+              "figure": "变图近2.12V5",
+              "page": 83
+            },
+            {
+              "figure": "变图近2.12V6",
+              "page": 84
+            },
+            {
+              "figure": "变图近2.12V7",
+              "page": 84
+            },
+            {
+              "figure": "变图近2.12V8",
+              "page": 85
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 12,
+            "where": "变图近2.12V2",
+            "editions": [
+              "教师版"
+            ],
+            "old": "\\node[above] at (5,3.5) {同一长航程允许更多船时，燃料比近似按船时平方反比下降};\n",
+            "new": "",
+            "reason": "删除与图注字面相同且靠近纵轴名的图内标题。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 13,
+      "题名": "恒固有加速度光子火箭的初始功率",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1162,
+          "chinese_characters": 603
+        },
+        "student": {
+          "content_characters": 1459,
+          "chinese_characters": 717
+        },
+        "teacher": {
+          "content_characters": 1459,
+          "chinese_characters": 717
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.13C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.13B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.13D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.13V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "恒固有加速度光子火箭的初始功率",
+        "new_read": "核共动瞬时功率、对数质量随固有时及快速度路径，重算终质量反推初始功率和两段地球系辐射能。",
+        "signed_evidence": {
+          "number": 13,
+          "title": "恒固有加速度光子火箭的初始功率",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1162,
+            "chinese_characters": 603
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1162,
+          "chinese_characters": 603
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1459,
+            "chinese_characters": 717
+          },
+          "教师版标准解法": {
+            "content_characters": 1459,
+            "chinese_characters": 717
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.13",
+              "page": 15
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.13",
+              "page": 35
+            },
+            {
+              "figure": "解图近2.13A",
+              "page": 35
+            },
+            {
+              "figure": "解图近2.13C",
+              "page": 36
+            },
+            {
+              "figure": "解图近2.13B",
+              "page": 36
+            },
+            {
+              "figure": "解图近2.13D",
+              "page": 36
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.13",
+              "page": 85
+            },
+            {
+              "figure": "解图近2.13A",
+              "page": 86
+            },
+            {
+              "figure": "解图近2.13C",
+              "page": 86
+            },
+            {
+              "figure": "解图近2.13B",
+              "page": 87
+            },
+            {
+              "figure": "解图近2.13D",
+              "page": 87
+            },
+            {
+              "figure": "变图近2.13V1",
+              "page": 89
+            },
+            {
+              "figure": "变图近2.13V2",
+              "page": 89
+            },
+            {
+              "figure": "变图近2.13V3",
+              "page": 89
+            },
+            {
+              "figure": "变图近2.13V4",
+              "page": 90
+            },
+            {
+              "figure": "变图近2.13V5",
+              "page": 90
+            },
+            {
+              "figure": "变图近2.13V6",
+              "page": 91
+            },
+            {
+              "figure": "变图近2.13V7",
+              "page": 91
+            },
+            {
+              "figure": "变图近2.13V8",
+              "page": 92
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 14,
+      "题名": "高空缪子的寿命与磁偏转",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1470,
+          "chinese_characters": 553
+        },
+        "student": {
+          "content_characters": 1755,
+          "chinese_characters": 786
+        },
+        "teacher": {
+          "content_characters": 1755,
+          "chinese_characters": 786
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.14A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.14C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.14B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.14D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.14V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "高空缪子的寿命与磁偏转",
+        "new_read": "核寿命随机衰变与直线估算、电荷磁圆偏西、飞行弧长修正与不能碰地的参数。V8显出动量轴。",
+        "signed_evidence": {
+          "number": 14,
+          "title": "高空缪子的寿命与磁偏转",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1470,
+            "chinese_characters": 553
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1470,
+          "chinese_characters": 553
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1755,
+            "chinese_characters": 786
+          },
+          "教师版标准解法": {
+            "content_characters": 1755,
+            "chinese_characters": 786
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.14",
+              "page": 16
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.14",
+              "page": 37
+            },
+            {
+              "figure": "解图近2.14A",
+              "page": 38
+            },
+            {
+              "figure": "解图近2.14C",
+              "page": 39
+            },
+            {
+              "figure": "解图近2.14B",
+              "page": 39
+            },
+            {
+              "figure": "解图近2.14D",
+              "page": 40
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.14",
+              "page": 92
+            },
+            {
+              "figure": "解图近2.14A",
+              "page": 94
+            },
+            {
+              "figure": "解图近2.14C",
+              "page": 94
+            },
+            {
+              "figure": "解图近2.14B",
+              "page": 95
+            },
+            {
+              "figure": "解图近2.14D",
+              "page": 95
+            },
+            {
+              "figure": "变图近2.14V1",
+              "page": 96
+            },
+            {
+              "figure": "变图近2.14V2",
+              "page": 97
+            },
+            {
+              "figure": "变图近2.14V3",
+              "page": 97
+            },
+            {
+              "figure": "变图近2.14V4",
+              "page": 98
+            },
+            {
+              "figure": "变图近2.14V5",
+              "page": 98
+            },
+            {
+              "figure": "变图近2.14V6",
+              "page": 99
+            },
+            {
+              "figure": "变图近2.14V7",
+              "page": 99
+            },
+            {
+              "figure": "变图近2.14V8",
+              "page": 100
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 14,
+            "where": "变图近2.14V8",
+            "editions": [
+              "教师版"
+            ],
+            "old": "\\node[above] at (5,3.5) {较短寿命由飞行角限制，较长寿命由圆轨道接地条件限制};\n",
+            "new": "",
+            "reason": "保留完整图注，让图里的无量纲动量轴单独显示。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 15,
+      "题名": "电子与质子在非均匀磁场中的同轨运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1146,
+          "chinese_characters": 495
+        },
+        "student": {
+          "content_characters": 1333,
+          "chinese_characters": 734
+        },
+        "teacher": {
+          "content_characters": 1333,
+          "chinese_characters": 734
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.15C"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.15A"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.15D"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.15B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.15V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "电子与质子在非均匀磁场中的同轨运动",
+        "new_read": "复算轨道的按弧长微分方程、同向入口下带符号的磁刚度系数；逐图查反向入口、质子电压和通过时间。",
+        "signed_evidence": {
+          "number": 15,
+          "title": "电子与质子在非均匀磁场中的同轨运动",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议",
+            "变式训练"
+          ],
+          "remaining_fields": [
+            "物理图像",
+            "标准解法"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1146,
+            "chinese_characters": 495
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1146,
+          "chinese_characters": 495
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1333,
+            "chinese_characters": 734
+          },
+          "教师版标准解法": {
+            "content_characters": 1333,
+            "chinese_characters": 734
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.15",
+              "page": 17
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.15",
+              "page": 41
+            },
+            {
+              "figure": "解图近2.15C",
+              "page": 41
+            },
+            {
+              "figure": "解图近2.15A",
+              "page": 42
+            },
+            {
+              "figure": "解图近2.15D",
+              "page": 42
+            },
+            {
+              "figure": "解图近2.15B",
+              "page": 43
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.15",
+              "page": 100
+            },
+            {
+              "figure": "解图近2.15C",
+              "page": 101
+            },
+            {
+              "figure": "解图近2.15A",
+              "page": 102
+            },
+            {
+              "figure": "解图近2.15D",
+              "page": 102
+            },
+            {
+              "figure": "解图近2.15B",
+              "page": 103
+            },
+            {
+              "figure": "变图近2.15V1",
+              "page": 104
+            },
+            {
+              "figure": "变图近2.15V2",
+              "page": 104
+            },
+            {
+              "figure": "变图近2.15V3",
+              "page": 105
+            },
+            {
+              "figure": "变图近2.15V4",
+              "page": 105
+            },
+            {
+              "figure": "变图近2.15V5",
+              "page": 105
+            },
+            {
+              "figure": "变图近2.15V6",
+              "page": 106
+            },
+            {
+              "figure": "变图近2.15V7",
+              "page": 106
+            },
+            {
+              "figure": "变图近2.15V8",
+              "page": 107
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 16,
+      "题名": "横向恒力作用下的相对论粒子",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 552,
+          "chinese_characters": 127
+        },
+        "student": {
+          "content_characters": 1328,
+          "chinese_characters": 485
+        },
+        "teacher": {
+          "content_characters": 1328,
+          "chinese_characters": 485
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.16C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.16B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.16D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.16V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "横向恒力作用下的相对论粒子",
+        "new_read": "核横力保持x动量、能量与坐标速度分量、双曲积分和固有时间，逐图对照小t与低速极限。",
+        "signed_evidence": {
+          "number": 16,
+          "title": "横向恒力作用下的相对论粒子",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 552,
+            "chinese_characters": 127
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 552,
+          "chinese_characters": 127
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1328,
+            "chinese_characters": 485
+          },
+          "教师版标准解法": {
+            "content_characters": 1328,
+            "chinese_characters": 485
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.16",
+              "page": 18
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.16",
+              "page": 44
+            },
+            {
+              "figure": "解图近2.16A",
+              "page": 44
+            },
+            {
+              "figure": "解图近2.16C",
+              "page": 45
+            },
+            {
+              "figure": "解图近2.16B",
+              "page": 45
+            },
+            {
+              "figure": "解图近2.16D",
+              "page": 46
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.16",
+              "page": 107
+            },
+            {
+              "figure": "解图近2.16A",
+              "page": 109
+            },
+            {
+              "figure": "解图近2.16C",
+              "page": 109
+            },
+            {
+              "figure": "解图近2.16B",
+              "page": 109
+            },
+            {
+              "figure": "解图近2.16D",
+              "page": 110
+            },
+            {
+              "figure": "变图近2.16V1",
+              "page": 111
+            },
+            {
+              "figure": "变图近2.16V2",
+              "page": 111
+            },
+            {
+              "figure": "变图近2.16V3",
+              "page": 112
+            },
+            {
+              "figure": "变图近2.16V4",
+              "page": 112
+            },
+            {
+              "figure": "变图近2.16V5",
+              "page": 113
+            },
+            {
+              "figure": "变图近2.16V6",
+              "page": 113
+            },
+            {
+              "figure": "变图近2.16V7",
+              "page": 114
+            },
+            {
+              "figure": "变图近2.16V8",
+              "page": 114
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    },
+    {
+      "题号": 17,
+      "题名": "极端相对论粒子与双夸克模型",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2111,
+          "chinese_characters": 739
+        },
+        "student": {
+          "content_characters": 2232,
+          "chinese_characters": 1003
+        },
+        "teacher": {
+          "content_characters": 2232,
+          "chinese_characters": 1003
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.17C"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.17D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.17V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "极端相对论粒子与双夸克模型",
+        "new_read": "重算极端相对论折线和菱形相图，核同实验室时刻测间距的平台与时长，用斜率说明相对位置变化。",
+        "signed_evidence": {
+          "number": 17,
+          "title": "极端相对论粒子与双夸克模型",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 2111,
+            "chinese_characters": 739
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 2111,
+          "chinese_characters": 739
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 2232,
+            "chinese_characters": 1003
+          },
+          "教师版标准解法": {
+            "content_characters": 2232,
+            "chinese_characters": 1003
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.17",
+              "page": 19
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.17",
+              "page": 46
+            },
+            {
+              "figure": "解图近2.17A",
+              "page": 47
+            },
+            {
+              "figure": "解图近2.17B",
+              "page": 48
+            },
+            {
+              "figure": "解图近2.17C",
+              "page": 49
+            },
+            {
+              "figure": "解图近2.17D",
+              "page": 50
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.17",
+              "page": 115
+            },
+            {
+              "figure": "解图近2.17A",
+              "page": 116
+            },
+            {
+              "figure": "解图近2.17B",
+              "page": 117
+            },
+            {
+              "figure": "解图近2.17C",
+              "page": 118
+            },
+            {
+              "figure": "解图近2.17D",
+              "page": 118
+            },
+            {
+              "figure": "变图近2.17V1",
+              "page": 119
+            },
+            {
+              "figure": "变图近2.17V2",
+              "page": 120
+            },
+            {
+              "figure": "变图近2.17V3",
+              "page": 120
+            },
+            {
+              "figure": "变图近2.17V4",
+              "page": 121
+            },
+            {
+              "figure": "变图近2.17V5",
+              "page": 121
+            },
+            {
+              "figure": "变图近2.17V6",
+              "page": 121
+            },
+            {
+              "figure": "变图近2.17V7",
+              "page": 122
+            },
+            {
+              "figure": "变图近2.17V8",
+              "page": 122
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 17,
+            "where": "标准解法",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "old": "后续再有相反斜率时，距离按两倍光速的变化率缩短，这描述两个位置之差而非单粒速率。",
+            "new": "后续两条世界线斜率为相反的 $+c$ 和 $-c$，位置之差的绝对值以 $2c$ 的速率减小。",
+            "reason": "直接写世界线各自斜率与等时距离变化。"
+          },
+          {
+            "q": 17,
+            "where": "标准解法排版",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "old": "这条近似世界线可由哈密顿方程读出：在$p\\ne0$处，$\\dot x=\\partial H/\\partial p=c\\,\\operatorname{sgn}p$，$\\dot p=-\\partial H/\\partial x=-f\\,\\operatorname{sgn}x$。在每个象限内速率大小为$c$、动量对时间线性改变。若保留小的静质量，$\\dot x=c^2p/\\sqrt{p^2c^2+m_0^2c^4}$在转点附近经过零；所占时间量级为$m_0c/f$，相对四分之一周期的比例约$m_0c/p_0\\ll1$，题设折线正是略去该短区间后的模型。",
+            "new": "在$p\\ne0$、$x\\ne0$的区间，哈密顿方程给出近似世界线：\n\\[\n\\dot x=\\frac{\\partial H}{\\partial p}=c\\,\\operatorname{sgn}p,\\qquad\n\\dot p=-\\frac{\\partial H}{\\partial x}=-f\\,\\operatorname{sgn}x.\n\\]\n在每个象限内速率大小为$c$，动量对时间线性改变。若保留小的静质量，则\n\\[\n\\dot x=\\frac{c^2p}{\\sqrt{p^2c^2+m_0^2c^4}}.\n\\]\n速度在转点附近经过零。所占时间量级为$m_0c/f$，相对四分之一周期的比例约$m_0c/p_0\\ll1$，题设折线取这一短时段的极限。",
+            "reason": "把超行的哈密顿方程和有限质量速度排成短行。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 18,
+      "题名": "引力束缚尺度与模型的适用范围",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 671,
+          "chinese_characters": 429
+        },
+        "student": {
+          "content_characters": 1335,
+          "chinese_characters": 758
+        },
+        "teacher": {
+          "content_characters": 1335,
+          "chinese_characters": 758
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.18C"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.18B"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.18D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.18V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "引力束缚尺度与模型的适用范围",
+        "new_read": "核牛顿逃逸、圆轨道和静态球对称时钟比的作用范围，同一一阶切线与三类高阶曲线。D图保留图注说明并去重叠。",
+        "signed_evidence": {
+          "number": 18,
+          "title": "引力束缚尺度与模型的适用范围",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 671,
+            "chinese_characters": 429
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 671,
+          "chinese_characters": 429
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 1335,
+            "chinese_characters": 758
+          },
+          "教师版标准解法": {
+            "content_characters": 1335,
+            "chinese_characters": 758
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.18",
+              "page": 20
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.18",
+              "page": 50
+            },
+            {
+              "figure": "解图近2.18A",
+              "page": 51
+            },
+            {
+              "figure": "解图近2.18C",
+              "page": 51
+            },
+            {
+              "figure": "解图近2.18B",
+              "page": 52
+            },
+            {
+              "figure": "解图近2.18D",
+              "page": 52
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.18",
+              "page": 122
+            },
+            {
+              "figure": "解图近2.18A",
+              "page": 123
+            },
+            {
+              "figure": "解图近2.18C",
+              "page": 124
+            },
+            {
+              "figure": "解图近2.18B",
+              "page": 124
+            },
+            {
+              "figure": "解图近2.18D",
+              "page": 125
+            },
+            {
+              "figure": "变图近2.18V1",
+              "page": 126
+            },
+            {
+              "figure": "变图近2.18V2",
+              "page": 126
+            },
+            {
+              "figure": "变图近2.18V3",
+              "page": 127
+            },
+            {
+              "figure": "变图近2.18V4",
+              "page": 127
+            },
+            {
+              "figure": "变图近2.18V5",
+              "page": 128
+            },
+            {
+              "figure": "变图近2.18V6",
+              "page": 128
+            },
+            {
+              "figure": "变图近2.18V7",
+              "page": 128
+            },
+            {
+              "figure": "变图近2.18V8",
+              "page": 129
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": [
+          {
+            "q": 18,
+            "where": "解图近2.18D",
+            "editions": [
+              "学生解答版",
+              "教师版"
+            ],
+            "old": "\\node[above] at (5,3.5) {弱场内比较：灰线线性式、实线指数式、虚线静态球对称精确式};\n",
+            "new": "",
+            "reason": "线型说明移由原有图注承担，释放与图内纵轴名的重叠。"
+          },
+          {
+            "q": 18,
+            "where": "变式训练V7",
+            "editions": [
+              "教师版"
+            ],
+            "old": "它们在零点的函数值和一阶导数相同，高阶导数不同；",
+            "new": "在 $\\epsilon=0$ 处，三个函数都取1，斜率都为 $-1$。它们的高阶导数不同，",
+            "reason": "明确“零点”指紧致度坐标零。"
+          }
+        ]
+      }
+    },
+    {
+      "题号": 19,
+      "题名": "引力红移、恒星参数与离子反冲",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1970,
+          "chinese_characters": 752
+        },
+        "student": {
+          "content_characters": 2238,
+          "chinese_characters": 878
+        },
+        "teacher": {
+          "content_characters": 2238,
+          "chinese_characters": 878
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图近2.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图近2.19A"
+          },
+          {
+            "n": 2,
+            "caption": "解图近2.19B"
+          },
+          {
+            "n": 3,
+            "caption": "解图近2.19C"
+          },
+          {
+            "n": 4,
+            "caption": "解图近2.19D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图近2.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图近2.19V8"
+          }
+        ]
+      },
+      "审读登记": {
+        "title": "引力红移、恒星参数与离子反冲",
+        "new_read": "重算弱场有限距离红移、多普勒补偿及无量纲拟合的坐标恢复，核发射和自由吸收的反冲符号。",
+        "signed_evidence": {
+          "number": 19,
+          "title": "引力红移、恒星参数与离子反冲",
+          "planar_reading_authenticated": true,
+          "math_report_matches": true,
+          "confirmed_fields": [
+            "题型定位",
+            "知识点",
+            "物理图像",
+            "解题入口",
+            "关键洞察",
+            "易错点",
+            "课堂讲解建议"
+          ],
+          "remaining_fields": [
+            "标准解法",
+            "变式训练"
+          ],
+          "stem_matches": true,
+          "answer_matches": false,
+          "reference_floor": {
+            "content_characters": 1970,
+            "chinese_characters": 752
+          }
+        },
+        "question_matches_all_editions": true,
+        "main_solution_matches_both_editions": true,
+        "shared_tikz_matches": true,
+        "teacher_fields": [
+          "题型定位",
+          "知识点",
+          "物理图像",
+          "解题入口",
+          "标准解法",
+          "关键洞察",
+          "易错点",
+          "课堂讲解建议",
+          "变式训练"
+        ],
+        "transcription_sha256": "",
+        "reference_floor": {
+          "content_characters": 1970,
+          "chinese_characters": 752
+        },
+        "counts": {
+          "学生解答版": {
+            "content_characters": 2238,
+            "chinese_characters": 878
+          },
+          "教师版标准解法": {
+            "content_characters": 2238,
+            "chinese_characters": 878
+          }
+        },
+        "figure_pages_before_revision": {
+          "学生版": [
+            {
+              "figure": "图近2.19",
+              "page": 21
+            }
+          ],
+          "学生解答版": [
+            {
+              "figure": "图近2.19",
+              "page": 53
+            },
+            {
+              "figure": "解图近2.19A",
+              "page": 54
+            },
+            {
+              "figure": "解图近2.19B",
+              "page": 55
+            },
+            {
+              "figure": "解图近2.19C",
+              "page": 56
+            },
+            {
+              "figure": "解图近2.19D",
+              "page": 56
+            }
+          ],
+          "教师版": [
+            {
+              "figure": "图近2.19",
+              "page": 129
+            },
+            {
+              "figure": "解图近2.19A",
+              "page": 130
+            },
+            {
+              "figure": "解图近2.19B",
+              "page": 131
+            },
+            {
+              "figure": "解图近2.19C",
+              "page": 132
+            },
+            {
+              "figure": "解图近2.19D",
+              "page": 133
+            },
+            {
+              "figure": "变图近2.19V1",
+              "page": 134
+            },
+            {
+              "figure": "变图近2.19V2",
+              "page": 134
+            },
+            {
+              "figure": "变图近2.19V3",
+              "page": 135
+            },
+            {
+              "figure": "变图近2.19V4",
+              "page": 135
+            },
+            {
+              "figure": "变图近2.19V5",
+              "page": 135
+            },
+            {
+              "figure": "变图近2.19V6",
+              "page": 136
+            },
+            {
+              "figure": "变图近2.19V7",
+              "page": 136
+            },
+            {
+              "figure": "变图近2.19V8",
+              "page": 137
+            }
+          ]
+        },
+        "visual_scope": "教师版逐图目视，学生两版的图号及页码提取并比对共享 TikZ。",
+        "changes": []
+      }
+    }
+  ],
+  "实际目视登记": []
+}

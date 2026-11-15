@@ -1,0 +1,332 @@
+% !TEX program = xelatex
+\documentclass[UTF8,fontset=fandol,a4paper,11pt]{ctexart}
+\usepackage[margin=21mm,top=23mm,bottom=22mm,headheight=16pt]{geometry}
+\usepackage{amsmath,amssymb,mathtools,bm}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,angles,quotes,patterns}
+\usepackage{xcolor,booktabs,array,longtable,enumitem,fancyhdr,needspace}
+\usepackage[unicode,hidelinks]{hyperref}
+\definecolor{ink}{HTML}{24343C}
+\definecolor{accent}{HTML}{166A70}
+\definecolor{muted}{HTML}{65747A}
+\definecolor{rulegray}{HTML}{D4DDE0}
+\definecolor{warm}{HTML}{966037}
+\color{ink}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{4pt}
+\linespread{1.12}
+\AtBeginDocument{\setlength{\abovedisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\belowdisplayskip}{6pt plus 2pt minus 1pt}
+\setlength{\abovedisplayshortskip}{0pt plus 1pt}
+\setlength{\belowdisplayshortskip}{4pt plus 1pt}}
+\setlist[enumerate]{label=(\arabic*),leftmargin=2.3em,itemsep=3pt,topsep=4pt}
+\setlist[itemize]{leftmargin=2em,itemsep=2pt,topsep=4pt}
+\allowdisplaybreaks[1]
+\setlength{\emergencystretch}{2em}
+\setcounter{secnumdepth}{0}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\ctexset{section={format=\Large\bfseries\color{accent},beforeskip=10pt,afterskip=9pt},
+subsection={format=\normalsize\bfseries\color{accent},beforeskip=10pt,afterskip=4pt},
+subsubsection={format=\normalsize\bfseries,beforeskip=8pt,afterskip=3pt}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}物理学难题集萃}
+% 页眉仅保留书名；版本名称只在封面显示。
+\fancyfoot[L]{\small\color{muted}\chapterlabel}
+\fancyfoot[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\newcommand{\dd}{\mathop{}\!\mathrm{d}}
+\newcommand{\vect}[1]{\bm{#1}}
+\newcommand{\tagline}[1]{\noindent{\small\color{muted}#1}\par}
+\newcommand{\result}[1]{\begin{equation*}\boxed{#1}\end{equation*}}
+\newcommand{\figcaption}[1]{\par\vspace{2pt}{\small\color{muted}#1}\par}
+\newcommand{\teach}[2]{\Needspace{4\baselineskip}\subsection*{讲解要点与追问}#1\par\smallskip\noindent\textbf{追问：}#2\par}
+\newcommand{\workarea}{\par\vspace{7mm}\noindent{\small\color{muted}作答区}\par\vspace{4mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{16mm}
+\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}}
+\tikzset{axis/.style={-{Stealth[length=2mm]},thin,color=muted},
+motion/.style={-{Stealth[length=2.3mm]},thick,color=accent},
+force/.style={-{Stealth[length=2.3mm]},thick,color=warm},
+traj/.style={thick,color=accent},guide/.style={dashed,thin,color=muted},
+object/.style={thick,color=ink},every node/.style={font=\small}}\widowpenalty=10000\clubpenalty=10000\displaywidowpenalty=10000\newcommand{\chapterlabel}{综合试题（二）}
+
+
+
+
+
+
+
+\hypersetup{pdftitle={综合试题（二）·学生版},pdfauthor={}}
+
+\begin{document}\pdfbookmark[0]{综合试题（二）}{cover}
+
+\thispagestyle{empty}\vspace*{22mm}
+
+\noindent{\Huge\bfseries 物理学难题集萃}\par\vspace{12mm}
+
+\noindent{\LARGE 综合试题（二）}\par\vspace{12mm}
+
+\noindent{\Large\color{accent}学生版}\par\vspace{9mm}
+
+\noindent\textcolor{accent}{\rule{\linewidth}{1pt}}\par\vspace{9mm}
+
+\noindent 第1--6题\par\vfill\clearpage
+
+\pdfbookmark[1]{题目目录}{contents}\section*{题目目录}
+
+\begin{longtable}{@{}r p{113mm} r@{}}\toprule 题号 & 题目 & 页码\\\midrule
+
+\hyperref[q:1]{1} & \hyperref[q:1]{以质点运动研究曲率与正截面} & \pageref{q:1} \\
+
+\hyperref[q:2]{2} & \hyperref[q:2]{弹簧小球与球壳的无碰撞起落} & \pageref{q:2} \\
+
+\hyperref[q:3]{3} & \hyperref[q:3]{以连续折射求最速降线} & \pageref{q:3} \\
+
+\hyperref[q:4]{4} & \hyperref[q:4]{线性引力下的闭合轨道与等效力心} & \pageref{q:4} \\
+
+\hyperref[q:5]{5} & \hyperref[q:5]{采样、空气质量与带电环的三个估算} & \pageref{q:5} \\
+
+\hyperref[q:6]{6} & \hyperref[q:6]{水平磁场中带电圆环由滑动到滚动} & \pageref{q:6} \\
+
+\bottomrule\end{longtable}
+
+\clearpage
+
+\pdfbookmark[2]{第 1 题 以质点运动研究曲率与正截面}{q1}
+
+\section*{第 1 题\quad 以质点运动研究曲率与正截面}\label{q:1}
+
+
+用物理方法讨论以下几何问题，并与表面张力的压强关系联系。
+\begin{enumerate}
+\item 平面双曲线为$x^2/A^2-y^2/B^2=1$。设小天体可沿此双曲线的一支在焦点太阳的平方反比引力作用下运动，利用角动量、能量及法向加速度，求右顶点的曲率半径。
+\item 一条等距螺旋线绕半径$r$的圆柱轴旋转，每周沿轴方向前进螺距$h$。设计简单的质点运动，求螺旋线各点的曲率半径$\rho$。
+\item 圆柱面半径为$r$，$Q$为面上任一点。通过$Q$和该点法线作正截面，选取两对正交正截面，用物理方法证明每对的两条截线在$Q$处都满足相同的$1/\rho_1+1/\rho_2$。说明这与拉普拉斯压强关系$\Delta p=\sigma(1/\rho_1+1/\rho_2)$的一致性；$\sigma$为液体表面张力系数，圆柱取凸面向外的曲率大小。
+\end{enumerate}
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[axis] (0,0)--(3.5,0) node[right] {$x$};
+\draw[axis] (0,-2)--(0,2.2) node[above] {$y$};
+\draw[object,domain=-1:1,samples=100] plot ({(exp(\x)+exp(-\x))/2},{1.5*(exp(\x)-exp(-\x))/2});
+\fill (1,0) circle (2pt) node[below] {$D$};
+\fill (1.803,0) circle (2pt) node[below] {$F$};
+\node at (1.5,2.8) {双曲线};
+\begin{scope}[xshift=6.3cm]
+\draw[object] (-1,-1.5)--(-1,1.5); \draw[object] (1,-1.5)--(1,1.5);
+\draw[guide] (0,-1.5) ellipse (1 and .25); \draw[object] (0,1.5) ellipse (1 and .25);
+\draw[traj,domain=0:720,samples=250] plot ({cos(\x)},{.25*sin(\x)-1.5+3*\x/720});
+\node at (0,2.8) {圆柱螺线与正截面};
+\draw[guide] (-1.6,0)--(1.6,0) node[right] {$S_1$};
+\draw[guide] (-1,-2)--(-1,2) node[above] {$S_2$};
+\fill (-1,0) circle (2pt) node[below left] {$Q$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图综二.1\quad 双曲线顶点、等距螺线以及圆柱的两类正截面。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 2 题 弹簧小球与球壳的无碰撞起落}{q2}
+
+\section*{第 2 题\quad 弹簧小球与球壳的无碰撞起落}\label{q:2}
+
+
+质量$m_1$的小球连接在轻弹簧下端，弹簧上端接在质量$m_2$、半径$R$的均匀薄球壳顶部。弹簧自由长度也是$R$，劲度系数$k$。球壳置于水平地面，弹簧沿竖直直径。小球先被拉到其着地静平衡位置$P$下方的$Q$，$PQ=H$，用轻绳连至壳底固定。剪断绳，忽略空气阻力、弹簧阻尼与转动。
+
+观察到球壳周期性地离地、返回，且着地时壳的竖直速度为零；离地和着地两瞬间小球离地高度相同。
+\begin{enumerate}
+\item 建立确定最小$H$的一组方程，求出其无量纲根的取值区间。检查离地、无碰撞返回、途中不提前触地以及小球始终在壳内的条件。
+\item 取$m_1=m_2=m$、$k=10mg/R$，计算最小$H$，系数取两位有效数字。
+\end{enumerate}
+球壳只允许地面给向上的支持力；若抽象的一维解要求小球穿出球壳，应判为几何不可行。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[object] (0,0) circle (2);
+\draw[object] (-2.7,-2)--(2.8,-2);
+\fill (0,0) circle (1.5pt) node[right,xshift=8pt] {$O$};
+\draw[guide] (0,0)--(45:2) node[pos=.8,above left] {$R$};
+\fill (0,-.2) circle (1.5pt) node[left,xshift=-10pt,yshift=-4pt] {$P$};
+\fill[accent] (0,-1.532) circle (4pt) node[left] {$Q,m_1$};
+\draw[object] (0,-1.532)--(0,-2);
+\node at (-1.25,.4) {$m_2$};
+\draw[axis,<->] (1,-.2)--(1,-1.532) node[midway,right] {$H$};
+\draw[object] (0.0000,2.0000)--(0.0000,1.8200)--(0.1100,1.6931)--(-0.1100,1.5662)--(0.1100,1.4394)--(-0.1100,1.3125)--(0.1100,1.1856)--(-0.1100,1.0587)--(0.1100,0.9318)--(-0.1100,0.8050)--(0.1100,0.6781)--(-0.1100,0.5512)--(0.1100,0.4243)--(-0.1100,0.2974)--(0.1100,0.1706)--(-0.1100,0.0437)--(0.1100,-0.0832)--(-0.1100,-0.2101)--(0.1100,-0.3370)--(-0.1100,-0.4638)--(0.1100,-0.5907)--(-0.1100,-0.7176)--(0.1100,-0.8445)--(-0.1100,-0.9714)--(0.1100,-1.0982)--(-0.1100,-1.2251)--(0.0000,-1.3520)--(0.0000,-1.5320);
+\node[align=left] at (5,.3) {弹簧自由长$R$\\初始绳连至壳底\\剪绳后沿竖直直径运动};
+
+\end{tikzpicture}
+\figcaption{图综二.2\quad 弹簧无形变位置在壳中心；P是壳着地时小球的平衡位置。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 3 题 以连续折射求最速降线}{q3}
+
+\section*{第 3 题\quad 以连续折射求最速降线}\label{q:3}
+
+
+在均匀重力场中取水平向右$x$轴、竖直向下$y$轴，起点$O=(0,0)$，终点$P=(a,b)$，$a,b>0$。质点从$O$静止出发，沿位于竖直平面的光滑轨道无摩擦滑至$P$。
+
+参照连续水平分层介质中的折射规律，求所需时间最短的轨道。给出轨道参数方程、由$a,b$确定参数的条件和最短时间；说明终点可能在轨道最低点之后，以及怎样确认所得曲线确为时间最小。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.85,transform shape]
+
+\draw[axis] (0,0)--(6.3,0) node[right] {$x$};
+\draw[axis] (0,0)--(0,-3.6) node[below] {$y$};
+\fill (0,0) circle (2pt) node[above left] {$O$};
+\coordinate (P) at (5.2,-2.1);
+\fill (P) circle (2pt) node[right] {$P(a,b)$};
+\draw[guide] (P)--(5.2,0) node[above] {$a$};
+\draw[guide] (P)--(0,-2.1) node[left] {$b$};
+\draw[guide] (0,0)--(P);
+\draw[object] (0,0) .. controls (.4,-3) and (3.8,-3.2) .. (P);
+\draw[motion] (-1,-.4)--(-1,-1.8) node[midway,left] {$g$};
+
+\end{tikzpicture}
+\figcaption{图综二.3\quad 两端点和候选光滑轨道；坐标y沿重力方向向下。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 4 题 线性引力下的闭合轨道与等效力心}{q4}
+
+\section*{第 4 题\quad 线性引力下的闭合轨道与等效力心}\label{q:4}
+
+
+设两个质点之间的吸引力与距离一次方成正比，写为
+$\boldsymbol F=-GMm\,\boldsymbol r$，其中$\boldsymbol r$从施力质点指向受力质点，$G>0$的量纲按这个假设确定。
+\begin{enumerate}
+\item 太阳质量$M$固定，忽略行星对太阳的反作用。仿照轨道形状、面积规律和周期规律，建立这种引力下的三条行星运动定律。讨论轨道所在平面、椭圆力心位置及退化情况。
+\item 若施力者为固定在$\boldsymbol R_i$处的若干质量$M_i>0$的质点，求受力质点一般轨道，说明能否用一个等效力心统一描述。
+\end{enumerate}
+讨论轨道时排除受力物体与实体施力物体相撞的情形。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[axis] (-.5,0)--(4.4,0) node[right] {$x$};
+\draw[axis] (0,-.5)--(0,3.3) node[above] {$y$};
+\fill (0,0) circle (2pt) node[below left] {$M$};
+\fill (2.5,1.5) circle (2pt) node[right] {$m$};
+\draw[guide] (0,0)--(2.5,1.5) node[midway,above left] {$\boldsymbol r$};
+\draw[force] (2.5,1.5)--(1.25,.75) node[midway,below right] {$\boldsymbol F$};
+\draw[motion] (2.5,1.5)--(3,3) node[above] {$\boldsymbol v$};
+\begin{scope}[xshift=7cm]
+\fill (-1,0) circle (2pt) node[left] {$M_1$};
+\fill (1.5,1.8) circle (3pt) node[above] {$M_2$};
+\fill (1.3,-1) circle (2pt) node[below] {$M_3$};
+\fill (3,.4) circle (2pt) node[right] {$m$};
+\draw[guide] (-1,0)--(3,.4); \draw[guide] (1.5,1.8)--(3,.4); \draw[guide] (1.3,-1)--(3,.4);
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图综二.4\quad 单个线性中心力与任意固定源组，两种情形分别求轨道。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 5 题 采样、空气质量与带电环的三个估算}{q5}
+
+\section*{第 5 题\quad 采样、空气质量与带电环的三个估算}\label{q:5}
+
+
+\begin{enumerate}
+\item 一段电影中的轿车向前开，但轮胎上的三个完全相同图案看似不转。图案具有三重旋转对称性，相邻图案相隔$120^\circ$。以每秒24帧的等间隔采样模型，忽略曝光模糊，估计车轮纯滚动时出现这种现象的最低非零车速，并与学生百米短跑平均速度比较。车轮半径等参数应明确给出合理估值。
+\item 移走教室内桌椅，只保留学生和教师，估计全体师生质量与室内空气质量之比。自行给出人数、空间与密度假设，说明结果的精度及参数依赖。
+\item 半径$R$的细圆环均匀带有固定正电荷，总量$Q>0$。估算环所在平面内、距圆心$r\ll R$处的电场，给出方向及首项系数。可借轴上电场和小高斯柱，再从电势展开求近中心项。
+\end{enumerate}
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[object] (0,0) circle (1);
+\draw[object] (0,0) circle (0.68);
+\foreach \ang in {0,120,240}{
+\begin{scope}[rotate=\ang]
+\draw[object] (0.68,0) .. controls (0.83,0.19) and (0.93,0.16) .. (1,0);
+\end{scope}
+}
+
+\node at (0,1.7) {三重图案};
+\node at (0,-1.7) {24帧/秒};
+\begin{scope}[xshift=4cm]
+\draw[object] (-1.5,-1) rectangle (1.5,1);
+\foreach \x in {-1,0,1}{\draw[object] (\x,.3) circle (.12);\draw[object] (\x,.18)--(\x,-.5);}
+\node at (0,1.7) {师生与空气};
+\node at (0,-1.7) {自行给参数估算};
+\end{scope}
+\begin{scope}[xshift=8.2cm]
+\draw[object] (0,0) circle (1.1);
+\fill (0,0) circle (1.5pt) node[below] {$O$};
+\fill (.35,0) circle (2pt) node[right] {$P$};
+\draw[guide] (0,0)--(60:1.1) node[midway,above left] {$R$};
+\node at (0,1.7) {均匀带电环};
+\node at (0,-1.7) {$OP=r\ll R$};
+\end{scope}
+
+\end{tikzpicture}
+\figcaption{图综二.5\quad 三幅小图分别标出采样图案、空气空间与近中心观察点。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\clearpage
+
+\pdfbookmark[2]{第 6 题 水平磁场中带电圆环由滑动到滚动}{q6}
+
+\section*{第 6 题\quad 水平磁场中带电圆环由滑动到滚动}\label{q:6}
+
+
+半径$R$、质量$m$的均匀细圆环竖立在绝缘水平地面上，固定在环上的均匀正电荷总量为$Q>0$。圆环位于东西方向的竖直平面，$t=0$时以$v_0\geq0$向东平动，初始角速度为零。均匀磁场沿水平向北，即垂直纸面向里，大小$B>0$；圆环与地面间滑动摩擦因数$\mu>0$，忽略形变、辐射及空气阻力。
+\begin{enumerate}
+\item 求圆环始终不离地的$v_0$范围，分别说明临界初速与零初速时的运动。
+\item 在能够达到纯滚动的范围内，求此前的$v(t)$，并写出转速、支持力与滑动结束的条件。
+\item 若$v_0=mg/(2QB)$，求首次纯滚动时刻$T$，并说明之后的运动。
+\end{enumerate}
+从各带电弧元的洛伦兹力出发，求磁合力和绕环心的总力矩。
+
+
+\begin{center}\begin{minipage}{.98\linewidth}\centering
+\begin{tikzpicture}[scale=.8,transform shape]
+
+\draw[object] (0,0) circle (2);
+\draw[object] (-3,-2)--(3.5,-2);
+\draw[guide] (0,0)--(-45:2) node[midway,above right] {$R$};
+\node at (0,2.7) {$m,Q$};
+\draw[motion] (2.4,0)--(4.2,0) node[right] {$v_0$向东};
+\foreach \x in {-2.8,2.8}{
+\draw[object] (\x,1.8) circle (.12);
+\draw[object] ({\x-.085},1.715)--({\x+.085},1.885);
+\draw[object] ({\x-.085},1.885)--({\x+.085},1.715);
+}
+\node[left] at (-2.95,1.8) {$B$向北};
+\node[below] at (0,-2.2) {绝缘地面，$\mu$};
+
+\end{tikzpicture}
+\figcaption{图综二.6\quad 圆环最初仅平动，磁场垂直纸面向里。}
+\end{minipage}\end{center}
+
+\par\vspace{5mm}\noindent{\small\color{muted}作答区}\par\vspace{3mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}\par\vspace{12mm}\noindent\textcolor{rulegray}{\rule{\linewidth}{0.3pt}}
+
+\end{document}

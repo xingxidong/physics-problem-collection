@@ -1,0 +1,3797 @@
+{
+  "单元": "电磁学第一章",
+  "题数": 46,
+  "分章文件_SHA256": {
+    "电磁学第一章_学生版.pdf": "412e16c4dd26c06a4ea52abd878b05b6229623578e78ab26681282d79f1eae05",
+    "电磁学第一章_学生版.tex": "78af80f04296cc9839feca421d2dc488f6bb4b70e6198082e3e2021b3a30738a",
+    "电磁学第一章_学生解答版.pdf": "5bb72f71d5536c03976c5a5f1a7de1daa76a2da423eb1227d6453d9592db9283",
+    "电磁学第一章_学生解答版.tex": "0043468d1fde995d17f1909b7082d32d270cf5c0927d36000ff5338b9d34155d",
+    "电磁学第一章_教师版.pdf": "ff5673ac9c070ed3dd42d7475e7a79fba7ec2274cc03fd2bcf649fa5ceb54b25",
+    "电磁学第一章_教师版.tex": "9bdb85adf1d6ec76482aaa2349c137744f437d3d1f04927ea276be3330a03ed7"
+  },
+  "逐题登记": [
+    {
+      "题号": 1,
+      "题名": "两点电荷的相对运动与相碰时间",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1094,
+          "chinese_characters": 282
+        },
+        "student": {
+          "content_characters": 1733,
+          "chinese_characters": 780
+        },
+        "teacher": {
+          "content_characters": 1733,
+          "chinese_characters": 780
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.1"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.1A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.1B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.1V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.1V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 2,
+      "题名": "正方形中心电荷的小振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 538,
+          "chinese_characters": 158
+        },
+        "student": {
+          "content_characters": 1640,
+          "chinese_characters": 801
+        },
+        "teacher": {
+          "content_characters": 1640,
+          "chinese_characters": 801
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.2"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.2A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.2B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.2V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.2V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 3,
+      "题名": "共线四点电荷作用下的轴向运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1228,
+          "chinese_characters": 394
+        },
+        "student": {
+          "content_characters": 1736,
+          "chinese_characters": 718
+        },
+        "teacher": {
+          "content_characters": 1736,
+          "chinese_characters": 718
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.3"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.3A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.3V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.3V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 4,
+      "题名": "反平方律与带电球壳的内场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 889,
+          "chinese_characters": 548
+        },
+        "student": {
+          "content_characters": 1799,
+          "chinese_characters": 1190
+        },
+        "teacher": {
+          "content_characters": 1799,
+          "chinese_characters": 1190
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.4"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.4A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.4B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.4V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.4V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 5,
+      "题名": "异号半圆环在轴线上的电场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 552,
+          "chinese_characters": 260
+        },
+        "student": {
+          "content_characters": 1391,
+          "chinese_characters": 551
+        },
+        "teacher": {
+          "content_characters": 1391,
+          "chinese_characters": 551
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.5"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.5A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.5B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.5V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.5V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 6,
+      "题名": "半圆弧与两条半无限直线的电场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 750,
+          "chinese_characters": 470
+        },
+        "student": {
+          "content_characters": 1475,
+          "chinese_characters": 718
+        },
+        "teacher": {
+          "content_characters": 1475,
+          "chinese_characters": 718
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.6"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.6A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.6B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.6V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.6V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 7,
+      "题名": "均匀带电半圆环的圆心电场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 462,
+          "chinese_characters": 321
+        },
+        "student": {
+          "content_characters": 1157,
+          "chinese_characters": 641
+        },
+        "teacher": {
+          "content_characters": 1157,
+          "chinese_characters": 641
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.7"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.7A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.7B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.7V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.7V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 8,
+      "题名": "球形区域内电场的体积平均",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1788,
+          "chinese_characters": 764
+        },
+        "student": {
+          "content_characters": 2108,
+          "chinese_characters": 999
+        },
+        "teacher": {
+          "content_characters": 2108,
+          "chinese_characters": 999
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.8"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.8A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.8B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.8V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.8V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 9,
+      "题名": "均匀带电球中的偏心球形空腔",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 939,
+          "chinese_characters": 575
+        },
+        "student": {
+          "content_characters": 1721,
+          "chinese_characters": 1043
+        },
+        "teacher": {
+          "content_characters": 1721,
+          "chinese_characters": 1043
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.9"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.9A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.9B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.9V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.9V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 10,
+      "题名": "八分之一带电球体的球心电场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1514,
+          "chinese_characters": 1013
+        },
+        "student": {
+          "content_characters": 2201,
+          "chinese_characters": 1384
+        },
+        "teacher": {
+          "content_characters": 2201,
+          "chinese_characters": 1384
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.10"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.10A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.10B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.10C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.10V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.10V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 11,
+      "题名": "匀强电场中的连续弹性碰撞",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1480,
+          "chinese_characters": 1127
+        },
+        "student": {
+          "content_characters": 1976,
+          "chinese_characters": 1177
+        },
+        "teacher": {
+          "content_characters": 1976,
+          "chinese_characters": 1177
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.11"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.11A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.11B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.11V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.11V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 12,
+      "题名": "带电厚板两侧的分段运动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1652,
+          "chinese_characters": 853
+        },
+        "student": {
+          "content_characters": 1721,
+          "chinese_characters": 861
+        },
+        "teacher": {
+          "content_characters": 1721,
+          "chinese_characters": 861
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.12"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.12A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.12B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.12C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.12V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.12V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 13,
+      "题名": "非均匀带电圆环的平衡与振动",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2189,
+          "chinese_characters": 1193
+        },
+        "student": {
+          "content_characters": 2869,
+          "chinese_characters": 1691
+        },
+        "teacher": {
+          "content_characters": 2869,
+          "chinese_characters": 1691
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.13"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.13A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.13B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.13C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电1.13D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.13V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.13V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 14,
+      "题名": "两固定电荷间带电圆环的稳定性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2161,
+          "chinese_characters": 679
+        },
+        "student": {
+          "content_characters": 2850,
+          "chinese_characters": 1215
+        },
+        "teacher": {
+          "content_characters": 2850,
+          "chinese_characters": 1215
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.14"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.14B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.14A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.14C"
+          },
+          {
+            "n": 4,
+            "caption": "解图电1.14D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.14V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.14V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 15,
+      "题名": "带电粒子束的电场聚焦",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 933,
+          "chinese_characters": 649
+        },
+        "student": {
+          "content_characters": 2579,
+          "chinese_characters": 1374
+        },
+        "teacher": {
+          "content_characters": 2579,
+          "chinese_characters": 1374
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.15"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.15A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.15C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.15B"
+          },
+          {
+            "n": 4,
+            "caption": "解图电1.15D"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.15V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.15V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 16,
+      "题名": "两个半球面的底面电势",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 629,
+          "chinese_characters": 324
+        },
+        "student": {
+          "content_characters": 1506,
+          "chinese_characters": 672
+        },
+        "teacher": {
+          "content_characters": 1506,
+          "chinese_characters": 672
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.16"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.16A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.16B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.16C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.16V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.16V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 17,
+      "题名": "带电圆环电势的球面平均",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1551,
+          "chinese_characters": 1065
+        },
+        "student": {
+          "content_characters": 1937,
+          "chinese_characters": 1199
+        },
+        "teacher": {
+          "content_characters": 1937,
+          "chinese_characters": 1199
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.17"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.17A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.17B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.17C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.17V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.17V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 18,
+      "题名": "重力与电力共同作用下的最大速度",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 534,
+          "chinese_characters": 240
+        },
+        "student": {
+          "content_characters": 1248,
+          "chinese_characters": 658
+        },
+        "teacher": {
+          "content_characters": 1248,
+          "chinese_characters": 658
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.18"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.18A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.18C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.18B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.18V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.18V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 19,
+      "题名": "穿越两个带电球壳的能量门槛",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1683,
+          "chinese_characters": 1136
+        },
+        "student": {
+          "content_characters": 2145,
+          "chinese_characters": 1145
+        },
+        "teacher": {
+          "content_characters": 2145,
+          "chinese_characters": 1145
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.19"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.19B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.19A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.19C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.19V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.19V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 20,
+      "题名": "半圆柱电场中的速度选择与聚焦",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1721,
+          "chinese_characters": 965
+        },
+        "student": {
+          "content_characters": 2100,
+          "chinese_characters": 1051
+        },
+        "teacher": {
+          "content_characters": 2100,
+          "chinese_characters": 1051
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.20"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.20A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.20B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.20C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.20V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.20V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 21,
+      "题名": "有限线电荷的场线与等势线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 943,
+          "chinese_characters": 651
+        },
+        "student": {
+          "content_characters": 1867,
+          "chinese_characters": 988
+        },
+        "teacher": {
+          "content_characters": 1867,
+          "chinese_characters": 988
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.21"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.21B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.21A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.21C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.21V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.21V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 22,
+      "题名": "两等量点电荷的径向场与切向场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1358,
+          "chinese_characters": 373
+        },
+        "student": {
+          "content_characters": 2239,
+          "chinese_characters": 893
+        },
+        "teacher": {
+          "content_characters": 2239,
+          "chinese_characters": 893
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.22"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.22A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.22B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.22C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.22V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.22V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 23,
+      "题名": "异号平行线电荷的等势面与场线",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1466,
+          "chinese_characters": 691
+        },
+        "student": {
+          "content_characters": 2398,
+          "chinese_characters": 1104
+        },
+        "teacher": {
+          "content_characters": 2398,
+          "chinese_characters": 1104
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.23"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.23A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.23B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.23C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.23V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.23V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 24,
+      "题名": "带电球面的有效场与表面张力",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 887,
+          "chinese_characters": 494
+        },
+        "student": {
+          "content_characters": 1749,
+          "chinese_characters": 910
+        },
+        "teacher": {
+          "content_characters": 1749,
+          "chinese_characters": 910
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.24"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.24B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.24C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.24A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.24V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.24V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 25,
+      "题名": "多个带正电导体的表面电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 672,
+          "chinese_characters": 589
+        },
+        "student": {
+          "content_characters": 1087,
+          "chinese_characters": 736
+        },
+        "teacher": {
+          "content_characters": 1087,
+          "chinese_characters": 736
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.25"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.25A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.25B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.25V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.25V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 26,
+      "题名": "偏心粒子束给金属球充电",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1142,
+          "chinese_characters": 888
+        },
+        "student": {
+          "content_characters": 1705,
+          "chinese_characters": 1047
+        },
+        "teacher": {
+          "content_characters": 1705,
+          "chinese_characters": 1047
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.26"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.26A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.26B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.26C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.26V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.26V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 27,
+      "题名": "三导体球的电势、电荷与空间电场",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1809,
+          "chinese_characters": 896
+        },
+        "student": {
+          "content_characters": 2323,
+          "chinese_characters": 1034
+        },
+        "teacher": {
+          "content_characters": 2323,
+          "chinese_characters": 1034
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.27"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.27B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.27C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.27A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.27V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.27V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 28,
+      "题名": "四个导体球依次连接后的电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 983,
+          "chinese_characters": 488
+        },
+        "student": {
+          "content_characters": 1609,
+          "chinese_characters": 804
+        },
+        "teacher": {
+          "content_characters": 1609,
+          "chinese_characters": 804
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.28"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.28B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.28C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.28A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.28V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.28V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 29,
+      "题名": "移去三角形的一根带电细棒",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 399,
+          "chinese_characters": 236
+        },
+        "student": {
+          "content_characters": 1130,
+          "chinese_characters": 562
+        },
+        "teacher": {
+          "content_characters": 1130,
+          "chinese_characters": 562
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.29"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.29B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.29C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.29A"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.29V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.29V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 30,
+      "题名": "带电隔板与等温气体的平衡",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 2190,
+          "chinese_characters": 1300
+        },
+        "student": {
+          "content_characters": 2535,
+          "chinese_characters": 1330
+        },
+        "teacher": {
+          "content_characters": 2535,
+          "chinese_characters": 1330
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.30"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.30B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.30A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.30C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.30V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.30V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 31,
+      "题名": "同轴电极间的离子迁移与补充电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 987,
+          "chinese_characters": 372
+        },
+        "student": {
+          "content_characters": 2196,
+          "chinese_characters": 1167
+        },
+        "teacher": {
+          "content_characters": 2196,
+          "chinese_characters": 1167
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.31"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.31B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.31A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.31C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.31V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.31V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 32,
+      "题名": "点电荷附近导体薄板的感应电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1209,
+          "chinese_characters": 875
+        },
+        "student": {
+          "content_characters": 2052,
+          "chinese_characters": 1056
+        },
+        "teacher": {
+          "content_characters": 2052,
+          "chinese_characters": 1056
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.32"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.32A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.32C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.32B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.32V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.32V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 33,
+      "题名": "两接地平面之间的带电摆球",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1460,
+          "chinese_characters": 811
+        },
+        "student": {
+          "content_characters": 2008,
+          "chinese_characters": 952
+        },
+        "teacher": {
+          "content_characters": 2008,
+          "chinese_characters": 952
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.33"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.33A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.33B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.33C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.33V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.33V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 34,
+      "题名": "同号点电荷与带电导体球的吸引",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1276,
+          "chinese_characters": 761
+        },
+        "student": {
+          "content_characters": 2043,
+          "chinese_characters": 956
+        },
+        "teacher": {
+          "content_characters": 2043,
+          "chinese_characters": 956
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.34"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.34A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.34B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.34C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.34V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.34V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 35,
+      "题名": "两个相切导体球的电容",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1335,
+          "chinese_characters": 751
+        },
+        "student": {
+          "content_characters": 2169,
+          "chinese_characters": 951
+        },
+        "teacher": {
+          "content_characters": 2169,
+          "chinese_characters": 951
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.35"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.35A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.35B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.35C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.35V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.35V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 36,
+      "题名": "静电互易关系与电容的线性",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1924,
+          "chinese_characters": 584
+        },
+        "student": {
+          "content_characters": 2474,
+          "chinese_characters": 1084
+        },
+        "teacher": {
+          "content_characters": 2474,
+          "chinese_characters": 1084
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.36"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.36A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.36B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.36C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.36V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.36V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 37,
+      "题名": "带电液珠给电容器逐次充电",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 763,
+          "chinese_characters": 490
+        },
+        "student": {
+          "content_characters": 1547,
+          "chinese_characters": 875
+        },
+        "teacher": {
+          "content_characters": 1547,
+          "chinese_characters": 875
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.37"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.37A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.37B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.37C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.37V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.37V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 38,
+      "题名": "并联电容器错位后的悬浮微粒",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 488,
+          "chinese_characters": 287
+        },
+        "student": {
+          "content_characters": 1239,
+          "chinese_characters": 687
+        },
+        "teacher": {
+          "content_characters": 1239,
+          "chinese_characters": 687
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.38"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.38A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.38B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.38C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.38V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.38V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 39,
+      "题名": "金属薄板下落产生的电流",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1024,
+          "chinese_characters": 456
+        },
+        "student": {
+          "content_characters": 1636,
+          "chinese_characters": 794
+        },
+        "teacher": {
+          "content_characters": 1636,
+          "chinese_characters": 794
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.39"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.39B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.39A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.39C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.39V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.39V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 40,
+      "题名": "三个电容器反复换接的电压与热量",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1696,
+          "chinese_characters": 625
+        },
+        "student": {
+          "content_characters": 2038,
+          "chinese_characters": 847
+        },
+        "teacher": {
+          "content_characters": 2038,
+          "chinese_characters": 847
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.40"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.40A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.40B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.40C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.40V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.40V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 41,
+      "题名": "略微倾斜的介质电容器",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1201,
+          "chinese_characters": 717
+        },
+        "student": {
+          "content_characters": 1447,
+          "chinese_characters": 810
+        },
+        "teacher": {
+          "content_characters": 1447,
+          "chinese_characters": 810
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.41"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.41A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.41B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.41C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.41V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.41V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 42,
+      "题名": "同轴圆筒间粒子的绕行与下落",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 599,
+          "chinese_characters": 317
+        },
+        "student": {
+          "content_characters": 1366,
+          "chinese_characters": 706
+        },
+        "teacher": {
+          "content_characters": 1366,
+          "chinese_characters": 706
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.42"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.42A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.42B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.42C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.42V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.42V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 43,
+      "题名": "分批注入带电水银后的球电势",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 628,
+          "chinese_characters": 419
+        },
+        "student": {
+          "content_characters": 1276,
+          "chinese_characters": 788
+        },
+        "teacher": {
+          "content_characters": 1276,
+          "chinese_characters": 788
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.43"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.43B"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.43A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.43C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.43V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.43V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 44,
+      "题名": "移动介质界面附近点电荷的功",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 1302,
+          "chinese_characters": 652
+        },
+        "student": {
+          "content_characters": 1533,
+          "chinese_characters": 689
+        },
+        "teacher": {
+          "content_characters": 1533,
+          "chinese_characters": 689
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.44"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.44C"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.44A"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.44B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.44V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.44V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 45,
+      "题名": "非均匀介质中的极化电荷",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 960,
+          "chinese_characters": 362
+        },
+        "student": {
+          "content_characters": 1412,
+          "chinese_characters": 597
+        },
+        "teacher": {
+          "content_characters": 1412,
+          "chinese_characters": 597
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.45"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.45A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.45B"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.45C"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.45V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.45V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    },
+    {
+      "题号": 46,
+      "题名": "球形电容器的最大耐压",
+      "字符数及结构": {
+        "question_text_and_figure_match": true,
+        "student_teacher_solution_match": true,
+        "complete_nine_columns": true,
+        "reference_floor": {
+          "content_characters": 599,
+          "chinese_characters": 306
+        },
+        "student": {
+          "content_characters": 1137,
+          "chinese_characters": 567
+        },
+        "teacher": {
+          "content_characters": 1137,
+          "chinese_characters": 567
+        },
+        "floor_met": true,
+        "variants": 8,
+        "variant_without_figure": [],
+        "language_candidates": [],
+        "cover_or_origin_terms": []
+      },
+      "图目": {
+        "题图": [
+          {
+            "n": 1,
+            "caption": "图电1.46"
+          }
+        ],
+        "解图": [
+          {
+            "n": 1,
+            "caption": "解图电1.46A"
+          },
+          {
+            "n": 2,
+            "caption": "解图电1.46C"
+          },
+          {
+            "n": 3,
+            "caption": "解图电1.46B"
+          }
+        ],
+        "变图": [
+          {
+            "n": 1,
+            "caption": "变图电1.46V1"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V2"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V3"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V4"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V5"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V6"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V7"
+          },
+          {
+            "n": 1,
+            "caption": "变图电1.46V8"
+          }
+        ]
+      },
+      "审读登记": {}
+    }
+  ],
+  "实际目视登记": []
+}
